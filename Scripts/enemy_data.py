@@ -5,22 +5,22 @@ import json
 with open('Enemy Data/BaseData.json') as json_file:
     basedata = json.loads(json_file.read())
 
-with open('Enemy Data/GenseiName.json') as json_file:
+with open('Localization\GenseiName\en-US\GenseiName.json') as json_file:
     genseiname = json.loads(json_file.read())
 
-with open('Enemy Data/GenseiFamilyName.json') as json_file:
+with open('Localization\GenseiFamilyName\en-US\GenseiFamilyName.json') as json_file:
     genseifamilyname = json.loads(json_file.read())
 
-with open('Enemy Data/GenseiScientificName_PictureBook.json') as json_file:
+with open('Localization\GenseiScientificName_Picturebook\en-US\GenseiScientificName_Picturebook.json') as json_file:
     genseiscientificname = json.loads(json_file.read())
 
-with open('Enemy Data/GenseiDesc.json') as json_file:
+with open('Localization\GenseiDesc\en-US\GenseiDesc.json') as json_file:
     genseidesc = json.loads(json_file.read())
 
-with open('Enemy Data/GenseiDescLouie.json') as json_file:
+with open('Localization\GenseiDescLouie\en-US\GenseiDescLouie.json') as json_file:
     genseidesclouie = json.loads(json_file.read())
 
-with open('Enemy Data/GenseiDescOlimar.json') as json_file:
+with open('Localization\GenseiDescOlimar\en-US\GenseiDescOlimar.json') as json_file:
     genseidescolimar = json.loads(json_file.read())
 
 def get_enemy_data():
