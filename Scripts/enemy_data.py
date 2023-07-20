@@ -12,6 +12,15 @@ with open('Enemy Data/GenseiFamilyName.json') as json_file:
 with open('Enemy Data/GenseiScientificName_PictureBook.json') as json_file:
     genseiscientificname = json.loads(json_file.read())
 
+with open('Enemy Data/GenseiDesc.json') as json_file:
+    genseidesc = json.loads(json_file.read())
+
+with open('Enemy Data/GenseiDescLouie.json') as json_file:
+    genseidesclouie = json.loads(json_file.read())
+
+with open('Enemy Data/GenseiDescOlimar.json') as json_file:
+    genseidescolimar = json.loads(json_file.read())
+
 def get_enemy_data():
 
     data_list = []
@@ -29,6 +38,9 @@ def get_enemy_data():
             enemy_dict['Player Damage'] = basedata[0]['Rows'][enemy]['PlayerDamage']
             enemy_dict['Other Damage'] = basedata[0]['Rows'][enemy]['OtherDamage']
             enemy_dict['Starbit amount'] = basedata[0]['Rows'][enemy]['DropStationPieceNum']
+        enemy_dict['Description'] = genseidesc['GenseiDesc'][enemy.replace('_00', '').replace('_01', '')].split(']')[-1]
+        enemy_dict['Louie Desc.'] = genseidesclouie['GenseiDescLouie'][enemy.replace('_00', '').replace('_01', '')].split(']')[-1]
+        enemy_dict['Olimar Desc.'] = genseidescolimar['GenseiDescOlimar'][enemy.replace('_00', '').replace('_01', '')].split(']')[-1]
 
         data_list.append(enemy_dict)
 
