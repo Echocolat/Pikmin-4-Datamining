@@ -37,8 +37,8 @@ def get_enemy_data():
         if enemy in basedata[0]['Rows']:
             enemy_dict['Weight'] = basedata[0]['Rows'][enemy]['CarryWeightMin']
             enemy_dict['MaxLife'] = basedata[0]['Rows'][enemy]['MaxLife']
-            enemy_dict['Sparklium'] = basedata[0]['Rows'][enemy]['Poko']
-            enemy_dict['Pikmin Seeds'] = basedata[0]['Rows'][enemy]['Kira']
+            enemy_dict['Sparklium'] = basedata[0]['Rows'][enemy]['Kira']
+            enemy_dict['Pikmin Seeds'] = basedata[0]['Rows'][enemy]['CarryIncPikmins']
             enemy_dict['Player Damage'] = basedata[0]['Rows'][enemy]['PlayerDamage']
             enemy_dict['Other Damage'] = basedata[0]['Rows'][enemy]['OtherDamage']
             enemy_dict['Starbit amount'] = basedata[0]['Rows'][enemy]['DropStationPieceNum']
