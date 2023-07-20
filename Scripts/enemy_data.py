@@ -45,6 +45,10 @@ def get_enemy_data():
             enemy_dict['Other Damage'] = basedata[0]['Rows'][enemy]['OtherDamage']
         except:
             None
+        try:
+            enemy_dict['Starbit amount'] = basedata[0]['Rows'][enemy]['DropStationPieceNum']
+        except:
+            None
         data_list.append(enemy_dict)
 
     return data_list
