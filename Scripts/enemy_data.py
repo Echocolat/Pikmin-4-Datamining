@@ -21,34 +21,15 @@ def get_enemy_data():
         enemy_dict["Name"] = genseiname['GenseiName'][enemy].split(']')[-1]
         enemy_dict['Scientific name'] = genseiscientificname['GenseiScientificName_Picturebook'][enemy.replace('_00', '').replace('_01', '')].split(']')[-1]
         enemy_dict['Family'] = genseifamilyname['GenseiFamilyName'][enemy.replace('_00', '').replace('_01', '')].split(']')[-1]
-        try:
+        if enemy in basedata[0]['Rows']:
             enemy_dict['Weight'] = basedata[0]['Rows'][enemy]['CarryWeightMin']
-        except:
-            None
-        try:
             enemy_dict['MaxLife'] = basedata[0]['Rows'][enemy]['MaxLife']
-        except:
-            None
-        try:
             enemy_dict['Sparklium'] = basedata[0]['Rows'][enemy]['Poko']
-        except:
-            None
-        try:
             enemy_dict['Pikmin Seeds'] = basedata[0]['Rows'][enemy]['Kira']
-        except:
-            None
-        try:
             enemy_dict['Player Damage'] = basedata[0]['Rows'][enemy]['PlayerDamage']
-        except:
-            None
-        try:
             enemy_dict['Other Damage'] = basedata[0]['Rows'][enemy]['OtherDamage']
-        except:
-            None
-        try:
             enemy_dict['Starbit amount'] = basedata[0]['Rows'][enemy]['DropStationPieceNum']
-        except:
-            None
+
         data_list.append(enemy_dict)
 
     return data_list
