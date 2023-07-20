@@ -1,5 +1,7 @@
 import json
 
+#Importing all enemy data
+
 with open('Enemy Data/BaseData.json') as json_file:
     basedata = json.loads(json_file.read())
 
@@ -22,6 +24,8 @@ with open('Enemy Data/GenseiDescOlimar.json') as json_file:
     genseidescolimar = json.loads(json_file.read())
 
 def get_enemy_data():
+
+    #Grab all the data about all creatures
 
     data_list = []
 
