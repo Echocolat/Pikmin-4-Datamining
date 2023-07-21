@@ -35,6 +35,7 @@ def get_enemy_data():
         enemy_dict['Scientific name'] = genseiscientificname['GenseiScientificName_Picturebook'][enemy.replace('_00', '').replace('_01', '')].split(']')[-1]
         enemy_dict['Family'] = genseifamilyname['GenseiFamilyName'][enemy.replace('_00', '').replace('_01', '')].split(']')[-1]
         if enemy in basedata[0]['Rows']:
+            enemy_dict['ActorName'] = basedata[0]['Rows'][enemy]['ActorName']
             enemy_dict['Weight'] = basedata[0]['Rows'][enemy]['CarryWeightMin']
             enemy_dict['MaxLife'] = basedata[0]['Rows'][enemy]['MaxLife']
             enemy_dict['Sparklium'] = basedata[0]['Rows'][enemy]['Kira']

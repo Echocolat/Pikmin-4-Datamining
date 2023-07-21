@@ -30,6 +30,7 @@ def get_treasure_data():
         treasure_dict = {'Internal name': treasure}
         treasure_dict['Name'] = otakaraname['OtakaraName_Result'][treasure].split(']')[-1]
         if treasure in basedata[0]['Rows']:
+            treasure_dict['ActorName'] = basedata[0]['Rows'][treasure]['ActorName']
             treasure_dict['Weight'] = basedata[0]['Rows'][treasure]['CarryWeightMin']
             treasure_dict['Sparklium'] = basedata[0]['Rows'][treasure]['Kira']
         if treasure in otakaradesc['OtakaraDesc']:
