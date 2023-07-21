@@ -1,0 +1,1624 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Cave021_F00_Sound_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "LatestSerialId",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Cave021_F00_Sound_C'Default__Cave021_F00_Sound_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.1"
+    }
+  },
+  {
+    "Type": "Cave021_F00_Sound_C",
+    "Name": "Default__Cave021_F00_Sound_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.Cave021_F00_Sound_C'",
+    "Properties": {
+      "LatestSerialId": 3
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_0",
+    "Template": "Ak",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -436.4779,
+        "Y": 153.13367,
+        "Z": -32.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.73912,
+        "Roll": 0.0
+      },
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.2"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.2"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_1",
+    "Template": "Ak",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -207.64935,
+        "Y": -698.92944,
+        "Z": -33.7499
+      },
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.3"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.3"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "BP_AmbientSoundMulti_WaterBox_Cave_C",
+    "Name": "BP_AmbientSoundMulti_WaterBox_Cave_C_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_AmbientSoundMulti_WaterBox_Cave_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Audio/Blueprints/BP_AmbientSoundMulti_WaterBox_Cave.BP_AmbientSoundMulti_WaterBox_Cave_C'",
+    "Properties": {
+      "CakMultiplePosition": {
+        "ObjectName": "CakMultiplePositionComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.CakMultiplePosition'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.12"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.2"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.10"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.8"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.6"
+      },
+      "CakSimpleState": {
+        "ObjectName": "CakSimpleStateComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.CakSimpleState'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.14"
+      },
+      "CakTrigger": {
+        "ObjectName": "CakTriggerComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.CakTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.16"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4617597048772886529
+      },
+      "RootComponent": {
+        "ObjectName": "AkComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.2"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CakMultiplePositionComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.CakMultiplePosition'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.12"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_AmbientSoundMulti_WaterBox_Cave_C",
+    "Name": "BP_AmbientSoundMulti_WaterBox_Cave_C_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_AmbientSoundMulti_WaterBox_Cave_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Audio/Blueprints/BP_AmbientSoundMulti_WaterBox_Cave.BP_AmbientSoundMulti_WaterBox_Cave_C'",
+    "Properties": {
+      "CakMultiplePosition": {
+        "ObjectName": "CakMultiplePositionComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.CakMultiplePosition'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.13"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.3"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.11"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.9"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.7"
+      },
+      "CakSimpleState": {
+        "ObjectName": "CakSimpleStateComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.CakSimpleState'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.15"
+      },
+      "CakTrigger": {
+        "ObjectName": "CakTriggerComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.CakTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.17"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4617597048772886530
+      },
+      "RootComponent": {
+        "ObjectName": "AkComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.3"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CakMultiplePositionComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.CakMultiplePosition'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.13"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_0",
+    "Template": "CakAudioTable",
+    "Class": "UScriptClass'CakAudioTableComponent'",
+    "Properties": {
+      "OverrideAudioTables": [
+        {
+          "AssetPathName": "/Game/Carrot4/Audio/AudioData/DT_AudioData_Amb_CaveWaterBox_Big.DT_AudioData_Amb_CaveWaterBox_Big",
+          "SubPathString": ""
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_1",
+    "Template": "CakAudioTable",
+    "Class": "UScriptClass'CakAudioTableComponent'"
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_0",
+    "Template": "CakEmitterConfig",
+    "Class": "UScriptClass'CakEmitterConfigComponent'"
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_1",
+    "Template": "CakEmitterConfig",
+    "Class": "UScriptClass'CakEmitterConfigComponent'"
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_0",
+    "Template": "CakEventHandler",
+    "Class": "UScriptClass'CakEventHandlerComponent'"
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_1",
+    "Template": "CakEventHandler",
+    "Class": "UScriptClass'CakEventHandlerComponent'"
+  },
+  {
+    "Type": "CakMultiplePositionComponent",
+    "Name": "CakMultiplePosition",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_0",
+    "Template": "CakMultiplePosition_GEN_VARIABLE",
+    "Class": "UScriptClass'CakMultiplePositionComponent'",
+    "Properties": {
+      "MultiplePositions": [
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 199.54263,
+            "Y": 100.90968,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 199.99799,
+            "Y": 0.9107234,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 200.45334,
+            "Y": -99.08824,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 200.90869,
+            "Y": -199.0872,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 99.54367,
+            "Y": 100.45433,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 99.99902,
+            "Y": 0.45536932,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 100.45438,
+            "Y": -99.543594,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 100.90973,
+            "Y": -199.54256,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -1.3660011,
+            "Y": 299.9969,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -0.9106471,
+            "Y": 199.99794,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -0.45529303,
+            "Y": 99.99898,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 6.1035156E-05,
+            "Y": 1.5258789E-05,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.4554151,
+            "Y": -99.99895,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.91076916,
+            "Y": -199.99791,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -101.36496,
+            "Y": 299.54156,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -100.90961,
+            "Y": 199.54259,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -100.454254,
+            "Y": 99.543625,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -99.9989,
+            "Y": -0.4553388,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -99.54355,
+            "Y": -100.4543,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -99.088196,
+            "Y": -200.45326,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -201.36392,
+            "Y": 299.08618,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -200.90857,
+            "Y": 199.08723,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -200.45322,
+            "Y": 99.08827,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -199.99786,
+            "Y": -0.9106929,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -199.54251,
+            "Y": -100.90965,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -199.08716,
+            "Y": -200.90862,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -301.36288,
+            "Y": 298.63086,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -300.90753,
+            "Y": 198.63188,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -300.45218,
+            "Y": 98.63292,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -299.99683,
+            "Y": -1.3660469,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -299.54147,
+            "Y": -101.365005,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -299.08612,
+            "Y": -201.36397,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "AkComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.2"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakMultiplePositionComponent",
+    "Name": "CakMultiplePosition",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_1",
+    "Template": "CakMultiplePosition_GEN_VARIABLE",
+    "Class": "UScriptClass'CakMultiplePositionComponent'",
+    "Properties": {
+      "MultiplePositions": [
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -400.0,
+            "Y": -200.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -400.0,
+            "Y": -100.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -400.0,
+            "Y": 0.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -400.0,
+            "Y": 100.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -300.0,
+            "Y": -200.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -300.0,
+            "Y": -100.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -300.0,
+            "Y": 0.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -300.0,
+            "Y": 100.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -200.0,
+            "Y": -100.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -200.0,
+            "Y": 0.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -200.0,
+            "Y": 100.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -100.0,
+            "Y": -100.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -100.0,
+            "Y": 0.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -100.0,
+            "Y": 100.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -100.0,
+            "Y": 200.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 100.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 200.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 100.0,
+            "Y": 100.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 100.0,
+            "Y": 200.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 200.0,
+            "Y": 100.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 200.0,
+            "Y": 200.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "AkComponent'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.3"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakSimpleStateComponent",
+    "Name": "CakSimpleState",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_0",
+    "Template": "CakSimpleState",
+    "Class": "UScriptClass'CakSimpleStateComponent'"
+  },
+  {
+    "Type": "CakSimpleStateComponent",
+    "Name": "CakSimpleState",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_1",
+    "Template": "CakSimpleState",
+    "Class": "UScriptClass'CakSimpleStateComponent'"
+  },
+  {
+    "Type": "CakTriggerComponent",
+    "Name": "CakTrigger",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_0",
+    "Template": "CakTrigger",
+    "Class": "UScriptClass'CakTriggerComponent'"
+  },
+  {
+    "Type": "CakTriggerComponent",
+    "Name": "CakTrigger",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_1",
+    "Template": "CakTrigger",
+    "Class": "UScriptClass'CakTriggerComponent'"
+  },
+  {
+    "Type": "Cave021_F00_Sound_C",
+    "Name": "Cave021_F00_Sound_C_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Cave021_F00_Sound_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.Cave021_F00_Sound_C'"
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Cave021_F00_Sound",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Cave021_F00_Sound:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.20"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Cave021_F00_Sound_C'Cave021_F00_Sound:PersistentLevel.Cave021_F00_Sound_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.18"
+      },
+      "LevelBuildDataId": "3F8DEF4D-4CBF2A38-8524E292-F271CBD8",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Cave021_F00_Sound_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Cave021_F00_Sound:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.21"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Cave021_F00_Sound:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.21"
+      },
+      null,
+      {
+        "ObjectName": "BP_AmbientSoundMulti_WaterBox_Cave_C'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.4"
+      },
+      {
+        "ObjectName": "BP_AmbientSoundMulti_WaterBox_Cave_C'Cave021_F00_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.5"
+      },
+      {
+        "ObjectName": "Cave021_F00_Sound_C'Cave021_F00_Sound:PersistentLevel.Cave021_F00_Sound_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.18"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Test/Maps/Check/CheckRomEntry_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Cave021_F00_Sound:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.20"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Cave021_F00_Sound_C'Cave021_F00_Sound:PersistentLevel.Cave021_F00_Sound_C_1'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.18"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "8FBE5D7C-4B04C7FB-2C5BE4B6-F5BC5DAB",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "bEnableNavigationSystem": false,
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Cave021_F00_Sound:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.22"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Cave021_F00_Sound",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Cave021_F00_Sound:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F00/Sublevels/Cave021_F00_Sound.19"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

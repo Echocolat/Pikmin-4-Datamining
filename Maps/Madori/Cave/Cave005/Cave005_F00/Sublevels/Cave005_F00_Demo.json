@@ -1,0 +1,1386 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Cave005_F00_Demo_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "LatestSerialId",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Cave005_F00_Demo_C'Default__Cave005_F00_Demo_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.1"
+    }
+  },
+  {
+    "Type": "Cave005_F00_Demo_C",
+    "Name": "Default__Cave005_F00_Demo_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.Cave005_F00_Demo_C'",
+    "Properties": {
+      "LatestSerialId": 18
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "OverlapArea",
+    "Outer": "GDemoArea_Cave005_PodTalk",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": 683.4125,
+        "Y": 545.1531,
+        "Z": 31.040642
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Cave005_F00_Demo_C",
+    "Name": "Cave005_F00_Demo_C_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Cave005_F00_Demo_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.Cave005_F00_Demo_C'"
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GDemoArea_Cave005_PodTalk",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "DemoType": "EDemoType::CheckFlag",
+      "DemoPlayParam": {
+        "AssetPathName": "/Game/Carrot4/Demo/PlayParam/Common/DPP_PodTalk_StartSeparation.DPP_PodTalk_StartSeparation",
+        "SubPathString": ""
+      },
+      "FlagType": "EDemoFlagType::StartSeparation",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "GAffordanceArea_C",
+    "Name": "GAffordanceArea2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GAffordanceArea_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/AffordanceArea/GAffordanceArea.GAffordanceArea_C'",
+    "Properties": {
+      "SimpleAffordance": {
+        "ObjectName": "SimpleAffordanceComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea2.SimpleAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.30"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.20"
+      },
+      "AffordanceComponent": {
+        "ObjectName": "SimpleAffordanceComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea2.SimpleAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.30"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4613093436260614155,
+        "WakeCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 200500,
+            "CondName": "None"
+          }
+        ],
+        "SleepCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 100500,
+            "CondName": "None"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.20"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.20"
+        },
+        {
+          "ObjectName": "SimpleAffordanceComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea2.SimpleAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.30"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GAffordanceArea_C",
+    "Name": "GAffordanceArea3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GAffordanceArea_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/AffordanceArea/GAffordanceArea.GAffordanceArea_C'",
+    "Properties": {
+      "SimpleAffordance": {
+        "ObjectName": "SimpleAffordanceComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea3.SimpleAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.31"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea3.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.21"
+      },
+      "AffordanceComponent": {
+        "ObjectName": "SimpleAffordanceComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea3.SimpleAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.31"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4613093436260614156,
+        "WakeCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 200500,
+            "CondName": "None"
+          }
+        ],
+        "SleepCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 100500,
+            "CondName": "None"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea3.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.21"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea3.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.21"
+        },
+        {
+          "ObjectName": "SimpleAffordanceComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea3.SimpleAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.31"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GAffordanceArea_C",
+    "Name": "GAffordanceArea4",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GAffordanceArea_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/AffordanceArea/GAffordanceArea.GAffordanceArea_C'",
+    "Properties": {
+      "SimpleAffordance": {
+        "ObjectName": "SimpleAffordanceComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea4.SimpleAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.32"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea4.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.22"
+      },
+      "AffordanceComponent": {
+        "ObjectName": "SimpleAffordanceComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea4.SimpleAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.32"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4613093436260614160,
+        "WakeCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 200500,
+            "CondName": "None"
+          }
+        ],
+        "SleepCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 100500,
+            "CondName": "None"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea4.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.22"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea4.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.22"
+        },
+        {
+          "ObjectName": "SimpleAffordanceComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea4.SimpleAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.32"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GAffordanceArea_C",
+    "Name": "GAffordanceArea_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GAffordanceArea_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/AffordanceArea/GAffordanceArea.GAffordanceArea_C'",
+    "Properties": {
+      "SimpleAffordance": {
+        "ObjectName": "SimpleAffordanceComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea_2.SimpleAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.33"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.23"
+      },
+      "AffordanceComponent": {
+        "ObjectName": "SimpleAffordanceComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea_2.SimpleAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.33"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4613093436260614154,
+        "WakeCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 200500,
+            "CondName": "None"
+          }
+        ],
+        "SleepCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 100500,
+            "CondName": "None"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.23"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea_2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.23"
+        },
+        {
+          "ObjectName": "SimpleAffordanceComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceArea_2.SimpleAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.33"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GAffordanceArea_C",
+    "Name": "GAffordanceAreaStartMes",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GAffordanceArea_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/AffordanceArea/GAffordanceArea.GAffordanceArea_C'",
+    "Properties": {
+      "SimpleAffordance": {
+        "ObjectName": "SimpleAffordanceComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceAreaStartMes.SimpleAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.34"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceAreaStartMes.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.24"
+      },
+      "AffordanceComponent": {
+        "ObjectName": "SimpleAffordanceComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceAreaStartMes.SimpleAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.34"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4613093436260614149
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceAreaStartMes.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.24"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceAreaStartMes.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.24"
+        },
+        {
+          "ObjectName": "SimpleAffordanceComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceAreaStartMes.SimpleAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.34"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GAffordanceArea_C",
+    "Name": "GAffordanceAreaStopMes",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GAffordanceArea_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/AffordanceArea/GAffordanceArea.GAffordanceArea_C'",
+    "Properties": {
+      "SimpleAffordance": {
+        "ObjectName": "SimpleAffordanceComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceAreaStopMes.SimpleAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.35"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceAreaStopMes.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.25"
+      },
+      "AffordanceComponent": {
+        "ObjectName": "SimpleAffordanceComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceAreaStopMes.SimpleAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.35"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4613093436260614148
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceAreaStopMes.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.25"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceAreaStopMes.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.25"
+        },
+        {
+          "ObjectName": "SimpleAffordanceComponent'Cave005_F00_Demo:PersistentLevel.GAffordanceAreaStopMes.SimpleAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.35"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GDemoAreaBox_C",
+    "Name": "GDemoArea_Cave005_PodTalk",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GDemoAreaBox_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/DemoAreaBox/GDemoAreaBox.GDemoAreaBox_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Cave005_F00_Demo:PersistentLevel.GDemoArea_Cave005_PodTalk.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.4"
+      },
+      "OverlapArea": {
+        "ObjectName": "BoxComponent'Cave005_F00_Demo:PersistentLevel.GDemoArea_Cave005_PodTalk.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.2"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4613093436260614145
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Cave005_F00_Demo:PersistentLevel.GDemoArea_Cave005_PodTalk.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.2"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "BoxComponent'Cave005_F00_Demo:PersistentLevel.GDemoArea_Cave005_PodTalk.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.2"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Cave005_F00_Demo:PersistentLevel.GDemoArea_Cave005_PodTalk.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GLookTrigger_C",
+    "Name": "GLookTrigger2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GLookTrigger_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/LookTrigger/GLookTrigger.GLookTrigger_C'",
+    "Properties": {
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GLookTrigger2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.26"
+      },
+      "LookTriggerActorTag": "Conveyor02",
+      "Radius": 15.0,
+      "GenerateInfo": {
+        "DebugUniqueId": 4613093436260614158
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GLookTrigger2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.26"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GLookTrigger2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.26"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GLookTrigger_C",
+    "Name": "GLookTrigger3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GLookTrigger_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/LookTrigger/GLookTrigger.GLookTrigger_C'",
+    "Properties": {
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GLookTrigger3.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.27"
+      },
+      "LookTriggerActorTag": "Conveyor03",
+      "Radius": 15.0,
+      "GenerateInfo": {
+        "DebugUniqueId": 4613093436260614159
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GLookTrigger3.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.27"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GLookTrigger3.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.27"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GLookTrigger_C",
+    "Name": "GLookTrigger4",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GLookTrigger_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/LookTrigger/GLookTrigger.GLookTrigger_C'",
+    "Properties": {
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GLookTrigger4.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.28"
+      },
+      "LookTriggerActorTag": "Conveyor04",
+      "Radius": 15.0,
+      "GenerateInfo": {
+        "DebugUniqueId": 4613093436260614161
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GLookTrigger4.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.28"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GLookTrigger4.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.28"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GLookTrigger_C",
+    "Name": "GLookTrigger_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GLookTrigger_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/LookTrigger/GLookTrigger.GLookTrigger_C'",
+    "Properties": {
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GLookTrigger_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.29"
+      },
+      "LookTriggerActorTag": "Conveyor01",
+      "Radius": 15.0,
+      "GenerateInfo": {
+        "DebugUniqueId": 4613093436260614157
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GLookTrigger_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.29"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Cave005_F00_Demo:PersistentLevel.GLookTrigger_2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.29"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Cave005_F00_Demo",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Cave005_F00_Demo:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.17"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Cave005_F00_Demo_C'Cave005_F00_Demo:PersistentLevel.Cave005_F00_Demo_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.3"
+      },
+      "LevelBuildDataId": "69A6B441-4009D5CB-F6B28C9C-E0401BE4",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Cave005_F00_Demo_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Cave005_F00_Demo:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.18"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Cave005_F00_Demo:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.18"
+      },
+      null,
+      {
+        "ObjectName": "GDemoAreaBox_C'Cave005_F00_Demo:PersistentLevel.GDemoArea_Cave005_PodTalk'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.11"
+      },
+      {
+        "ObjectName": "GAffordanceArea_C'Cave005_F00_Demo:PersistentLevel.GAffordanceAreaStopMes'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.10"
+      },
+      {
+        "ObjectName": "GAffordanceArea_C'Cave005_F00_Demo:PersistentLevel.GAffordanceAreaStartMes'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.9"
+      },
+      {
+        "ObjectName": "GAffordanceArea_C'Cave005_F00_Demo:PersistentLevel.GAffordanceArea_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.8"
+      },
+      {
+        "ObjectName": "GAffordanceArea_C'Cave005_F00_Demo:PersistentLevel.GAffordanceArea2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.5"
+      },
+      {
+        "ObjectName": "GAffordanceArea_C'Cave005_F00_Demo:PersistentLevel.GAffordanceArea3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.6"
+      },
+      {
+        "ObjectName": "GLookTrigger_C'Cave005_F00_Demo:PersistentLevel.GLookTrigger_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.15"
+      },
+      {
+        "ObjectName": "GLookTrigger_C'Cave005_F00_Demo:PersistentLevel.GLookTrigger2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.12"
+      },
+      {
+        "ObjectName": "GLookTrigger_C'Cave005_F00_Demo:PersistentLevel.GLookTrigger3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.13"
+      },
+      {
+        "ObjectName": "GAffordanceArea_C'Cave005_F00_Demo:PersistentLevel.GAffordanceArea4'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.7"
+      },
+      {
+        "ObjectName": "GLookTrigger_C'Cave005_F00_Demo:PersistentLevel.GLookTrigger4'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.14"
+      },
+      {
+        "ObjectName": "Cave005_F00_Demo_C'Cave005_F00_Demo:PersistentLevel.Cave005_F00_Demo_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.3"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Carrot4/Maps/Boot_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Cave005_F00_Demo:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.17"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Cave005_F00_Demo_C'Cave005_F00_Demo:PersistentLevel.Cave005_F00_Demo_C_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.3"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "67F77AB9-4CA49586-6586DE89-A2C0E465",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Cave005_F00_Demo:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.19"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GAffordanceArea2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -135.0,
+        "Y": 137.0,
+        "Z": 54.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GAffordanceArea3",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -411.0,
+        "Y": 418.0,
+        "Z": 30.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GAffordanceArea4",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 138.0,
+        "Y": -413.0,
+        "Z": 74.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GAffordanceArea_2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 139.0,
+        "Y": 412.0,
+        "Z": 18.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GAffordanceAreaStartMes",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -132.0,
+        "Y": 415.0,
+        "Z": 25.000107
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GAffordanceAreaStopMes",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 398.0,
+        "Y": -426.0,
+        "Z": 75.0001
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GLookTrigger2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -136.0,
+        "Y": 134.0,
+        "Z": -1.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GLookTrigger3",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -410.0,
+        "Y": 416.0,
+        "Z": -25.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GLookTrigger4",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 139.0,
+        "Y": -412.0,
+        "Z": 31.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GLookTrigger_2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 137.0,
+        "Y": 417.0,
+        "Z": -34.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SimpleAffordanceComponent",
+    "Name": "SimpleAffordance",
+    "Outer": "GAffordanceArea2",
+    "Template": "SimpleAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'SimpleAffordanceComponent'",
+    "Properties": {
+      "ContactType": "EAffordanceContactType::ActivePlayer",
+      "bEnableOnContact": true,
+      "AffordanceEvents": [
+        {
+          "bEnable": true,
+          "bOnceEvent": true,
+          "EventType": "EAffordanceEventType::OnContact",
+          "DoEventType": "EAffordanceDoEventType::DoAnnounceUIRequest",
+          "DoEventName": "None",
+          "EventName": "Quest_AnnounceTrigger_ConveyorDash_00",
+          "EventNames": [],
+          "UIEventName": "None",
+          "LookTriggerActorTag": "Conveyor02",
+          "DemoPlayParam": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CheckDemoFlag": "EDemoFlagType::None",
+          "DemoFlagModeCheck": "EDemoFlagModeCheck::All",
+          "UpdateRate": -1.0,
+          "PikminFlags": 0,
+          "PikminNum": 0,
+          "NonFollowPikminFlags": 0,
+          "ActiveQuestNames": [],
+          "EndQuestNames": [
+            "Quest_AnnounceTrigger_ConveyorDash"
+          ]
+        },
+        {
+          "bEnable": true,
+          "bOnceEvent": true,
+          "EventType": "EAffordanceEventType::OnContact",
+          "DoEventType": "EAffordanceDoEventType::DoQuestJudge",
+          "DoEventName": "None",
+          "EventName": "Quest_Generator_Affordance_Cave005_F00",
+          "EventNames": [],
+          "UIEventName": "None",
+          "LookTriggerActorTag": "Conveyor02",
+          "DemoPlayParam": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CheckDemoFlag": "EDemoFlagType::None",
+          "DemoFlagModeCheck": "EDemoFlagModeCheck::All",
+          "UpdateRate": -1.0,
+          "PikminFlags": 0,
+          "PikminNum": 0,
+          "NonFollowPikminFlags": 0,
+          "ActiveQuestNames": [],
+          "EndQuestNames": [
+            "Quest_AnnounceTrigger_ConveyorDash"
+          ]
+        }
+      ],
+      "ContactSphere": {
+        "Radius": 250.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SimpleAffordanceComponent",
+    "Name": "SimpleAffordance",
+    "Outer": "GAffordanceArea3",
+    "Template": "SimpleAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'SimpleAffordanceComponent'",
+    "Properties": {
+      "ContactType": "EAffordanceContactType::ActivePlayer",
+      "bEnableOnContact": true,
+      "AffordanceEvents": [
+        {
+          "bEnable": true,
+          "bOnceEvent": true,
+          "EventType": "EAffordanceEventType::OnContact",
+          "DoEventType": "EAffordanceDoEventType::DoAnnounceUIRequest",
+          "DoEventName": "None",
+          "EventName": "Quest_AnnounceTrigger_ConveyorDash_00",
+          "EventNames": [],
+          "UIEventName": "None",
+          "LookTriggerActorTag": "Conveyor03",
+          "DemoPlayParam": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CheckDemoFlag": "EDemoFlagType::None",
+          "DemoFlagModeCheck": "EDemoFlagModeCheck::All",
+          "UpdateRate": -1.0,
+          "PikminFlags": 0,
+          "PikminNum": 0,
+          "NonFollowPikminFlags": 0,
+          "ActiveQuestNames": [],
+          "EndQuestNames": [
+            "Quest_AnnounceTrigger_ConveyorDash"
+          ]
+        },
+        {
+          "bEnable": true,
+          "bOnceEvent": true,
+          "EventType": "EAffordanceEventType::OnContact",
+          "DoEventType": "EAffordanceDoEventType::DoQuestJudge",
+          "DoEventName": "None",
+          "EventName": "Quest_Generator_Affordance_Cave005_F00",
+          "EventNames": [],
+          "UIEventName": "None",
+          "LookTriggerActorTag": "Conveyor03",
+          "DemoPlayParam": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CheckDemoFlag": "EDemoFlagType::None",
+          "DemoFlagModeCheck": "EDemoFlagModeCheck::All",
+          "UpdateRate": -1.0,
+          "PikminFlags": 0,
+          "PikminNum": 0,
+          "NonFollowPikminFlags": 0,
+          "ActiveQuestNames": [],
+          "EndQuestNames": [
+            "Quest_AnnounceTrigger_ConveyorDash"
+          ]
+        }
+      ],
+      "ContactSphere": {
+        "Radius": 250.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SimpleAffordanceComponent",
+    "Name": "SimpleAffordance",
+    "Outer": "GAffordanceArea4",
+    "Template": "SimpleAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'SimpleAffordanceComponent'",
+    "Properties": {
+      "ContactType": "EAffordanceContactType::ActivePlayer",
+      "bEnableOnContact": true,
+      "AffordanceEvents": [
+        {
+          "bEnable": true,
+          "bOnceEvent": true,
+          "EventType": "EAffordanceEventType::OnContact",
+          "DoEventType": "EAffordanceDoEventType::DoAnnounceUIRequest",
+          "DoEventName": "None",
+          "EventName": "Quest_AnnounceTrigger_ConveyorDash_00",
+          "EventNames": [],
+          "UIEventName": "None",
+          "LookTriggerActorTag": "Conveyor04",
+          "DemoPlayParam": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CheckDemoFlag": "EDemoFlagType::None",
+          "DemoFlagModeCheck": "EDemoFlagModeCheck::All",
+          "UpdateRate": -1.0,
+          "PikminFlags": 0,
+          "PikminNum": 0,
+          "NonFollowPikminFlags": 0,
+          "ActiveQuestNames": [],
+          "EndQuestNames": [
+            "Quest_AnnounceTrigger_ConveyorDash"
+          ]
+        },
+        {
+          "bEnable": true,
+          "bOnceEvent": true,
+          "EventType": "EAffordanceEventType::OnContact",
+          "DoEventType": "EAffordanceDoEventType::DoQuestJudge",
+          "DoEventName": "None",
+          "EventName": "Quest_Generator_Affordance_Cave005_F00",
+          "EventNames": [],
+          "UIEventName": "None",
+          "LookTriggerActorTag": "Conveyor04",
+          "DemoPlayParam": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CheckDemoFlag": "EDemoFlagType::None",
+          "DemoFlagModeCheck": "EDemoFlagModeCheck::All",
+          "UpdateRate": -1.0,
+          "PikminFlags": 0,
+          "PikminNum": 0,
+          "NonFollowPikminFlags": 0,
+          "ActiveQuestNames": [],
+          "EndQuestNames": [
+            "Quest_AnnounceTrigger_ConveyorDash"
+          ]
+        }
+      ],
+      "ContactSphere": {
+        "Radius": 250.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SimpleAffordanceComponent",
+    "Name": "SimpleAffordance",
+    "Outer": "GAffordanceArea_2",
+    "Template": "SimpleAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'SimpleAffordanceComponent'",
+    "Properties": {
+      "ContactType": "EAffordanceContactType::ActivePlayer",
+      "bEnableOnContact": true,
+      "AffordanceEvents": [
+        {
+          "bEnable": true,
+          "bOnceEvent": true,
+          "EventType": "EAffordanceEventType::OnContact",
+          "DoEventType": "EAffordanceDoEventType::DoAnnounceUIRequest",
+          "DoEventName": "None",
+          "EventName": "Quest_AnnounceTrigger_ConveyorDash_00",
+          "EventNames": [],
+          "UIEventName": "None",
+          "LookTriggerActorTag": "Conveyor01",
+          "DemoPlayParam": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CheckDemoFlag": "EDemoFlagType::None",
+          "DemoFlagModeCheck": "EDemoFlagModeCheck::All",
+          "UpdateRate": -1.0,
+          "PikminFlags": 0,
+          "PikminNum": 0,
+          "NonFollowPikminFlags": 0,
+          "ActiveQuestNames": [],
+          "EndQuestNames": [
+            "Quest_AnnounceTrigger_ConveyorDash"
+          ]
+        },
+        {
+          "bEnable": true,
+          "bOnceEvent": true,
+          "EventType": "EAffordanceEventType::OnContact",
+          "DoEventType": "EAffordanceDoEventType::DoQuestJudge",
+          "DoEventName": "None",
+          "EventName": "Quest_Generator_Affordance_Cave005_F00",
+          "EventNames": [],
+          "UIEventName": "None",
+          "LookTriggerActorTag": "Conveyor01",
+          "DemoPlayParam": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CheckDemoFlag": "EDemoFlagType::None",
+          "DemoFlagModeCheck": "EDemoFlagModeCheck::All",
+          "UpdateRate": -1.0,
+          "PikminFlags": 0,
+          "PikminNum": 0,
+          "NonFollowPikminFlags": 0,
+          "ActiveQuestNames": [],
+          "EndQuestNames": [
+            "Quest_AnnounceTrigger_ConveyorDash"
+          ]
+        }
+      ],
+      "ContactSphere": {
+        "Radius": 250.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SimpleAffordanceComponent",
+    "Name": "SimpleAffordance",
+    "Outer": "GAffordanceAreaStartMes",
+    "Template": "SimpleAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'SimpleAffordanceComponent'",
+    "Properties": {
+      "ContactType": "EAffordanceContactType::ActivePlayer",
+      "bEnableOnContact": true,
+      "AffordanceEvents": [
+        {
+          "bEnable": true,
+          "bOnceEvent": true,
+          "EventType": "EAffordanceEventType::OnContact",
+          "DoEventType": "EAffordanceDoEventType::DoQuestJudge",
+          "DoEventName": "None",
+          "EventName": "Quest_AnnounceTrigger_KirikaeHint",
+          "EventNames": [],
+          "UIEventName": "None",
+          "LookTriggerActorTag": "None",
+          "DemoPlayParam": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CheckDemoFlag": "EDemoFlagType::None",
+          "DemoFlagModeCheck": "EDemoFlagModeCheck::All",
+          "UpdateRate": -1.0,
+          "PikminFlags": 0,
+          "PikminNum": 0,
+          "NonFollowPikminFlags": 0,
+          "ActiveQuestNames": [],
+          "EndQuestNames": []
+        },
+        {
+          "bEnable": true,
+          "bOnceEvent": true,
+          "EventType": "EAffordanceEventType::OnContact",
+          "DoEventType": "EAffordanceDoEventType::DoQuestCreate",
+          "DoEventName": "None",
+          "EventName": "Quest_AnnounceTrigger_KirikaeHintStop",
+          "EventNames": [],
+          "UIEventName": "None",
+          "LookTriggerActorTag": "None",
+          "DemoPlayParam": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CheckDemoFlag": "EDemoFlagType::None",
+          "DemoFlagModeCheck": "EDemoFlagModeCheck::All",
+          "UpdateRate": -1.0,
+          "PikminFlags": 0,
+          "PikminNum": 0,
+          "NonFollowPikminFlags": 0,
+          "ActiveQuestNames": [],
+          "EndQuestNames": []
+        }
+      ],
+      "ContactSphere": {
+        "Radius": 150.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SimpleAffordanceComponent",
+    "Name": "SimpleAffordance",
+    "Outer": "GAffordanceAreaStopMes",
+    "Template": "SimpleAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'SimpleAffordanceComponent'",
+    "Properties": {
+      "ContactType": "EAffordanceContactType::Player",
+      "bEnableOnContact": true,
+      "AffordanceEvents": [
+        {
+          "bEnable": true,
+          "bOnceEvent": true,
+          "EventType": "EAffordanceEventType::OnContact",
+          "DoEventType": "EAffordanceDoEventType::DoQuestJudge",
+          "DoEventName": "None",
+          "EventName": "Quest_AnnounceTrigger_KirikaeHintStop",
+          "EventNames": [],
+          "UIEventName": "None",
+          "LookTriggerActorTag": "None",
+          "DemoPlayParam": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CheckDemoFlag": "EDemoFlagType::None",
+          "DemoFlagModeCheck": "EDemoFlagModeCheck::All",
+          "UpdateRate": -1.0,
+          "PikminFlags": 0,
+          "PikminNum": 0,
+          "NonFollowPikminFlags": 0,
+          "ActiveQuestNames": [],
+          "EndQuestNames": []
+        }
+      ],
+      "ContactSphere": {
+        "Radius": 150.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Cave005_F00_Demo",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Cave005_F00_Demo:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave005/Cave005_F00/Sublevels/Cave005_F00_Demo.16"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

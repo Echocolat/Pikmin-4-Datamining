@@ -1,0 +1,1408 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Cave002_F01_Foliage_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Cave002_F01_Foliage_C'Default__Cave002_F01_Foliage_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.1"
+    }
+  },
+  {
+    "Type": "Cave002_F01_Foliage_C",
+    "Name": "Default__Cave002_F01_Foliage_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.Cave002_F01_Foliage_C'"
+  },
+  {
+    "Type": "Cave002_F01_Foliage_C",
+    "Name": "Cave002_F01_Foliage_C_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Cave002_F01_Foliage_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.Cave002_F01_Foliage_C'"
+  },
+  {
+    "Type": "FoliageInstancedStaticMeshComponent",
+    "Name": "FoliageInstancedStaticMeshComponent_0",
+    "Outer": "InstancedFoliageActor_0",
+    "Class": "UScriptClass'FoliageInstancedStaticMeshComponent'",
+    "Properties": {
+      "SortedInstances": [
+        26,
+        24,
+        13,
+        23,
+        29,
+        20,
+        16,
+        22,
+        4,
+        14,
+        3,
+        19,
+        12,
+        8,
+        11,
+        10,
+        0,
+        2,
+        1,
+        21,
+        5,
+        7,
+        18,
+        25,
+        27,
+        17,
+        9,
+        6,
+        15,
+        28,
+        30
+      ],
+      "NumBuiltInstances": 31,
+      "BuiltInstanceBounds": {
+        "Min": {
+          "X": -1041.586,
+          "Y": -859.48645,
+          "Z": -90.14642
+        },
+        "Max": {
+          "X": 955.43884,
+          "Y": 1417.7886,
+          "Z": 0.9979025
+        },
+        "IsValid": 1
+      },
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": 0.15542221,
+          "Y": -0.0040512085,
+          "Z": 0.4257396
+        },
+        "BoxExtent": {
+          "X": 3.951252,
+          "Y": 3.204094,
+          "Z": 0.5721629
+        },
+        "SphereRadius": 4.8663764
+      },
+      "InstanceCountToRender": 31,
+      "InstancingRandomSeed": 16130,
+      "InstanceEndCullDistance": 1500,
+      "InstanceReorderTable": [
+        16,
+        18,
+        17,
+        10,
+        8,
+        20,
+        27,
+        21,
+        13,
+        26,
+        15,
+        14,
+        12,
+        2,
+        9,
+        28,
+        6,
+        25,
+        22,
+        11,
+        5,
+        19,
+        7,
+        3,
+        1,
+        23,
+        0,
+        24,
+        29,
+        4,
+        30
+      ],
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_CMA_T07_DC_Foliage01_PT06'",
+        "ObjectPath": "/Game/Carrot4/Terrain/Cave/Type/Brick/Foliages/Meshes/SM_CMA_T07_DC_Foliage01_PT06.2"
+      },
+      "OverriddenLightMapRes": 8,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 36.785393
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 36.785393
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 36.785393
+        }
+      ],
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "CastShadow": false,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "VisibilityId": 2,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave002_F01_Foliage:PersistentLevel.InstancedFoliageActor_0.RootComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.16"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "FoliageInstancedStaticMeshComponent",
+    "Name": "FoliageInstancedStaticMeshComponent_1",
+    "Outer": "InstancedFoliageActor_0",
+    "Class": "UScriptClass'FoliageInstancedStaticMeshComponent'",
+    "Properties": {
+      "SortedInstances": [
+        3,
+        20,
+        25,
+        4,
+        28,
+        22,
+        26,
+        12,
+        18,
+        16,
+        1,
+        15,
+        13,
+        11,
+        8,
+        9,
+        2,
+        0,
+        23,
+        14,
+        10,
+        17,
+        5,
+        6,
+        27,
+        19,
+        7,
+        24,
+        21
+      ],
+      "NumBuiltInstances": 29,
+      "BuiltInstanceBounds": {
+        "Min": {
+          "X": -1024.0903,
+          "Y": -868.01843,
+          "Z": -90.117386
+        },
+        "Max": {
+          "X": 902.26337,
+          "Y": 1440.4393,
+          "Z": 0.5091239
+        },
+        "IsValid": 1
+      },
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": -0.3080101,
+          "Y": -0.18319678,
+          "Z": 0.18592183
+        },
+        "BoxExtent": {
+          "X": 2.73738,
+          "Y": 3.0638978,
+          "Z": 0.3232021
+        },
+        "SphereRadius": 3.7310698
+      },
+      "InstanceCountToRender": 29,
+      "InstancingRandomSeed": 10962,
+      "InstanceEndCullDistance": 1500,
+      "InstanceReorderTable": [
+        17,
+        10,
+        16,
+        0,
+        3,
+        22,
+        23,
+        26,
+        14,
+        15,
+        20,
+        13,
+        7,
+        12,
+        19,
+        11,
+        9,
+        21,
+        8,
+        25,
+        1,
+        28,
+        5,
+        18,
+        27,
+        2,
+        6,
+        24,
+        4
+      ],
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_CMA_T07_DC_Foliage01_PT07'",
+        "ObjectPath": "/Game/Carrot4/Terrain/Cave/Type/Brick/Foliages/Meshes/SM_CMA_T07_DC_Foliage01_PT07.2"
+      },
+      "OverriddenLightMapRes": 8,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 24.967333
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 24.967333
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 24.967333
+        }
+      ],
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "CastShadow": false,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "VisibilityId": 3,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave002_F01_Foliage:PersistentLevel.InstancedFoliageActor_0.RootComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.16"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "FoliageInstancedStaticMeshComponent",
+    "Name": "FoliageInstancedStaticMeshComponent_2",
+    "Outer": "InstancedFoliageActor_0",
+    "Class": "UScriptClass'FoliageInstancedStaticMeshComponent'",
+    "Properties": {
+      "SortedInstances": [
+        10,
+        13,
+        6,
+        17,
+        18,
+        19,
+        14,
+        4,
+        8,
+        5,
+        0,
+        1,
+        7,
+        2,
+        16,
+        9,
+        12,
+        21,
+        3,
+        11,
+        15,
+        20
+      ],
+      "NumBuiltInstances": 22,
+      "BuiltInstanceBounds": {
+        "Min": {
+          "X": -1022.3279,
+          "Y": -894.20087,
+          "Z": -49.988018
+        },
+        "Max": {
+          "X": 840.93726,
+          "Y": 1157.369,
+          "Z": 0.9887494
+        },
+        "IsValid": 1
+      },
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": 0.299335,
+          "Y": -0.13248253,
+          "Z": 0.50168794
+        },
+        "BoxExtent": {
+          "X": 5.1227207,
+          "Y": 4.205431,
+          "Z": 0.48706147
+        },
+        "SphereRadius": 5.8106823
+      },
+      "InstanceCountToRender": 22,
+      "InstancingRandomSeed": 22218,
+      "InstanceEndCullDistance": 1500,
+      "InstanceReorderTable": [
+        10,
+        11,
+        13,
+        18,
+        7,
+        9,
+        2,
+        12,
+        8,
+        15,
+        0,
+        19,
+        16,
+        1,
+        6,
+        20,
+        14,
+        3,
+        4,
+        5,
+        21,
+        17
+      ],
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_CMA_T07_DC_Foliage01_PT02'",
+        "ObjectPath": "/Game/Carrot4/Terrain/Cave/Type/Brick/Foliages/Meshes/SM_CMA_T07_DC_Foliage01_PT02.2"
+      },
+      "OverriddenLightMapRes": 8,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 48.694862
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 48.694862
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 48.694862
+        }
+      ],
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "CastShadow": false,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "VisibilityId": 4,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave002_F01_Foliage:PersistentLevel.InstancedFoliageActor_0.RootComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.16"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "FoliageInstancedStaticMeshComponent",
+    "Name": "FoliageInstancedStaticMeshComponent_3",
+    "Outer": "InstancedFoliageActor_0",
+    "Class": "UScriptClass'FoliageInstancedStaticMeshComponent'",
+    "Properties": {
+      "SortedInstances": [
+        8,
+        4,
+        6,
+        7,
+        15,
+        2,
+        11,
+        14,
+        13,
+        16,
+        0,
+        1,
+        12,
+        5,
+        17,
+        3,
+        10,
+        9
+      ],
+      "NumBuiltInstances": 18,
+      "BuiltInstanceBounds": {
+        "Min": {
+          "X": -1038.379,
+          "Y": -898.43176,
+          "Z": -68.81391
+        },
+        "Max": {
+          "X": 830.0316,
+          "Y": 1081.0073,
+          "Z": 0.60591424
+        },
+        "IsValid": 1
+      },
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": -0.253592,
+          "Y": 0.078231096,
+          "Z": 0.14613262
+        },
+        "BoxExtent": {
+          "X": 3.8062778,
+          "Y": 2.5159626,
+          "Z": 0.45978162
+        },
+        "SphereRadius": 4.0438952
+      },
+      "InstanceCountToRender": 18,
+      "InstancingRandomSeed": 24103,
+      "InstanceEndCullDistance": 1500,
+      "InstanceReorderTable": [
+        10,
+        11,
+        5,
+        15,
+        1,
+        13,
+        2,
+        3,
+        0,
+        17,
+        16,
+        6,
+        12,
+        8,
+        7,
+        4,
+        9,
+        14
+      ],
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_CMA_T07_DC_Foliage01_PT08'",
+        "ObjectPath": "/Game/Carrot4/Terrain/Cave/Type/Brick/Foliages/Meshes/SM_CMA_T07_DC_Foliage01_PT08.2"
+      },
+      "OverriddenLightMapRes": 8,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 23.25776
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 23.25776
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 23.25776
+        }
+      ],
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "CastShadow": false,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "VisibilityId": 5,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave002_F01_Foliage:PersistentLevel.InstancedFoliageActor_0.RootComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.16"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "FoliageInstancedStaticMeshComponent",
+    "Name": "FoliageInstancedStaticMeshComponent_4",
+    "Outer": "InstancedFoliageActor_0",
+    "Class": "UScriptClass'FoliageInstancedStaticMeshComponent'",
+    "Properties": {
+      "SortedInstances": [
+        22,
+        25,
+        13,
+        27,
+        18,
+        10,
+        23,
+        2,
+        20,
+        17,
+        15,
+        16,
+        11,
+        12,
+        1,
+        6,
+        5,
+        19,
+        0,
+        14,
+        9,
+        28,
+        30,
+        21,
+        26,
+        29,
+        3,
+        8,
+        7,
+        4,
+        24
+      ],
+      "NumBuiltInstances": 31,
+      "BuiltInstanceBounds": {
+        "Min": {
+          "X": -1027.9207,
+          "Y": -882.76746,
+          "Z": -50.61429
+        },
+        "Max": {
+          "X": 881.4823,
+          "Y": 1439.4086,
+          "Z": 4.3649197
+        },
+        "IsValid": 1
+      },
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": 0.07260704,
+          "Y": 0.81396675,
+          "Z": 0.5309461
+        },
+        "BoxExtent": {
+          "X": 5.132102,
+          "Y": 6.932226,
+          "Z": 0.83972216
+        },
+        "SphereRadius": 7.9953966
+      },
+      "InstanceCountToRender": 31,
+      "InstancingRandomSeed": 1289,
+      "InstanceEndCullDistance": 1500,
+      "InstanceReorderTable": [
+        18,
+        14,
+        7,
+        26,
+        29,
+        16,
+        15,
+        28,
+        27,
+        20,
+        5,
+        12,
+        13,
+        2,
+        19,
+        10,
+        11,
+        9,
+        4,
+        17,
+        8,
+        23,
+        0,
+        6,
+        30,
+        1,
+        24,
+        3,
+        21,
+        25,
+        22
+      ],
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_CMA_T07_DC_Foliage01_PT04'",
+        "ObjectPath": "/Game/Carrot4/Terrain/Cave/Type/Brick/Foliages/Meshes/SM_CMA_T07_DC_Foliage01_PT04.2"
+      },
+      "OverriddenLightMapRes": 8,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 38.344933
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 38.344933
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 38.344933
+        }
+      ],
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "CastShadow": false,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "VisibilityId": 6,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave002_F01_Foliage:PersistentLevel.InstancedFoliageActor_0.RootComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.16"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "FoliageInstancedStaticMeshComponent",
+    "Name": "FoliageInstancedStaticMeshComponent_5",
+    "Outer": "InstancedFoliageActor_0",
+    "Class": "UScriptClass'FoliageInstancedStaticMeshComponent'",
+    "Properties": {
+      "SortedInstances": [
+        13,
+        23,
+        11,
+        21,
+        9,
+        10,
+        0,
+        22,
+        7,
+        14,
+        20,
+        12,
+        18,
+        6,
+        5,
+        3,
+        8,
+        1,
+        2,
+        17,
+        19,
+        4,
+        16,
+        15
+      ],
+      "NumBuiltInstances": 24,
+      "BuiltInstanceBounds": {
+        "Min": {
+          "X": -1038.0144,
+          "Y": -872.6344,
+          "Z": -61.074444
+        },
+        "Max": {
+          "X": 929.02057,
+          "Y": 1184.0634,
+          "Z": 2.1440797
+        },
+        "IsValid": 1
+      },
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": -0.5196643,
+          "Y": 0.19921255,
+          "Z": 0.86444753
+        },
+        "BoxExtent": {
+          "X": 7.035861,
+          "Y": 5.8878,
+          "Z": 0.85245997
+        },
+        "SphereRadius": 7.889421
+      },
+      "InstanceCountToRender": 24,
+      "InstancingRandomSeed": 10931,
+      "InstanceEndCullDistance": 1500,
+      "InstanceReorderTable": [
+        6,
+        17,
+        18,
+        15,
+        21,
+        14,
+        13,
+        8,
+        16,
+        4,
+        5,
+        2,
+        11,
+        0,
+        9,
+        23,
+        22,
+        19,
+        12,
+        20,
+        10,
+        3,
+        7,
+        1
+      ],
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_CMA_T07_DC_Foliage01_PT01'",
+        "ObjectPath": "/Game/Carrot4/Terrain/Cave/Type/Brick/Foliages/Meshes/SM_CMA_T07_DC_Foliage01_PT01.2"
+      },
+      "OverriddenLightMapRes": 8,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 60.86746
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 60.86746
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 60.86746
+        }
+      ],
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "CastShadow": false,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "VisibilityId": 7,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave002_F01_Foliage:PersistentLevel.InstancedFoliageActor_0.RootComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.16"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "FoliageInstancedStaticMeshComponent",
+    "Name": "FoliageInstancedStaticMeshComponent_6",
+    "Outer": "InstancedFoliageActor_0",
+    "Class": "UScriptClass'FoliageInstancedStaticMeshComponent'",
+    "Properties": {
+      "SortedInstances": [
+        7,
+        25,
+        29,
+        24,
+        23,
+        19,
+        28,
+        11,
+        13,
+        12,
+        15,
+        8,
+        3,
+        22,
+        31,
+        2,
+        0,
+        9,
+        1,
+        27,
+        30,
+        20,
+        5,
+        4,
+        26,
+        32,
+        10,
+        18,
+        33,
+        16,
+        6,
+        21,
+        17,
+        14
+      ],
+      "NumBuiltInstances": 34,
+      "BuiltInstanceBounds": {
+        "Min": {
+          "X": -1036.3197,
+          "Y": -887.4496,
+          "Z": -50.644543
+        },
+        "Max": {
+          "X": 948.0904,
+          "Y": 1417.1168,
+          "Z": 0.91992307
+        },
+        "IsValid": 1
+      },
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": -0.838984,
+          "Y": 0.76544666,
+          "Z": 0.24842265
+        },
+        "BoxExtent": {
+          "X": 6.027508,
+          "Y": 9.191429,
+          "Z": 0.67149657
+        },
+        "SphereRadius": 10.086485
+      },
+      "InstanceCountToRender": 34,
+      "InstancingRandomSeed": 16583,
+      "InstanceEndCullDistance": 1500,
+      "InstanceReorderTable": [
+        16,
+        18,
+        15,
+        12,
+        23,
+        22,
+        30,
+        0,
+        11,
+        17,
+        26,
+        7,
+        9,
+        8,
+        33,
+        10,
+        29,
+        32,
+        27,
+        5,
+        21,
+        31,
+        13,
+        4,
+        3,
+        1,
+        24,
+        19,
+        6,
+        2,
+        20,
+        14,
+        25,
+        28
+      ],
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_CMA_T07_DC_Foliage01_PT03'",
+        "ObjectPath": "/Game/Carrot4/Terrain/Cave/Type/Brick/Foliages/Meshes/SM_CMA_T07_DC_Foliage01_PT03.2"
+      },
+      "OverriddenLightMapRes": 8,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 44.490574
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 44.490574
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 44.490574
+        }
+      ],
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "CastShadow": false,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "VisibilityId": 8,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave002_F01_Foliage:PersistentLevel.InstancedFoliageActor_0.RootComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.16"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "FoliageInstancedStaticMeshComponent",
+    "Name": "FoliageInstancedStaticMeshComponent_7",
+    "Outer": "InstancedFoliageActor_0",
+    "Class": "UScriptClass'FoliageInstancedStaticMeshComponent'",
+    "Properties": {
+      "SortedInstances": [
+        9,
+        25,
+        7,
+        10,
+        23,
+        19,
+        24,
+        20,
+        12,
+        4,
+        17,
+        3,
+        6,
+        11,
+        8,
+        15,
+        22,
+        5,
+        21,
+        1,
+        2,
+        16,
+        0,
+        13,
+        18,
+        14
+      ],
+      "NumBuiltInstances": 26,
+      "BuiltInstanceBounds": {
+        "Min": {
+          "X": -896.0055,
+          "Y": -885.0624,
+          "Z": -90.0
+        },
+        "Max": {
+          "X": 937.99896,
+          "Y": 1365.958,
+          "Z": 0.9949188
+        },
+        "IsValid": 1
+      },
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": -0.6564164,
+          "Y": -0.1253171,
+          "Z": 0.4974594
+        },
+        "BoxExtent": {
+          "X": 5.4873395,
+          "Y": 6.527761,
+          "Z": 0.4974594
+        },
+        "SphereRadius": 6.9425955
+      },
+      "InstanceCountToRender": 26,
+      "InstancingRandomSeed": 9541,
+      "InstanceEndCullDistance": 1500,
+      "InstanceReorderTable": [
+        22,
+        19,
+        20,
+        11,
+        9,
+        17,
+        12,
+        2,
+        14,
+        0,
+        3,
+        13,
+        8,
+        23,
+        25,
+        15,
+        21,
+        10,
+        24,
+        5,
+        7,
+        18,
+        16,
+        4,
+        6,
+        1
+      ],
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_CMA_T07_DC_Foliage01_PT05'",
+        "ObjectPath": "/Game/Carrot4/Terrain/Cave/Type/Brick/Foliages/Meshes/SM_CMA_T07_DC_Foliage01_PT05.2"
+      },
+      "OverriddenLightMapRes": 8,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 47.177143
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 47.177143
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 47.177143
+        }
+      ],
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "CastShadow": false,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "VisibilityId": 9,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave002_F01_Foliage:PersistentLevel.InstancedFoliageActor_0.RootComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.16"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "InstancedFoliageActor",
+    "Name": "InstancedFoliageActor_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'InstancedFoliageActor'",
+    "Properties": {
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave002_F01_Foliage:PersistentLevel.InstancedFoliageActor_0.RootComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.16"
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Cave002_F01_Foliage",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Cave002_F01_Foliage:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.13"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Cave002_F01_Foliage_C'Cave002_F01_Foliage:PersistentLevel.Cave002_F01_Foliage_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.2"
+      },
+      "StreamingTextureGuids": [
+        "2C59809E-4B16648D-7F8D0EAD-6EE1D498",
+        "4682B85D-46A1C24B-69C0CFA6-6D883E9D",
+        "21C79F45-4E277455-92ADB2B9-65923006"
+      ],
+      "LevelBuildDataId": "1C6BEC66-4066429F-031AD291-97F8E3A6",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Cave002_F01_Foliage_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage_BuiltData.6"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Cave002_F01_Foliage:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.14"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Cave002_F01_Foliage:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.14"
+      },
+      null,
+      {
+        "ObjectName": "InstancedFoliageActor'Cave002_F01_Foliage:PersistentLevel.InstancedFoliageActor_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.11"
+      },
+      {
+        "ObjectName": "Cave002_F01_Foliage_C'Cave002_F01_Foliage:PersistentLevel.Cave002_F01_Foliage_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.2"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Carrot4/Maps/Boot_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Cave002_F01_Foliage:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.13"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Cave002_F01_Foliage_C'Cave002_F01_Foliage:PersistentLevel.Cave002_F01_Foliage_C_1'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.2"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "4D189C7A-4D1C9151-0AFEC99A-57EC624B",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Cave002_F01_Foliage:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.15"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent0",
+    "Outer": "InstancedFoliageActor_0",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "World",
+    "Name": "Cave002_F01_Foliage",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Cave002_F01_Foliage:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave002/Cave002_F01/Sublevels/Cave002_F01_Foliage.12"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

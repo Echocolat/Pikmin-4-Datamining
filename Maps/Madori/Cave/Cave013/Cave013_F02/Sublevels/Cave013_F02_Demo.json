@@ -1,0 +1,309 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Cave013_F02_Demo_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "LatestSerialId",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Cave013_F02_Demo_C'Default__Cave013_F02_Demo_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo.1"
+    }
+  },
+  {
+    "Type": "Cave013_F02_Demo_C",
+    "Name": "Default__Cave013_F02_Demo_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo.Cave013_F02_Demo_C'",
+    "Properties": {
+      "LatestSerialId": 2
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "OverlapArea",
+    "Outer": "GQuestAreaBox1_2",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 73.10235,
+        "Y": 90.319626,
+        "Z": 100.0
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": 557.97174,
+        "Y": 533.9041,
+        "Z": 253.36563
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Cave013_F02_Demo_C",
+    "Name": "Cave013_F02_Demo_C_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Cave013_F02_Demo_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo.Cave013_F02_Demo_C'"
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GQuestAreaBox1_2",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "DemoType": "EDemoType::OnlyRequestUI",
+      "UIName": "Pitagora_Hint_00",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "GQuestAreaBox1_C",
+    "Name": "GQuestAreaBox1_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GQuestAreaBox1_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/QuestAreaBox/GQuestAreaBox1.GQuestAreaBox1_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Cave013_F02_Demo:PersistentLevel.GQuestAreaBox1_2.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo.4"
+      },
+      "OverlapArea": {
+        "ObjectName": "BoxComponent'Cave013_F02_Demo:PersistentLevel.GQuestAreaBox1_2.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo.2"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4615347435097554945
+      },
+      "RebirthInfo": {
+        "RebirthType": "ERebirthType::AlwaysRebirth",
+        "EraseCond": [
+          {
+            "Condition": "EActorPlacementCondition::QuestClear",
+            "CondInt": -1,
+            "CondName": "Quest_AnnounceTrigger_PitagoraHint_End",
+            "CondPikminColor": "EPikminColor::Undef"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Cave013_F02_Demo:PersistentLevel.GQuestAreaBox1_2.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo.2"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "BoxComponent'Cave013_F02_Demo:PersistentLevel.GQuestAreaBox1_2.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo.2"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Cave013_F02_Demo:PersistentLevel.GQuestAreaBox1_2.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Cave013_F02_Demo",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Cave013_F02_Demo:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo.7"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Cave013_F02_Demo_C'Cave013_F02_Demo:PersistentLevel.Cave013_F02_Demo_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo.3"
+      },
+      "LevelBuildDataId": "92310534-40F48D93-856737BA-FB6C1A25",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Cave013_F02_Demo_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Cave013_F02_Demo:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo.8"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Cave013_F02_Demo:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo.8"
+      },
+      null,
+      {
+        "ObjectName": "GQuestAreaBox1_C'Cave013_F02_Demo:PersistentLevel.GQuestAreaBox1_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo.5"
+      },
+      {
+        "ObjectName": "Cave013_F02_Demo_C'Cave013_F02_Demo:PersistentLevel.Cave013_F02_Demo_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo.3"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Carrot4/Maps/Boot_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Cave013_F02_Demo:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo.7"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Cave013_F02_Demo_C'Cave013_F02_Demo:PersistentLevel.Cave013_F02_Demo_C_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo.3"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "7E2F4F4D-4AAA14F6-FE54878E-B3E8662E",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Cave013_F02_Demo:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo.9"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Cave013_F02_Demo",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Cave013_F02_Demo:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave013/Cave013_F02/Sublevels/Cave013_F02_Demo.6"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

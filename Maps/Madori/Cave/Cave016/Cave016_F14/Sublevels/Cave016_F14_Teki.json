@@ -1,0 +1,3965 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Cave016_F14_Teki_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "LatestSerialId",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Cave016_F14_Teki_C'Default__Cave016_F14_Teki_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.1"
+    }
+  },
+  {
+    "Type": "Cave016_F14_Teki_C",
+    "Name": "Default__Cave016_F14_Teki_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.Cave016_F14_Teki_C'",
+    "Properties": {
+      "LatestSerialId": 103
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "GHageDamagumo2",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.2"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.2"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AttackAffordanceComponent",
+    "Name": "AttackAffordance",
+    "Outer": "GHageDamagumo2",
+    "Template": "AttackAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'AttackAffordanceComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "C4StickComponent",
+    "Name": "C4Stick",
+    "Outer": "GHageDamagumo2",
+    "Template": "C4Stick_GEN_VARIABLE",
+    "Class": "UScriptClass'C4StickComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioFlagComponent",
+    "Name": "CakAudioFlag",
+    "Outer": "GHageDamagumo2",
+    "Template": "CakAudioFlag_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioFlagComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "GHageDamagumo2",
+    "Template": "CakAudioTable_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioTableComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "GHageDamagumo2",
+    "Template": "CakEmitterConfig_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEmitterConfigComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "GHageDamagumo2",
+    "Template": "CakEventHandler_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEventHandlerComponent'",
+    "Properties": {
+      "StaticUnits": [
+        {
+          "ObjectName": "CakSinkRatioControlUnit'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CakEventHandler.CakSinkRatioControlUnit_1'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.9"
+        },
+        {
+          "ObjectName": "CakTerrainSwitchingUnit'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CakEventHandler.CakTerrainSwitchingUnit_1'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.10"
+        }
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakSinkRatioControlUnit",
+    "Name": "CakSinkRatioControlUnit_1",
+    "Outer": "CakEventHandler",
+    "Template": "CakSinkRatioControlUnit_1",
+    "Class": "UScriptClass'CakSinkRatioControlUnit'"
+  },
+  {
+    "Type": "CakTerrainSwitchingUnit",
+    "Name": "CakTerrainSwitchingUnit_1",
+    "Outer": "CakEventHandler",
+    "Template": "CakTerrainSwitchingUnit_1",
+    "Class": "UScriptClass'CakTerrainSwitchingUnit'"
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_LL000_C00",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_LL000_C00_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "LL_j000",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_LL000_C01",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_LL000_C01_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "LL_j000",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_LL001_C",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_LL001_C_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "LL_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_LL001_HC",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_LL001_HC_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "LL_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_LL010_C00",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_LL010_C00_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "LL_j010",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_LL010_C01",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_LL010_C01_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "LL_j010",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_LL011_C",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_LL011_C_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "LL_j011",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_LL011_HC",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_LL011_HC_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "LL_j011",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_RL000_C00",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_RL000_C00_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "RL_j000",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_RL000_C01",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_RL000_C01_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "RL_j000",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_RL001_C",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_RL001_C_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "RL_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_RL001_HC",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_RL001_HC_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "RL_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_RL010_C00",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_RL010_C00_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "RL_j010",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_RL010_C01",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_RL010_C01_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "RL_j010",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_RL011_C",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_RL011_C_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "RL_j011",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_RL011_HC",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_RL011_HC_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "RL_j011",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotGenseiStrategyComponent",
+    "Name": "CarrotGenseiStrategy",
+    "Outer": "GHageDamagumo2",
+    "Template": "CarrotGenseiStrategy_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotGenseiStrategyComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "CarrotSkeletalMesh",
+    "Outer": "GHageDamagumo2",
+    "Template": "CarrotSkeletalMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.51"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "ShadowMesh",
+    "Outer": "GHageDamagumo2",
+    "Template": "ShadowMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "MasterPoseComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "SilhouetteMesh",
+    "Outer": "GHageDamagumo2",
+    "Template": "SilhouetteMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Cave016_F14_Teki_C",
+    "Name": "Cave016_F14_Teki_C_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Cave016_F14_Teki_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.Cave016_F14_Teki_C'"
+  },
+  {
+    "Type": "CircleShadowMeshComponent",
+    "Name": "CircleShadowMesh",
+    "Outer": "GHageDamagumo2",
+    "Template": "CircleShadowMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CircleShadowMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.51"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CollTreeComponent",
+    "Name": "CollTree",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_GEN_VARIABLE",
+    "Class": "UScriptClass'CollTreeComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "GHageDamagumo_C",
+    "Name": "GHageDamagumo2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GHageDamagumo_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Teki/GHageDamagumo.GHageDamagumo_C'",
+    "Properties": {
+      "CollTree_LL011_HC": {
+        "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL011_HC'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.18"
+      },
+      "CollTree_RL001_HC": {
+        "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL001_HC'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.22"
+      },
+      "CollTree_RL011_HC": {
+        "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL011_HC'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.26"
+      },
+      "CollTree_LL001_HC": {
+        "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL001_HC'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.14"
+      },
+      "CarrotGenseiStrategy": {
+        "ObjectName": "CarrotGenseiStrategyComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotGenseiStrategy'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.27"
+      },
+      "ShadowMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.ShadowMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.29"
+      },
+      "CakAudioFlag": {
+        "ObjectName": "CakAudioFlagComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CakAudioFlag'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.5"
+      },
+      "SilhouetteMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.SilhouetteMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.30"
+      },
+      "CircleShadowMesh": {
+        "ObjectName": "CircleShadowMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CircleShadowMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.32"
+      },
+      "TerrainSensor": {
+        "ObjectName": "TerrainSensorComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.TerrainSensor'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.52"
+      },
+      "CollTree_LL000_C01": {
+        "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL000_C01'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.12"
+      },
+      "CollTree_LL000_C00": {
+        "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL000_C00'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.11"
+      },
+      "CollTree_LL001_C": {
+        "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL001_C'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.13"
+      },
+      "CollTree_RL010_C01": {
+        "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL010_C01'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.24"
+      },
+      "CollTree_RL010_C00": {
+        "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL010_C00'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.23"
+      },
+      "CollTree_RL011_C": {
+        "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL011_C'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.25"
+      },
+      "CollTree_LL010_C01": {
+        "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL010_C01'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.16"
+      },
+      "CollTree_LL010_C00": {
+        "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL010_C00'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.15"
+      },
+      "CollTree_LL011_C": {
+        "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL011_C'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.17"
+      },
+      "CollTree_RL000_C01": {
+        "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL000_C01'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.20"
+      },
+      "CollTree_RL000_C00": {
+        "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL000_C00'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.19"
+      },
+      "CollTree_RL001_C": {
+        "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL001_C'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.21"
+      },
+      "CollTree_LL002": {
+        "ObjectName": "SphereComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL002'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.47"
+      },
+      "CollTree_RL012": {
+        "ObjectName": "SphereComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL012'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.50"
+      },
+      "CollTree_LL012": {
+        "ObjectName": "SphereComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL012'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.48"
+      },
+      "CollTree_RL002": {
+        "ObjectName": "SphereComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL002'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.49"
+      },
+      "HageDamagumoAI": {
+        "ObjectName": "HageDamagumoAIComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.HageDamagumoAI'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.37"
+      },
+      "AttackAffordance": {
+        "ObjectName": "AttackAffordanceComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.3"
+      },
+      "CollTree_Body": {
+        "ObjectName": "SphereComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_Body'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.46"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.2"
+      },
+      "C4Stick": {
+        "ObjectName": "C4StickComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.C4Stick'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.4"
+      },
+      "Life": {
+        "ObjectName": "LifeComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.Life'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.39"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.6"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.7"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.8"
+      },
+      "PointerAssist": {
+        "ObjectName": "PointerAssistComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.PointerAssist'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.43"
+      },
+      "CollTree": {
+        "ObjectName": "CollTreeComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.33"
+      },
+      "CarrotSkeletalMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "Sphere": {
+        "ObjectName": "SphereComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.51"
+      },
+      "SkeletalMeshComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AffordanceComponent": {
+        "ObjectName": "AttackAffordanceComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.3"
+      },
+      "AttackAffordanceComponent": {
+        "ObjectName": "AttackAffordanceComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.3"
+      },
+      "StickComponent": {
+        "ObjectName": "C4StickComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.C4Stick'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.4"
+      },
+      "LifeComponent": {
+        "ObjectName": "LifeComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.Life'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.39"
+      },
+      "WaterBoxFollowContext": {
+        "bCheck": false
+      },
+      "DemoBindName": "GDownPoral",
+      "GenerateInfo": {
+        "DebugUniqueId": 4616205015512514660
+      },
+      "RebirthInfo": {
+        "RebirthType": "ERebirthType::RebirthFullExplore"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.51"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SphereComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.Sphere'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.51"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+        },
+        {
+          "ObjectName": "AkComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.Ak'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.2"
+        },
+        {
+          "ObjectName": "CollTreeComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.33"
+        },
+        {
+          "ObjectName": "PointerAssistComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.PointerAssist'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.43"
+        },
+        {
+          "ObjectName": "CakEventHandlerComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CakEventHandler'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.8"
+        },
+        {
+          "ObjectName": "CakEmitterConfigComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CakEmitterConfig'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.7"
+        },
+        {
+          "ObjectName": "CakAudioTableComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CakAudioTable'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.6"
+        },
+        {
+          "ObjectName": "LifeComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.Life'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.39"
+        },
+        {
+          "ObjectName": "C4StickComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.C4Stick'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.4"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_Body'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.46"
+        },
+        {
+          "ObjectName": "AttackAffordanceComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.AttackAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.3"
+        },
+        {
+          "ObjectName": "HageDamagumoAIComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.HageDamagumoAI'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.37"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL002'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.49"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL012'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.48"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL012'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.50"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL002'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.47"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL001_C'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.21"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL000_C00'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.19"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL000_C01'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.20"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL011_C'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.17"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL010_C00'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.15"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL010_C01'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.16"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL011_C'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.25"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL010_C00'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.23"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL010_C01'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.24"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL001_C'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.13"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL000_C00'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.11"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL000_C01'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.12"
+        },
+        {
+          "ObjectName": "TerrainSensorComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.TerrainSensor'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.52"
+        },
+        {
+          "ObjectName": "CircleShadowMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CircleShadowMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.32"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.SilhouetteMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.30"
+        },
+        {
+          "ObjectName": "CakAudioFlagComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CakAudioFlag'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.5"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.ShadowMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.29"
+        },
+        {
+          "ObjectName": "CarrotGenseiStrategyComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotGenseiStrategy'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.27"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL001_HC'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.14"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL011_HC'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.26"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_RL001_HC'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.22"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CollTree_LL011_HC'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.18"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GSplineDamagumoCanStep_C",
+    "Name": "GSplineDamagumoCanStep_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GSplineDamagumoCanStep_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Teki/Other/Spline/GSplineDamagumoCanStep.GSplineDamagumoCanStep_C'",
+    "Properties": {
+      "RootSpline": {
+        "ObjectName": "RouteSplineComponent'Cave016_F14_Teki:PersistentLevel.GSplineDamagumoCanStep_2.RootSpline'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.44"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4616205015512514659
+      },
+      "RootComponent": {
+        "ObjectName": "RouteSplineComponent'Cave016_F14_Teki:PersistentLevel.GSplineDamagumoCanStep_2.RootSpline'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.44"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "RouteSplineComponent'Cave016_F14_Teki:PersistentLevel.GSplineDamagumoCanStep_2.RootSpline'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.44"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GSplineHageDamagumo_C",
+    "Name": "GSplineHageDamagumo_3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GSplineHageDamagumo_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Teki/Other/Spline/GSplineHageDamagumo.GSplineHageDamagumo_C'",
+    "Properties": {
+      "RootSpline": {
+        "ObjectName": "RouteSplineComponent'Cave016_F14_Teki:PersistentLevel.GSplineHageDamagumo_3.RootSpline'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.45"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4294967381
+      },
+      "RootComponent": {
+        "ObjectName": "RouteSplineComponent'Cave016_F14_Teki:PersistentLevel.GSplineHageDamagumo_3.RootSpline'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.45"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "RouteSplineComponent'Cave016_F14_Teki:PersistentLevel.GSplineHageDamagumo_3.RootSpline'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.45"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HageDamagumoAIComponent",
+    "Name": "HageDamagumoAI",
+    "Outer": "GHageDamagumo2",
+    "Template": "HageDamagumoAI_GEN_VARIABLE",
+    "Class": "UScriptClass'HageDamagumoAIComponent'",
+    "Properties": {
+      "HageDamagumoAIParameter": {
+        "bSplineWalkStart": true,
+        "bUseUniqueLife": true,
+        "UniqueLife": 5500.0,
+        "bAlreadyAppear": true
+      },
+      "DamagumoBaseAIParameter": {
+        "bStraddle": true,
+        "FightCameraParameter": {
+          "CameraChangeDistanceXY": 600.0
+        }
+      },
+      "TekiAIParameter": {
+        "SearchAreaRest": {
+          "SphereRadius": 100.0,
+          "Radius": 600.0
+        },
+        "Territory": {
+          "Radius": 250.0
+        },
+        "DropParameter": {
+          "DropItemParameter": [
+            {
+              "SpawnMiniInfo": {
+                "DropActor": {
+                  "ObjectName": "BlueprintGeneratedClass'GOtaButtonMetal_C'",
+                  "ObjectPath": "/Game/Carrot4/Placeables/Objects/Otakara/GOtaButtonMetal.0"
+                },
+                "CustomParameter": "None",
+                "CustomFloatParameter": 0.0,
+                "GameRulePermissionFlag": 269,
+                "bSetTerritory": false,
+                "Territory": {
+                  "Center": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "HalfHeight": 50.0,
+                  "Radius": 100.0,
+                  "SearchType": "ESearchAreaSearchType::LocationDirZ",
+                  "bSearchOuterTerritory": true
+                }
+              },
+              "UniqueId": 4616205015512514661,
+              "MinNum": 10,
+              "MaxNum": 10,
+              "DropRatio": 1.0,
+              "bRegistGenerator": true,
+              "DropConditions": [
+                {
+                  "DropCond": "EDropCondition::NoSalvageDropItem",
+                  "DropCondInt": 0,
+                  "DropCondName": "None",
+                  "DropCondDemo": "EDemoFlagType::None"
+                }
+              ]
+            },
+            {
+              "SpawnMiniInfo": {
+                "DropActor": {
+                  "ObjectName": "BlueprintGeneratedClass'GPiecePick_C'",
+                  "ObjectPath": "/Game/Carrot4/Placeables/WorkObjects/Shizai/GPiecePick.0"
+                },
+                "CustomParameter": "None",
+                "CustomFloatParameter": 0.0,
+                "GameRulePermissionFlag": 0,
+                "bSetTerritory": false,
+                "Territory": {
+                  "Center": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "HalfHeight": 50.0,
+                  "Radius": 100.0,
+                  "SearchType": "ESearchAreaSearchType::LocationDirZ",
+                  "bSearchOuterTerritory": true
+                }
+              },
+              "UniqueId": 4616205015512514662,
+              "MinNum": 20,
+              "MaxNum": 20,
+              "DropRatio": 1.0,
+              "bRegistGenerator": false,
+              "DropConditions": [
+                {
+                  "DropCond": "EDropCondition::SalvageDropItem",
+                  "DropCondInt": 0,
+                  "DropCondName": "None",
+                  "DropCondDemo": "EDemoFlagType::None"
+                }
+              ]
+            }
+          ],
+          "DebugUniqueIdList": [
+            4616205015512514661,
+            4616205015512514662
+          ],
+          "DropActorParameter": {
+            "LocalOffset": {
+              "X": 20.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Vel": {
+              "X": 100.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RandVel": {
+              "X": 100.0,
+              "Y": 0.0,
+              "Z": -10.0
+            },
+            "DropOption": 4
+          },
+          "bEnableFreezeBothDrop": true
+        }
+      },
+      "SniffPointParameter": {
+        "bEnableOptionalPoint": true,
+        "OptionalPointOffsets": [
+          {
+            "X": -90.0,
+            "Y": 0.0,
+            "Z": -140.0
+          }
+        ]
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Cave016_F14_Teki",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Cave016_F14_Teki:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.40"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Cave016_F14_Teki_C'Cave016_F14_Teki:PersistentLevel.Cave016_F14_Teki_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.31"
+      },
+      "LevelBuildDataId": "54F1F8ED-42BA739B-92926DA7-6B39A108",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Cave016_F14_Teki_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Cave016_F14_Teki:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.41"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Cave016_F14_Teki:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.41"
+      },
+      null,
+      {
+        "ObjectName": "GSplineHageDamagumo_C'Cave016_F14_Teki:PersistentLevel.GSplineHageDamagumo_3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.36"
+      },
+      {
+        "ObjectName": "GSplineDamagumoCanStep_C'Cave016_F14_Teki:PersistentLevel.GSplineDamagumoCanStep_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.35"
+      },
+      {
+        "ObjectName": "GHageDamagumo_C'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.34"
+      },
+      {
+        "ObjectName": "Cave016_F14_Teki_C'Cave016_F14_Teki:PersistentLevel.Cave016_F14_Teki_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.31"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Test/Maps/Check/CheckRomEntry_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Cave016_F14_Teki:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.40"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Cave016_F14_Teki_C'Cave016_F14_Teki:PersistentLevel.Cave016_F14_Teki_C_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.31"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LifeComponent",
+    "Name": "Life",
+    "Outer": "GHageDamagumo2",
+    "Template": "Life_GEN_VARIABLE",
+    "Class": "UScriptClass'LifeComponent'",
+    "Properties": {
+      "Life": 3700.0,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'LifeComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "Life",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "0B068ED2-48DEB4E2-4E10D6A3-1DE33D07",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "bEnableNavigationSystem": false,
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Cave016_F14_Teki:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.42"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PointerAssistComponent",
+    "Name": "PointerAssist",
+    "Outer": "GHageDamagumo2",
+    "Template": "PointerAssist_GEN_VARIABLE",
+    "Class": "UScriptClass'PointerAssistComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "RouteSplineComponent",
+    "Name": "RootSpline",
+    "Outer": "GSplineDamagumoCanStep_2",
+    "Template": "RootSpline_GEN_VARIABLE",
+    "Class": "UScriptClass'RouteSplineComponent'",
+    "Properties": {
+      "AreaList": [
+        {
+          "Key": 0,
+          "Radius": 163.11238,
+          "Name": "None"
+        },
+        {
+          "Key": 1,
+          "Radius": 126.3131,
+          "Name": "None"
+        },
+        {
+          "Key": 2,
+          "Radius": 71.35419,
+          "Name": "None"
+        },
+        {
+          "Key": 3,
+          "Radius": 58.581406,
+          "Name": "None"
+        },
+        {
+          "Key": 4,
+          "Radius": 81.0181,
+          "Name": "None"
+        },
+        {
+          "Key": 5,
+          "Radius": 92.50813,
+          "Name": "None"
+        },
+        {
+          "Key": 6,
+          "Radius": 49.943615,
+          "Name": "None"
+        },
+        {
+          "Key": 7,
+          "Radius": 49.038036,
+          "Name": "None"
+        },
+        {
+          "Key": 8,
+          "Radius": 42.166412,
+          "Name": "None"
+        },
+        {
+          "Key": 9,
+          "Radius": 53.36601,
+          "Name": "None"
+        },
+        {
+          "Key": 10,
+          "Radius": 38.427902,
+          "Name": "None"
+        },
+        {
+          "Key": 11,
+          "Radius": 71.19598,
+          "Name": "None"
+        },
+        {
+          "Key": 12,
+          "Radius": 29.329605,
+          "Name": "None"
+        }
+      ],
+      "SplineCurves": {
+        "Position": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": -568.6129,
+                "Y": 465.89627,
+                "Z": 42.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_Constant"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": -341.23395,
+                "Y": 204.56456,
+                "Z": 67.612885
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_Constant"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": -83.79117,
+                "Y": 242.34125,
+                "Z": 42.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_Constant"
+            },
+            {
+              "InVal": 3.0,
+              "OutVal": {
+                "X": 52.83589,
+                "Y": 508.45526,
+                "Z": 42.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_Constant"
+            },
+            {
+              "InVal": 4.0,
+              "OutVal": {
+                "X": -70.41789,
+                "Y": 680.07465,
+                "Z": 42.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_Constant"
+            },
+            {
+              "InVal": 5.0,
+              "OutVal": {
+                "X": -344.9415,
+                "Y": 615.0025,
+                "Z": 42.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_Constant"
+            },
+            {
+              "InVal": 6.0,
+              "OutVal": {
+                "X": -273.6405,
+                "Y": 385.43738,
+                "Z": 42.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 7.0,
+              "OutVal": {
+                "X": -684.1575,
+                "Y": 209.50143,
+                "Z": 42.0
+              },
+              "ArriveTangent": {
+                "X": 240.36118,
+                "Y": 16.035828,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 240.36118,
+                "Y": 16.035828,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 8.0,
+              "OutVal": {
+                "X": 207.08183,
+                "Y": 417.50903,
+                "Z": 42.0
+              },
+              "ArriveTangent": {
+                "X": 444.98398,
+                "Y": 261.3316,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 444.98398,
+                "Y": 261.3316,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 9.0,
+              "OutVal": {
+                "X": 205.81047,
+                "Y": 732.1647,
+                "Z": 42.0
+              },
+              "ArriveTangent": {
+                "X": -69.055145,
+                "Y": 144.98145,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": -69.055145,
+                "Y": 144.98145,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 10.0,
+              "OutVal": {
+                "X": 68.97154,
+                "Y": 707.4719,
+                "Z": 42.0
+              },
+              "ArriveTangent": {
+                "X": -147.64206,
+                "Y": -160.50285,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": -147.64206,
+                "Y": -160.50285,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 11.0,
+              "OutVal": {
+                "X": -89.47365,
+                "Y": 411.15897,
+                "Z": 42.0
+              },
+              "ArriveTangent": {
+                "X": -309.1738,
+                "Y": -259.7883,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": -309.1738,
+                "Y": -259.7883,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 12.0,
+              "OutVal": {
+                "X": -549.37604,
+                "Y": 187.89532,
+                "Z": 42.0
+              },
+              "ArriveTangent": {
+                "X": -459.9024,
+                "Y": -223.26364,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": -459.9024,
+                "Y": -223.26364,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            }
+          ]
+        },
+        "Rotation": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.5,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.5,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.5,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.5,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 3.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.5,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.5,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 4.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.5,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.5,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 5.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.5,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.5,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 6.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -0.00832672,
+                "W": 0.49993065,
+                "IsNormalized": false,
+                "Size": 0.49999997,
+                "SizeSquared": 0.24999999
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -0.00832672,
+                "W": 0.49993065,
+                "IsNormalized": false,
+                "Size": 0.49999997,
+                "SizeSquared": 0.24999999
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 7.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.033302262,
+                "W": 0.9994453,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -0.033044547,
+                "W": 0.49890688,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -0.033044547,
+                "W": 0.49890688,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 8.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.26239976,
+                "W": 0.96495926,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0052677244,
+                "W": 0.49997225,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0052677244,
+                "W": 0.49997225,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 9.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.8455815,
+                "W": 0.5338464,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.31455946,
+                "W": -0.38865456,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25000003
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": -0.0,
+                "Z": 0.31455946,
+                "W": -0.38865456,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25000003
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 10.0,
+              "OutVal": {
+                "X": -0.0,
+                "Y": 0.0,
+                "Z": -0.915698,
+                "W": 0.40186715,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": -0.0,
+                "Y": 0.0,
+                "Z": -0.40199572,
+                "W": -0.2973205,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25000003
+              },
+              "LeaveTangent": {
+                "X": -0.0,
+                "Y": 0.0,
+                "Z": -0.40199572,
+                "W": -0.2973205,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25000003
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 11.0,
+              "OutVal": {
+                "X": -0.0,
+                "Y": 0.0,
+                "Z": -0.9395756,
+                "W": 0.3423416,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0000001
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -0.46450794,
+                "W": 0.18501987,
+                "IsNormalized": false,
+                "Size": 0.49999997,
+                "SizeSquared": 0.24999997
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -0.46450794,
+                "W": 0.18501987,
+                "IsNormalized": false,
+                "Size": 0.49999997,
+                "SizeSquared": 0.24999997
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 12.0,
+              "OutVal": {
+                "X": -0.0,
+                "Y": 0.0,
+                "Z": -0.9745765,
+                "W": 0.22405493,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.9999999
+              },
+              "ArriveTangent": {
+                "X": -0.0,
+                "Y": 0.0,
+                "Z": -0.98654026,
+                "W": 0.16351825,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.9999999
+              },
+              "LeaveTangent": {
+                "X": -0.0,
+                "Y": 0.0,
+                "Z": -0.98654026,
+                "W": 0.16351825,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.9999999
+              },
+              "InterpMode": "CIM_CurveAuto"
+            }
+          ]
+        },
+        "Scale": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 3.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 4.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 5.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 6.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 7.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 8.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 9.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 10.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 11.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 12.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            }
+          ]
+        },
+        "ReparamTable": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": 0.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 0.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 0.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 0.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 0.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 0.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 0.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 0.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 0.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 0.90000004,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 1.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 1.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 1.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 1.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 1.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 1.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 1.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 1.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 1.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 1.9000001,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 2.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 2.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 2.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 2.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 2.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 2.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 2.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 2.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 2.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 2.9,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 3.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 3.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 3.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 3.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 3.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 3.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 3.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 3.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 3.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 3.9,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 4.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 4.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 4.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 4.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 4.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 4.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 4.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 4.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 4.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 4.9,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 5.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 5.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 5.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 5.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 5.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 5.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 5.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 5.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 5.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 5.9,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 0.0,
+              "OutVal": 6.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 14.568591,
+              "OutVal": 6.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 53.78216,
+              "OutVal": 6.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 110.90301,
+              "OutVal": 6.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 179.19469,
+              "OutVal": 6.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 251.92303,
+              "OutVal": 6.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 322.35864,
+              "OutVal": 6.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 383.78387,
+              "OutVal": 6.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 429.52,
+              "OutVal": 6.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 453.13754,
+              "OutVal": 6.9,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 465.84805,
+              "OutVal": 7.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 506.55457,
+              "OutVal": 7.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 576.157,
+              "OutVal": 7.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 668.0654,
+              "OutVal": 7.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 775.67236,
+              "OutVal": 7.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 892.37463,
+              "OutVal": 7.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1011.58215,
+              "OutVal": 7.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1126.7312,
+              "OutVal": 7.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1231.3132,
+              "OutVal": 7.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1318.9519,
+              "OutVal": 7.9,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1383.6831,
+              "OutVal": 8.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1430.359,
+              "OutVal": 8.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1470.3035,
+              "OutVal": 8.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1507.6492,
+              "OutVal": 8.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1544.9641,
+              "OutVal": 8.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1582.9917,
+              "OutVal": 8.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1621.1162,
+              "OutVal": 8.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1657.9038,
+              "OutVal": 8.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1691.4624,
+              "OutVal": 8.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1719.6526,
+              "OutVal": 8.9,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1740.2317,
+              "OutVal": 9.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1755.169,
+              "OutVal": 9.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1768.6208,
+              "OutVal": 9.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1781.7128,
+              "OutVal": 9.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1795.3638,
+              "OutVal": 9.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1810.1527,
+              "OutVal": 9.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1826.3467,
+              "OutVal": 9.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1843.9991,
+              "OutVal": 9.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1863.0353,
+              "OutVal": 9.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1883.3104,
+              "OutVal": 9.9,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1904.6465,
+              "OutVal": 10.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1928.0326,
+              "OutVal": 10.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1954.903,
+              "OutVal": 10.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1985.1489,
+              "OutVal": 10.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2018.241,
+              "OutVal": 10.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2053.5024,
+              "OutVal": 10.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2090.2583,
+              "OutVal": 10.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2127.9397,
+              "OutVal": 10.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2166.1858,
+              "OutVal": 10.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2204.9521,
+              "OutVal": 10.9,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2244.6257,
+              "OutVal": 11.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2286.841,
+              "OutVal": 11.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2332.5874,
+              "OutVal": 11.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2381.4788,
+              "OutVal": 11.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2432.9644,
+              "OutVal": 11.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2486.3948,
+              "OutVal": 11.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2541.063,
+              "OutVal": 11.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2596.2305,
+              "OutVal": 11.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2651.148,
+              "OutVal": 11.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2705.0715,
+              "OutVal": 11.9,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2757.281,
+              "OutVal": 12.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            }
+          ]
+        }
+      },
+      "bSplineHasBeenEdited": true,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SplineComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bSplineHasBeenEdited",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "RouteSplineComponent",
+    "Name": "RootSpline",
+    "Outer": "GSplineHageDamagumo_3",
+    "Template": "RootSpline_GEN_VARIABLE",
+    "Class": "UScriptClass'RouteSplineComponent'",
+    "Properties": {
+      "AreaList": [
+        {
+          "Key": 0,
+          "Radius": 50.0,
+          "Name": "wait"
+        },
+        {
+          "Key": 2,
+          "Radius": 50.0,
+          "Name": "wait"
+        }
+      ],
+      "SplineCurves": {
+        "Position": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": -244.77808,
+                "Y": -468.0268,
+                "Z": -284.8019
+              },
+              "ArriveTangent": {
+                "X": 30.718166,
+                "Y": 61.480675,
+                "Z": -12.50354
+              },
+              "LeaveTangent": {
+                "X": 30.718166,
+                "Y": 61.480675,
+                "Z": -12.50354
+              },
+              "InterpMode": "CIM_CurveUser"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 72.32178,
+                "Y": -564.72174,
+                "Z": -284.8019
+              },
+              "ArriveTangent": {
+                "X": 143.2925,
+                "Y": -102.697586,
+                "Z": -0.0014038086
+              },
+              "LeaveTangent": {
+                "X": 143.2925,
+                "Y": -102.697586,
+                "Z": -0.0014038086
+              },
+              "InterpMode": "CIM_CurveUser"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 287.67993,
+                "Y": -864.68414,
+                "Z": -284.8019
+              },
+              "ArriveTangent": {
+                "X": -136.35445,
+                "Y": 1.3727915,
+                "Z": 0.0012207031
+              },
+              "LeaveTangent": {
+                "X": -136.35445,
+                "Y": 1.3727915,
+                "Z": 0.0012207031
+              },
+              "InterpMode": "CIM_CurveUser"
+            },
+            {
+              "InVal": 3.0,
+              "OutVal": {
+                "X": -189.30951,
+                "Y": -656.98035,
+                "Z": -284.8019
+              },
+              "ArriveTangent": {
+                "X": -115.08624,
+                "Y": 83.73219,
+                "Z": 0.0010986328
+              },
+              "LeaveTangent": {
+                "X": -115.08624,
+                "Y": 83.73219,
+                "Z": 0.0010986328
+              },
+              "InterpMode": "CIM_CurveUser"
+            }
+          ]
+        },
+        "Rotation": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 0.023007583,
+                "Y": 0.11950682,
+                "Z": 0.5156059,
+                "W": 0.84813875,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.017946031,
+                "Y": 0.11056201,
+                "Z": 0.2836974,
+                "W": 0.39619407,
+                "IsNormalized": false,
+                "Size": 0.49999997,
+                "SizeSquared": 0.24999997
+              },
+              "LeaveTangent": {
+                "X": 0.017946031,
+                "Y": 0.11056201,
+                "Z": 0.2836974,
+                "W": 0.39619407,
+                "IsNormalized": false,
+                "Size": 0.49999997,
+                "SizeSquared": 0.24999997
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 0.012738394,
+                "Y": -0.0040892293,
+                "Z": -0.30591002,
+                "W": 0.9519664,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": -0.0030129324,
+                "Y": -0.016763229,
+                "Z": -0.4969551,
+                "W": -0.05239787,
+                "IsNormalized": false,
+                "Size": 0.49999997,
+                "SizeSquared": 0.24999999
+              },
+              "LeaveTangent": {
+                "X": -0.0030129324,
+                "Y": -0.016763229,
+                "Z": -0.4969551,
+                "W": -0.05239787,
+                "IsNormalized": false,
+                "Size": 0.49999997,
+                "SizeSquared": 0.24999999
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": -0.00011117062,
+                "Y": -0.022972422,
+                "Z": 0.9997234,
+                "W": 0.0050325654,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.9999999
+              },
+              "ArriveTangent": {
+                "X": -0.004210857,
+                "Y": -0.0025875152,
+                "Z": 0.23219913,
+                "W": -0.44278556,
+                "IsNormalized": false,
+                "Size": 0.4999999,
+                "SizeSquared": 0.24999991
+              },
+              "LeaveTangent": {
+                "X": -0.004210857,
+                "Y": -0.0025875152,
+                "Z": 0.23219913,
+                "W": -0.44278556,
+                "IsNormalized": false,
+                "Size": 0.4999999,
+                "SizeSquared": 0.24999991
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 3.0,
+              "OutVal": {
+                "X": -0.004430741,
+                "Y": -0.0136335045,
+                "Z": 0.95085585,
+                "W": 0.309302,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0000001
+              },
+              "ArriveTangent": {
+                "X": -0.010341562,
+                "Y": -0.03931908,
+                "Z": 0.49503663,
+                "W": 0.057321995,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25000003
+              },
+              "LeaveTangent": {
+                "X": -0.010341562,
+                "Y": -0.03931908,
+                "Z": 0.49503663,
+                "W": 0.057321995,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25000003
+              },
+              "InterpMode": "CIM_CurveAuto"
+            }
+          ]
+        },
+        "Scale": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 3.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            }
+          ]
+        },
+        "ReparamTable": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": 0.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 11.044009,
+              "OutVal": 0.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 33.427902,
+              "OutVal": 0.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 65.74929,
+              "OutVal": 0.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 105.32239,
+              "OutVal": 0.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 149.3147,
+              "OutVal": 0.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 194.8598,
+              "OutVal": 0.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 239.08383,
+              "OutVal": 0.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 279.11942,
+              "OutVal": 0.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 312.12872,
+              "OutVal": 0.90000004,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 335.3863,
+              "OutVal": 1.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 360.62234,
+              "OutVal": 1.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 398.7488,
+              "OutVal": 1.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 445.9944,
+              "OutVal": 1.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 498.49005,
+              "OutVal": 1.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 552.3499,
+              "OutVal": 1.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 603.6946,
+              "OutVal": 1.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 648.67664,
+              "OutVal": 1.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 683.5535,
+              "OutVal": 1.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 705.0768,
+              "OutVal": 1.9000001,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 715.9755,
+              "OutVal": 2.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 739.9654,
+              "OutVal": 2.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 782.3384,
+              "OutVal": 2.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 838.7206,
+              "OutVal": 2.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 904.51807,
+              "OutVal": 2.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 975.09863,
+              "OutVal": 2.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1045.8184,
+              "OutVal": 2.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1112.0295,
+              "OutVal": 2.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1169.0847,
+              "OutVal": 2.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1212.3452,
+              "OutVal": 2.9,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1237.2177,
+              "OutVal": 3.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1253.3104,
+              "OutVal": 3.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1273.1265,
+              "OutVal": 3.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1295.9885,
+              "OutVal": 3.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1320.8131,
+              "OutVal": 3.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1346.3638,
+              "OutVal": 3.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1371.3397,
+              "OutVal": 3.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1394.4143,
+              "OutVal": 3.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1414.2626,
+              "OutVal": 3.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1429.6089,
+              "OutVal": 3.9,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1439.4237,
+              "OutVal": 4.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            }
+          ]
+        }
+      },
+      "bSplineHasBeenEdited": true,
+      "RelativeLocation": {
+        "X": 293.9243,
+        "Y": 76.599365,
+        "Z": 326.8019
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -129.99994,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SplineComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bSplineHasBeenEdited",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_Body_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "B_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_LL002",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_LL002_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "LL_j002",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_LL012",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_LL012_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "LL_j012",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_RL002",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_RL002_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "RL_j002",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_RL012",
+    "Outer": "GHageDamagumo2",
+    "Template": "CollTree_RL012_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F14_Teki:PersistentLevel.GHageDamagumo2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.28"
+      },
+      "AttachSocketName": "RL_j012",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "GHageDamagumo2",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 16.403015,
+        "Y": 215.93875,
+        "Z": 142.70967
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TerrainSensorComponent",
+    "Name": "TerrainSensor",
+    "Outer": "GHageDamagumo2",
+    "Template": "TerrainSensor_GEN_VARIABLE",
+    "Class": "UScriptClass'TerrainSensorComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Cave016_F14_Teki",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Cave016_F14_Teki:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F14/Sublevels/Cave016_F14_Teki.38"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

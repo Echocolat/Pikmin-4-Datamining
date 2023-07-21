@@ -1,0 +1,6223 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Cave007_F01_P_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Cave007_F01_P_C'Default__Cave007_F01_P_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.1"
+    }
+  },
+  {
+    "Type": "Cave007_F01_P_C",
+    "Name": "Default__Cave007_F01_P_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.Cave007_F01_P_C'"
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "ArrowComponent_0",
+    "Outer": "ACarrotGameRuleStory_4",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -1475.0,
+                "Y": 1475.25,
+                "Z": -400.0
+              },
+              {
+                "X": -1475.0,
+                "Y": 1475.25,
+                "Z": 400.0
+              },
+              {
+                "X": -1475.0,
+                "Y": -1475.2509,
+                "Z": 400.0
+              },
+              {
+                "X": -1475.0,
+                "Y": -1475.2509,
+                "Z": -400.0
+              },
+              {
+                "X": 1475.0,
+                "Y": 1475.2517,
+                "Z": -400.0
+              },
+              {
+                "X": 1475.0,
+                "Y": 1475.2517,
+                "Z": 400.0
+              },
+              {
+                "X": 1475.0,
+                "Y": -1475.2509,
+                "Z": -400.0
+              },
+              {
+                "X": 1475.0,
+                "Y": -1475.2509,
+                "Z": 400.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -1475.0,
+                "Y": -1475.2509,
+                "Z": -400.0
+              },
+              "Max": {
+                "X": 1475.0,
+                "Y": 1475.2517,
+                "Z": 400.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "2B1384DD4C13A931DB638CA9987FED68",
+    "CookedFormatData": {
+      "PhysXGeneric": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x38CCF"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_1",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -1475.0,
+                "Y": 1475.25,
+                "Z": -400.0
+              },
+              {
+                "X": -1475.0,
+                "Y": 1475.25,
+                "Z": 400.0
+              },
+              {
+                "X": -1475.0,
+                "Y": -1475.2509,
+                "Z": 400.0
+              },
+              {
+                "X": -1475.0,
+                "Y": -1475.2509,
+                "Z": -400.0
+              },
+              {
+                "X": 1475.0,
+                "Y": 1475.2517,
+                "Z": -400.0
+              },
+              {
+                "X": 1475.0,
+                "Y": 1475.2517,
+                "Z": 400.0
+              },
+              {
+                "X": 1475.0,
+                "Y": -1475.2509,
+                "Z": -400.0
+              },
+              {
+                "X": 1475.0,
+                "Y": -1475.2509,
+                "Z": 400.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -1475.0,
+                "Y": -1475.2509,
+                "Z": -400.0
+              },
+              "Max": {
+                "X": 1475.0,
+                "Y": 1475.2517,
+                "Z": 400.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "457AC46542A981BF314FF69304F4F0A7",
+    "CookedFormatData": {
+      "PhysXGeneric": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x392ED"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_1",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -1475.0,
+                "Y": 1475.25,
+                "Z": -400.0
+              },
+              {
+                "X": -1475.0,
+                "Y": 1475.25,
+                "Z": 400.0
+              },
+              {
+                "X": -1475.0,
+                "Y": -1475.2509,
+                "Z": 400.0
+              },
+              {
+                "X": -1475.0,
+                "Y": -1475.2509,
+                "Z": -400.0
+              },
+              {
+                "X": 1475.0,
+                "Y": 1475.2517,
+                "Z": -400.0
+              },
+              {
+                "X": 1475.0,
+                "Y": 1475.2517,
+                "Z": 400.0
+              },
+              {
+                "X": 1475.0,
+                "Y": -1475.2509,
+                "Z": -400.0
+              },
+              {
+                "X": 1475.0,
+                "Y": -1475.2509,
+                "Z": 400.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -1475.0,
+                "Y": -1475.2509,
+                "Z": -400.0
+              },
+              "Max": {
+                "X": 1475.0,
+                "Y": 1475.2517,
+                "Z": 400.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "8CAC861B42C75517AE54318190BB56CB",
+    "CookedFormatData": {
+      "PhysXGeneric": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x3990B"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "3841B4C44A96566872333BAF778A20ED",
+    "CookedFormatData": {
+      "PhysXGeneric": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x39F29"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -1475.0,
+                "Y": 1475.25,
+                "Z": -400.0
+              },
+              {
+                "X": -1475.0,
+                "Y": 1475.25,
+                "Z": 400.0
+              },
+              {
+                "X": -1475.0,
+                "Y": -1475.2509,
+                "Z": 400.0
+              },
+              {
+                "X": -1475.0,
+                "Y": -1475.2509,
+                "Z": -400.0
+              },
+              {
+                "X": 1475.0,
+                "Y": 1475.2517,
+                "Z": -400.0
+              },
+              {
+                "X": 1475.0,
+                "Y": 1475.2517,
+                "Z": 400.0
+              },
+              {
+                "X": 1475.0,
+                "Y": -1475.2509,
+                "Z": -400.0
+              },
+              {
+                "X": 1475.0,
+                "Y": -1475.2509,
+                "Z": 400.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -1475.0,
+                "Y": -1475.2509,
+                "Z": -400.0
+              },
+              "Max": {
+                "X": 1475.0,
+                "Y": 1475.2517,
+                "Z": 400.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "29A82C244107C8FFD0966A98A3353557",
+    "CookedFormatData": {
+      "PhysXGeneric": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x3A547"
+      }
+    }
+  },
+  {
+    "Type": "BP_CarrotGameRuleStory_C",
+    "Name": "ACarrotGameRuleStory_4",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_CarrotGameRuleStory_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/GameRule/BP_CarrotGameRuleStory.BP_CarrotGameRuleStory_C'",
+    "Properties": {
+      "GameSettings": {
+        "bDisableTimer": true,
+        "CaveThemeType": "ECaveThemeType::Garden"
+      },
+      "NorthArrow": {
+        "ObjectName": "ArrowComponent'Cave007_F01_P:PersistentLevel.ACarrotGameRuleStory_4.ArrowComponent_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.2"
+      },
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Cave007_F01_P:PersistentLevel.ACarrotGameRuleStory_4.ArrowComponent_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.2"
+      }
+    }
+  },
+  {
+    "Type": "BP_CarrotSkySphere_C",
+    "Name": "BP_CarrotSkySphere_C_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_CarrotSkySphere_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/Sky/BP_CarrotSkySphere.BP_CarrotSkySphere_C'",
+    "Properties": {
+      "SkySphereMesh": {
+        "ObjectName": "StaticMeshComponent'Cave007_F01_P:PersistentLevel.BP_CarrotSkySphere_C_0.SkySphereMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.115"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.BP_CarrotSkySphere_C_0.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.87"
+      },
+      "SkyMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_stg_Garden_Panorama01'",
+        "ObjectPath": "/Game/Carrot4/Terrain/Cave/Type/Garden/Common/Materials/MI_stg_Garden_Panorama01.0"
+      },
+      "ZenithColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF000000"
+      },
+      "HorizonColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF000000"
+      },
+      "LowerHemisphereColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF000000"
+      },
+      "HorizonFalloff": 1.0,
+      "SunDiscColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF000000"
+      },
+      "SunDiscBrightness": 0.0,
+      "SunDiscRadius": 0.0,
+      "SunDiscPhaseG": -0.9,
+      "SunDirectionPitch": -120.0,
+      "SunDirectionYaw": 315.0,
+      "CloudOpacity": 0.0,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.BP_CarrotSkySphere_C_0.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.87"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.BP_CarrotSkySphere_C_0.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.87"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'Cave007_F01_P:PersistentLevel.BP_CarrotSkySphere_C_0.SkySphereMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.115"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_EnvController_C",
+    "Name": "BP_EnvController_C_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_EnvController_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Core/Graphics/System/BP_EnvController.BP_EnvController_C'",
+    "Properties": {
+      "SkyAtmosphere1": {
+        "ObjectName": "SkyAtmosphereComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.SkyAtmosphere1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.110"
+      },
+      "MirrorSphere": {
+        "ObjectName": "StaticMeshComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.MirrorSphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.117"
+      },
+      "GraySphere": {
+        "ObjectName": "StaticMeshComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.GraySphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.116"
+      },
+      "EnvParamSceneDay": {
+        "ObjectName": "EnvParamScene'EP_Cave_Garden_Normal'",
+        "ObjectPath": "/Game/Carrot4/Core/Graphics/GraphicsEnv/Cave/Cave_Garden/EP_Cave_Garden_Normal.0"
+      },
+      "Base": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.88"
+      },
+      "PostProcess": {
+        "ObjectName": "PostProcessComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.PostProcess'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.82"
+      },
+      "SunLight": {
+        "ObjectName": "DirectionalLightComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.SunLight'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.45"
+      },
+      "SpotLight": {
+        "ObjectName": "SpotLightComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.SpotLight'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.114"
+      },
+      "SkyLight": {
+        "ObjectName": "SkyLightComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.SkyLight'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.111"
+      },
+      "SkyAtmosphere": {
+        "ObjectName": "SkyAtmosphereComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.SkyAtmosphere1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.110"
+      },
+      "HeightFog": {
+        "ObjectName": "ExponentialHeightFogComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.HeightFog'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.48"
+      },
+      "StaticSunLight": {
+        "ObjectName": "DirectionalLightComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.StaticSunLight'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.44"
+      },
+      "CarrotSkySphere": {
+        "ObjectName": "BP_CarrotSkySphere_C'Cave007_F01_P:PersistentLevel.BP_CarrotSkySphere_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.9"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.88"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.GraySphere'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.116"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.MirrorSphere'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.117"
+        },
+        {
+          "ObjectName": "SkyAtmosphereComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.SkyAtmosphere1'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.110"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "CullDistanceVolume_0",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'Cave007_F01_P:PersistentLevel.CullDistanceVolume_0.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.64"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'Cave007_F01_P:PersistentLevel.CullDistanceVolume_0.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.3"
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "LightmassImportanceVolume_0",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'Cave007_F01_P:PersistentLevel.LightmassImportanceVolume_0.Model_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.65"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'Cave007_F01_P:PersistentLevel.LightmassImportanceVolume_0.BrushComponent0.BodySetup_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.4"
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "NavMeshBoundsVolume_0",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'Cave007_F01_P:PersistentLevel.NavMeshBoundsVolume_0.Model_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.67"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'Cave007_F01_P:PersistentLevel.NavMeshBoundsVolume_0.BrushComponent0.BodySetup_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.5"
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "NavModifierVolume_1",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'Cave007_F01_P:PersistentLevel.NavModifierVolume_1.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.68"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'Cave007_F01_P:PersistentLevel.NavModifierVolume_1.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.6"
+      },
+      "RelativeLocation": {
+        "X": -305.0,
+        "Y": 605.0,
+        "Z": 148.48885
+      },
+      "RelativeScale3D": {
+        "X": 0.2,
+        "Y": 0.2,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "PrecomputedVisibilityVolume_0",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'Cave007_F01_P:PersistentLevel.PrecomputedVisibilityVolume_0.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.69"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'Cave007_F01_P:PersistentLevel.PrecomputedVisibilityVolume_0.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.7"
+      }
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "SM_CMA_T04_BG_Bamboo01",
+    "Outer": "CMA_T04_BG_Bamboo01_1",
+    "Template": "SM_CMA_T04_BG_Bamboo01_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4080533703,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 15.46053
+        },
+        {
+          "PackedRelativeBox": 4288300131,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4288300131,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4288300131,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4080533703,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 15.46053
+        }
+      ],
+      "VisibilityId": 1,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_1.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.89"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "SM_CMA_T04_BG_Bamboo01",
+    "Outer": "CMA_T04_BG_Bamboo01_2",
+    "Template": "SM_CMA_T04_BG_Bamboo01_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4082630821,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 15.46053
+        },
+        {
+          "PackedRelativeBox": 4290659361,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4290659361,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4290659361,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4082630821,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 15.46053
+        }
+      ],
+      "VisibilityId": 2,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_2.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.90"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "SM_CMA_T04_BG_Bamboo01",
+    "Outer": "CMA_T04_BG_Bamboo01_3",
+    "Template": "SM_CMA_T04_BG_Bamboo01_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4078371047,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 15.46053
+        },
+        {
+          "PackedRelativeBox": 4288431204,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4288431204,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4288431204,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4078371047,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 15.46053
+        }
+      ],
+      "VisibilityId": 3,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_3.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.91"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "SM_CMA_T04_BG_Bamboo01",
+    "Outer": "CMA_T04_BG_Bamboo01_4",
+    "Template": "SM_CMA_T04_BG_Bamboo01_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4084728005,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 15.46053
+        },
+        {
+          "PackedRelativeBox": 4292625408,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4292625408,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4292625408,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4084728005,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 15.46053
+        }
+      ],
+      "VisibilityId": 4,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_4.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.92"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "SM_CMA_T04_BG_Bamboo01",
+    "Outer": "CMA_T04_BG_Bamboo01_5",
+    "Template": "SM_CMA_T04_BG_Bamboo01_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4078371047,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 15.46053
+        },
+        {
+          "PackedRelativeBox": 4288365668,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4288365668,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4288365668,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4078371047,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 15.46053
+        }
+      ],
+      "VisibilityId": 5,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_5.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "SM_CMA_T04_BG_Bamboo01",
+    "Outer": "CMA_T04_BG_Bamboo01_6",
+    "Template": "SM_CMA_T04_BG_Bamboo01_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4078502051,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 15.46053
+        },
+        {
+          "PackedRelativeBox": 4292756512,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4292756512,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4292756512,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4078502051,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 15.46053
+        }
+      ],
+      "VisibilityId": 6,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_6.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.94"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "SM_CMA_T04_BG_Bamboo01",
+    "Outer": "CMA_T04_BG_Bamboo01_7",
+    "Template": "SM_CMA_T04_BG_Bamboo01_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4086890628,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 15.46053
+        },
+        {
+          "PackedRelativeBox": 4294919168,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4294919168,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4294919168,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4086890628,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 15.46053
+        }
+      ],
+      "VisibilityId": 10,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_7.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.95"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "SM_CMA_T04_BG_Bamboo01",
+    "Outer": "CMA_T04_BG_Bamboo01_8",
+    "Template": "SM_CMA_T04_BG_Bamboo01_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4009231655,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 15.46053
+        },
+        {
+          "PackedRelativeBox": 4216998083,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4216998083,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4216998083,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 174.64777
+        },
+        {
+          "PackedRelativeBox": 4009231655,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 15.46053
+        }
+      ],
+      "VisibilityId": 11,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_8.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.96"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "SM_CMA_T04_DC_Lantern01_Ufokciifa",
+    "Outer": "CMA_T04_DC_Lantern01_Ufokciifa_1",
+    "Template": "SM_CMA_T04_DC_Lantern01_Ufokciifa_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 2331.4287
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 2331.4287
+        }
+      ],
+      "VisibilityId": 7,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_1.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.97"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "SM_CMA_T04_DC_Lantern01_Ufokciifa",
+    "Outer": "CMA_T04_DC_Lantern01_Ufokciifa_2",
+    "Template": "SM_CMA_T04_DC_Lantern01_Ufokciifa_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 2331.4287
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 2331.4287
+        }
+      ],
+      "VisibilityId": 8,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_2.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.98"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "SM_CMA_T04_DC_Lantern01_Ufokciifa",
+    "Outer": "CMA_T04_DC_Lantern01_Ufokciifa_3",
+    "Template": "SM_CMA_T04_DC_Lantern01_Ufokciifa_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 2331.4287
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 2331.4287
+        }
+      ],
+      "VisibilityId": 9,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_3.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.99"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "SM_CMA_T04_DC_Lantern01_Ufokciifa",
+    "Outer": "CMA_T04_DC_Lantern01_Ufokciifa_4",
+    "Template": "SM_CMA_T04_DC_Lantern01_Ufokciifa_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 2331.4287
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 2331.4287
+        }
+      ],
+      "VisibilityId": 12,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_4.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.100"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "SM_CMA_T04_DC_Lantern01_Ufokciifa",
+    "Outer": "CMA_T04_DC_Lantern01_Ufokciifa_5",
+    "Template": "SM_CMA_T04_DC_Lantern01_Ufokciifa_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 2331.4287
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 2331.4287
+        }
+      ],
+      "VisibilityId": 13,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_5.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.101"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Cave007_F01_P_C",
+    "Name": "Cave007_F01_P_C_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Cave007_F01_P_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.Cave007_F01_P_C'"
+  },
+  {
+    "Type": "CMA_T04_BG_Bamboo01_C",
+    "Name": "CMA_T04_BG_Bamboo01_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__CMA_T04_BG_Bamboo01_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/Cave/Type/Garden/BlueprintActor/CMA_T04_BG_Bamboo01.CMA_T04_BG_Bamboo01_C'",
+    "Properties": {
+      "SM_CMA_T04_BG_Bamboo01": {
+        "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_1.SM_CMA_T04_BG_Bamboo01'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.16"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_1.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.89"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_1.SM_CMA_T04_BG_Bamboo01'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.16"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CMA_T04_BG_Bamboo01_C",
+    "Name": "CMA_T04_BG_Bamboo01_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__CMA_T04_BG_Bamboo01_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/Cave/Type/Garden/BlueprintActor/CMA_T04_BG_Bamboo01.CMA_T04_BG_Bamboo01_C'",
+    "Properties": {
+      "SM_CMA_T04_BG_Bamboo01": {
+        "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_2.SM_CMA_T04_BG_Bamboo01'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.17"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_2.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.90"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_2.SM_CMA_T04_BG_Bamboo01'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.17"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CMA_T04_BG_Bamboo01_C",
+    "Name": "CMA_T04_BG_Bamboo01_3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__CMA_T04_BG_Bamboo01_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/Cave/Type/Garden/BlueprintActor/CMA_T04_BG_Bamboo01.CMA_T04_BG_Bamboo01_C'",
+    "Properties": {
+      "SM_CMA_T04_BG_Bamboo01": {
+        "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_3.SM_CMA_T04_BG_Bamboo01'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.18"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_3.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.91"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_3.SM_CMA_T04_BG_Bamboo01'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.18"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CMA_T04_BG_Bamboo01_C",
+    "Name": "CMA_T04_BG_Bamboo01_4",
+    "Outer": "PersistentLevel",
+    "Template": "Default__CMA_T04_BG_Bamboo01_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/Cave/Type/Garden/BlueprintActor/CMA_T04_BG_Bamboo01.CMA_T04_BG_Bamboo01_C'",
+    "Properties": {
+      "SM_CMA_T04_BG_Bamboo01": {
+        "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_4.SM_CMA_T04_BG_Bamboo01'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.19"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_4.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.92"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_4.SM_CMA_T04_BG_Bamboo01'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.19"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CMA_T04_BG_Bamboo01_C",
+    "Name": "CMA_T04_BG_Bamboo01_5",
+    "Outer": "PersistentLevel",
+    "Template": "Default__CMA_T04_BG_Bamboo01_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/Cave/Type/Garden/BlueprintActor/CMA_T04_BG_Bamboo01.CMA_T04_BG_Bamboo01_C'",
+    "Properties": {
+      "SM_CMA_T04_BG_Bamboo01": {
+        "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_5.SM_CMA_T04_BG_Bamboo01'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.20"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_5.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.93"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_5.SM_CMA_T04_BG_Bamboo01'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.20"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CMA_T04_BG_Bamboo01_C",
+    "Name": "CMA_T04_BG_Bamboo01_6",
+    "Outer": "PersistentLevel",
+    "Template": "Default__CMA_T04_BG_Bamboo01_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/Cave/Type/Garden/BlueprintActor/CMA_T04_BG_Bamboo01.CMA_T04_BG_Bamboo01_C'",
+    "Properties": {
+      "SM_CMA_T04_BG_Bamboo01": {
+        "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_6.SM_CMA_T04_BG_Bamboo01'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.21"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_6.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.94"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_6.SM_CMA_T04_BG_Bamboo01'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.21"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CMA_T04_BG_Bamboo01_C",
+    "Name": "CMA_T04_BG_Bamboo01_7",
+    "Outer": "PersistentLevel",
+    "Template": "Default__CMA_T04_BG_Bamboo01_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/Cave/Type/Garden/BlueprintActor/CMA_T04_BG_Bamboo01.CMA_T04_BG_Bamboo01_C'",
+    "Properties": {
+      "SM_CMA_T04_BG_Bamboo01": {
+        "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_7.SM_CMA_T04_BG_Bamboo01'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.22"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_7.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.95"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_7.SM_CMA_T04_BG_Bamboo01'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.22"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CMA_T04_BG_Bamboo01_C",
+    "Name": "CMA_T04_BG_Bamboo01_8",
+    "Outer": "PersistentLevel",
+    "Template": "Default__CMA_T04_BG_Bamboo01_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/Cave/Type/Garden/BlueprintActor/CMA_T04_BG_Bamboo01.CMA_T04_BG_Bamboo01_C'",
+    "Properties": {
+      "SM_CMA_T04_BG_Bamboo01": {
+        "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_8.SM_CMA_T04_BG_Bamboo01'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.23"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_8.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.96"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_8.SM_CMA_T04_BG_Bamboo01'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.23"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CMA_T04_DC_Lantern01_Ufokciifa_C",
+    "Name": "CMA_T04_DC_Lantern01_Ufokciifa_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__CMA_T04_DC_Lantern01_Ufokciifa_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/Cave/Type/Garden/BlueprintActor/CMA_T04_DC_Lantern01_Ufokciifa.CMA_T04_DC_Lantern01_Ufokciifa_C'",
+    "Properties": {
+      "SM_CMA_T04_DC_Lantern01_Ufokciifa": {
+        "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_1.SM_CMA_T04_DC_Lantern01_Ufokciifa'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.24"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_1.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.97"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_1.SM_CMA_T04_DC_Lantern01_Ufokciifa'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.24"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CMA_T04_DC_Lantern01_Ufokciifa_C",
+    "Name": "CMA_T04_DC_Lantern01_Ufokciifa_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__CMA_T04_DC_Lantern01_Ufokciifa_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/Cave/Type/Garden/BlueprintActor/CMA_T04_DC_Lantern01_Ufokciifa.CMA_T04_DC_Lantern01_Ufokciifa_C'",
+    "Properties": {
+      "SM_CMA_T04_DC_Lantern01_Ufokciifa": {
+        "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_2.SM_CMA_T04_DC_Lantern01_Ufokciifa'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.25"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_2.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.98"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_2.SM_CMA_T04_DC_Lantern01_Ufokciifa'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.25"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CMA_T04_DC_Lantern01_Ufokciifa_C",
+    "Name": "CMA_T04_DC_Lantern01_Ufokciifa_3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__CMA_T04_DC_Lantern01_Ufokciifa_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/Cave/Type/Garden/BlueprintActor/CMA_T04_DC_Lantern01_Ufokciifa.CMA_T04_DC_Lantern01_Ufokciifa_C'",
+    "Properties": {
+      "SM_CMA_T04_DC_Lantern01_Ufokciifa": {
+        "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_3.SM_CMA_T04_DC_Lantern01_Ufokciifa'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.26"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_3.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.99"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_3.SM_CMA_T04_DC_Lantern01_Ufokciifa'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.26"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CMA_T04_DC_Lantern01_Ufokciifa_C",
+    "Name": "CMA_T04_DC_Lantern01_Ufokciifa_4",
+    "Outer": "PersistentLevel",
+    "Template": "Default__CMA_T04_DC_Lantern01_Ufokciifa_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/Cave/Type/Garden/BlueprintActor/CMA_T04_DC_Lantern01_Ufokciifa.CMA_T04_DC_Lantern01_Ufokciifa_C'",
+    "Properties": {
+      "SM_CMA_T04_DC_Lantern01_Ufokciifa": {
+        "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_4.SM_CMA_T04_DC_Lantern01_Ufokciifa'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.27"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_4.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.100"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_4.SM_CMA_T04_DC_Lantern01_Ufokciifa'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.27"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CMA_T04_DC_Lantern01_Ufokciifa_C",
+    "Name": "CMA_T04_DC_Lantern01_Ufokciifa_5",
+    "Outer": "PersistentLevel",
+    "Template": "Default__CMA_T04_DC_Lantern01_Ufokciifa_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/Cave/Type/Garden/BlueprintActor/CMA_T04_DC_Lantern01_Ufokciifa.CMA_T04_DC_Lantern01_Ufokciifa_C'",
+    "Properties": {
+      "SM_CMA_T04_DC_Lantern01_Ufokciifa": {
+        "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_5.SM_CMA_T04_DC_Lantern01_Ufokciifa'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.28"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_5.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.101"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_5.SM_CMA_T04_DC_Lantern01_Ufokciifa'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.28"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CullDistanceVolume",
+    "Name": "CullDistanceVolume_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CullDistanceVolume'",
+    "Properties": {
+      "CullDistances": [
+        {
+          "Size": 50.0,
+          "CullDistance": 2200.0
+        },
+        {
+          "Size": 500.0,
+          "CullDistance": 0.0
+        }
+      ],
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'Cave007_F01_P:PersistentLevel.CullDistanceVolume_0.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.64"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'Cave007_F01_P:PersistentLevel.CullDistanceVolume_0.BrushComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.11"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'Cave007_F01_P:PersistentLevel.CullDistanceVolume_0.BrushComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.11"
+      }
+    }
+  },
+  {
+    "Type": "DirectionalLightComponent",
+    "Name": "StaticSunLight",
+    "Outer": "BP_EnvController_C_0",
+    "Template": "StaticSunLight",
+    "Class": "UScriptClass'DirectionalLightComponent'",
+    "Properties": {
+      "LightGuid": "89207D7F-49829ECD-2E9A459E-361B809F",
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.88"
+      }
+    }
+  },
+  {
+    "Type": "DirectionalLightComponent",
+    "Name": "SunLight",
+    "Outer": "BP_EnvController_C_0",
+    "Template": "SunLight",
+    "Class": "UScriptClass'DirectionalLightComponent'",
+    "Properties": {
+      "DynamicShadowDistanceMovableLight": 4000.0,
+      "C4Color": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.5,
+        "Hex": "7F000000"
+      },
+      "C4Param5": 2.0,
+      "C4Param6": 0.75,
+      "C4Param9": 1.0,
+      "C4Param17": 10.0,
+      "C4LensFlare1": {
+        "X": 0.8,
+        "Y": 0.4,
+        "Z": 0.0,
+        "W": 0.175
+      },
+      "C4Texture0": {
+        "ObjectName": "Texture2D'T_stg_Garden_ProjectionShadow01_M'",
+        "ObjectPath": "/Game/Carrot4/Core/Graphics/ProjectionShadows/Cave_Garden/T_stg_Garden_ProjectionShadow01_M.0"
+      },
+      "ShadowSlopeBias": 2.0,
+      "LightFunctionMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_stg_Garden_ProjectionShadow01'",
+        "ObjectPath": "/Game/Carrot4/Core/Graphics/ProjectionShadows/Cave_Garden/MI_stg_Garden_ProjectionShadow01.0"
+      },
+      "LightFunctionFadeDistance": 18000.0,
+      "Intensity": 4.0,
+      "LightColor": {
+        "B": 207,
+        "G": 214,
+        "R": 223,
+        "A": 255,
+        "Hex": "FFDFD6CF"
+      },
+      "CastShadows": false,
+      "CastDynamicShadows": false,
+      "IndirectLightingIntensity": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.88"
+      },
+      "RelativeLocation": {
+        "X": 1704.0,
+        "Y": 491.0,
+        "Z": 113.0
+      },
+      "RelativeRotation": {
+        "Pitch": -59.999985,
+        "Yaw": 134.99998,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius0",
+    "Outer": "SphereReflectionCapture_1",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "SphereRadius": 3000.0,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'Cave007_F01_P:PersistentLevel.SphereReflectionCapture_1.NewReflectionComponent'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.113"
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius1",
+    "Outer": "SphereReflectionCapture_1",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'Cave007_F01_P:PersistentLevel.SphereReflectionCapture_1.NewReflectionComponent'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.113"
+      }
+    }
+  },
+  {
+    "Type": "ExponentialHeightFogComponent",
+    "Name": "HeightFog",
+    "Outer": "BP_EnvController_C_0",
+    "Template": "HeightFog",
+    "Class": "UScriptClass'ExponentialHeightFogComponent'",
+    "Properties": {
+      "FogDensity": 1.0,
+      "FogHeightFalloff": 6.0,
+      "FogInscatteringColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF000000"
+      },
+      "StartDistance": 1000.0,
+      "FogCutoffDistance": 30000.0,
+      "bEnableVolumetricFog": false,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.88"
+      },
+      "RelativeLocation": {
+        "X": 1539.0,
+        "Y": 401.0,
+        "Z": 113.0
+      }
+    }
+  },
+  {
+    "Type": "InstancedFoliageActor",
+    "Name": "InstancedFoliageActor_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'InstancedFoliageActor'",
+    "Properties": {
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.InstancedFoliageActor_0.RootComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.102"
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Cave007_F01_P",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Cave007_F01_P:PersistentLevel.Model_3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.66"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Cave007_F01_P_C'Cave007_F01_P:PersistentLevel.Cave007_F01_P_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.29"
+      },
+      "StreamingTextureGuids": [
+        "96D5C8D6-49699E95-50C2FDBD-746BE156",
+        "9B97F102-4603AB3F-979C5F96-128FE52D",
+        "9D5EBB09-432A7F89-23FBFAB0-A7FA9488",
+        "654ED3F2-49F5DF4E-5242D693-15ABF090",
+        "78449B0B-4EAE2383-87609D98-3715642E",
+        "CFD5D38E-4C5469A3-F8DA8BA2-AD5F17BE",
+        "7C88109A-4AEB4778-08FA60A9-97DD61E5"
+      ],
+      "LevelBuildDataId": "7B18DD2D-48F0A521-3F875895-8EBDD08A",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Cave007_F01_P_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P_BuiltData.21"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Cave007_F01_P:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.70"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Cave007_F01_P:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.70"
+      },
+      null,
+      {
+        "ObjectName": "InstancedFoliageActor'Cave007_F01_P:PersistentLevel.InstancedFoliageActor_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.49"
+      },
+      {
+        "ObjectName": "SphereReflectionCapture'Cave007_F01_P:PersistentLevel.SphereReflectionCapture_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.112"
+      },
+      {
+        "ObjectName": "BP_CarrotGameRuleStory_C'Cave007_F01_P:PersistentLevel.ACarrotGameRuleStory_4'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.8"
+      },
+      {
+        "ObjectName": "NavMeshBoundsVolume'Cave007_F01_P:PersistentLevel.NavMeshBoundsVolume_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.80"
+      },
+      {
+        "ObjectName": "LightmassImportanceVolume'Cave007_F01_P:PersistentLevel.LightmassImportanceVolume_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.63"
+      },
+      {
+        "ObjectName": "PrecomputedVisibilityVolume'Cave007_F01_P:PersistentLevel.PrecomputedVisibilityVolume_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.83"
+      },
+      {
+        "ObjectName": "CullDistanceVolume'Cave007_F01_P:PersistentLevel.CullDistanceVolume_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.43"
+      },
+      {
+        "ObjectName": "NavLinkProxy'Cave007_F01_P:PersistentLevel.NavLinkProxy2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.76"
+      },
+      {
+        "ObjectName": "NavLinkProxy'Cave007_F01_P:PersistentLevel.NavLinkProxy3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.77"
+      },
+      {
+        "ObjectName": "BP_EnvController_C'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.10"
+      },
+      {
+        "ObjectName": "NavLinkProxy'Cave007_F01_P:PersistentLevel.NavLinkProxy4'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.78"
+      },
+      {
+        "ObjectName": "BP_CarrotSkySphere_C'Cave007_F01_P:PersistentLevel.BP_CarrotSkySphere_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.9"
+      },
+      {
+        "ObjectName": "NavModifierVolume'Cave007_F01_P:PersistentLevel.NavModifierVolume_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.81"
+      },
+      {
+        "ObjectName": "CMA_T04_BG_Bamboo01_C'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.30"
+      },
+      {
+        "ObjectName": "CMA_T04_BG_Bamboo01_C'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.31"
+      },
+      {
+        "ObjectName": "CMA_T04_BG_Bamboo01_C'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.32"
+      },
+      {
+        "ObjectName": "CMA_T04_BG_Bamboo01_C'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_4'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.33"
+      },
+      {
+        "ObjectName": "CMA_T04_BG_Bamboo01_C'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_5'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.34"
+      },
+      {
+        "ObjectName": "CMA_T04_BG_Bamboo01_C'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_6'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.35"
+      },
+      {
+        "ObjectName": "CMA_T04_DC_Lantern01_Ufokciifa_C'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.38"
+      },
+      {
+        "ObjectName": "CMA_T04_DC_Lantern01_Ufokciifa_C'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.39"
+      },
+      {
+        "ObjectName": "CMA_T04_DC_Lantern01_Ufokciifa_C'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.40"
+      },
+      {
+        "ObjectName": "CMA_T04_BG_Bamboo01_C'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_7'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.36"
+      },
+      {
+        "ObjectName": "CMA_T04_BG_Bamboo01_C'Cave007_F01_P:PersistentLevel.CMA_T04_BG_Bamboo01_8'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.37"
+      },
+      {
+        "ObjectName": "CMA_T04_DC_Lantern01_Ufokciifa_C'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_4'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.41"
+      },
+      {
+        "ObjectName": "CMA_T04_DC_Lantern01_Ufokciifa_C'Cave007_F01_P:PersistentLevel.CMA_T04_DC_Lantern01_Ufokciifa_5'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.42"
+      },
+      {
+        "ObjectName": "NavLinkProxy'Cave007_F01_P:PersistentLevel.NavLinkProxy5'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.79"
+      },
+      {
+        "ObjectName": "RecastNavMeshPikmin'Cave007_F01_P:PersistentLevel.RecastNavMeshPikmin-Pikmin'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.86"
+      },
+      {
+        "ObjectName": "RecastNavMeshOtakaraSmall'Cave007_F01_P:PersistentLevel.RecastNavMeshOtakaraSmall-SmallOtakara'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.85"
+      },
+      {
+        "ObjectName": "RecastNavMeshOtakaraBig'Cave007_F01_P:PersistentLevel.RecastNavMeshOtakaraBig-BigOtakara'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.84"
+      },
+      {
+        "ObjectName": "Cave007_F01_P_C'Cave007_F01_P:PersistentLevel.Cave007_F01_P_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.29"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Engine/Maps/Entry",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Cave007_F01_P:PersistentLevel.Model_3'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.66"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Cave007_F01_P_C'Cave007_F01_P:PersistentLevel.Cave007_F01_P_C_1'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.29"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_0",
+    "Outer": "Cave007_F01_P",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Sublevels/Cave007_F01_Effects.Cave007_F01_Effects",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.28124952,
+        "A": 1.0,
+        "Hex": "FFFF0091"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_1",
+    "Outer": "Cave007_F01_P",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Sublevels/Cave007_F01_Player.Cave007_F01_Player",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.9921875,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_2",
+    "Outer": "Cave007_F01_P",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Sublevels/Cave007_F01_SoundOption.Cave007_F01_SoundOption",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.39843702,
+        "A": 1.0,
+        "Hex": "FFFF00A9"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_3",
+    "Outer": "Cave007_F01_P",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Sublevels/Cave007_F01_Background.Cave007_F01_Background",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.617188,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFCE00FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_4",
+    "Outer": "Cave007_F01_P",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Sublevels/Cave007_F01_Plants.Cave007_F01_Plants",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.8515624,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFEEFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_5",
+    "Outer": "Cave007_F01_P",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Sublevels/Cave007_F01_Foliage.Cave007_F01_Foliage",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.171875,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF7300FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_6",
+    "Outer": "Cave007_F01_P",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Sublevels/Cave007_F01_GameArea.Cave007_F01_GameArea",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.539062,
+        "A": 1.0,
+        "Hex": "FFFF00C2"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_0",
+    "Outer": "Cave007_F01_P",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Sublevels/Cave007_F01_NPC.Cave007_F01_NPC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.875,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFF1FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_1",
+    "Outer": "Cave007_F01_P",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Sublevels/Cave007_F01_Objects.Cave007_F01_Objects",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.17968726,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF0076FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_2",
+    "Outer": "Cave007_F01_P",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Sublevels/Cave007_F01_Sound.Cave007_F01_Sound",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.67968756,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFD700"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_3",
+    "Outer": "Cave007_F01_P",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Sublevels/Cave007_F01_Teki.Cave007_F01_Teki",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.05468738,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF42FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_4",
+    "Outer": "Cave007_F01_P",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Sublevels/Cave007_F01_Demo.Cave007_F01_Demo",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.4296875,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFAF00FF"
+      }
+    }
+  },
+  {
+    "Type": "LightmassImportanceVolume",
+    "Name": "LightmassImportanceVolume_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LightmassImportanceVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'Cave007_F01_P:PersistentLevel.LightmassImportanceVolume_0.Model_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.65"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'Cave007_F01_P:PersistentLevel.LightmassImportanceVolume_0.BrushComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.12"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'Cave007_F01_P:PersistentLevel.LightmassImportanceVolume_0.BrushComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.12"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "CullDistanceVolume_0",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 1475.0,
+        "Y": 1475.2517,
+        "Z": 400.0
+      },
+      "SphereRadius": 2124.145
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -1475.0,
+        "Y": -1475.2517,
+        "Z": -400.0
+      },
+      {
+        "X": -1475.0,
+        "Y": -1475.2517,
+        "Z": 400.0
+      },
+      {
+        "X": -1475.0,
+        "Y": 1475.2517,
+        "Z": 400.0
+      },
+      {
+        "X": -1475.0,
+        "Y": 1475.2517,
+        "Z": -400.0
+      },
+      {
+        "X": 1475.0,
+        "Y": 1475.2517,
+        "Z": 400.0
+      },
+      {
+        "X": 1475.0,
+        "Y": 1475.2517,
+        "Z": -400.0
+      },
+      {
+        "X": 1475.0,
+        "Y": -1475.2517,
+        "Z": 400.0
+      },
+      {
+        "X": 1475.0,
+        "Y": -1475.2517,
+        "Z": -400.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 1475.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 1475.2517,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 1475.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 1475.2517,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 400.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 400.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 1475.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 1475.2517,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 1475.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 1475.2517,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 400.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 400.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "4B2F1311-4F9C89A7-A0BCB4BC-B36E926F",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_1",
+    "Outer": "LightmassImportanceVolume_0",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 1475.0,
+        "Y": 1475.2517,
+        "Z": 400.0
+      },
+      "SphereRadius": 2124.145
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -1475.0,
+        "Y": -1475.2517,
+        "Z": -400.0
+      },
+      {
+        "X": -1475.0,
+        "Y": -1475.2517,
+        "Z": 400.0
+      },
+      {
+        "X": -1475.0,
+        "Y": 1475.2517,
+        "Z": 400.0
+      },
+      {
+        "X": -1475.0,
+        "Y": 1475.2517,
+        "Z": -400.0
+      },
+      {
+        "X": 1475.0,
+        "Y": 1475.2517,
+        "Z": 400.0
+      },
+      {
+        "X": 1475.0,
+        "Y": 1475.2517,
+        "Z": -400.0
+      },
+      {
+        "X": 1475.0,
+        "Y": -1475.2517,
+        "Z": 400.0
+      },
+      {
+        "X": 1475.0,
+        "Y": -1475.2517,
+        "Z": -400.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 1475.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 1475.2517,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 1475.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 1475.2517,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 400.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 400.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 1475.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 1475.2517,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 1475.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 1475.2517,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 400.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 400.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "5EFD13D3-4E5EEEB4-FA54BDA1-B3E6101E",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "C5EC4CC5-43A6A65F-696831B3-E3C6CB13",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_1",
+    "Outer": "NavMeshBoundsVolume_0",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 1475.0,
+        "Y": 1475.2517,
+        "Z": 400.0
+      },
+      "SphereRadius": 2124.145
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -1475.0,
+        "Y": -1475.2517,
+        "Z": -400.0
+      },
+      {
+        "X": -1475.0,
+        "Y": -1475.2517,
+        "Z": 400.0
+      },
+      {
+        "X": -1475.0,
+        "Y": 1475.2517,
+        "Z": 400.0
+      },
+      {
+        "X": -1475.0,
+        "Y": 1475.2517,
+        "Z": -400.0
+      },
+      {
+        "X": 1475.0,
+        "Y": 1475.2517,
+        "Z": 400.0
+      },
+      {
+        "X": 1475.0,
+        "Y": 1475.2517,
+        "Z": -400.0
+      },
+      {
+        "X": 1475.0,
+        "Y": -1475.2517,
+        "Z": 400.0
+      },
+      {
+        "X": 1475.0,
+        "Y": -1475.2517,
+        "Z": -400.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 1475.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 1475.2517,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 1475.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 1475.2517,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 400.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 400.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 1475.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 1475.2517,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 1475.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 1475.2517,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 400.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 400.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "E024CCF0-4FBF7B05-A5488390-700AAB58",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "NavModifierVolume_1",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "4B5C7F89-49446003-05CFEE8A-A9E71AAA",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PrecomputedVisibilityVolume_0",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 1475.0,
+        "Y": 1475.2517,
+        "Z": 400.0
+      },
+      "SphereRadius": 2124.145
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -1475.0,
+        "Y": -1475.2517,
+        "Z": -400.0
+      },
+      {
+        "X": -1475.0,
+        "Y": -1475.2517,
+        "Z": 400.0
+      },
+      {
+        "X": -1475.0,
+        "Y": 1475.2517,
+        "Z": 400.0
+      },
+      {
+        "X": -1475.0,
+        "Y": 1475.2517,
+        "Z": -400.0
+      },
+      {
+        "X": 1475.0,
+        "Y": 1475.2517,
+        "Z": 400.0
+      },
+      {
+        "X": 1475.0,
+        "Y": 1475.2517,
+        "Z": -400.0
+      },
+      {
+        "X": 1475.0,
+        "Y": -1475.2517,
+        "Z": 400.0
+      },
+      {
+        "X": 1475.0,
+        "Y": -1475.2517,
+        "Z": -400.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 1475.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 1475.2517,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 1475.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 1475.2517,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 400.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 400.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 1475.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 1475.2517,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 1475.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 1475.2517,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 400.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 400.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "9DBED372-42F3611A-1108F99F-BDEAAB05",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "ActorPlacementInfoListAssets": [
+        {
+          "AssetPathName": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/ActorPlacementInfo/APL_Cave007_F01_P.APL_Cave007_F01_P",
+          "SubPathString": ""
+        }
+      ],
+      "PresetStartName": "Cave007_F01",
+      "VisibilityCellSize": 100,
+      "VisibilityAggressiveness": "VIS_ModeratelyAggressive",
+      "bEnableNavigationSystem": false,
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Cave007_F01_P:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.71"
+      },
+      "MaxUndilatedFrameTime": 0.03,
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "NavLinkCustomComponent",
+    "Name": "SmartLinkComp",
+    "Outer": "NavLinkProxy2",
+    "Class": "UScriptClass'NavLinkCustomComponent'",
+    "Properties": {
+      "NavLinkUserId": 3
+    }
+  },
+  {
+    "Type": "NavLinkCustomComponent",
+    "Name": "SmartLinkComp",
+    "Outer": "NavLinkProxy3",
+    "Class": "UScriptClass'NavLinkCustomComponent'",
+    "Properties": {
+      "NavLinkUserId": 86
+    }
+  },
+  {
+    "Type": "NavLinkCustomComponent",
+    "Name": "SmartLinkComp",
+    "Outer": "NavLinkProxy4",
+    "Class": "UScriptClass'NavLinkCustomComponent'",
+    "Properties": {
+      "NavLinkUserId": 7
+    }
+  },
+  {
+    "Type": "NavLinkCustomComponent",
+    "Name": "SmartLinkComp",
+    "Outer": "NavLinkProxy5",
+    "Class": "UScriptClass'NavLinkCustomComponent'",
+    "Properties": {
+      "NavLinkUserId": 10
+    }
+  },
+  {
+    "Type": "NavLinkProxy",
+    "Name": "NavLinkProxy2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NavLinkProxy'",
+    "Properties": {
+      "PointLinks": [
+        {
+          "Left": {
+            "X": -13.128342,
+            "Y": -99.99994,
+            "Z": 15.0
+          },
+          "Right": {
+            "X": 0.0001373291,
+            "Y": 105.0,
+            "Z": -55.0
+          },
+          "LeftProjectHeight": 0.0,
+          "MaxFallDownLength": 1000.0,
+          "SnapRadius": 30.0,
+          "SnapHeight": 50.0,
+          "SupportedAgents": {
+            "PackedBits": 2147483647
+          },
+          "bSupportsAgent0": true,
+          "bSupportsAgent1": true,
+          "bSupportsAgent2": true,
+          "bSupportsAgent3": true,
+          "bSupportsAgent4": true,
+          "bSupportsAgent5": true,
+          "bSupportsAgent6": true,
+          "bSupportsAgent7": true,
+          "bSupportsAgent8": true,
+          "bSupportsAgent9": true,
+          "bSupportsAgent10": true,
+          "bSupportsAgent11": true,
+          "bSupportsAgent12": true,
+          "bSupportsAgent13": true,
+          "bSupportsAgent14": true,
+          "bSupportsAgent15": true,
+          "Direction": "ENavLinkDirection::LeftToRight",
+          "bUseSnapHeight": true,
+          "bSnapToCheapestArea": true,
+          "bCustomFlag0": false,
+          "bCustomFlag1": false,
+          "bCustomFlag2": false,
+          "bCustomFlag3": false,
+          "bCustomFlag4": false,
+          "bCustomFlag5": false,
+          "bCustomFlag6": false,
+          "bCustomFlag7": false,
+          "AreaClass": {
+            "ObjectName": "Class'NavArea_Default'",
+            "ObjectPath": "/Script/NavigationSystem"
+          }
+        }
+      ],
+      "SmartLinkComp": {
+        "ObjectName": "NavLinkCustomComponent'Cave007_F01_P:PersistentLevel.NavLinkProxy2.SmartLinkComp'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.72"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.NavLinkProxy2.PositionComponent'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.103"
+      }
+    }
+  },
+  {
+    "Type": "NavLinkProxy",
+    "Name": "NavLinkProxy3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NavLinkProxy'",
+    "Properties": {
+      "PointLinks": [
+        {
+          "Left": {
+            "X": 1.5E-05,
+            "Y": -99.99999,
+            "Z": 15.0
+          },
+          "Right": {
+            "X": 0.00014516711,
+            "Y": 105.00001,
+            "Z": -103.0
+          },
+          "LeftProjectHeight": 0.0,
+          "MaxFallDownLength": 1000.0,
+          "SnapRadius": 30.0,
+          "SnapHeight": 50.0,
+          "SupportedAgents": {
+            "PackedBits": 2147483647
+          },
+          "bSupportsAgent0": true,
+          "bSupportsAgent1": true,
+          "bSupportsAgent2": true,
+          "bSupportsAgent3": true,
+          "bSupportsAgent4": true,
+          "bSupportsAgent5": true,
+          "bSupportsAgent6": true,
+          "bSupportsAgent7": true,
+          "bSupportsAgent8": true,
+          "bSupportsAgent9": true,
+          "bSupportsAgent10": true,
+          "bSupportsAgent11": true,
+          "bSupportsAgent12": true,
+          "bSupportsAgent13": true,
+          "bSupportsAgent14": true,
+          "bSupportsAgent15": true,
+          "Direction": "ENavLinkDirection::LeftToRight",
+          "bUseSnapHeight": true,
+          "bSnapToCheapestArea": true,
+          "bCustomFlag0": false,
+          "bCustomFlag1": false,
+          "bCustomFlag2": false,
+          "bCustomFlag3": false,
+          "bCustomFlag4": false,
+          "bCustomFlag5": false,
+          "bCustomFlag6": false,
+          "bCustomFlag7": false,
+          "AreaClass": {
+            "ObjectName": "Class'NavArea_Default'",
+            "ObjectPath": "/Script/NavigationSystem"
+          }
+        }
+      ],
+      "SmartLinkComp": {
+        "ObjectName": "NavLinkCustomComponent'Cave007_F01_P:PersistentLevel.NavLinkProxy3.SmartLinkComp'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.73"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.NavLinkProxy3.PositionComponent'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.104"
+      }
+    }
+  },
+  {
+    "Type": "NavLinkProxy",
+    "Name": "NavLinkProxy4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NavLinkProxy'",
+    "Properties": {
+      "PointLinks": [
+        {
+          "Left": {
+            "X": 1.5E-05,
+            "Y": -99.99999,
+            "Z": 15.0
+          },
+          "Right": {
+            "X": 0.000145,
+            "Y": 105.00001,
+            "Z": -103.0
+          },
+          "LeftProjectHeight": 0.0,
+          "MaxFallDownLength": 1000.0,
+          "SnapRadius": 30.0,
+          "SnapHeight": 50.0,
+          "SupportedAgents": {
+            "PackedBits": 2147483647
+          },
+          "bSupportsAgent0": true,
+          "bSupportsAgent1": true,
+          "bSupportsAgent2": true,
+          "bSupportsAgent3": true,
+          "bSupportsAgent4": true,
+          "bSupportsAgent5": true,
+          "bSupportsAgent6": true,
+          "bSupportsAgent7": true,
+          "bSupportsAgent8": true,
+          "bSupportsAgent9": true,
+          "bSupportsAgent10": true,
+          "bSupportsAgent11": true,
+          "bSupportsAgent12": true,
+          "bSupportsAgent13": true,
+          "bSupportsAgent14": true,
+          "bSupportsAgent15": true,
+          "Direction": "ENavLinkDirection::LeftToRight",
+          "bUseSnapHeight": true,
+          "bSnapToCheapestArea": true,
+          "bCustomFlag0": false,
+          "bCustomFlag1": false,
+          "bCustomFlag2": false,
+          "bCustomFlag3": false,
+          "bCustomFlag4": false,
+          "bCustomFlag5": false,
+          "bCustomFlag6": false,
+          "bCustomFlag7": false,
+          "AreaClass": {
+            "ObjectName": "Class'NavArea_Default'",
+            "ObjectPath": "/Script/NavigationSystem"
+          }
+        }
+      ],
+      "SmartLinkComp": {
+        "ObjectName": "NavLinkCustomComponent'Cave007_F01_P:PersistentLevel.NavLinkProxy4.SmartLinkComp'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.74"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.NavLinkProxy4.PositionComponent'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.105"
+      }
+    }
+  },
+  {
+    "Type": "NavLinkProxy",
+    "Name": "NavLinkProxy5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NavLinkProxy'",
+    "Properties": {
+      "PointLinks": [
+        {
+          "Left": {
+            "X": 3.0517578E-05,
+            "Y": -100.00005,
+            "Z": -35.0
+          },
+          "Right": {
+            "X": -2.306141,
+            "Y": -40.75552,
+            "Z": -103.0
+          },
+          "LeftProjectHeight": 0.0,
+          "MaxFallDownLength": 1000.0,
+          "SnapRadius": 30.0,
+          "SnapHeight": 50.0,
+          "SupportedAgents": {
+            "PackedBits": 2147483585
+          },
+          "bSupportsAgent0": true,
+          "bSupportsAgent1": true,
+          "bSupportsAgent2": true,
+          "bSupportsAgent3": true,
+          "bSupportsAgent4": true,
+          "bSupportsAgent5": true,
+          "bSupportsAgent6": true,
+          "bSupportsAgent7": true,
+          "bSupportsAgent8": true,
+          "bSupportsAgent9": true,
+          "bSupportsAgent10": true,
+          "bSupportsAgent11": true,
+          "bSupportsAgent12": true,
+          "bSupportsAgent13": true,
+          "bSupportsAgent14": true,
+          "bSupportsAgent15": true,
+          "Direction": "ENavLinkDirection::LeftToRight",
+          "bUseSnapHeight": true,
+          "bSnapToCheapestArea": true,
+          "bCustomFlag0": false,
+          "bCustomFlag1": false,
+          "bCustomFlag2": false,
+          "bCustomFlag3": false,
+          "bCustomFlag4": false,
+          "bCustomFlag5": false,
+          "bCustomFlag6": false,
+          "bCustomFlag7": false,
+          "AreaClass": {
+            "ObjectName": "Class'NavArea_Default'",
+            "ObjectPath": "/Script/NavigationSystem"
+          }
+        }
+      ],
+      "SmartLinkComp": {
+        "ObjectName": "NavLinkCustomComponent'Cave007_F01_P:PersistentLevel.NavLinkProxy5.SmartLinkComp'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.75"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.NavLinkProxy5.PositionComponent'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.106"
+      }
+    }
+  },
+  {
+    "Type": "NavMeshBoundsVolume",
+    "Name": "NavMeshBoundsVolume_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NavMeshBoundsVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'Cave007_F01_P:PersistentLevel.NavMeshBoundsVolume_0.Model_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.67"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'Cave007_F01_P:PersistentLevel.NavMeshBoundsVolume_0.BrushComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.13"
+      },
+      "bHidden": false,
+      "RootComponent": {
+        "ObjectName": "BrushComponent'Cave007_F01_P:PersistentLevel.NavMeshBoundsVolume_0.BrushComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.13"
+      }
+    }
+  },
+  {
+    "Type": "NavModifierVolume",
+    "Name": "NavModifierVolume_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NavModifierVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'Cave007_F01_P:PersistentLevel.NavModifierVolume_1.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.68"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'Cave007_F01_P:PersistentLevel.NavModifierVolume_1.BrushComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.14"
+      },
+      "bHidden": false,
+      "RootComponent": {
+        "ObjectName": "BrushComponent'Cave007_F01_P:PersistentLevel.NavModifierVolume_1.BrushComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.14"
+      }
+    }
+  },
+  {
+    "Type": "PostProcessComponent",
+    "Name": "PostProcess",
+    "Outer": "BP_EnvController_C_0",
+    "Template": "PostProcess",
+    "Class": "UScriptClass'PostProcessComponent'",
+    "Properties": {
+      "Settings": {
+        "bOverride_ColorSaturationHighlights": true,
+        "bOverride_SceneFringeIntensity": true,
+        "bOverride_BloomThreshold": true,
+        "bOverride_AutoExposureBias": false,
+        "bOverride_IndirectLightingColor": true,
+        "bOverride_C4IndirectLightingVolumetricLightmapIntensity": true,
+        "bOverride_C4IndirectLightingSpecularIntensity": true,
+        "bOverride_DepthOfFieldFocalDistance": true,
+        "bOverride_DepthOfFieldFocalRegion": true,
+        "bOverride_DepthOfFieldNearTransitionRegion": true,
+        "bOverride_DepthOfFieldFarTransitionRegion": true,
+        "bOverride_C4DepthOfFieldParam0": true,
+        "bOverride_C4DepthOfFieldParam1": true,
+        "bOverride_C4DepthOfFieldParam3": true,
+        "ColorSaturationHighlights": {
+          "X": 1.12,
+          "Y": 1.12,
+          "Z": 1.12,
+          "W": 1.0
+        },
+        "BloomIntensity": 1.0,
+        "BloomThreshold": 10.0,
+        "IndirectLightingIntensity": 1.0,
+        "DepthOfFieldFocalDistance": 600.0,
+        "DepthOfFieldFocalRegion": 800.0,
+        "DepthOfFieldNearTransitionRegion": 200.0,
+        "DepthOfFieldFarTransitionRegion": 3000.0,
+        "DepthOfFieldTiltAngles": {
+          "X": 50.0,
+          "Y": 0.0
+        },
+        "C4DepthOfFieldParam0": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 0.0,
+          "W": 0.0
+        },
+        "C4DepthOfFieldParam1": {
+          "X": 1.5,
+          "Y": 1.0,
+          "Z": 0.0,
+          "W": 0.05
+        },
+        "C4DepthOfFieldParam2": {
+          "X": 1.7,
+          "Y": 1.0,
+          "Z": 0.0,
+          "W": 0.0
+        },
+        "C4DepthOfFieldParam3": {
+          "X": 1500.0,
+          "Y": 3000.0,
+          "Z": 0.0,
+          "W": 0.0
+        },
+        "WeightedBlendables": {
+          "Array": [
+            {
+              "Weight": 0.0,
+              "Object": null
+            },
+            {
+              "Weight": 0.0,
+              "Object": null
+            },
+            {
+              "Weight": 0.0,
+              "Object": null
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.88"
+      },
+      "RelativeLocation": {
+        "X": 1704.0,
+        "Y": 491.0,
+        "Z": 113.0
+      }
+    }
+  },
+  {
+    "Type": "PrecomputedVisibilityVolume",
+    "Name": "PrecomputedVisibilityVolume_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PrecomputedVisibilityVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'Cave007_F01_P:PersistentLevel.PrecomputedVisibilityVolume_0.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.69"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'Cave007_F01_P:PersistentLevel.PrecomputedVisibilityVolume_0.BrushComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.15"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'Cave007_F01_P:PersistentLevel.PrecomputedVisibilityVolume_0.BrushComponent0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.15"
+      }
+    }
+  },
+  {
+    "Type": "RecastNavMeshOtakaraBig",
+    "Name": "RecastNavMeshOtakaraBig-BigOtakara",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RecastNavMeshOtakaraBig'",
+    "Properties": {
+      "NavDataConfig": {
+        "Name": "BigOtakara",
+        "Color": {
+          "B": 59,
+          "G": 0,
+          "R": 255,
+          "A": 164,
+          "Hex": "A4FF003B"
+        },
+        "DefaultQueryExtent": {
+          "X": 50.0,
+          "Y": 50.0,
+          "Z": 80.0
+        },
+        "NavDataClass": {
+          "AssetPathName": "/Script/Carrot4.RecastNavMeshOtakaraBig",
+          "SubPathString": ""
+        },
+        "AgentRadius": 70.0,
+        "AgentHeight": 10.0,
+        "AgentStepHeight": 6.0,
+        "PreferredNavData": {
+          "AssetPathName": "/Script/Carrot4.RecastNavMeshOtakaraBig",
+          "SubPathString": ""
+        }
+      },
+      "SupportedAreas": [
+        {
+          "AreaClassName": "NavArea_Null",
+          "AreaID": 0
+        },
+        {
+          "AreaClassName": "NavArea_LowHeight",
+          "AreaID": 62
+        },
+        {
+          "AreaClassName": "NavArea_Default",
+          "AreaID": 63
+        },
+        {
+          "AreaClassName": "NavArea_Obstacle",
+          "AreaID": 1
+        },
+        {
+          "AreaClassName": "NavArea_AmeBozu",
+          "AreaID": 2
+        },
+        {
+          "AreaClassName": "NavArea_AvatarAndWorkPikmin",
+          "AreaID": 3
+        },
+        {
+          "AreaClassName": "NavArea_AvatarOff",
+          "AreaID": 4
+        },
+        {
+          "AreaClassName": "NavArea_Branch",
+          "AreaID": 5
+        },
+        {
+          "AreaClassName": "NavArea_Closed",
+          "AreaID": 6
+        },
+        {
+          "AreaClassName": "NavArea_DefaultLowCost",
+          "AreaID": 7
+        },
+        {
+          "AreaClassName": "NavArea_Fly",
+          "AreaID": 8
+        },
+        {
+          "AreaClassName": "NavArea_FlyOff",
+          "AreaID": 9
+        },
+        {
+          "AreaClassName": "NavArea_Happy",
+          "AreaID": 10
+        },
+        {
+          "AreaClassName": "NavArea_HappyNoJump",
+          "AreaID": 11
+        },
+        {
+          "AreaClassName": "NavArea_HiddenBox",
+          "AreaID": 12
+        },
+        {
+          "AreaClassName": "NavArea_LowCeiling",
+          "AreaID": 13
+        },
+        {
+          "AreaClassName": "NavArea_ObstacleLight",
+          "AreaID": 14
+        },
+        {
+          "AreaClassName": "NavArea_Off",
+          "AreaID": 15
+        },
+        {
+          "AreaClassName": "NavArea_Pankuzu",
+          "AreaID": 16
+        },
+        {
+          "AreaClassName": "NavArea_ReservePaint",
+          "AreaID": 17
+        },
+        {
+          "AreaClassName": "NavArea_Splash",
+          "AreaID": 18
+        },
+        {
+          "AreaClassName": "NavArea_Water",
+          "AreaID": 19
+        },
+        {
+          "AreaClassName": "NavArea_WaterSurface",
+          "AreaID": 20
+        },
+        {
+          "AreaClassName": "NavArea_Work",
+          "AreaID": 21
+        },
+        {
+          "AreaClassName": "NavArea_WorkPikminOnly",
+          "AreaID": 22
+        },
+        {
+          "AreaClassName": "NavArea_ObstacleOff",
+          "AreaID": 23
+        }
+      ],
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.RecastNavMeshOtakaraBig-BigOtakara.SceneComp'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.107"
+      }
+    }
+  },
+  {
+    "Type": "RecastNavMeshOtakaraSmall",
+    "Name": "RecastNavMeshOtakaraSmall-SmallOtakara",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RecastNavMeshOtakaraSmall'",
+    "Properties": {
+      "NavDataConfig": {
+        "Name": "SmallOtakara",
+        "Color": {
+          "B": 255,
+          "G": 191,
+          "R": 0,
+          "A": 164,
+          "Hex": "A400BFFF"
+        },
+        "DefaultQueryExtent": {
+          "X": 50.0,
+          "Y": 50.0,
+          "Z": 80.0
+        },
+        "NavDataClass": {
+          "AssetPathName": "/Script/Carrot4.RecastNavMeshOtakaraSmall",
+          "SubPathString": ""
+        },
+        "AgentRadius": 34.0,
+        "AgentHeight": 10.0,
+        "PreferredNavData": {
+          "AssetPathName": "/Script/Carrot4.RecastNavMeshOtakaraSmall",
+          "SubPathString": ""
+        }
+      },
+      "SupportedAreas": [
+        {
+          "AreaClassName": "NavArea_Null",
+          "AreaID": 0
+        },
+        {
+          "AreaClassName": "NavArea_LowHeight",
+          "AreaID": 62
+        },
+        {
+          "AreaClassName": "NavArea_Default",
+          "AreaID": 63
+        },
+        {
+          "AreaClassName": "NavArea_Obstacle",
+          "AreaID": 1
+        },
+        {
+          "AreaClassName": "NavArea_AmeBozu",
+          "AreaID": 2
+        },
+        {
+          "AreaClassName": "NavArea_AvatarAndWorkPikmin",
+          "AreaID": 3
+        },
+        {
+          "AreaClassName": "NavArea_AvatarOff",
+          "AreaID": 4
+        },
+        {
+          "AreaClassName": "NavArea_Branch",
+          "AreaID": 5
+        },
+        {
+          "AreaClassName": "NavArea_Closed",
+          "AreaID": 6
+        },
+        {
+          "AreaClassName": "NavArea_DefaultLowCost",
+          "AreaID": 7
+        },
+        {
+          "AreaClassName": "NavArea_Fly",
+          "AreaID": 8
+        },
+        {
+          "AreaClassName": "NavArea_FlyOff",
+          "AreaID": 9
+        },
+        {
+          "AreaClassName": "NavArea_Happy",
+          "AreaID": 10
+        },
+        {
+          "AreaClassName": "NavArea_HappyNoJump",
+          "AreaID": 11
+        },
+        {
+          "AreaClassName": "NavArea_HiddenBox",
+          "AreaID": 12
+        },
+        {
+          "AreaClassName": "NavArea_LowCeiling",
+          "AreaID": 13
+        },
+        {
+          "AreaClassName": "NavArea_ObstacleLight",
+          "AreaID": 14
+        },
+        {
+          "AreaClassName": "NavArea_Off",
+          "AreaID": 15
+        },
+        {
+          "AreaClassName": "NavArea_Pankuzu",
+          "AreaID": 16
+        },
+        {
+          "AreaClassName": "NavArea_ReservePaint",
+          "AreaID": 17
+        },
+        {
+          "AreaClassName": "NavArea_Splash",
+          "AreaID": 18
+        },
+        {
+          "AreaClassName": "NavArea_Water",
+          "AreaID": 19
+        },
+        {
+          "AreaClassName": "NavArea_WaterSurface",
+          "AreaID": 20
+        },
+        {
+          "AreaClassName": "NavArea_Work",
+          "AreaID": 21
+        },
+        {
+          "AreaClassName": "NavArea_WorkPikminOnly",
+          "AreaID": 22
+        },
+        {
+          "AreaClassName": "NavArea_ObstacleOff",
+          "AreaID": 23
+        }
+      ],
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.RecastNavMeshOtakaraSmall-SmallOtakara.SceneComp'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.108"
+      }
+    }
+  },
+  {
+    "Type": "RecastNavMeshPikmin",
+    "Name": "RecastNavMeshPikmin-Pikmin",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RecastNavMeshPikmin'",
+    "Properties": {
+      "NavDataConfig": {
+        "Name": "Pikmin",
+        "DefaultQueryExtent": {
+          "X": 50.0,
+          "Y": 50.0,
+          "Z": 80.0
+        },
+        "NavDataClass": {
+          "AssetPathName": "/Script/Carrot4.RecastNavMeshPikmin",
+          "SubPathString": ""
+        },
+        "AgentRadius": 12.0,
+        "AgentHeight": 10.0,
+        "PreferredNavData": {
+          "AssetPathName": "/Script/Carrot4.RecastNavMeshPikmin",
+          "SubPathString": ""
+        }
+      },
+      "SupportedAreas": [
+        {
+          "AreaClassName": "NavArea_Null",
+          "AreaID": 0
+        },
+        {
+          "AreaClassName": "NavArea_LowHeight",
+          "AreaID": 62
+        },
+        {
+          "AreaClassName": "NavArea_Default",
+          "AreaID": 63
+        },
+        {
+          "AreaClassName": "NavArea_Obstacle",
+          "AreaID": 1
+        },
+        {
+          "AreaClassName": "NavArea_AmeBozu",
+          "AreaID": 2
+        },
+        {
+          "AreaClassName": "NavArea_AvatarAndWorkPikmin",
+          "AreaID": 3
+        },
+        {
+          "AreaClassName": "NavArea_AvatarOff",
+          "AreaID": 4
+        },
+        {
+          "AreaClassName": "NavArea_Branch",
+          "AreaID": 5
+        },
+        {
+          "AreaClassName": "NavArea_Closed",
+          "AreaID": 6
+        },
+        {
+          "AreaClassName": "NavArea_DefaultLowCost",
+          "AreaID": 7
+        },
+        {
+          "AreaClassName": "NavArea_Fly",
+          "AreaID": 8
+        },
+        {
+          "AreaClassName": "NavArea_FlyOff",
+          "AreaID": 9
+        },
+        {
+          "AreaClassName": "NavArea_Happy",
+          "AreaID": 10
+        },
+        {
+          "AreaClassName": "NavArea_HappyNoJump",
+          "AreaID": 11
+        },
+        {
+          "AreaClassName": "NavArea_HiddenBox",
+          "AreaID": 12
+        },
+        {
+          "AreaClassName": "NavArea_LowCeiling",
+          "AreaID": 13
+        },
+        {
+          "AreaClassName": "NavArea_ObstacleLight",
+          "AreaID": 14
+        },
+        {
+          "AreaClassName": "NavArea_Off",
+          "AreaID": 15
+        },
+        {
+          "AreaClassName": "NavArea_Pankuzu",
+          "AreaID": 16
+        },
+        {
+          "AreaClassName": "NavArea_ReservePaint",
+          "AreaID": 17
+        },
+        {
+          "AreaClassName": "NavArea_Splash",
+          "AreaID": 18
+        },
+        {
+          "AreaClassName": "NavArea_Water",
+          "AreaID": 19
+        },
+        {
+          "AreaClassName": "NavArea_WaterSurface",
+          "AreaID": 20
+        },
+        {
+          "AreaClassName": "NavArea_Work",
+          "AreaID": 21
+        },
+        {
+          "AreaClassName": "NavArea_WorkPikminOnly",
+          "AreaID": 22
+        },
+        {
+          "AreaClassName": "NavArea_ObstacleOff",
+          "AreaID": 23
+        }
+      ],
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.RecastNavMeshPikmin-Pikmin.SceneComp'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.109"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BP_CarrotSkySphere_C_0",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BP_EnvController_C_0",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -600.0,
+        "Y": -100.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "CMA_T04_BG_Bamboo01_1",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1100.6194,
+        "Y": 13049.799,
+        "Z": -7611.2603
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -60.000107,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 20.0,
+        "Y": 20.0,
+        "Z": 20.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "CMA_T04_BG_Bamboo01_2",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -3498.1875,
+        "Y": 9982.164,
+        "Z": -7464.049
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 10.000029,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 16.0,
+        "Y": 16.0,
+        "Z": 16.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "CMA_T04_BG_Bamboo01_3",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -5957.6504,
+        "Y": 10896.406,
+        "Z": -8698.58
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -210.00012,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 20.0,
+        "Y": 20.0,
+        "Z": 20.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "CMA_T04_BG_Bamboo01_4",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -5073.1045,
+        "Y": -8814.64,
+        "Z": -5430.1304
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -10.000031,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 20.0,
+        "Y": 20.0,
+        "Z": 20.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "CMA_T04_BG_Bamboo01_5",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -6735.7275,
+        "Y": -7849.2617,
+        "Z": -5586.13
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 130.00005,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 20.0,
+        "Y": 20.0,
+        "Z": 20.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "CMA_T04_BG_Bamboo01_6",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 6249.241,
+        "Y": -10109.271,
+        "Z": -5339.4893
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 96.92323,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 16.0,
+        "Y": 16.0,
+        "Z": 16.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "CMA_T04_BG_Bamboo01_7",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -10524.249,
+        "Y": -3158.734,
+        "Z": -2641.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -0.000168,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 8.0,
+        "Y": 8.0,
+        "Z": 8.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "CMA_T04_BG_Bamboo01_8",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -12439.222,
+        "Y": -2284.734,
+        "Z": -3064.0
+      },
+      "RelativeRotation": {
+        "Pitch": 8.649198,
+        "Yaw": -59.618984,
+        "Roll": 5.038342
+      },
+      "RelativeScale3D": {
+        "X": 7.75,
+        "Y": 7.75,
+        "Z": 7.75
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "CMA_T04_DC_Lantern01_Ufokciifa_1",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3798.8237,
+        "Y": -7930.0,
+        "Z": -1293.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 35.862766,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "CMA_T04_DC_Lantern01_Ufokciifa_2",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 5443.735,
+        "Y": -6508.0317,
+        "Z": -1293.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 62.892693,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "CMA_T04_DC_Lantern01_Ufokciifa_3",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 8115.5566,
+        "Y": -5598.619,
+        "Z": -1293.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 62.892693,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "CMA_T04_DC_Lantern01_Ufokciifa_4",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 9019.021,
+        "Y": 2882.67,
+        "Z": -1399.001
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 92.89271,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "CMA_T04_DC_Lantern01_Ufokciifa_5",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 8347.199,
+        "Y": 4396.67,
+        "Z": -1399.001
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 122.892746,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent0",
+    "Outer": "InstancedFoliageActor_0",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PositionComponent",
+    "Outer": "NavLinkProxy2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -324.7456,
+        "Y": -121.85181,
+        "Z": 116.422424
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 450.00024,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PositionComponent",
+    "Outer": "NavLinkProxy3",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 59.145874,
+        "Y": -1029.6206,
+        "Z": 177.42242
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 715.00037,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PositionComponent",
+    "Outer": "NavLinkProxy4",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -389.85413,
+        "Y": -1029.6206,
+        "Z": 177.42242
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 715.00037,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PositionComponent",
+    "Outer": "NavLinkProxy5",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -105.854126,
+        "Y": -739.6206,
+        "Z": 177.42242
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 805.00037,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "RecastNavMeshOtakaraBig-BigOtakara",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "RecastNavMeshOtakaraSmall-SmallOtakara",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "RecastNavMeshPikmin-Pikmin",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SkyAtmosphereComponent",
+    "Name": "SkyAtmosphere1",
+    "Outer": "BP_EnvController_C_0",
+    "Template": "SkyAtmosphere1_GEN_VARIABLE",
+    "Class": "UScriptClass'SkyAtmosphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.88"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    },
+    "bStaticLightingBuiltGUID": "90CE891E-46AAB74D-C90671AE-CD3D634A"
+  },
+  {
+    "Type": "SkyLightComponent",
+    "Name": "SkyLight",
+    "Outer": "BP_EnvController_C_0",
+    "Template": "SkyLight",
+    "Class": "UScriptClass'SkyLightComponent'",
+    "Properties": {
+      "SourceType": "SLS_CapturedScene",
+      "bCaptureEmissiveOnly": false,
+      "bLowerHemisphereIsBlack": true,
+      "LightGuid": "9A95FBCB-43BC63F3-E0F36AAF-C0498AAC",
+      "Intensity": 15.0,
+      "IndirectLightingIntensity": 1.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.88"
+      },
+      "RelativeLocation": {
+        "X": 1704.0,
+        "Y": 491.0,
+        "Z": 113.0
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCapture",
+    "Name": "SphereReflectionCapture_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SphereReflectionCapture'",
+    "Properties": {
+      "DrawCaptureRadius": {
+        "ObjectName": "DrawSphereComponent'Cave007_F01_P:PersistentLevel.SphereReflectionCapture_1.DrawRadius1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.47"
+      },
+      "CaptureComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'Cave007_F01_P:PersistentLevel.SphereReflectionCapture_1.NewReflectionComponent'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.113"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'Cave007_F01_P:PersistentLevel.SphereReflectionCapture_1.NewReflectionComponent'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.113"
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCaptureComponent",
+    "Name": "NewReflectionComponent",
+    "Outer": "SphereReflectionCapture_1",
+    "Class": "UScriptClass'SphereReflectionCaptureComponent'",
+    "Properties": {
+      "PreviewInfluenceRadius": {
+        "ObjectName": "DrawSphereComponent'Cave007_F01_P:PersistentLevel.SphereReflectionCapture_1.DrawRadius0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.46"
+      },
+      "CaptureOffsetComponent": null,
+      "MaxValueRGBM": 1.0,
+      "MapBuildDataId": "83A4DB96-41FC8D28-8A69C6AA-9CE4A50F",
+      "RelativeLocation": {
+        "X": 108.0,
+        "Y": -278.0,
+        "Z": 132.0
+      }
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "SpotLight",
+    "Outer": "BP_EnvController_C_0",
+    "Template": "SpotLight",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.88"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SkySphereMesh",
+    "Outer": "BP_CarrotSkySphere_C_0",
+    "Template": "SkySphereMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "OverrideMaterials": [
+        null
+      ],
+      "VisibilityId": 0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.BP_CarrotSkySphere_C_0.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.87"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A43953B6453C17A9ED62EEA177FBC293"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "GraySphere",
+    "Outer": "BP_EnvController_C_0",
+    "Template": "GraySphere_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.88"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MirrorSphere",
+    "Outer": "BP_EnvController_C_0",
+    "Template": "MirrorSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Cave007_F01_P:PersistentLevel.BP_EnvController_C_0.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.88"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Cave007_F01_P",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Cave007_F01_P:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.50"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingDynamic'Cave007_F01_P:LevelStreamingDynamic_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.58"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'Cave007_F01_P:LevelStreamingDynamic_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.59"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'Cave007_F01_P:LevelStreamingDynamic_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.60"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'Cave007_F01_P:LevelStreamingDynamic_3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.61"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'Cave007_F01_P:LevelStreamingAlwaysLoaded_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.51"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'Cave007_F01_P:LevelStreamingAlwaysLoaded_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.52"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'Cave007_F01_P:LevelStreamingAlwaysLoaded_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.53"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'Cave007_F01_P:LevelStreamingAlwaysLoaded_3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.54"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'Cave007_F01_P:LevelStreamingAlwaysLoaded_5'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.56"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'Cave007_F01_P:LevelStreamingDynamic_4'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.62"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'Cave007_F01_P:LevelStreamingAlwaysLoaded_6'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.57"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'Cave007_F01_P:LevelStreamingAlwaysLoaded_4'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave007/Cave007_F01/Cave007_F01_P.55"
+      }
+    ]
+  }
+]

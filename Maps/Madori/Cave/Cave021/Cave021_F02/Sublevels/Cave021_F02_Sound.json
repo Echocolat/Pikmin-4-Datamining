@@ -1,0 +1,847 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Cave021_F02_Sound_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "LatestSerialId",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Cave021_F02_Sound_C'Default__Cave021_F02_Sound_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.1"
+    }
+  },
+  {
+    "Type": "Cave021_F02_Sound_C",
+    "Name": "Default__Cave021_F02_Sound_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.Cave021_F02_Sound_C'",
+    "Properties": {
+      "LatestSerialId": 3
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_0",
+    "Template": "Ak",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 967.0342,
+        "Y": -275.3463,
+        "Z": -29.762783
+      },
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.2"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.2"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_1",
+    "Template": "Ak",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -889.1141,
+        "Y": -597.1509,
+        "Z": -6.0911846
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.999954,
+        "Roll": 0.0
+      },
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.3"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.3"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "BP_AmbientSoundMulti_WaterBox_Cave_C",
+    "Name": "BP_AmbientSoundMulti_WaterBox_Cave_C_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_AmbientSoundMulti_WaterBox_Cave_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Audio/Blueprints/BP_AmbientSoundMulti_WaterBox_Cave.BP_AmbientSoundMulti_WaterBox_Cave_C'",
+    "Properties": {
+      "CakMultiplePosition": {
+        "ObjectName": "CakMultiplePositionComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.CakMultiplePosition'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.12"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.2"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.10"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.8"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.6"
+      },
+      "CakSimpleState": {
+        "ObjectName": "CakSimpleStateComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.CakSimpleState'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.14"
+      },
+      "CakTrigger": {
+        "ObjectName": "CakTriggerComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.CakTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.16"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4617599247796142081
+      },
+      "RootComponent": {
+        "ObjectName": "AkComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.2"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CakMultiplePositionComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.CakMultiplePosition'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.12"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_AmbientSoundMulti_WaterBox_Cave_C",
+    "Name": "BP_AmbientSoundMulti_WaterBox_Cave_C_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_AmbientSoundMulti_WaterBox_Cave_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Audio/Blueprints/BP_AmbientSoundMulti_WaterBox_Cave.BP_AmbientSoundMulti_WaterBox_Cave_C'",
+    "Properties": {
+      "CakMultiplePosition": {
+        "ObjectName": "CakMultiplePositionComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.CakMultiplePosition'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.13"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.3"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.11"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.9"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.7"
+      },
+      "CakSimpleState": {
+        "ObjectName": "CakSimpleStateComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.CakSimpleState'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.15"
+      },
+      "CakTrigger": {
+        "ObjectName": "CakTriggerComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.CakTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.17"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4617599247796142082
+      },
+      "RootComponent": {
+        "ObjectName": "AkComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.3"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CakMultiplePositionComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.CakMultiplePosition'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.13"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_0",
+    "Template": "CakAudioTable",
+    "Class": "UScriptClass'CakAudioTableComponent'",
+    "Properties": {
+      "OverrideAudioTables": [
+        {
+          "AssetPathName": "/Game/Carrot4/Audio/AudioData/DT_AudioData_Amb_CaveWaterBox_Small.DT_AudioData_Amb_CaveWaterBox_Small",
+          "SubPathString": ""
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_1",
+    "Template": "CakAudioTable",
+    "Class": "UScriptClass'CakAudioTableComponent'"
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_0",
+    "Template": "CakEmitterConfig",
+    "Class": "UScriptClass'CakEmitterConfigComponent'"
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_1",
+    "Template": "CakEmitterConfig",
+    "Class": "UScriptClass'CakEmitterConfigComponent'"
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_0",
+    "Template": "CakEventHandler",
+    "Class": "UScriptClass'CakEventHandlerComponent'"
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_1",
+    "Template": "CakEventHandler",
+    "Class": "UScriptClass'CakEventHandlerComponent'"
+  },
+  {
+    "Type": "CakMultiplePositionComponent",
+    "Name": "CakMultiplePosition",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_0",
+    "Template": "CakMultiplePosition_GEN_VARIABLE",
+    "Class": "UScriptClass'CakMultiplePositionComponent'",
+    "Properties": {
+      "MultiplePositions": [
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": -100.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 100.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "AkComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.2"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakMultiplePositionComponent",
+    "Name": "CakMultiplePosition",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_1",
+    "Template": "CakMultiplePosition_GEN_VARIABLE",
+    "Class": "UScriptClass'CakMultiplePositionComponent'",
+    "Properties": {
+      "MultiplePositions": [
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 199.9999,
+            "Y": -200.0002,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 99.9999,
+            "Y": -200.00012,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -100.000084,
+            "Y": -199.99997,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -200.00008,
+            "Y": -199.9999,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 199.99997,
+            "Y": -100.000206,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -200.0,
+            "Y": -99.9999,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 200.00005,
+            "Y": -0.00021600723,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -199.99992,
+            "Y": 9.393692E-05,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 200.00012,
+            "Y": 99.99978,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -199.99985,
+            "Y": 100.000084,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 100.000206,
+            "Y": 199.99985,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.00021600723,
+            "Y": 199.99992,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -99.99978,
+            "Y": 200.0,
+            "Z": 50.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "AkComponent'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.3"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakSimpleStateComponent",
+    "Name": "CakSimpleState",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_0",
+    "Template": "CakSimpleState",
+    "Class": "UScriptClass'CakSimpleStateComponent'"
+  },
+  {
+    "Type": "CakSimpleStateComponent",
+    "Name": "CakSimpleState",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_1",
+    "Template": "CakSimpleState",
+    "Class": "UScriptClass'CakSimpleStateComponent'"
+  },
+  {
+    "Type": "CakTriggerComponent",
+    "Name": "CakTrigger",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_0",
+    "Template": "CakTrigger",
+    "Class": "UScriptClass'CakTriggerComponent'"
+  },
+  {
+    "Type": "CakTriggerComponent",
+    "Name": "CakTrigger",
+    "Outer": "BP_AmbientSoundMulti_WaterBox_Cave_C_1",
+    "Template": "CakTrigger",
+    "Class": "UScriptClass'CakTriggerComponent'"
+  },
+  {
+    "Type": "Cave021_F02_Sound_C",
+    "Name": "Cave021_F02_Sound_C_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Cave021_F02_Sound_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.Cave021_F02_Sound_C'"
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Cave021_F02_Sound",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Cave021_F02_Sound:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.20"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Cave021_F02_Sound_C'Cave021_F02_Sound:PersistentLevel.Cave021_F02_Sound_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.18"
+      },
+      "LevelBuildDataId": "2A04ED2F-40F73399-B023DA9A-743C53F8",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Cave021_F02_Sound_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Cave021_F02_Sound:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.21"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Cave021_F02_Sound:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.21"
+      },
+      null,
+      {
+        "ObjectName": "BP_AmbientSoundMulti_WaterBox_Cave_C'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.4"
+      },
+      {
+        "ObjectName": "BP_AmbientSoundMulti_WaterBox_Cave_C'Cave021_F02_Sound:PersistentLevel.BP_AmbientSoundMulti_WaterBox_Cave_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.5"
+      },
+      {
+        "ObjectName": "Cave021_F02_Sound_C'Cave021_F02_Sound:PersistentLevel.Cave021_F02_Sound_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.18"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Test/Maps/Check/CheckRomEntry_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Cave021_F02_Sound:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.20"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Cave021_F02_Sound_C'Cave021_F02_Sound:PersistentLevel.Cave021_F02_Sound_C_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.18"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "20ABCBBE-4AF7CAA9-33287695-26F1A801",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "bEnableNavigationSystem": false,
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Cave021_F02_Sound:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.22"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Cave021_F02_Sound",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Cave021_F02_Sound:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave021/Cave021_F02/Sublevels/Cave021_F02_Sound.19"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

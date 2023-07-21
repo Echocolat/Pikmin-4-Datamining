@@ -1,0 +1,1411 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Cave000_F00_NPC_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "LatestSerialId",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Cave000_F00_NPC_C'Default__Cave000_F00_NPC_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.1"
+    }
+  },
+  {
+    "Type": "Cave000_F00_NPC_C",
+    "Name": "Default__Cave000_F00_NPC_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.Cave000_F00_NPC_C'",
+    "Properties": {
+      "LatestSerialId": 8
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "GNpcEdit_2",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.18"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.2"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.2"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "GNpcEdit_TutorialGuide",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.23"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.3"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.3"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CakAudioFlagComponent",
+    "Name": "CakAudioFlag",
+    "Outer": "GNpcEdit_2",
+    "Template": "CakAudioFlag_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioFlagComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioFlagComponent",
+    "Name": "CakAudioFlag",
+    "Outer": "GNpcEdit_TutorialGuide",
+    "Template": "CakAudioFlag_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioFlagComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "GNpcEdit_2",
+    "Template": "CakAudioTable_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioTableComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "GNpcEdit_TutorialGuide",
+    "Template": "CakAudioTable_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioTableComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "GNpcEdit_2",
+    "Template": "CakEmitterConfig_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEmitterConfigComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "GNpcEdit_TutorialGuide",
+    "Template": "CakEmitterConfig_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEmitterConfigComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "GNpcEdit_2",
+    "Template": "CakEventHandler_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEventHandlerComponent'",
+    "Properties": {
+      "Unit_0": {
+        "ObjectName": "CakMoveSpeedControlUnit'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CakEventHandler.CakMoveSpeedControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.12"
+      },
+      "Unit_1": {
+        "ObjectName": "CakTerrainSwitchingUnit'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CakEventHandler.CakTerrainSwitchingUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.14"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "GNpcEdit_TutorialGuide",
+    "Template": "CakEventHandler_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEventHandlerComponent'",
+    "Properties": {
+      "Unit_0": {
+        "ObjectName": "CakMoveSpeedControlUnit'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CakEventHandler.CakMoveSpeedControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.13"
+      },
+      "Unit_1": {
+        "ObjectName": "CakTerrainSwitchingUnit'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CakEventHandler.CakTerrainSwitchingUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.15"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakMoveSpeedControlUnit",
+    "Name": "CakMoveSpeedControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakMoveSpeedControlUnit_0",
+    "Class": "UScriptClass'CakMoveSpeedControlUnit'"
+  },
+  {
+    "Type": "CakMoveSpeedControlUnit",
+    "Name": "CakMoveSpeedControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakMoveSpeedControlUnit_0",
+    "Class": "UScriptClass'CakMoveSpeedControlUnit'"
+  },
+  {
+    "Type": "CakTerrainSwitchingUnit",
+    "Name": "CakTerrainSwitchingUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakTerrainSwitchingUnit_0",
+    "Class": "UScriptClass'CakTerrainSwitchingUnit'"
+  },
+  {
+    "Type": "CakTerrainSwitchingUnit",
+    "Name": "CakTerrainSwitchingUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakTerrainSwitchingUnit_0",
+    "Class": "UScriptClass'CakTerrainSwitchingUnit'"
+  },
+  {
+    "Type": "CarrotMoveComponent",
+    "Name": "CarrotMove",
+    "Outer": "GNpcEdit_2",
+    "Template": "CarrotMove_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotMoveComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotMoveComponent",
+    "Name": "CarrotMove",
+    "Outer": "GNpcEdit_TutorialGuide",
+    "Template": "CarrotMove_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotMoveComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "CarrotSkeletalMesh",
+    "Outer": "GNpcEdit_2",
+    "Template": "CarrotSkeletalMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.45"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "F_j000_face",
+    "Outer": "GNpcEdit_2",
+    "Template": "F_j000_face_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.18"
+      },
+      "AttachSocketName": "F_j000",
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "F_j000_hair",
+    "Outer": "GNpcEdit_2",
+    "Template": "F_j000_hair_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.18"
+      },
+      "AttachSocketName": "F_j000",
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "H_j000_leaf",
+    "Outer": "GNpcEdit_2",
+    "Template": "H_j000_leaf_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.18"
+      },
+      "AttachSocketName": "H_j000",
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "ShadowMesh",
+    "Outer": "GNpcEdit_2",
+    "Template": "ShadowMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "MasterPoseComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.18"
+      },
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.18"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "CarrotSkeletalMesh",
+    "Outer": "GNpcEdit_TutorialGuide",
+    "Template": "CarrotSkeletalMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.48"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "F_j000_face",
+    "Outer": "GNpcEdit_TutorialGuide",
+    "Template": "F_j000_face_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.23"
+      },
+      "AttachSocketName": "F_j000",
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "F_j000_hair",
+    "Outer": "GNpcEdit_TutorialGuide",
+    "Template": "F_j000_hair_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.23"
+      },
+      "AttachSocketName": "F_j000",
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "H_j000_leaf",
+    "Outer": "GNpcEdit_TutorialGuide",
+    "Template": "H_j000_leaf_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.23"
+      },
+      "AttachSocketName": "H_j000",
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "ShadowMesh",
+    "Outer": "GNpcEdit_TutorialGuide",
+    "Template": "ShadowMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "MasterPoseComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.23"
+      },
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.23"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Cave000_F00_NPC_C",
+    "Name": "Cave000_F00_NPC_C_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Cave000_F00_NPC_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.Cave000_F00_NPC_C'"
+  },
+  {
+    "Type": "CharacterEditComponent",
+    "Name": "CharacterEdit",
+    "Outer": "GNpcEdit_2",
+    "Template": "CharacterEdit_GEN_VARIABLE",
+    "Class": "UScriptClass'CharacterEditComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CharacterEditComponent",
+    "Name": "CharacterEdit",
+    "Outer": "GNpcEdit_TutorialGuide",
+    "Template": "CharacterEdit_GEN_VARIABLE",
+    "Class": "UScriptClass'CharacterEditComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CollTreeComponent",
+    "Name": "CollTree",
+    "Outer": "GNpcEdit_2",
+    "Template": "CollTree_GEN_VARIABLE",
+    "Class": "UScriptClass'CollTreeComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CollTreeComponent",
+    "Name": "CollTree",
+    "Outer": "GNpcEdit_TutorialGuide",
+    "Template": "CollTree_GEN_VARIABLE",
+    "Class": "UScriptClass'CollTreeComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GNpcEdit_2",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "DemoType": "EDemoType::NotCreate",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GNpcEdit_TutorialGuide",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "DemoType": "EDemoType::NotCreate",
+      "QuestNames": [
+        "Tutorial_Demo_RescueSkill"
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "GNpcEdit_C",
+    "Name": "GNpcEdit_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GNpcEdit_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Npc/GNpcEdit.GNpcEdit_C'",
+    "Properties": {
+      "CakAudioFlag": {
+        "ObjectName": "CakAudioFlagComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CakAudioFlag'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.4"
+      },
+      "H_j000_leaf": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.H_j000_leaf'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.21"
+      },
+      "CharacterEdit": {
+        "ObjectName": "CharacterEditComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CharacterEdit'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.29"
+      },
+      "F_j000_face": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.F_j000_face'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.19"
+      },
+      "F_j000_hair": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.F_j000_hair'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.20"
+      },
+      "ShadowMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.ShadowMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.22"
+      },
+      "CollTree": {
+        "ObjectName": "CollTreeComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CollTree'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.31"
+      },
+      "CollTree_Body": {
+        "ObjectName": "SphereComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CollTree_Body'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.43"
+      },
+      "CarrotMove": {
+        "ObjectName": "CarrotMoveComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CarrotMove'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.16"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.2"
+      },
+      "NpcAI": {
+        "ObjectName": "NpcAIComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.NpcAI'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.41"
+      },
+      "OverlapArea": {
+        "ObjectName": "SphereComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.44"
+      },
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.33"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.6"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.8"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.10"
+      },
+      "CarrotSkeletalMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.18"
+      },
+      "Sphere": {
+        "ObjectName": "SphereComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.45"
+      },
+      "CarrotMoveComponent": {
+        "ObjectName": "CarrotMoveComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CarrotMove'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.16"
+      },
+      "SkeletalMeshComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.18"
+      },
+      "DemoBindName": "Area500_02_Survivor",
+      "GenerateInfo": {
+        "DebugUniqueId": 4611686048492158982
+      },
+      "RebirthInfo": {
+        "EraseCond": [
+          {
+            "Condition": "EActorPlacementCondition::QuestClear",
+            "CondInt": -1,
+            "CondName": "Tutorial_Dummy_DayEnd",
+            "CondPikminColor": "EPikminColor::Undef"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.45"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SphereComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.Sphere'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.45"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CarrotSkeletalMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.18"
+        },
+        {
+          "ObjectName": "AkComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.Ak'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.2"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CollTree_Body'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.43"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.ShadowMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.22"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.44"
+        },
+        {
+          "ObjectName": "CakEventHandlerComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CakEventHandler'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.10"
+        },
+        {
+          "ObjectName": "CakEmitterConfigComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CakEmitterConfig'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.8"
+        },
+        {
+          "ObjectName": "CakAudioTableComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CakAudioTable'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.6"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.33"
+        },
+        {
+          "ObjectName": "NpcAIComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.NpcAI'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.41"
+        },
+        {
+          "ObjectName": "CarrotMoveComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CarrotMove'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.16"
+        },
+        {
+          "ObjectName": "CollTreeComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CollTree'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.31"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.F_j000_hair'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.20"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.F_j000_face'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.19"
+        },
+        {
+          "ObjectName": "CharacterEditComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CharacterEdit'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.29"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.H_j000_leaf'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.21"
+        },
+        {
+          "ObjectName": "CakAudioFlagComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CakAudioFlag'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GNpcEdit_C",
+    "Name": "GNpcEdit_TutorialGuide",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GNpcEdit_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Npc/GNpcEdit.GNpcEdit_C'",
+    "Properties": {
+      "CakAudioFlag": {
+        "ObjectName": "CakAudioFlagComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CakAudioFlag'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.5"
+      },
+      "H_j000_leaf": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.H_j000_leaf'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.26"
+      },
+      "CharacterEdit": {
+        "ObjectName": "CharacterEditComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CharacterEdit'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.30"
+      },
+      "F_j000_face": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.F_j000_face'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.24"
+      },
+      "F_j000_hair": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.F_j000_hair'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.25"
+      },
+      "ShadowMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.ShadowMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.27"
+      },
+      "CollTree": {
+        "ObjectName": "CollTreeComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CollTree'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.32"
+      },
+      "CollTree_Body": {
+        "ObjectName": "SphereComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CollTree_Body'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.46"
+      },
+      "CarrotMove": {
+        "ObjectName": "CarrotMoveComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CarrotMove'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.17"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.3"
+      },
+      "NpcAI": {
+        "ObjectName": "NpcAIComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.NpcAI'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.42"
+      },
+      "OverlapArea": {
+        "ObjectName": "SphereComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.47"
+      },
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.34"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.7"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.9"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.11"
+      },
+      "CarrotSkeletalMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.23"
+      },
+      "Sphere": {
+        "ObjectName": "SphereComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.48"
+      },
+      "CarrotMoveComponent": {
+        "ObjectName": "CarrotMoveComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CarrotMove'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.17"
+      },
+      "SkeletalMeshComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.23"
+      },
+      "DemoBindName": "Area500_01_Survivor",
+      "GenerateInfo": {
+        "DebugUniqueId": 4611686048492158983
+      },
+      "RebirthInfo": {
+        "EraseCond": [
+          {
+            "Condition": "EActorPlacementCondition::QuestClear",
+            "CondInt": -1,
+            "CondName": "Tutorial_Dummy_DayEnd",
+            "CondPikminColor": "EPikminColor::Undef"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.48"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SphereComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.Sphere'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.48"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CarrotSkeletalMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.23"
+        },
+        {
+          "ObjectName": "AkComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.Ak'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.3"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CollTree_Body'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.46"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.ShadowMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.27"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.47"
+        },
+        {
+          "ObjectName": "CakEventHandlerComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CakEventHandler'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.11"
+        },
+        {
+          "ObjectName": "CakEmitterConfigComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CakEmitterConfig'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.9"
+        },
+        {
+          "ObjectName": "CakAudioTableComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CakAudioTable'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.7"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.34"
+        },
+        {
+          "ObjectName": "NpcAIComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.NpcAI'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.42"
+        },
+        {
+          "ObjectName": "CarrotMoveComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CarrotMove'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.17"
+        },
+        {
+          "ObjectName": "CollTreeComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CollTree'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.32"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.F_j000_hair'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.25"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.F_j000_face'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.24"
+        },
+        {
+          "ObjectName": "CharacterEditComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CharacterEdit'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.30"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.H_j000_leaf'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.26"
+        },
+        {
+          "ObjectName": "CakAudioFlagComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CakAudioFlag'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Cave000_F00_NPC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Cave000_F00_NPC:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.38"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Cave000_F00_NPC_C'Cave000_F00_NPC:PersistentLevel.Cave000_F00_NPC_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.28"
+      },
+      "LevelBuildDataId": "625C30AF-4B895266-25CFC894-5CF1D828",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Cave000_F00_NPC_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Cave000_F00_NPC:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.39"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Cave000_F00_NPC:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.39"
+      },
+      null,
+      {
+        "ObjectName": "GNpcEdit_C'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.35"
+      },
+      {
+        "ObjectName": "GNpcEdit_C'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.36"
+      },
+      {
+        "ObjectName": "Cave000_F00_NPC_C'Cave000_F00_NPC:PersistentLevel.Cave000_F00_NPC_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.28"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Carrot4/Maps/Boot_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Cave000_F00_NPC:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.38"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Cave000_F00_NPC_C'Cave000_F00_NPC:PersistentLevel.Cave000_F00_NPC_C_1'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.28"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "92441DB9-43B9C1D4-22C6169D-06265D43",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Cave000_F00_NPC:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.40"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "NpcAIComponent",
+    "Name": "NpcAI",
+    "Outer": "GNpcEdit_2",
+    "Template": "NpcAI_GEN_VARIABLE",
+    "Class": "UScriptClass'NpcAIComponent'",
+    "Properties": {
+      "NpcInfoKey": "SV001",
+      "AIParameter": {
+        "NpcAIInfos": [
+          {
+            "AIType": "ENpcAIType::Tutorial00",
+            "ProgressMin": 0,
+            "ProgressMax": 2147483647
+          }
+        ]
+      },
+      "SniffPointParameter": {
+        "OptionalPointOffsets": [
+          {
+            "X": 560.0,
+            "Y": -180.0,
+            "Z": -90.0
+          }
+        ]
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "NpcAIComponent",
+    "Name": "NpcAI",
+    "Outer": "GNpcEdit_TutorialGuide",
+    "Template": "NpcAI_GEN_VARIABLE",
+    "Class": "UScriptClass'NpcAIComponent'",
+    "Properties": {
+      "NpcInfoKey": "SV000",
+      "AIParameter": {
+        "NpcAIInfos": [
+          {
+            "AIType": "ENpcAIType::Follow",
+            "ProgressMin": 0,
+            "ProgressMax": 2147483647
+          }
+        ]
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body",
+    "Outer": "GNpcEdit_2",
+    "Template": "CollTree_Body_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.18"
+      },
+      "AttachSocketName": "root",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "OverlapArea",
+    "Outer": "GNpcEdit_2",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.45"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "GNpcEdit_2",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 116.0,
+        "Y": 152.0,
+        "Z": 19.5
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -119.52409,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body",
+    "Outer": "GNpcEdit_TutorialGuide",
+    "Template": "CollTree_Body_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.23"
+      },
+      "AttachSocketName": "root",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "OverlapArea",
+    "Outer": "GNpcEdit_TutorialGuide",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Cave000_F00_NPC:PersistentLevel.GNpcEdit_TutorialGuide.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.48"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "GNpcEdit_TutorialGuide",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 1064.7649,
+        "Y": -750.83014,
+        "Z": -105.5
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 168.98407,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Cave000_F00_NPC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Cave000_F00_NPC:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave000/Cave000_F00/Sublevels/Cave000_F00_NPC.37"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

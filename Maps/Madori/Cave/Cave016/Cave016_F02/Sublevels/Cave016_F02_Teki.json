@@ -1,0 +1,4072 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Cave016_F02_Teki_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "LatestSerialId",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Cave016_F02_Teki_C'Default__Cave016_F02_Teki_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.1"
+    }
+  },
+  {
+    "Type": "Cave016_F02_Teki_C",
+    "Name": "Default__Cave016_F02_Teki_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.Cave016_F02_Teki_C'",
+    "Properties": {
+      "LatestSerialId": 72
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "GEgg2",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.76"
+      },
+      "RelativeLocation": {
+        "X": 19.69616,
+        "Y": 3.4729478,
+        "Z": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.2"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.2"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "GEgg_2",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.77"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.3"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.3"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.78"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.4"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.4"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak_F_j002_jaw",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "Ak_F_j002_jaw_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.78"
+      },
+      "AttachSocketName": "F_j002_jaw",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.Ak_F_j002_jaw'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.5"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.Ak_F_j002_jaw'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.5"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "GSnakeCrow3",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.79"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.6"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.6"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak_F_j002_jaw",
+    "Outer": "GSnakeCrow3",
+    "Template": "Ak_F_j002_jaw_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.79"
+      },
+      "AttachSocketName": "F_j002_jaw",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.Ak_F_j002_jaw'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.7"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.Ak_F_j002_jaw'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.7"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "GSnakeCrow_2",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.80"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.8"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.8"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak_F_j002_jaw",
+    "Outer": "GSnakeCrow_2",
+    "Template": "Ak_F_j002_jaw_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.80"
+      },
+      "AttachSocketName": "F_j002_jaw",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.Ak_F_j002_jaw'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.9"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.Ak_F_j002_jaw'",
+              "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.9"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AttackAffordanceComponent",
+    "Name": "AttackAffordance",
+    "Outer": "GEgg2",
+    "Template": "AttackAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'AttackAffordanceComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AttackAffordanceComponent",
+    "Name": "AttackAffordance",
+    "Outer": "GEgg_2",
+    "Template": "AttackAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'AttackAffordanceComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AttackAffordanceComponent",
+    "Name": "AttackAffordance",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "AttackAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'AttackAffordanceComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AttackAffordanceComponent",
+    "Name": "AttackAffordance",
+    "Outer": "GSnakeCrow3",
+    "Template": "AttackAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'AttackAffordanceComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AttackAffordanceComponent",
+    "Name": "AttackAffordance",
+    "Outer": "GSnakeCrow_2",
+    "Template": "AttackAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'AttackAffordanceComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "C4StickComponent",
+    "Name": "C4Stick",
+    "Outer": "GEgg2",
+    "Template": "C4Stick_GEN_VARIABLE",
+    "Class": "UScriptClass'C4StickComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "C4StickComponent",
+    "Name": "C4Stick",
+    "Outer": "GEgg_2",
+    "Template": "C4Stick_GEN_VARIABLE",
+    "Class": "UScriptClass'C4StickComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "C4StickComponent",
+    "Name": "C4Stick",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "C4Stick_GEN_VARIABLE",
+    "Class": "UScriptClass'C4StickComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "C4StickComponent",
+    "Name": "C4Stick",
+    "Outer": "GSnakeCrow3",
+    "Template": "C4Stick_GEN_VARIABLE",
+    "Class": "UScriptClass'C4StickComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "C4StickComponent",
+    "Name": "C4Stick",
+    "Outer": "GSnakeCrow_2",
+    "Template": "C4Stick_GEN_VARIABLE",
+    "Class": "UScriptClass'C4StickComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioFlagComponent",
+    "Name": "CakAudioFlag",
+    "Outer": "GEgg2",
+    "Template": "CakAudioFlag_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioFlagComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioFlagComponent",
+    "Name": "CakAudioFlag",
+    "Outer": "GEgg_2",
+    "Template": "CakAudioFlag_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioFlagComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "GEgg2",
+    "Template": "CakAudioTable_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioTableComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "GEgg_2",
+    "Template": "CakAudioTable_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioTableComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "CakAudioTable_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioTableComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "GSnakeCrow3",
+    "Template": "CakAudioTable_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioTableComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "GSnakeCrow_2",
+    "Template": "CakAudioTable_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioTableComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "GEgg2",
+    "Template": "CakEmitterConfig_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEmitterConfigComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "GEgg_2",
+    "Template": "CakEmitterConfig_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEmitterConfigComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "CakEmitterConfig_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEmitterConfigComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "GSnakeCrow3",
+    "Template": "CakEmitterConfig_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEmitterConfigComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "GSnakeCrow_2",
+    "Template": "CakEmitterConfig_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEmitterConfigComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "GEgg2",
+    "Template": "CakEventHandler_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEventHandlerComponent'",
+    "Properties": {
+      "StaticUnits": [
+        {
+          "ObjectName": "CakSinkRatioControlUnit'Cave016_F02_Teki:PersistentLevel.GEgg2.CakEventHandler.CakSinkRatioControlUnit_0'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.40"
+        },
+        {
+          "ObjectName": "CakTerrainSwitchingUnit'Cave016_F02_Teki:PersistentLevel.GEgg2.CakEventHandler.CakTerrainSwitchingUnit_0'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.50"
+        }
+      ],
+      "Unit_0": {
+        "ObjectName": "CakSinkRatioControlUnit'Cave016_F02_Teki:PersistentLevel.GEgg2.CakEventHandler.CakSinkRatioControlUnit_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.41"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "GEgg_2",
+    "Template": "CakEventHandler_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEventHandlerComponent'",
+    "Properties": {
+      "StaticUnits": [
+        {
+          "ObjectName": "CakSinkRatioControlUnit'Cave016_F02_Teki:PersistentLevel.GEgg_2.CakEventHandler.CakSinkRatioControlUnit_0'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.42"
+        },
+        {
+          "ObjectName": "CakTerrainSwitchingUnit'Cave016_F02_Teki:PersistentLevel.GEgg_2.CakEventHandler.CakTerrainSwitchingUnit_0'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.51"
+        }
+      ],
+      "Unit_0": {
+        "ObjectName": "CakSinkRatioControlUnit'Cave016_F02_Teki:PersistentLevel.GEgg_2.CakEventHandler.CakSinkRatioControlUnit_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.43"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "CakEventHandler_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEventHandlerComponent'",
+    "Properties": {
+      "StaticUnits": [
+        {
+          "ObjectName": "CakSinkRatioControlUnit'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CakEventHandler.CakSinkRatioControlUnit_1'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.45"
+        },
+        {
+          "ObjectName": "CakTerrainSwitchingUnit'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CakEventHandler.CakTerrainSwitchingUnit_1'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.53"
+        }
+      ],
+      "Unit_0": {
+        "ObjectName": "CakSinkRatioControlUnit'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CakEventHandler.CakSinkRatioControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.44"
+      },
+      "Unit_1": {
+        "ObjectName": "CakTerrainSwitchingUnit'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CakEventHandler.CakTerrainSwitchingUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.52"
+      },
+      "Unit_2": {
+        "ObjectName": "CakWorkPikminRatioControlUnit'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CakEventHandler.CakWorkPikminRatioControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.58"
+      },
+      "Unit_3": {
+        "ObjectName": "CakObjectCollisionUnit'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CakEventHandler.CakObjectCollisionUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "GSnakeCrow3",
+    "Template": "CakEventHandler_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEventHandlerComponent'",
+    "Properties": {
+      "StaticUnits": [
+        {
+          "ObjectName": "CakSinkRatioControlUnit'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CakEventHandler.CakSinkRatioControlUnit_1'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.47"
+        },
+        {
+          "ObjectName": "CakTerrainSwitchingUnit'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CakEventHandler.CakTerrainSwitchingUnit_1'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.55"
+        }
+      ],
+      "Unit_0": {
+        "ObjectName": "CakSinkRatioControlUnit'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CakEventHandler.CakSinkRatioControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.46"
+      },
+      "Unit_1": {
+        "ObjectName": "CakTerrainSwitchingUnit'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CakEventHandler.CakTerrainSwitchingUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.54"
+      },
+      "Unit_2": {
+        "ObjectName": "CakWorkPikminRatioControlUnit'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CakEventHandler.CakWorkPikminRatioControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.59"
+      },
+      "Unit_3": {
+        "ObjectName": "CakObjectCollisionUnit'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CakEventHandler.CakObjectCollisionUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "GSnakeCrow_2",
+    "Template": "CakEventHandler_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEventHandlerComponent'",
+    "Properties": {
+      "StaticUnits": [
+        {
+          "ObjectName": "CakSinkRatioControlUnit'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CakEventHandler.CakSinkRatioControlUnit_1'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.49"
+        },
+        {
+          "ObjectName": "CakTerrainSwitchingUnit'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CakEventHandler.CakTerrainSwitchingUnit_1'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.57"
+        }
+      ],
+      "Unit_0": {
+        "ObjectName": "CakSinkRatioControlUnit'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CakEventHandler.CakSinkRatioControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.48"
+      },
+      "Unit_1": {
+        "ObjectName": "CakTerrainSwitchingUnit'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CakEventHandler.CakTerrainSwitchingUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.56"
+      },
+      "Unit_2": {
+        "ObjectName": "CakWorkPikminRatioControlUnit'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CakEventHandler.CakWorkPikminRatioControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.60"
+      },
+      "Unit_3": {
+        "ObjectName": "CakObjectCollisionUnit'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CakEventHandler.CakObjectCollisionUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.39"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakObjectCollisionUnit",
+    "Name": "CakObjectCollisionUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakObjectCollisionUnit_0",
+    "Class": "UScriptClass'CakObjectCollisionUnit'"
+  },
+  {
+    "Type": "CakObjectCollisionUnit",
+    "Name": "CakObjectCollisionUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakObjectCollisionUnit_0",
+    "Class": "UScriptClass'CakObjectCollisionUnit'"
+  },
+  {
+    "Type": "CakObjectCollisionUnit",
+    "Name": "CakObjectCollisionUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakObjectCollisionUnit_0",
+    "Class": "UScriptClass'CakObjectCollisionUnit'"
+  },
+  {
+    "Type": "CakSinkRatioControlUnit",
+    "Name": "CakSinkRatioControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakSinkRatioControlUnit_0",
+    "Class": "UScriptClass'CakSinkRatioControlUnit'"
+  },
+  {
+    "Type": "CakSinkRatioControlUnit",
+    "Name": "CakSinkRatioControlUnit_1",
+    "Outer": "CakEventHandler",
+    "Template": "CakSinkRatioControlUnit_1",
+    "Class": "UScriptClass'CakSinkRatioControlUnit'"
+  },
+  {
+    "Type": "CakSinkRatioControlUnit",
+    "Name": "CakSinkRatioControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakSinkRatioControlUnit_0",
+    "Class": "UScriptClass'CakSinkRatioControlUnit'"
+  },
+  {
+    "Type": "CakSinkRatioControlUnit",
+    "Name": "CakSinkRatioControlUnit_1",
+    "Outer": "CakEventHandler",
+    "Template": "CakSinkRatioControlUnit_1",
+    "Class": "UScriptClass'CakSinkRatioControlUnit'"
+  },
+  {
+    "Type": "CakSinkRatioControlUnit",
+    "Name": "CakSinkRatioControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakSinkRatioControlUnit_0",
+    "Class": "UScriptClass'CakSinkRatioControlUnit'"
+  },
+  {
+    "Type": "CakSinkRatioControlUnit",
+    "Name": "CakSinkRatioControlUnit_1",
+    "Outer": "CakEventHandler",
+    "Template": "CakSinkRatioControlUnit_1",
+    "Class": "UScriptClass'CakSinkRatioControlUnit'"
+  },
+  {
+    "Type": "CakSinkRatioControlUnit",
+    "Name": "CakSinkRatioControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakSinkRatioControlUnit_0",
+    "Class": "UScriptClass'CakSinkRatioControlUnit'"
+  },
+  {
+    "Type": "CakSinkRatioControlUnit",
+    "Name": "CakSinkRatioControlUnit_1",
+    "Outer": "CakEventHandler",
+    "Template": "CakSinkRatioControlUnit_1",
+    "Class": "UScriptClass'CakSinkRatioControlUnit'"
+  },
+  {
+    "Type": "CakSinkRatioControlUnit",
+    "Name": "CakSinkRatioControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakSinkRatioControlUnit_0",
+    "Class": "UScriptClass'CakSinkRatioControlUnit'"
+  },
+  {
+    "Type": "CakSinkRatioControlUnit",
+    "Name": "CakSinkRatioControlUnit_1",
+    "Outer": "CakEventHandler",
+    "Template": "CakSinkRatioControlUnit_1",
+    "Class": "UScriptClass'CakSinkRatioControlUnit'"
+  },
+  {
+    "Type": "CakTerrainSwitchingUnit",
+    "Name": "CakTerrainSwitchingUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakTerrainSwitchingUnit_0",
+    "Class": "UScriptClass'CakTerrainSwitchingUnit'"
+  },
+  {
+    "Type": "CakTerrainSwitchingUnit",
+    "Name": "CakTerrainSwitchingUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakTerrainSwitchingUnit_0",
+    "Class": "UScriptClass'CakTerrainSwitchingUnit'"
+  },
+  {
+    "Type": "CakTerrainSwitchingUnit",
+    "Name": "CakTerrainSwitchingUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakTerrainSwitchingUnit_0",
+    "Class": "UScriptClass'CakTerrainSwitchingUnit'"
+  },
+  {
+    "Type": "CakTerrainSwitchingUnit",
+    "Name": "CakTerrainSwitchingUnit_1",
+    "Outer": "CakEventHandler",
+    "Template": "CakTerrainSwitchingUnit_1",
+    "Class": "UScriptClass'CakTerrainSwitchingUnit'"
+  },
+  {
+    "Type": "CakTerrainSwitchingUnit",
+    "Name": "CakTerrainSwitchingUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakTerrainSwitchingUnit_0",
+    "Class": "UScriptClass'CakTerrainSwitchingUnit'"
+  },
+  {
+    "Type": "CakTerrainSwitchingUnit",
+    "Name": "CakTerrainSwitchingUnit_1",
+    "Outer": "CakEventHandler",
+    "Template": "CakTerrainSwitchingUnit_1",
+    "Class": "UScriptClass'CakTerrainSwitchingUnit'"
+  },
+  {
+    "Type": "CakTerrainSwitchingUnit",
+    "Name": "CakTerrainSwitchingUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakTerrainSwitchingUnit_0",
+    "Class": "UScriptClass'CakTerrainSwitchingUnit'"
+  },
+  {
+    "Type": "CakTerrainSwitchingUnit",
+    "Name": "CakTerrainSwitchingUnit_1",
+    "Outer": "CakEventHandler",
+    "Template": "CakTerrainSwitchingUnit_1",
+    "Class": "UScriptClass'CakTerrainSwitchingUnit'"
+  },
+  {
+    "Type": "CakWorkPikminRatioControlUnit",
+    "Name": "CakWorkPikminRatioControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakWorkPikminRatioControlUnit_0",
+    "Class": "UScriptClass'CakWorkPikminRatioControlUnit'"
+  },
+  {
+    "Type": "CakWorkPikminRatioControlUnit",
+    "Name": "CakWorkPikminRatioControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakWorkPikminRatioControlUnit_0",
+    "Class": "UScriptClass'CakWorkPikminRatioControlUnit'"
+  },
+  {
+    "Type": "CakWorkPikminRatioControlUnit",
+    "Name": "CakWorkPikminRatioControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakWorkPikminRatioControlUnit_0",
+    "Class": "UScriptClass'CakWorkPikminRatioControlUnit'"
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_Mouth",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "CollTree_Mouth_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.78"
+      },
+      "AttachSocketName": "F_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_Mouth",
+    "Outer": "GSnakeCrow3",
+    "Template": "CollTree_Mouth_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.79"
+      },
+      "AttachSocketName": "F_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_Mouth",
+    "Outer": "GSnakeCrow_2",
+    "Template": "CollTree_Mouth_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.80"
+      },
+      "AttachSocketName": "F_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotCarryCircleComponent",
+    "Name": "CarrotCarryCircleWing",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "CarrotCarryCircleWing_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotCarryCircleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.78"
+      },
+      "AttachSocketName": "X_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotCarryCircleComponent",
+    "Name": "CarrotCarryCircleWing",
+    "Outer": "GSnakeCrow3",
+    "Template": "CarrotCarryCircleWing_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotCarryCircleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.79"
+      },
+      "AttachSocketName": "X_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotCarryCircleComponent",
+    "Name": "CarrotCarryCircleWing",
+    "Outer": "GSnakeCrow_2",
+    "Template": "CarrotCarryCircleWing_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotCarryCircleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.80"
+      },
+      "AttachSocketName": "X_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotCarryLineComponent",
+    "Name": "CarrotCarryLine",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "CarrotCarryLine_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotCarryLineComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.78"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotCarryLineComponent",
+    "Name": "CarrotCarryLine",
+    "Outer": "GSnakeCrow3",
+    "Template": "CarrotCarryLine_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotCarryLineComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.79"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotCarryLineComponent",
+    "Name": "CarrotCarryLine",
+    "Outer": "GSnakeCrow_2",
+    "Template": "CarrotCarryLine_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotCarryLineComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.80"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotGenseiStrategyComponent",
+    "Name": "CarrotGenseiStrategy",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "CarrotGenseiStrategy_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotGenseiStrategyComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotGenseiStrategyComponent",
+    "Name": "CarrotGenseiStrategy",
+    "Outer": "GSnakeCrow3",
+    "Template": "CarrotGenseiStrategy_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotGenseiStrategyComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotGenseiStrategyComponent",
+    "Name": "CarrotGenseiStrategy",
+    "Outer": "GSnakeCrow_2",
+    "Template": "CarrotGenseiStrategy_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotGenseiStrategyComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotMoveComponent",
+    "Name": "CarrotMove",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "CarrotMove_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotMoveComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotMoveComponent",
+    "Name": "CarrotMove",
+    "Outer": "GSnakeCrow3",
+    "Template": "CarrotMove_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotMoveComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotMoveComponent",
+    "Name": "CarrotMove",
+    "Outer": "GSnakeCrow_2",
+    "Template": "CarrotMove_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotMoveComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "CarrotSkeletalMesh",
+    "Outer": "GEgg2",
+    "Template": "CarrotSkeletalMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.118"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "CarrotSkeletalMesh",
+    "Outer": "GEgg_2",
+    "Template": "CarrotSkeletalMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.120"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "CarrotSkeletalMesh",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "CarrotSkeletalMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.129"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "CarrotSkeletalMesh",
+    "Outer": "GSnakeCrow3",
+    "Template": "CarrotSkeletalMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.138"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "CarrotSkeletalMesh",
+    "Outer": "GSnakeCrow_2",
+    "Template": "CarrotSkeletalMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.147"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "Carcass",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "Carcass_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.129"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "Carcass",
+    "Outer": "GSnakeCrow3",
+    "Template": "Carcass_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.138"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "Carcass",
+    "Outer": "GSnakeCrow_2",
+    "Template": "Carcass_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.147"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Cave016_F02_Teki_C",
+    "Name": "Cave016_F02_Teki_C_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Cave016_F02_Teki_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.Cave016_F02_Teki_C'"
+  },
+  {
+    "Type": "CollTreeComponent",
+    "Name": "CollTree",
+    "Outer": "GEgg2",
+    "Template": "CollTree_GEN_VARIABLE",
+    "Class": "UScriptClass'CollTreeComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CollTreeComponent",
+    "Name": "CollTree",
+    "Outer": "GEgg_2",
+    "Template": "CollTree_GEN_VARIABLE",
+    "Class": "UScriptClass'CollTreeComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CollTreeComponent",
+    "Name": "CollTree",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "CollTree_GEN_VARIABLE",
+    "Class": "UScriptClass'CollTreeComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CollTreeComponent",
+    "Name": "CollTree",
+    "Outer": "GSnakeCrow3",
+    "Template": "CollTree_GEN_VARIABLE",
+    "Class": "UScriptClass'CollTreeComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CollTreeComponent",
+    "Name": "CollTree",
+    "Outer": "GSnakeCrow_2",
+    "Template": "CollTree_GEN_VARIABLE",
+    "Class": "UScriptClass'CollTreeComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "EggAIComponent",
+    "Name": "EggAI",
+    "Outer": "GEgg2",
+    "Template": "EggAI_GEN_VARIABLE",
+    "Class": "UScriptClass'EggAIComponent'",
+    "Properties": {
+      "TekiAIParameter": {
+        "DropParameter": {
+          "DropItemParameter": [
+            {
+              "SpawnMiniInfo": {
+                "DropActor": {
+                  "ObjectName": "BlueprintGeneratedClass'GHoney_C'",
+                  "ObjectPath": "/Game/Carrot4/Placeables/Items/GHoney.0"
+                },
+                "CustomParameter": "None",
+                "CustomFloatParameter": 0.0,
+                "GameRulePermissionFlag": 271,
+                "bSetTerritory": false,
+                "Territory": {
+                  "Center": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "HalfHeight": 50.0,
+                  "Radius": 100.0,
+                  "SearchType": "ESearchAreaSearchType::LocationDirZ",
+                  "bSearchOuterTerritory": true
+                }
+              },
+              "UniqueId": 4616191821372981317,
+              "MinNum": 1,
+              "MaxNum": 1,
+              "DropRatio": 0.75,
+              "bRegistGenerator": false,
+              "DropConditions": []
+            },
+            {
+              "SpawnMiniInfo": {
+                "DropActor": {
+                  "ObjectName": "BlueprintGeneratedClass'GPiecePick_C'",
+                  "ObjectPath": "/Game/Carrot4/Placeables/WorkObjects/Shizai/GPiecePick.0"
+                },
+                "CustomParameter": "None",
+                "CustomFloatParameter": 0.0,
+                "GameRulePermissionFlag": 15,
+                "bSetTerritory": false,
+                "Territory": {
+                  "Center": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "HalfHeight": 50.0,
+                  "Radius": 100.0,
+                  "SearchType": "ESearchAreaSearchType::LocationDirZ",
+                  "bSearchOuterTerritory": true
+                }
+              },
+              "UniqueId": 4616191821372981318,
+              "MinNum": 1,
+              "MaxNum": 1,
+              "DropRatio": 0.2,
+              "bRegistGenerator": false,
+              "DropConditions": [
+                {
+                  "DropCond": "EDropCondition::PlayedDemo",
+                  "DropCondInt": -1,
+                  "DropCondName": "None",
+                  "DropCondDemo": "EDemoFlagType::SuckNectar"
+                }
+              ]
+            },
+            {
+              "SpawnMiniInfo": {
+                "DropActor": {
+                  "ObjectName": "BlueprintGeneratedClass'GHotExtract_C'",
+                  "ObjectPath": "/Game/Carrot4/Placeables/Items/GHotExtract.0"
+                },
+                "CustomParameter": "None",
+                "CustomFloatParameter": 0.0,
+                "GameRulePermissionFlag": 15,
+                "bSetTerritory": false,
+                "Territory": {
+                  "Center": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "HalfHeight": 50.0,
+                  "Radius": 100.0,
+                  "SearchType": "ESearchAreaSearchType::LocationDirZ",
+                  "bSearchOuterTerritory": true
+                }
+              },
+              "UniqueId": 4616191821372981319,
+              "MinNum": 1,
+              "MaxNum": 1,
+              "DropRatio": 0.05,
+              "bRegistGenerator": false,
+              "DropConditions": [
+                {
+                  "DropCond": "EDropCondition::PlayedDemo",
+                  "DropCondInt": -1,
+                  "DropCondName": "None",
+                  "DropCondDemo": "EDemoFlagType::SuckNectar"
+                }
+              ]
+            }
+          ],
+          "DebugUniqueIdList": [
+            4616191821372981317,
+            4616191821372981318,
+            4616191821372981319
+          ]
+        }
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "EggAIComponent",
+    "Name": "EggAI",
+    "Outer": "GEgg_2",
+    "Template": "EggAI_GEN_VARIABLE",
+    "Class": "UScriptClass'EggAIComponent'",
+    "Properties": {
+      "TekiAIParameter": {
+        "DropParameter": {
+          "DropItemParameter": [
+            {
+              "SpawnMiniInfo": {
+                "DropActor": {
+                  "ObjectName": "BlueprintGeneratedClass'GHoney_C'",
+                  "ObjectPath": "/Game/Carrot4/Placeables/Items/GHoney.0"
+                },
+                "CustomParameter": "None",
+                "CustomFloatParameter": 0.0,
+                "GameRulePermissionFlag": 271,
+                "bSetTerritory": false,
+                "Territory": {
+                  "Center": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "HalfHeight": 50.0,
+                  "Radius": 100.0,
+                  "SearchType": "ESearchAreaSearchType::LocationDirZ",
+                  "bSearchOuterTerritory": true
+                }
+              },
+              "UniqueId": 4616191821372981314,
+              "MinNum": 1,
+              "MaxNum": 1,
+              "DropRatio": 0.75,
+              "bRegistGenerator": false,
+              "DropConditions": []
+            },
+            {
+              "SpawnMiniInfo": {
+                "DropActor": {
+                  "ObjectName": "BlueprintGeneratedClass'GPiecePick_C'",
+                  "ObjectPath": "/Game/Carrot4/Placeables/WorkObjects/Shizai/GPiecePick.0"
+                },
+                "CustomParameter": "None",
+                "CustomFloatParameter": 0.0,
+                "GameRulePermissionFlag": 15,
+                "bSetTerritory": false,
+                "Territory": {
+                  "Center": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "HalfHeight": 50.0,
+                  "Radius": 100.0,
+                  "SearchType": "ESearchAreaSearchType::LocationDirZ",
+                  "bSearchOuterTerritory": true
+                }
+              },
+              "UniqueId": 4616191821372981315,
+              "MinNum": 1,
+              "MaxNum": 1,
+              "DropRatio": 0.2,
+              "bRegistGenerator": false,
+              "DropConditions": [
+                {
+                  "DropCond": "EDropCondition::PlayedDemo",
+                  "DropCondInt": -1,
+                  "DropCondName": "None",
+                  "DropCondDemo": "EDemoFlagType::SuckNectar"
+                }
+              ]
+            },
+            {
+              "SpawnMiniInfo": {
+                "DropActor": {
+                  "ObjectName": "BlueprintGeneratedClass'GHotExtract_C'",
+                  "ObjectPath": "/Game/Carrot4/Placeables/Items/GHotExtract.0"
+                },
+                "CustomParameter": "None",
+                "CustomFloatParameter": 0.0,
+                "GameRulePermissionFlag": 15,
+                "bSetTerritory": false,
+                "Territory": {
+                  "Center": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "HalfHeight": 50.0,
+                  "Radius": 100.0,
+                  "SearchType": "ESearchAreaSearchType::LocationDirZ",
+                  "bSearchOuterTerritory": true
+                }
+              },
+              "UniqueId": 4616191821372981316,
+              "MinNum": 1,
+              "MaxNum": 1,
+              "DropRatio": 0.05,
+              "bRegistGenerator": false,
+              "DropConditions": [
+                {
+                  "DropCond": "EDropCondition::PlayedDemo",
+                  "DropCondInt": -1,
+                  "DropCondName": "None",
+                  "DropCondDemo": "EDemoFlagType::SuckNectar"
+                }
+              ]
+            }
+          ],
+          "DebugUniqueIdList": [
+            4616191821372981314,
+            4616191821372981315,
+            4616191821372981316
+          ]
+        }
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "GEgg_C",
+    "Name": "GEgg2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GEgg_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Objects/Egg/GEgg.GEgg_C'",
+    "Properties": {
+      "CollTree_Body": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.CollTree_Body'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.117"
+      },
+      "CakAudioFlag": {
+        "ObjectName": "CakAudioFlagComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.CakAudioFlag'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.20"
+      },
+      "EggAI": {
+        "ObjectName": "EggAIComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.EggAI'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.90"
+      },
+      "AttackAffordance": {
+        "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.10"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.2"
+      },
+      "C4Stick": {
+        "ObjectName": "C4StickComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.C4Stick'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.15"
+      },
+      "Life": {
+        "ObjectName": "LifeComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.Life'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.100"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.22"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.27"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.32"
+      },
+      "PointerAssist": {
+        "ObjectName": "PointerAssistComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.PointerAssist'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.108"
+      },
+      "CollTree": {
+        "ObjectName": "CollTreeComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.CollTree'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.85"
+      },
+      "CarrotSkeletalMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.76"
+      },
+      "Sphere": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.118"
+      },
+      "SkeletalMeshComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.76"
+      },
+      "AffordanceComponent": {
+        "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.10"
+      },
+      "AttackAffordanceComponent": {
+        "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.10"
+      },
+      "StickComponent": {
+        "ObjectName": "C4StickComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.C4Stick'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.15"
+      },
+      "LifeComponent": {
+        "ObjectName": "LifeComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.Life'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.100"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4614506270047600678
+      },
+      "RebirthInfo": {
+        "RebirthType": "ERebirthType::RebirthFullExplore"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.118"
+      },
+      "BlueprintCreatedComponents": [
+        null,
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.Sphere'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.118"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.CarrotSkeletalMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.76"
+        },
+        {
+          "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.Ak'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.2"
+        },
+        {
+          "ObjectName": "CollTreeComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.CollTree'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.85"
+        },
+        {
+          "ObjectName": "PointerAssistComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.PointerAssist'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.108"
+        },
+        {
+          "ObjectName": "CakEventHandlerComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.CakEventHandler'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.32"
+        },
+        {
+          "ObjectName": "CakEmitterConfigComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.CakEmitterConfig'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.27"
+        },
+        {
+          "ObjectName": "CakAudioTableComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.CakAudioTable'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.22"
+        },
+        {
+          "ObjectName": "LifeComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.Life'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.100"
+        },
+        {
+          "ObjectName": "C4StickComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.C4Stick'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.15"
+        },
+        {
+          "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.AttackAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.10"
+        },
+        {
+          "ObjectName": "EggAIComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.EggAI'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.90"
+        },
+        {
+          "ObjectName": "CakAudioFlagComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.CakAudioFlag'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.20"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.CollTree_Body'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.117"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GEgg_C",
+    "Name": "GEgg_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GEgg_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Objects/Egg/GEgg.GEgg_C'",
+    "Properties": {
+      "CollTree_Body": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.CollTree_Body'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.119"
+      },
+      "CakAudioFlag": {
+        "ObjectName": "CakAudioFlagComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.CakAudioFlag'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.21"
+      },
+      "EggAI": {
+        "ObjectName": "EggAIComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.EggAI'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.91"
+      },
+      "AttackAffordance": {
+        "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.11"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.3"
+      },
+      "C4Stick": {
+        "ObjectName": "C4StickComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.C4Stick'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.16"
+      },
+      "Life": {
+        "ObjectName": "LifeComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.Life'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.101"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.23"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.28"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.33"
+      },
+      "PointerAssist": {
+        "ObjectName": "PointerAssistComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.PointerAssist'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.109"
+      },
+      "CollTree": {
+        "ObjectName": "CollTreeComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.CollTree'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.86"
+      },
+      "CarrotSkeletalMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.77"
+      },
+      "Sphere": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.120"
+      },
+      "SkeletalMeshComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.77"
+      },
+      "AffordanceComponent": {
+        "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.11"
+      },
+      "AttackAffordanceComponent": {
+        "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.11"
+      },
+      "StickComponent": {
+        "ObjectName": "C4StickComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.C4Stick'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.16"
+      },
+      "LifeComponent": {
+        "ObjectName": "LifeComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.Life'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.101"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4614506270047600668
+      },
+      "RebirthInfo": {
+        "RebirthType": "ERebirthType::RebirthFullExplore"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.120"
+      },
+      "BlueprintCreatedComponents": [
+        null,
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.Sphere'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.120"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.CarrotSkeletalMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.77"
+        },
+        {
+          "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.Ak'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.3"
+        },
+        {
+          "ObjectName": "CollTreeComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.CollTree'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.86"
+        },
+        {
+          "ObjectName": "PointerAssistComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.PointerAssist'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.109"
+        },
+        {
+          "ObjectName": "CakEventHandlerComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.CakEventHandler'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.33"
+        },
+        {
+          "ObjectName": "CakEmitterConfigComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.CakEmitterConfig'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.28"
+        },
+        {
+          "ObjectName": "CakAudioTableComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.CakAudioTable'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.23"
+        },
+        {
+          "ObjectName": "LifeComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.Life'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.101"
+        },
+        {
+          "ObjectName": "C4StickComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.C4Stick'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.16"
+        },
+        {
+          "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.AttackAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.11"
+        },
+        {
+          "ObjectName": "EggAIComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.EggAI'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.91"
+        },
+        {
+          "ObjectName": "CakAudioFlagComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.CakAudioFlag'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.21"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.CollTree_Body'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.119"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GGroupDropManager_C",
+    "Name": "GGroupDropManager_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GGroupDropManager_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/GroupDropManager/GGroupDropManager.GGroupDropManager_C'",
+    "Properties": {
+      "GroupDropManager": {
+        "ObjectName": "GroupDropManagerComponent'Cave016_F02_Teki:PersistentLevel.GGroupDropManager_2.GroupDropManager'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.95"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Cave016_F02_Teki:PersistentLevel.GGroupDropManager_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.113"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4616191821372981309
+      },
+      "RebirthInfo": {
+        "RebirthType": "ERebirthType::RebirthFullExplore"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave016_F02_Teki:PersistentLevel.GGroupDropManager_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.113"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Cave016_F02_Teki:PersistentLevel.GGroupDropManager_2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.113"
+        },
+        {
+          "ObjectName": "GroupDropManagerComponent'Cave016_F02_Teki:PersistentLevel.GGroupDropManager_2.GroupDropManager'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.95"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GroupDropManagerComponent",
+    "Name": "GroupDropManager",
+    "Outer": "GGroupDropManager_2",
+    "Template": "GroupDropManager_GEN_VARIABLE",
+    "Class": "UScriptClass'GroupDropManagerComponent'",
+    "Properties": {
+      "GroupDropManagerAIParameter": {
+        "DropParameter": {
+          "DropItemParameter": [
+            {
+              "SpawnMiniInfo": {
+                "DropActor": {
+                  "ObjectName": "BlueprintGeneratedClass'GOtaHanafudaE_C'",
+                  "ObjectPath": "/Game/Carrot4/Placeables/Objects/Otakara/GOtaHanafudaE.0"
+                },
+                "CustomParameter": "None",
+                "CustomFloatParameter": 0.0,
+                "GameRulePermissionFlag": 269,
+                "bSetTerritory": false,
+                "Territory": {
+                  "Center": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "HalfHeight": 50.0,
+                  "Radius": 100.0,
+                  "SearchType": "ESearchAreaSearchType::LocationDirZ",
+                  "bSearchOuterTerritory": true
+                }
+              },
+              "UniqueId": 18446744073709551615,
+              "MinNum": 1,
+              "MaxNum": 1,
+              "DropRatio": 1.0,
+              "bRegistGenerator": true,
+              "DropConditions": [
+                {
+                  "DropCond": "EDropCondition::NoSalvageDropItem",
+                  "DropCondInt": 0,
+                  "DropCondName": "None",
+                  "DropCondDemo": "EDemoFlagType::None"
+                }
+              ]
+            },
+            {
+              "SpawnMiniInfo": {
+                "DropActor": {
+                  "ObjectName": "BlueprintGeneratedClass'GHoney_C'",
+                  "ObjectPath": "/Game/Carrot4/Placeables/Items/GHoney.0"
+                },
+                "CustomParameter": "None",
+                "CustomFloatParameter": 0.0,
+                "GameRulePermissionFlag": 0,
+                "bSetTerritory": false,
+                "Territory": {
+                  "Center": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "HalfHeight": 50.0,
+                  "Radius": 100.0,
+                  "SearchType": "ESearchAreaSearchType::LocationDirZ",
+                  "bSearchOuterTerritory": true
+                }
+              },
+              "UniqueId": 18446744073709551615,
+              "MinNum": 5,
+              "MaxNum": 5,
+              "DropRatio": 1.0,
+              "bRegistGenerator": false,
+              "DropConditions": [
+                {
+                  "DropCond": "EDropCondition::SalvageDropItem",
+                  "DropCondInt": 0,
+                  "DropCondName": "None",
+                  "DropCondDemo": "EDemoFlagType::None"
+                }
+              ]
+            }
+          ],
+          "DropActorParameter": {
+            "Vel": {
+              "X": 90.0,
+              "Y": 90.0,
+              "Z": 375.0
+            },
+            "RandVel": {
+              "X": 15.0,
+              "Y": 15.0,
+              "Z": 60.0
+            },
+            "DropOption": 64
+          },
+          "bEnableFreezeBothDrop": true
+        }
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "GSnakeCrow_C",
+    "Name": "GSnakeCrow2_6",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GSnakeCrow_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Teki/GSnakeCrow.GSnakeCrow_C'",
+    "Properties": {
+      "CarrotCarryCircleWing": {
+        "ObjectName": "CarrotCarryCircleComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotCarryCircleWing'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.64"
+      },
+      "CarrotCarryLine": {
+        "ObjectName": "CarrotCarryLineComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotCarryLine'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.67"
+      },
+      "Ak_F_j002_jaw": {
+        "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.Ak_F_j002_jaw'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.5"
+      },
+      "CollTree_DeadBody": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree_DeadBody'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.127"
+      },
+      "SnakeCrowAI": {
+        "ObjectName": "SnakeCrowAIComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.SnakeCrowAI'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.114"
+      },
+      "CollTree_Body_05": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree_Body_05'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.126"
+      },
+      "CollTree_Body_04": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree_Body_04'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.125"
+      },
+      "CollTree_Body_03": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree_Body_03'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.124"
+      },
+      "CollTree_Body_02": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree_Body_02'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.123"
+      },
+      "CollTree_Body_01": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree_Body_01'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.122"
+      },
+      "CollTree_Body_00": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree_Body_00'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.121"
+      },
+      "CollTree_Mouth": {
+        "ObjectName": "CapsuleComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree_Mouth'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.61"
+      },
+      "CollTree_Head": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree_Head'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.128"
+      },
+      "CarrotGenseiStrategy": {
+        "ObjectName": "CarrotGenseiStrategyComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotGenseiStrategy'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.70"
+      },
+      "Carcass": {
+        "ObjectName": "CarrotStaticMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.Carcass'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.81"
+      },
+      "TestCarryAffordance": {
+        "ObjectName": "TestCarryAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.TestCarryAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.148"
+      },
+      "AttackAffordance": {
+        "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.12"
+      },
+      "CarrotMove": {
+        "ObjectName": "CarrotMoveComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotMove'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.73"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.4"
+      },
+      "C4Stick": {
+        "ObjectName": "C4StickComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.C4Stick'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.17"
+      },
+      "Life": {
+        "ObjectName": "LifeComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.Life'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.102"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.24"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.29"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.34"
+      },
+      "PointerAssist": {
+        "ObjectName": "PointerAssistComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.PointerAssist'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.110"
+      },
+      "CollTree": {
+        "ObjectName": "CollTreeComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.87"
+      },
+      "CarrotSkeletalMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.78"
+      },
+      "Sphere": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.129"
+      },
+      "CarrotMoveComponent": {
+        "ObjectName": "CarrotMoveComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotMove'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.73"
+      },
+      "SkeletalMeshComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.78"
+      },
+      "AffordanceComponent": {
+        "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.12"
+      },
+      "AttackAffordanceComponent": {
+        "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.12"
+      },
+      "CarryAffordanceComponent": {
+        "ObjectName": "TestCarryAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.TestCarryAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.148"
+      },
+      "StickComponent": {
+        "ObjectName": "C4StickComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.C4Stick'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.17"
+      },
+      "LifeComponent": {
+        "ObjectName": "LifeComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.Life'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.102"
+      },
+      "WaterBoxFollowContext": {
+        "bCheck": false
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4294967355
+      },
+      "RebirthInfo": {
+        "RebirthType": "ERebirthType::RebirthFullExplore"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.129"
+      },
+      "BlueprintCreatedComponents": [
+        null,
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.Sphere'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.129"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotSkeletalMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.78"
+        },
+        {
+          "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.Ak'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.4"
+        },
+        {
+          "ObjectName": "CollTreeComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.87"
+        },
+        {
+          "ObjectName": "PointerAssistComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.PointerAssist'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.110"
+        },
+        {
+          "ObjectName": "CakEventHandlerComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CakEventHandler'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.34"
+        },
+        {
+          "ObjectName": "CakEmitterConfigComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CakEmitterConfig'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.29"
+        },
+        {
+          "ObjectName": "CakAudioTableComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CakAudioTable'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.24"
+        },
+        {
+          "ObjectName": "LifeComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.Life'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.102"
+        },
+        {
+          "ObjectName": "C4StickComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.C4Stick'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.17"
+        },
+        {
+          "ObjectName": "CarrotMoveComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotMove'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.73"
+        },
+        {
+          "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.AttackAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.12"
+        },
+        {
+          "ObjectName": "TestCarryAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.TestCarryAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.148"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.Carcass'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.81"
+        },
+        {
+          "ObjectName": "CarrotGenseiStrategyComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotGenseiStrategy'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.70"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree_Head'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.128"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree_Mouth'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.61"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree_Body_00'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.121"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree_Body_01'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.122"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree_Body_02'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.123"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree_Body_03'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.124"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree_Body_04'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.125"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree_Body_05'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.126"
+        },
+        {
+          "ObjectName": "SnakeCrowAIComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.SnakeCrowAI'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.114"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CollTree_DeadBody'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.127"
+        },
+        {
+          "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.Ak_F_j002_jaw'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.5"
+        },
+        {
+          "ObjectName": "CarrotCarryLineComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotCarryLine'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.67"
+        },
+        {
+          "ObjectName": "CarrotCarryCircleComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotCarryCircleWing'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.64"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GSnakeCrow_C",
+    "Name": "GSnakeCrow3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GSnakeCrow_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Teki/GSnakeCrow.GSnakeCrow_C'",
+    "Properties": {
+      "CarrotCarryCircleWing": {
+        "ObjectName": "CarrotCarryCircleComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotCarryCircleWing'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.65"
+      },
+      "CarrotCarryLine": {
+        "ObjectName": "CarrotCarryLineComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotCarryLine'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.68"
+      },
+      "Ak_F_j002_jaw": {
+        "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.Ak_F_j002_jaw'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.7"
+      },
+      "CollTree_DeadBody": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree_DeadBody'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.136"
+      },
+      "SnakeCrowAI": {
+        "ObjectName": "SnakeCrowAIComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.SnakeCrowAI'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.115"
+      },
+      "CollTree_Body_05": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree_Body_05'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.135"
+      },
+      "CollTree_Body_04": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree_Body_04'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.134"
+      },
+      "CollTree_Body_03": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree_Body_03'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.133"
+      },
+      "CollTree_Body_02": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree_Body_02'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.132"
+      },
+      "CollTree_Body_01": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree_Body_01'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.131"
+      },
+      "CollTree_Body_00": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree_Body_00'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.130"
+      },
+      "CollTree_Mouth": {
+        "ObjectName": "CapsuleComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree_Mouth'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.62"
+      },
+      "CollTree_Head": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree_Head'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.137"
+      },
+      "CarrotGenseiStrategy": {
+        "ObjectName": "CarrotGenseiStrategyComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotGenseiStrategy'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.71"
+      },
+      "Carcass": {
+        "ObjectName": "CarrotStaticMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.Carcass'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.82"
+      },
+      "TestCarryAffordance": {
+        "ObjectName": "TestCarryAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.TestCarryAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.149"
+      },
+      "AttackAffordance": {
+        "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.13"
+      },
+      "CarrotMove": {
+        "ObjectName": "CarrotMoveComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotMove'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.74"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.6"
+      },
+      "C4Stick": {
+        "ObjectName": "C4StickComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.C4Stick'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.18"
+      },
+      "Life": {
+        "ObjectName": "LifeComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.Life'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.103"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.25"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.30"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.35"
+      },
+      "PointerAssist": {
+        "ObjectName": "PointerAssistComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.PointerAssist'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.111"
+      },
+      "CollTree": {
+        "ObjectName": "CollTreeComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.88"
+      },
+      "CarrotSkeletalMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.79"
+      },
+      "Sphere": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.138"
+      },
+      "CarrotMoveComponent": {
+        "ObjectName": "CarrotMoveComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotMove'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.74"
+      },
+      "SkeletalMeshComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.79"
+      },
+      "AffordanceComponent": {
+        "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.13"
+      },
+      "AttackAffordanceComponent": {
+        "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.13"
+      },
+      "CarryAffordanceComponent": {
+        "ObjectName": "TestCarryAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.TestCarryAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.149"
+      },
+      "StickComponent": {
+        "ObjectName": "C4StickComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.C4Stick'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.18"
+      },
+      "LifeComponent": {
+        "ObjectName": "LifeComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.Life'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.103"
+      },
+      "WaterBoxFollowContext": {
+        "bCheck": false
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4294967353
+      },
+      "RebirthInfo": {
+        "RebirthType": "ERebirthType::RebirthFullExplore"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.138"
+      },
+      "BlueprintCreatedComponents": [
+        null,
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.Sphere'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.138"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotSkeletalMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.79"
+        },
+        {
+          "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.Ak'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.6"
+        },
+        {
+          "ObjectName": "CollTreeComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.88"
+        },
+        {
+          "ObjectName": "PointerAssistComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.PointerAssist'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.111"
+        },
+        {
+          "ObjectName": "CakEventHandlerComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CakEventHandler'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.35"
+        },
+        {
+          "ObjectName": "CakEmitterConfigComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CakEmitterConfig'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.30"
+        },
+        {
+          "ObjectName": "CakAudioTableComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CakAudioTable'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.25"
+        },
+        {
+          "ObjectName": "LifeComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.Life'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.103"
+        },
+        {
+          "ObjectName": "C4StickComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.C4Stick'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.18"
+        },
+        {
+          "ObjectName": "CarrotMoveComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotMove'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.74"
+        },
+        {
+          "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.AttackAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.13"
+        },
+        {
+          "ObjectName": "TestCarryAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.TestCarryAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.149"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.Carcass'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.82"
+        },
+        {
+          "ObjectName": "CarrotGenseiStrategyComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotGenseiStrategy'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.71"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree_Head'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.137"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree_Mouth'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.62"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree_Body_00'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.130"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree_Body_01'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.131"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree_Body_02'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.132"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree_Body_03'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.133"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree_Body_04'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.134"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree_Body_05'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.135"
+        },
+        {
+          "ObjectName": "SnakeCrowAIComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.SnakeCrowAI'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.115"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CollTree_DeadBody'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.136"
+        },
+        {
+          "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.Ak_F_j002_jaw'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.7"
+        },
+        {
+          "ObjectName": "CarrotCarryLineComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotCarryLine'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.68"
+        },
+        {
+          "ObjectName": "CarrotCarryCircleComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotCarryCircleWing'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.65"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GSnakeCrow_C",
+    "Name": "GSnakeCrow_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GSnakeCrow_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Teki/GSnakeCrow.GSnakeCrow_C'",
+    "Properties": {
+      "CarrotCarryCircleWing": {
+        "ObjectName": "CarrotCarryCircleComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotCarryCircleWing'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.66"
+      },
+      "CarrotCarryLine": {
+        "ObjectName": "CarrotCarryLineComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotCarryLine'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.69"
+      },
+      "Ak_F_j002_jaw": {
+        "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.Ak_F_j002_jaw'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.9"
+      },
+      "CollTree_DeadBody": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree_DeadBody'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.145"
+      },
+      "SnakeCrowAI": {
+        "ObjectName": "SnakeCrowAIComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.SnakeCrowAI'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.116"
+      },
+      "CollTree_Body_05": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree_Body_05'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.144"
+      },
+      "CollTree_Body_04": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree_Body_04'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.143"
+      },
+      "CollTree_Body_03": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree_Body_03'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.142"
+      },
+      "CollTree_Body_02": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree_Body_02'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.141"
+      },
+      "CollTree_Body_01": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree_Body_01'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.140"
+      },
+      "CollTree_Body_00": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree_Body_00'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.139"
+      },
+      "CollTree_Mouth": {
+        "ObjectName": "CapsuleComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree_Mouth'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.63"
+      },
+      "CollTree_Head": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree_Head'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.146"
+      },
+      "CarrotGenseiStrategy": {
+        "ObjectName": "CarrotGenseiStrategyComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotGenseiStrategy'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.72"
+      },
+      "Carcass": {
+        "ObjectName": "CarrotStaticMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.Carcass'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.83"
+      },
+      "TestCarryAffordance": {
+        "ObjectName": "TestCarryAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.TestCarryAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.150"
+      },
+      "AttackAffordance": {
+        "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.14"
+      },
+      "CarrotMove": {
+        "ObjectName": "CarrotMoveComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotMove'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.75"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.8"
+      },
+      "C4Stick": {
+        "ObjectName": "C4StickComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.C4Stick'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.19"
+      },
+      "Life": {
+        "ObjectName": "LifeComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.Life'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.104"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.26"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.31"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.36"
+      },
+      "PointerAssist": {
+        "ObjectName": "PointerAssistComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.PointerAssist'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.112"
+      },
+      "CollTree": {
+        "ObjectName": "CollTreeComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.89"
+      },
+      "CarrotSkeletalMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.80"
+      },
+      "Sphere": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.147"
+      },
+      "CarrotMoveComponent": {
+        "ObjectName": "CarrotMoveComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotMove'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.75"
+      },
+      "SkeletalMeshComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.80"
+      },
+      "AffordanceComponent": {
+        "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.14"
+      },
+      "AttackAffordanceComponent": {
+        "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.14"
+      },
+      "CarryAffordanceComponent": {
+        "ObjectName": "TestCarryAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.TestCarryAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.150"
+      },
+      "StickComponent": {
+        "ObjectName": "C4StickComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.C4Stick'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.19"
+      },
+      "LifeComponent": {
+        "ObjectName": "LifeComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.Life'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.104"
+      },
+      "WaterBoxFollowContext": {
+        "bCheck": false
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4294967352
+      },
+      "RebirthInfo": {
+        "RebirthType": "ERebirthType::RebirthFullExplore"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.147"
+      },
+      "BlueprintCreatedComponents": [
+        null,
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.Sphere'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.147"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotSkeletalMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.80"
+        },
+        {
+          "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.Ak'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.8"
+        },
+        {
+          "ObjectName": "CollTreeComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.89"
+        },
+        {
+          "ObjectName": "PointerAssistComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.PointerAssist'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.112"
+        },
+        {
+          "ObjectName": "CakEventHandlerComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CakEventHandler'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.36"
+        },
+        {
+          "ObjectName": "CakEmitterConfigComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CakEmitterConfig'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.31"
+        },
+        {
+          "ObjectName": "CakAudioTableComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CakAudioTable'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.26"
+        },
+        {
+          "ObjectName": "LifeComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.Life'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.104"
+        },
+        {
+          "ObjectName": "C4StickComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.C4Stick'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.19"
+        },
+        {
+          "ObjectName": "CarrotMoveComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotMove'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.75"
+        },
+        {
+          "ObjectName": "AttackAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.AttackAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.14"
+        },
+        {
+          "ObjectName": "TestCarryAffordanceComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.TestCarryAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.150"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.Carcass'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.83"
+        },
+        {
+          "ObjectName": "CarrotGenseiStrategyComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotGenseiStrategy'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.72"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree_Head'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.146"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree_Mouth'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.63"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree_Body_00'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.139"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree_Body_01'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.140"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree_Body_02'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.141"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree_Body_03'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.142"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree_Body_04'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.143"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree_Body_05'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.144"
+        },
+        {
+          "ObjectName": "SnakeCrowAIComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.SnakeCrowAI'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.116"
+        },
+        {
+          "ObjectName": "SphereComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CollTree_DeadBody'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.145"
+        },
+        {
+          "ObjectName": "AkComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.Ak_F_j002_jaw'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.9"
+        },
+        {
+          "ObjectName": "CarrotCarryLineComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotCarryLine'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.69"
+        },
+        {
+          "ObjectName": "CarrotCarryCircleComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotCarryCircleWing'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.66"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Cave016_F02_Teki",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Cave016_F02_Teki:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.105"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Cave016_F02_Teki_C'Cave016_F02_Teki:PersistentLevel.Cave016_F02_Teki_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.84"
+      },
+      "LevelBuildDataId": "C184410C-4F3EE05B-3BFA1F81-BECD0808",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Cave016_F02_Teki_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Cave016_F02_Teki:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.106"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Cave016_F02_Teki:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.106"
+      },
+      null,
+      {
+        "ObjectName": "GEgg_C'Cave016_F02_Teki:PersistentLevel.GEgg_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.93"
+      },
+      {
+        "ObjectName": "GEgg_C'Cave016_F02_Teki:PersistentLevel.GEgg2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.92"
+      },
+      {
+        "ObjectName": "GSnakeCrow_C'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.98"
+      },
+      {
+        "ObjectName": "GSnakeCrow_C'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.97"
+      },
+      {
+        "ObjectName": "GSnakeCrow_C'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.96"
+      },
+      {
+        "ObjectName": "GGroupDropManager_C'Cave016_F02_Teki:PersistentLevel.GGroupDropManager_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.94"
+      },
+      {
+        "ObjectName": "Cave016_F02_Teki_C'Cave016_F02_Teki:PersistentLevel.Cave016_F02_Teki_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.84"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Test/Maps/Check/CheckRomEntry_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Cave016_F02_Teki:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.105"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Cave016_F02_Teki_C'Cave016_F02_Teki:PersistentLevel.Cave016_F02_Teki_C_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.84"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LifeComponent",
+    "Name": "Life",
+    "Outer": "GEgg2",
+    "Template": "Life_GEN_VARIABLE",
+    "Class": "UScriptClass'LifeComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LifeComponent",
+    "Name": "Life",
+    "Outer": "GEgg_2",
+    "Template": "Life_GEN_VARIABLE",
+    "Class": "UScriptClass'LifeComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LifeComponent",
+    "Name": "Life",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "Life_GEN_VARIABLE",
+    "Class": "UScriptClass'LifeComponent'",
+    "Properties": {
+      "Life": 2500.0,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'LifeComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "Life",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LifeComponent",
+    "Name": "Life",
+    "Outer": "GSnakeCrow3",
+    "Template": "Life_GEN_VARIABLE",
+    "Class": "UScriptClass'LifeComponent'",
+    "Properties": {
+      "Life": 2500.0,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'LifeComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "Life",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LifeComponent",
+    "Name": "Life",
+    "Outer": "GSnakeCrow_2",
+    "Template": "Life_GEN_VARIABLE",
+    "Class": "UScriptClass'LifeComponent'",
+    "Properties": {
+      "Life": 2500.0,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'LifeComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "Life",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "C144557C-4D19F863-8D1191BE-D0E6433C",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "bEnableNavigationSystem": false,
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Cave016_F02_Teki:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.107"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PointerAssistComponent",
+    "Name": "PointerAssist",
+    "Outer": "GEgg2",
+    "Template": "PointerAssist_GEN_VARIABLE",
+    "Class": "UScriptClass'PointerAssistComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "PointerAssistComponent",
+    "Name": "PointerAssist",
+    "Outer": "GEgg_2",
+    "Template": "PointerAssist_GEN_VARIABLE",
+    "Class": "UScriptClass'PointerAssistComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "PointerAssistComponent",
+    "Name": "PointerAssist",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "PointerAssist_GEN_VARIABLE",
+    "Class": "UScriptClass'PointerAssistComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "PointerAssistComponent",
+    "Name": "PointerAssist",
+    "Outer": "GSnakeCrow3",
+    "Template": "PointerAssist_GEN_VARIABLE",
+    "Class": "UScriptClass'PointerAssistComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "PointerAssistComponent",
+    "Name": "PointerAssist",
+    "Outer": "GSnakeCrow_2",
+    "Template": "PointerAssist_GEN_VARIABLE",
+    "Class": "UScriptClass'PointerAssistComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GGroupDropManager_2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1.0856628,
+        "Y": -151.90088,
+        "Z": 3.896485E-05
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SnakeCrowAIComponent",
+    "Name": "SnakeCrowAI",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "SnakeCrowAI_GEN_VARIABLE",
+    "Class": "UScriptClass'SnakeCrowAIComponent'",
+    "Properties": {
+      "TekiAIParameter": {
+        "Territory": {
+          "Radius": 175.0
+        },
+        "DropParameter": {
+          "DropItemParameter": []
+        }
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SnakeCrowAIComponent",
+    "Name": "SnakeCrowAI",
+    "Outer": "GSnakeCrow3",
+    "Template": "SnakeCrowAI_GEN_VARIABLE",
+    "Class": "UScriptClass'SnakeCrowAIComponent'",
+    "Properties": {
+      "TekiAIParameter": {
+        "Territory": {
+          "Radius": 175.0
+        },
+        "DropParameter": {
+          "DropItemParameter": []
+        }
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SnakeCrowAIComponent",
+    "Name": "SnakeCrowAI",
+    "Outer": "GSnakeCrow_2",
+    "Template": "SnakeCrowAI_GEN_VARIABLE",
+    "Class": "UScriptClass'SnakeCrowAIComponent'",
+    "Properties": {
+      "TekiAIParameter": {
+        "Territory": {
+          "Radius": 175.0
+        },
+        "DropParameter": {
+          "DropItemParameter": []
+        }
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body",
+    "Outer": "GEgg2",
+    "Template": "CollTree_Body_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GEgg2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.76"
+      },
+      "AttachSocketName": "S_j000",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "GEgg2",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 295.83868,
+        "Y": -394.70728,
+        "Z": 20.26897
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 170.00005,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body",
+    "Outer": "GEgg_2",
+    "Template": "CollTree_Body_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GEgg_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.77"
+      },
+      "AttachSocketName": "S_j000",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "GEgg_2",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 261.24615,
+        "Y": -436.4038,
+        "Z": 19.17472
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 170.00005,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body_00",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "CollTree_Body_00_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.78"
+      },
+      "AttachSocketName": "X_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body_01",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "CollTree_Body_01_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.78"
+      },
+      "AttachSocketName": "B_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body_02",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "CollTree_Body_02_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.78"
+      },
+      "AttachSocketName": "B_j002",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body_03",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "CollTree_Body_03_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.78"
+      },
+      "AttachSocketName": "B_j003",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body_04",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "CollTree_Body_04_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.78"
+      },
+      "AttachSocketName": "B_j004",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body_05",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "CollTree_Body_05_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.78"
+      },
+      "AttachSocketName": "B_j005",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_DeadBody",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "CollTree_DeadBody_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.78"
+      },
+      "AttachSocketName": "root",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Head",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "CollTree_Head_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow2_6.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.78"
+      },
+      "AttachSocketName": "H_j000",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 135.8742,
+        "Y": -159.07782,
+        "Z": 82.61953
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 40.000065,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body_00",
+    "Outer": "GSnakeCrow3",
+    "Template": "CollTree_Body_00_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.79"
+      },
+      "AttachSocketName": "X_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body_01",
+    "Outer": "GSnakeCrow3",
+    "Template": "CollTree_Body_01_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.79"
+      },
+      "AttachSocketName": "B_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body_02",
+    "Outer": "GSnakeCrow3",
+    "Template": "CollTree_Body_02_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.79"
+      },
+      "AttachSocketName": "B_j002",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body_03",
+    "Outer": "GSnakeCrow3",
+    "Template": "CollTree_Body_03_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.79"
+      },
+      "AttachSocketName": "B_j003",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body_04",
+    "Outer": "GSnakeCrow3",
+    "Template": "CollTree_Body_04_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.79"
+      },
+      "AttachSocketName": "B_j004",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body_05",
+    "Outer": "GSnakeCrow3",
+    "Template": "CollTree_Body_05_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.79"
+      },
+      "AttachSocketName": "B_j005",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_DeadBody",
+    "Outer": "GSnakeCrow3",
+    "Template": "CollTree_DeadBody_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.79"
+      },
+      "AttachSocketName": "root",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Head",
+    "Outer": "GSnakeCrow3",
+    "Template": "CollTree_Head_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow3.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.79"
+      },
+      "AttachSocketName": "H_j000",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "GSnakeCrow3",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -88.12561,
+        "Y": -16.07782,
+        "Z": 80.97643
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -30.000061,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body_00",
+    "Outer": "GSnakeCrow_2",
+    "Template": "CollTree_Body_00_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.80"
+      },
+      "AttachSocketName": "X_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body_01",
+    "Outer": "GSnakeCrow_2",
+    "Template": "CollTree_Body_01_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.80"
+      },
+      "AttachSocketName": "B_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body_02",
+    "Outer": "GSnakeCrow_2",
+    "Template": "CollTree_Body_02_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.80"
+      },
+      "AttachSocketName": "B_j002",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body_03",
+    "Outer": "GSnakeCrow_2",
+    "Template": "CollTree_Body_03_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.80"
+      },
+      "AttachSocketName": "B_j003",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body_04",
+    "Outer": "GSnakeCrow_2",
+    "Template": "CollTree_Body_04_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.80"
+      },
+      "AttachSocketName": "B_j004",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body_05",
+    "Outer": "GSnakeCrow_2",
+    "Template": "CollTree_Body_05_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.80"
+      },
+      "AttachSocketName": "B_j005",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_DeadBody",
+    "Outer": "GSnakeCrow_2",
+    "Template": "CollTree_DeadBody_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.80"
+      },
+      "AttachSocketName": "root",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Head",
+    "Outer": "GSnakeCrow_2",
+    "Template": "CollTree_Head_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Cave016_F02_Teki:PersistentLevel.GSnakeCrow_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.80"
+      },
+      "AttachSocketName": "H_j000",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "GSnakeCrow_2",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -98.12561,
+        "Y": -286.07764,
+        "Z": 82.29327
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -10.0000305,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TestCarryAffordanceComponent",
+    "Name": "TestCarryAffordance",
+    "Outer": "GSnakeCrow2_6",
+    "Template": "TestCarryAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'TestCarryAffordanceComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TestCarryAffordanceComponent",
+    "Name": "TestCarryAffordance",
+    "Outer": "GSnakeCrow3",
+    "Template": "TestCarryAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'TestCarryAffordanceComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TestCarryAffordanceComponent",
+    "Name": "TestCarryAffordance",
+    "Outer": "GSnakeCrow_2",
+    "Template": "TestCarryAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'TestCarryAffordanceComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Cave016_F02_Teki",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Cave016_F02_Teki:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave016/Cave016_F02/Sublevels/Cave016_F02_Teki.99"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

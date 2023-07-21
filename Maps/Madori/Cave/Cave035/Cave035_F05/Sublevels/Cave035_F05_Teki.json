@@ -1,0 +1,309 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Cave035_F05_Teki_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "LatestSerialId",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Cave035_F05_Teki_C'Default__Cave035_F05_Teki_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki.1"
+    }
+  },
+  {
+    "Type": "Cave035_F05_Teki_C",
+    "Name": "Default__Cave035_F05_Teki_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki.Cave035_F05_Teki_C'",
+    "Properties": {
+      "LatestSerialId": 39
+    }
+  },
+  {
+    "Type": "ActorSpawnerComponent",
+    "Name": "ActorSpawner",
+    "Outer": "GActorSpawner_2",
+    "Template": "ActorSpawner_GEN_VARIABLE",
+    "Class": "UScriptClass'ActorSpawnerComponent'",
+    "Properties": {
+      "ActorSpawnAIParameter": {
+        "OverlapArea": {
+          "SphereRadius": 175.0,
+          "Radius": 175.0
+        },
+        "DropSpawnMiniInfo": {
+          "DropActor": {
+            "ObjectName": "BlueprintGeneratedClass'GFireOtakara_C'",
+            "ObjectPath": "/Game/Carrot4/Placeables/Teki/GFireOtakara.0"
+          },
+          "CustomParameter": "ShoulderBomb"
+        },
+        "SpawnLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 550.0
+        },
+        "bInfiniteSpawn": true,
+        "SpawnInterval": 12.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Cave035_F05_Teki_C",
+    "Name": "Cave035_F05_Teki_C_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Cave035_F05_Teki_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki.Cave035_F05_Teki_C'"
+  },
+  {
+    "Type": "GActorSpawner_C",
+    "Name": "GActorSpawner_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GActorSpawner_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/ActorSpawner/GActorSpawner.GActorSpawner_C'",
+    "Properties": {
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Cave035_F05_Teki:PersistentLevel.GActorSpawner_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki.9"
+      },
+      "ActorSpawner": {
+        "ObjectName": "ActorSpawnerComponent'Cave035_F05_Teki:PersistentLevel.GActorSpawner_2.ActorSpawner'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki.2"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4611691520280494118
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Cave035_F05_Teki:PersistentLevel.GActorSpawner_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki.9"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "ActorSpawnerComponent'Cave035_F05_Teki:PersistentLevel.GActorSpawner_2.ActorSpawner'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki.2"
+        },
+        {
+          "ObjectName": "SceneComponent'Cave035_F05_Teki:PersistentLevel.GActorSpawner_2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Cave035_F05_Teki",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Cave035_F05_Teki:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki.6"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Cave035_F05_Teki_C'Cave035_F05_Teki:PersistentLevel.Cave035_F05_Teki_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki.3"
+      },
+      "LevelBuildDataId": "2B569D0C-449BCC33-DF3BF18F-B86C5BE0",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Cave035_F05_Teki_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Cave035_F05_Teki:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki.7"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Cave035_F05_Teki:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki.7"
+      },
+      null,
+      {
+        "ObjectName": "GActorSpawner_C'Cave035_F05_Teki:PersistentLevel.GActorSpawner_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki.4"
+      },
+      {
+        "ObjectName": "Cave035_F05_Teki_C'Cave035_F05_Teki:PersistentLevel.Cave035_F05_Teki_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki.3"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Test/Maps/Check/CheckRomEntry_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Cave035_F05_Teki:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki.6"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Cave035_F05_Teki_C'Cave035_F05_Teki:PersistentLevel.Cave035_F05_Teki_C_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki.3"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "318B2D2A-495102F0-B837FCB4-7E80D0DA",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "bEnableNavigationSystem": false,
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Cave035_F05_Teki:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki.8"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GActorSpawner_2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 690.0,
+        "Y": 685.0,
+        "Z": 25.0001
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Cave035_F05_Teki",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Cave035_F05_Teki:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Madori/Cave/Cave035/Cave035_F05/Sublevels/Cave035_F05_Teki.5"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]
