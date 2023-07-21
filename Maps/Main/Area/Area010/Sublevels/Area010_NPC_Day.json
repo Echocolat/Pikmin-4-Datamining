@@ -1,0 +1,1473 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Area010_NPC_Day_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "LatestSerialId",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Area010_NPC_Day_C'Default__Area010_NPC_Day_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.1"
+    }
+  },
+  {
+    "Type": "Area010_NPC_Day_C",
+    "Name": "Default__Area010_NPC_Day_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.Area010_NPC_Day_C'",
+    "Properties": {
+      "LatestSerialId": 3
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.19"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.2"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.2"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "GNpcOlimarLeafDDB_2",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.24"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.3"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.3"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "Area010_NPC_Day_C",
+    "Name": "Area010_NPC_Day_C_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Area010_NPC_Day_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.Area010_NPC_Day_C'"
+  },
+  {
+    "Type": "CakAudioFlagComponent",
+    "Name": "CakAudioFlag",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "CakAudioFlag_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioFlagComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "CakAudioTable_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioTableComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "GNpcOlimarLeafDDB_2",
+    "Template": "CakAudioTable_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioTableComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "CakEmitterConfig_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEmitterConfigComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "GNpcOlimarLeafDDB_2",
+    "Template": "CakEmitterConfig_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEmitterConfigComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "CakEventHandler_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEventHandlerComponent'",
+    "Properties": {
+      "Unit_0": {
+        "ObjectName": "CakMoveSpeedControlUnit'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CakEventHandler.CakMoveSpeedControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.12"
+      },
+      "Unit_1": {
+        "ObjectName": "CakTerrainSwitchingUnit'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CakEventHandler.CakTerrainSwitchingUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.15"
+      },
+      "Unit_2": {
+        "ObjectName": "CakSinkRatioControlUnit'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CakEventHandler.CakSinkRatioControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.14"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "GNpcOlimarLeafDDB_2",
+    "Template": "CakEventHandler_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEventHandlerComponent'",
+    "Properties": {
+      "Unit_0": {
+        "ObjectName": "CakMoveSpeedControlUnit'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CakEventHandler.CakMoveSpeedControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.13"
+      },
+      "Unit_1": {
+        "ObjectName": "CakTerrainSwitchingUnit'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CakEventHandler.CakTerrainSwitchingUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.16"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakMoveSpeedControlUnit",
+    "Name": "CakMoveSpeedControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakMoveSpeedControlUnit_0",
+    "Class": "UScriptClass'CakMoveSpeedControlUnit'"
+  },
+  {
+    "Type": "CakMoveSpeedControlUnit",
+    "Name": "CakMoveSpeedControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakMoveSpeedControlUnit_0",
+    "Class": "UScriptClass'CakMoveSpeedControlUnit'"
+  },
+  {
+    "Type": "CakSinkRatioControlUnit",
+    "Name": "CakSinkRatioControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakSinkRatioControlUnit_0",
+    "Class": "UScriptClass'CakSinkRatioControlUnit'"
+  },
+  {
+    "Type": "CakTerrainSwitchingUnit",
+    "Name": "CakTerrainSwitchingUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakTerrainSwitchingUnit_0",
+    "Class": "UScriptClass'CakTerrainSwitchingUnit'"
+  },
+  {
+    "Type": "CakTerrainSwitchingUnit",
+    "Name": "CakTerrainSwitchingUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakTerrainSwitchingUnit_0",
+    "Class": "UScriptClass'CakTerrainSwitchingUnit'"
+  },
+  {
+    "Type": "CarrotMoveComponent",
+    "Name": "CarrotMove",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "CarrotMove_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotMoveComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotMoveComponent",
+    "Name": "CarrotMove",
+    "Outer": "GNpcOlimarLeafDDB_2",
+    "Template": "CarrotMove_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotMoveComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "CarrotSkeletalMesh",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "CarrotSkeletalMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "F_j000_face",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "F_j000_face_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.19"
+      },
+      "AttachSocketName": "F_j000",
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "F_j000_hair",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "F_j000_hair_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.19"
+      },
+      "AttachSocketName": "F_j000",
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "H_j000_leaf",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "H_j000_leaf_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.19"
+      },
+      "AttachSocketName": "H_j000",
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "ShadowMesh",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "ShadowMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "MasterPoseComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.19"
+      },
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.19"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "CarrotSkeletalMesh",
+    "Outer": "GNpcOlimarLeafDDB_2",
+    "Template": "CarrotSkeletalMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.50"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "F_j000_face",
+    "Outer": "GNpcOlimarLeafDDB_2",
+    "Template": "F_j000_face_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.24"
+      },
+      "AttachSocketName": "F_j000",
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "F_j000_hair",
+    "Outer": "GNpcOlimarLeafDDB_2",
+    "Template": "F_j000_hair_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.24"
+      },
+      "AttachSocketName": "F_j000",
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "H_j000_leaf",
+    "Outer": "GNpcOlimarLeafDDB_2",
+    "Template": "H_j000_leaf_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.24"
+      },
+      "AttachSocketName": "H_j000",
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "ShadowMesh",
+    "Outer": "GNpcOlimarLeafDDB_2",
+    "Template": "ShadowMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "MasterPoseComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.24"
+      },
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.24"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CharacterEditComponent",
+    "Name": "CharacterEdit",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "CharacterEdit_GEN_VARIABLE",
+    "Class": "UScriptClass'CharacterEditComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CharacterEditComponent",
+    "Name": "CharacterEdit",
+    "Outer": "GNpcOlimarLeafDDB_2",
+    "Template": "CharacterEdit_GEN_VARIABLE",
+    "Class": "UScriptClass'CharacterEditComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CollTreeComponent",
+    "Name": "CollTree",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "CollTree_GEN_VARIABLE",
+    "Class": "UScriptClass'CollTreeComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CollTreeComponent",
+    "Name": "CollTree",
+    "Outer": "GNpcOlimarLeafDDB_2",
+    "Template": "CollTree_GEN_VARIABLE",
+    "Class": "UScriptClass'CollTreeComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "DemoPlayParam": {
+        "AssetPathName": "/Game/Carrot4/Demo/PlayParam/Common/DPP_Discovery_ChallengeLeafHuman_01.DPP_Discovery_ChallengeLeafHuman_01",
+        "SubPathString": ""
+      },
+      "QuestNames": [
+        "Quest_Generator_LF013"
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GNpcOlimarLeafDDB_2",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "DemoType": "EDemoType::Undef",
+      "DemoPlayParam": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "CarrotTriggerType": "ECarrotTriggerType::Undef",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "GNpcEditLeafPoko_C",
+    "Name": "GNpcEditLeafPoko_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GNpcEditLeafPoko_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Npc/GNpcEditLeafPoko.GNpcEditLeafPoko_C'",
+    "Properties": {
+      "CakAudioFlag": {
+        "ObjectName": "CakAudioFlagComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CakAudioFlag'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.5"
+      },
+      "CollTree_SleepLeaf": {
+        "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CollTree_SleepLeaf'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.44"
+      },
+      "H_j000_leaf": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.H_j000_leaf'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.22"
+      },
+      "CharacterEdit": {
+        "ObjectName": "CharacterEditComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CharacterEdit'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.29"
+      },
+      "F_j000_face": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.F_j000_face'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.20"
+      },
+      "F_j000_hair": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.F_j000_hair'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.21"
+      },
+      "ShadowMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.ShadowMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.23"
+      },
+      "CollTree": {
+        "ObjectName": "CollTreeComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CollTree'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.31"
+      },
+      "CollTree_Body": {
+        "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CollTree_Body'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.43"
+      },
+      "CarrotMove": {
+        "ObjectName": "CarrotMoveComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CarrotMove'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.17"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.2"
+      },
+      "NpcAI": {
+        "ObjectName": "NpcAIComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.NpcAI'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.41"
+      },
+      "OverlapArea": {
+        "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.45"
+      },
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.33"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.6"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.8"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.10"
+      },
+      "CarrotSkeletalMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.19"
+      },
+      "Sphere": {
+        "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.46"
+      },
+      "CarrotMoveComponent": {
+        "ObjectName": "CarrotMoveComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CarrotMove'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.17"
+      },
+      "SkeletalMeshComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.19"
+      },
+      "DemoBindName": "GNpcLeaf_Poko_01",
+      "GenerateInfo": {
+        "DebugUniqueId": 1155736288733691906,
+        "SleepCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 40010,
+            "CondName": "None"
+          }
+        ]
+      },
+      "RebirthInfo": {
+        "ActivityTime": "EActivityTime::Daytime",
+        "EraseCond": [
+          {
+            "Condition": "EActorPlacementCondition::QuestClear",
+            "CondInt": -1,
+            "CondName": "Quest_Generator_LF013",
+            "CondPikminColor": "EPikminColor::Undef"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.46"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.Sphere'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.46"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CarrotSkeletalMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.19"
+        },
+        {
+          "ObjectName": "AkComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.Ak'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.2"
+        },
+        {
+          "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CollTree_Body'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.43"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.ShadowMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.23"
+        },
+        {
+          "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.45"
+        },
+        {
+          "ObjectName": "CakEventHandlerComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CakEventHandler'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.10"
+        },
+        {
+          "ObjectName": "CakEmitterConfigComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CakEmitterConfig'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.8"
+        },
+        {
+          "ObjectName": "CakAudioTableComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CakAudioTable'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.6"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.33"
+        },
+        {
+          "ObjectName": "NpcAIComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.NpcAI'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.41"
+        },
+        {
+          "ObjectName": "CarrotMoveComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CarrotMove'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.17"
+        },
+        {
+          "ObjectName": "CollTreeComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CollTree'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.31"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.F_j000_hair'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.21"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.F_j000_face'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.20"
+        },
+        {
+          "ObjectName": "CharacterEditComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CharacterEdit'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.29"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.H_j000_leaf'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.22"
+        },
+        {
+          "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CollTree_SleepLeaf'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.44"
+        },
+        {
+          "ObjectName": "CakAudioFlagComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CakAudioFlag'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GNpcOlimarLeafDDB_C",
+    "Name": "GNpcOlimarLeafDDB_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GNpcOlimarLeafDDB_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Npc/GNpcOlimarLeafDDB.GNpcOlimarLeafDDB_C'",
+    "Properties": {
+      "CollTree_SleepLeaf": {
+        "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CollTree_SleepLeaf'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.48"
+      },
+      "F_j000_hair": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.F_j000_hair'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.26"
+      },
+      "H_j000_leaf": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.H_j000_leaf'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.27"
+      },
+      "CharacterEdit": {
+        "ObjectName": "CharacterEditComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CharacterEdit'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.30"
+      },
+      "F_j000_face": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.F_j000_face'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.25"
+      },
+      "ShadowMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.ShadowMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.28"
+      },
+      "CollTree": {
+        "ObjectName": "CollTreeComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CollTree'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.32"
+      },
+      "CollTree_Body": {
+        "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CollTree_Body'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.47"
+      },
+      "CarrotMove": {
+        "ObjectName": "CarrotMoveComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CarrotMove'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.18"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.3"
+      },
+      "NpcAI": {
+        "ObjectName": "NpcAIComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.NpcAI'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.42"
+      },
+      "OverlapArea": {
+        "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.49"
+      },
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.34"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.7"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.9"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.11"
+      },
+      "CarrotSkeletalMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.24"
+      },
+      "Sphere": {
+        "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.50"
+      },
+      "CarrotMoveComponent": {
+        "ObjectName": "CarrotMoveComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CarrotMove'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.18"
+      },
+      "SkeletalMeshComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.24"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1155736288733691905,
+        "SleepCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 108,
+            "CondName": "None"
+          }
+        ]
+      },
+      "RebirthInfo": {
+        "ActivityTime": "EActivityTime::Daytime",
+        "EraseCond": [
+          {
+            "Condition": "EActorPlacementCondition::QuestClear",
+            "CondInt": -1,
+            "CondName": "Quest_Generator_GNpcOlimarLeaf_Area010",
+            "CondPikminColor": "EPikminColor::Undef"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.50"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.Sphere'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.50"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CarrotSkeletalMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.24"
+        },
+        {
+          "ObjectName": "AkComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.Ak'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.3"
+        },
+        {
+          "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CollTree_Body'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.47"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.ShadowMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.28"
+        },
+        {
+          "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.49"
+        },
+        {
+          "ObjectName": "CakEventHandlerComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CakEventHandler'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.11"
+        },
+        {
+          "ObjectName": "CakEmitterConfigComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CakEmitterConfig'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.9"
+        },
+        {
+          "ObjectName": "CakAudioTableComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CakAudioTable'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.7"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.34"
+        },
+        {
+          "ObjectName": "NpcAIComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.NpcAI'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.42"
+        },
+        {
+          "ObjectName": "CarrotMoveComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CarrotMove'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.18"
+        },
+        {
+          "ObjectName": "CollTreeComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CollTree'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.32"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.F_j000_face'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.25"
+        },
+        {
+          "ObjectName": "CharacterEditComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CharacterEdit'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.30"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.H_j000_leaf'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.27"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.F_j000_hair'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.26"
+        },
+        {
+          "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CollTree_SleepLeaf'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.48"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Area010_NPC_Day",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Area010_NPC_Day:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.38"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Area010_NPC_Day_C'Area010_NPC_Day:PersistentLevel.Area010_NPC_Day_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.4"
+      },
+      "LevelBuildDataId": "6AAB8B9B-4DA9B114-A3FA458C-D71731C4",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Area010_NPC_Day_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Area010_NPC_Day:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.39"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Area010_NPC_Day:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.39"
+      },
+      null,
+      {
+        "ObjectName": "GNpcOlimarLeafDDB_C'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.36"
+      },
+      {
+        "ObjectName": "GNpcEditLeafPoko_C'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.35"
+      },
+      {
+        "ObjectName": "Area010_NPC_Day_C'Area010_NPC_Day:PersistentLevel.Area010_NPC_Day_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.4"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Carrot4/Maps/Boot_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Area010_NPC_Day:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.38"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Area010_NPC_Day_C'Area010_NPC_Day:PersistentLevel.Area010_NPC_Day_C_1'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.4"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "60BDC0C8-432B1F5F-5CCFC18A-15881070",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Area010_NPC_Day:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.40"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "NpcAIComponent",
+    "Name": "NpcAI",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "NpcAI_GEN_VARIABLE",
+    "Class": "UScriptClass'NpcAIComponent'",
+    "Properties": {
+      "NpcInfoKey": "LFSleep013",
+      "AIParameter": {
+        "NpcAIInfos": [
+          {
+            "AIType": "ENpcAIType::WaitJoy",
+            "ProgressMin": 0,
+            "ProgressMax": 2147483647
+          }
+        ]
+      },
+      "TalkParameter": {
+        "ContentsName": "BalloonArea003",
+        "WindowMsgId": "NpcBalloon003_07_SurvivorLeaf"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "NpcAIComponent",
+    "Name": "NpcAI",
+    "Outer": "GNpcOlimarLeafDDB_2",
+    "Template": "NpcAI_GEN_VARIABLE",
+    "Class": "UScriptClass'NpcAIComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "CollTree_Body_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.19"
+      },
+      "AttachSocketName": "root",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_SleepLeaf",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "CollTree_SleepLeaf_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.19"
+      },
+      "AttachSocketName": "H_j000",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "OverlapArea",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 250.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcEditLeafPoko_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.46"
+      },
+      "RelativeLocation": {
+        "X": -28.999796,
+        "Y": 103.00006,
+        "Z": 62.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "GNpcEditLeafPoko_2",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 1030.2452,
+        "Y": -4022.7144,
+        "Z": 623.0211
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 30.000217,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body",
+    "Outer": "GNpcOlimarLeafDDB_2",
+    "Template": "CollTree_Body_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.24"
+      },
+      "AttachSocketName": "root",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_SleepLeaf",
+    "Outer": "GNpcOlimarLeafDDB_2",
+    "Template": "CollTree_SleepLeaf_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.24"
+      },
+      "AttachSocketName": "H_j000",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "OverlapArea",
+    "Outer": "GNpcOlimarLeafDDB_2",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 0.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Area010_NPC_Day:PersistentLevel.GNpcOlimarLeafDDB_2.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.50"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "GNpcOlimarLeafDDB_2",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3271.0,
+        "Y": 589.0,
+        "Z": 451.5
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Area010_NPC_Day",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Area010_NPC_Day:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_Day.37"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

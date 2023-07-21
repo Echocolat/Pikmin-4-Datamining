@@ -1,0 +1,594 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Area001_Sound_Night_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "LatestSerialId",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Area001_Sound_Night_C'Default__Area001_Sound_Night_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.1"
+    }
+  },
+  {
+    "Type": "Area001_Sound_Night_C",
+    "Name": "Default__Area001_Sound_Night_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.Area001_Sound_Night_C'",
+    "Properties": {
+      "LatestSerialId": 7
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "Amb_BirdTwitterNight1",
+    "Template": "Ak",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -4836.183,
+        "Y": -4305.623,
+        "Z": 2897.6929
+      },
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight1.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.2"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight1.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.2"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "Amb_BirdTwitterNight2",
+    "Template": "Ak",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 5007.2744,
+        "Y": -2353.2803,
+        "Z": 2835.2517
+      },
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight2.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.3"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight2.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.3"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "Amb_BirdTwitterNight3",
+    "Template": "Ak",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3818.0876,
+        "Y": 5614.9824,
+        "Z": 1272.3633
+      },
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight3.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.4"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight3.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.4"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "Area001_Sound_Night_C",
+    "Name": "Area001_Sound_Night_C_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Area001_Sound_Night_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.Area001_Sound_Night_C'"
+  },
+  {
+    "Type": "BP_AmbientSound_Area001_C",
+    "Name": "Amb_BirdTwitterNight1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_AmbientSound_Area001_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Audio/Blueprints/BP_AmbientSound_Area001.BP_AmbientSound_Area001_C'",
+    "Properties": {
+      "Ak": {
+        "ObjectName": "AkComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight1.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.2"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight1.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.15"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight1.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.12"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight1.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.9"
+      },
+      "CakSimpleState": {
+        "ObjectName": "CakSimpleStateComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight1.CakSimpleState'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.19"
+      },
+      "CakTrigger": {
+        "ObjectName": "CakTriggerComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight1.CakTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.22"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1153203044008067075
+      },
+      "RebirthInfo": {
+        "ActivityTime": "EActivityTime::Nighttime"
+      },
+      "RootComponent": {
+        "ObjectName": "AkComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight1.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.2"
+      }
+    }
+  },
+  {
+    "Type": "BP_AmbientSound_Area001_C",
+    "Name": "Amb_BirdTwitterNight2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_AmbientSound_Area001_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Audio/Blueprints/BP_AmbientSound_Area001.BP_AmbientSound_Area001_C'",
+    "Properties": {
+      "Ak": {
+        "ObjectName": "AkComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight2.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.3"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight2.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.16"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight2.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.13"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight2.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.10"
+      },
+      "CakSimpleState": {
+        "ObjectName": "CakSimpleStateComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight2.CakSimpleState'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.20"
+      },
+      "CakTrigger": {
+        "ObjectName": "CakTriggerComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight2.CakTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.23"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1153203044008067076
+      },
+      "RebirthInfo": {
+        "ActivityTime": "EActivityTime::Nighttime"
+      },
+      "RootComponent": {
+        "ObjectName": "AkComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight2.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.3"
+      }
+    }
+  },
+  {
+    "Type": "BP_AmbientSound_Area001_C",
+    "Name": "Amb_BirdTwitterNight3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_AmbientSound_Area001_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Audio/Blueprints/BP_AmbientSound_Area001.BP_AmbientSound_Area001_C'",
+    "Properties": {
+      "Ak": {
+        "ObjectName": "AkComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight3.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.4"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight3.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.17"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight3.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.14"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight3.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.11"
+      },
+      "CakSimpleState": {
+        "ObjectName": "CakSimpleStateComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight3.CakSimpleState'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.21"
+      },
+      "CakTrigger": {
+        "ObjectName": "CakTriggerComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight3.CakTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.24"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1153203044008067077
+      },
+      "RebirthInfo": {
+        "ActivityTime": "EActivityTime::Nighttime"
+      },
+      "RootComponent": {
+        "ObjectName": "AkComponent'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight3.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.4"
+      }
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "Amb_BirdTwitterNight1",
+    "Template": "CakAudioTable",
+    "Class": "UScriptClass'CakAudioTableComponent'"
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "Amb_BirdTwitterNight2",
+    "Template": "CakAudioTable",
+    "Class": "UScriptClass'CakAudioTableComponent'"
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "Amb_BirdTwitterNight3",
+    "Template": "CakAudioTable",
+    "Class": "UScriptClass'CakAudioTableComponent'"
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "Amb_BirdTwitterNight1",
+    "Template": "CakEmitterConfig",
+    "Class": "UScriptClass'CakEmitterConfigComponent'"
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "Amb_BirdTwitterNight2",
+    "Template": "CakEmitterConfig",
+    "Class": "UScriptClass'CakEmitterConfigComponent'"
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "Amb_BirdTwitterNight3",
+    "Template": "CakEmitterConfig",
+    "Class": "UScriptClass'CakEmitterConfigComponent'"
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "Amb_BirdTwitterNight1",
+    "Template": "CakEventHandler",
+    "Class": "UScriptClass'CakEventHandlerComponent'"
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "Amb_BirdTwitterNight2",
+    "Template": "CakEventHandler",
+    "Class": "UScriptClass'CakEventHandlerComponent'"
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "Amb_BirdTwitterNight3",
+    "Template": "CakEventHandler",
+    "Class": "UScriptClass'CakEventHandlerComponent'"
+  },
+  {
+    "Type": "CakMusicPlayerActor",
+    "Name": "CakMusicPlayerActor_Night",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CakMusicPlayerActor'",
+    "Properties": {
+      "AudioKeyOnStart": "Music_MapA",
+      "AudioStateOnStart": "Morning",
+      "GenerateInfo": {
+        "DebugUniqueId": 1153203044008067073
+      },
+      "RebirthInfo": {
+        "ActivityTime": "EActivityTime::Nighttime"
+      }
+    }
+  },
+  {
+    "Type": "CakSimpleStateComponent",
+    "Name": "CakSimpleState",
+    "Outer": "Amb_BirdTwitterNight1",
+    "Template": "CakSimpleState",
+    "Class": "UScriptClass'CakSimpleStateComponent'",
+    "Properties": {
+      "AudioKeyOnStart": "BirdTwitterNight"
+    }
+  },
+  {
+    "Type": "CakSimpleStateComponent",
+    "Name": "CakSimpleState",
+    "Outer": "Amb_BirdTwitterNight2",
+    "Template": "CakSimpleState",
+    "Class": "UScriptClass'CakSimpleStateComponent'",
+    "Properties": {
+      "AudioKeyOnStart": "BirdTwitterNight"
+    }
+  },
+  {
+    "Type": "CakSimpleStateComponent",
+    "Name": "CakSimpleState",
+    "Outer": "Amb_BirdTwitterNight3",
+    "Template": "CakSimpleState",
+    "Class": "UScriptClass'CakSimpleStateComponent'",
+    "Properties": {
+      "AudioKeyOnStart": "BirdTwitterNight"
+    }
+  },
+  {
+    "Type": "CakTriggerComponent",
+    "Name": "CakTrigger",
+    "Outer": "Amb_BirdTwitterNight1",
+    "Template": "CakTrigger",
+    "Class": "UScriptClass'CakTriggerComponent'"
+  },
+  {
+    "Type": "CakTriggerComponent",
+    "Name": "CakTrigger",
+    "Outer": "Amb_BirdTwitterNight2",
+    "Template": "CakTrigger",
+    "Class": "UScriptClass'CakTriggerComponent'"
+  },
+  {
+    "Type": "CakTriggerComponent",
+    "Name": "CakTrigger",
+    "Outer": "Amb_BirdTwitterNight3",
+    "Template": "CakTrigger",
+    "Class": "UScriptClass'CakTriggerComponent'"
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Area001_Sound_Night",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Area001_Sound_Night:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.26"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Area001_Sound_Night_C'Area001_Sound_Night:PersistentLevel.Area001_Sound_Night_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.5"
+      },
+      "LevelBuildDataId": "30E605A0-483CF607-3008E4BF-195619DB",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Area001_Sound_Night_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Area001_Sound_Night:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.27"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Area001_Sound_Night:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.27"
+      },
+      null,
+      {
+        "ObjectName": "CakMusicPlayerActor'Area001_Sound_Night:PersistentLevel.CakMusicPlayerActor_Night'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.18"
+      },
+      {
+        "ObjectName": "BP_AmbientSound_Area001_C'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.6"
+      },
+      {
+        "ObjectName": "BP_AmbientSound_Area001_C'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.7"
+      },
+      {
+        "ObjectName": "BP_AmbientSound_Area001_C'Area001_Sound_Night:PersistentLevel.Amb_BirdTwitterNight3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.8"
+      },
+      {
+        "ObjectName": "Area001_Sound_Night_C'Area001_Sound_Night:PersistentLevel.Area001_Sound_Night_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.5"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Carrot4/Maps/Boot_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Area001_Sound_Night:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.26"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Area001_Sound_Night_C'Area001_Sound_Night:PersistentLevel.Area001_Sound_Night_C_1'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.5"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "483DA518-4E6CF1A1-3BB9AD8A-C77F2824",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Area001_Sound_Night:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.28"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Area001_Sound_Night",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Area001_Sound_Night:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area001/Sublevels/Area001_Sound_Night.25"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

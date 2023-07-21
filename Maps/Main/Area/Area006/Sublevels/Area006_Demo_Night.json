@@ -1,0 +1,407 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Area006_Demo_Night_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "LatestSerialId",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Area006_Demo_Night_C'Default__Area006_Demo_Night_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.1"
+    }
+  },
+  {
+    "Type": "Area006_Demo_Night_C",
+    "Name": "Default__Area006_Demo_Night_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.Area006_Demo_Night_C'",
+    "Properties": {
+      "LatestSerialId": 3
+    }
+  },
+  {
+    "Type": "Area006_Demo_Night_C",
+    "Name": "Area006_Demo_Night_C_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Area006_Demo_Night_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.Area006_Demo_Night_C'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "OverlapArea",
+    "Outer": "GQuestAreaBox_Tateana2",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 150.0,
+        "Y": 150.0,
+        "Z": 100.0
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": -1174.0,
+        "Y": -731.0,
+        "Z": 253.87234
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "OverlapArea",
+    "Outer": "GQuestAreaBox_Tateana_0",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 150.0,
+        "Y": 150.0,
+        "Z": 100.0
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": 1081.0,
+        "Y": -2634.0,
+        "Z": 428.87213
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GQuestAreaBox_Tateana2",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "DemoType": "EDemoType::OnlyRequestUI",
+      "UIName": "Night_EncountTateanaBaby",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GQuestAreaBox_Tateana_0",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "DemoType": "EDemoType::OnlyRequestUI",
+      "UIName": "Night_EncountTateanaBaby",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "GQuestAreaBox_C",
+    "Name": "GQuestAreaBox_Tateana2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GQuestAreaBox_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/QuestAreaBox/GQuestAreaBox.GQuestAreaBox_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area006_Demo_Night:PersistentLevel.GQuestAreaBox_Tateana2.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.5"
+      },
+      "OverlapArea": {
+        "ObjectName": "BoxComponent'Area006_Demo_Night:PersistentLevel.GQuestAreaBox_Tateana2.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.3"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1154610406006718466
+      },
+      "RebirthInfo": {
+        "ActivityTime": "EActivityTime::Nighttime",
+        "BirthCond": [
+          {
+            "Condition": "EActorPlacementCondition::NightAdventurePattern",
+            "CondInt": 0,
+            "CondName": "None",
+            "CondPikminColor": "EPikminColor::Undef"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Area006_Demo_Night:PersistentLevel.GQuestAreaBox_Tateana2.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.3"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "BoxComponent'Area006_Demo_Night:PersistentLevel.GQuestAreaBox_Tateana2.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.3"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area006_Demo_Night:PersistentLevel.GQuestAreaBox_Tateana2.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GQuestAreaBox_C",
+    "Name": "GQuestAreaBox_Tateana_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GQuestAreaBox_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/QuestAreaBox/GQuestAreaBox.GQuestAreaBox_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area006_Demo_Night:PersistentLevel.GQuestAreaBox_Tateana_0.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.6"
+      },
+      "OverlapArea": {
+        "ObjectName": "BoxComponent'Area006_Demo_Night:PersistentLevel.GQuestAreaBox_Tateana_0.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.4"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1154610406006718465
+      },
+      "RebirthInfo": {
+        "ActivityTime": "EActivityTime::Nighttime",
+        "BirthCond": [
+          {
+            "Condition": "EActorPlacementCondition::NightAdventurePattern",
+            "CondInt": 0,
+            "CondName": "None",
+            "CondPikminColor": "EPikminColor::Undef"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Area006_Demo_Night:PersistentLevel.GQuestAreaBox_Tateana_0.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.4"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "BoxComponent'Area006_Demo_Night:PersistentLevel.GQuestAreaBox_Tateana_0.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.4"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area006_Demo_Night:PersistentLevel.GQuestAreaBox_Tateana_0.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Area006_Demo_Night",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Area006_Demo_Night:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.10"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Area006_Demo_Night_C'Area006_Demo_Night:PersistentLevel.Area006_Demo_Night_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.2"
+      },
+      "LevelBuildDataId": "6B457385-43CF3753-9EC119BC-3A5604CA",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Area006_Demo_Night_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Area006_Demo_Night:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.11"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Area006_Demo_Night:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.11"
+      },
+      null,
+      {
+        "ObjectName": "GQuestAreaBox_C'Area006_Demo_Night:PersistentLevel.GQuestAreaBox_Tateana_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.8"
+      },
+      {
+        "ObjectName": "GQuestAreaBox_C'Area006_Demo_Night:PersistentLevel.GQuestAreaBox_Tateana2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.7"
+      },
+      {
+        "ObjectName": "Area006_Demo_Night_C'Area006_Demo_Night:PersistentLevel.Area006_Demo_Night_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.2"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Carrot4/Maps/Boot_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Area006_Demo_Night:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.10"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Area006_Demo_Night_C'Area006_Demo_Night:PersistentLevel.Area006_Demo_Night_C_1'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.2"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "7E59C53A-46B179CB-73A4BD9C-8F55F07E",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Area006_Demo_Night:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.12"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Area006_Demo_Night",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Area006_Demo_Night:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area006/Sublevels/Area006_Demo_Night.9"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

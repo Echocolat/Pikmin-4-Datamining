@@ -1,0 +1,2067 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Area500_Demo_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "LatestSerialId",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Area500_Demo_C'Default__Area500_Demo_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.1"
+    }
+  },
+  {
+    "Type": "Area500_Demo_C",
+    "Name": "Default__Area500_Demo_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.Area500_Demo_C'",
+    "Properties": {
+      "LatestSerialId": 95
+    }
+  },
+  {
+    "Type": "Area500_Demo_C",
+    "Name": "Area500_Demo_C_3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Area500_Demo_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.Area500_Demo_C'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "OverlapArea",
+    "Outer": "GDemoAreaBox2_1",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 10.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": -805.72125,
+        "Y": 318.39557,
+        "Z": 410.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 20.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 3.0,
+        "Y": 1.5,
+        "Z": 0.5
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeScale3D",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "OverlapArea",
+    "Outer": "GDemoAreaBox_2",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": -757.29175,
+        "Y": 8.553162,
+        "Z": 410.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 40.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 3.0,
+        "Y": 1.5,
+        "Z": 0.5
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeScale3D",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "OverlapArea",
+    "Outer": "GQuestArea_Tutorial_Announce_GoToCave",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 275.0,
+        "Y": 150.0,
+        "Z": 100.0
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": 1013.6607,
+        "Y": -485.55884,
+        "Z": 267.00107
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -53.10385,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "OverlapArea",
+    "Outer": "GQuestArea_Tutorial_Announce_InCamera_SpaceShip_00",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": -576.6481,
+        "Y": 239.26875,
+        "Z": 375.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 29.676634,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 3.0,
+        "Z": 1.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeScale3D",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "OverlapArea",
+    "Outer": "GQuestArea_Tutorial_Demo_JoinGuide",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 350.0,
+        "Y": 150.0,
+        "Z": 100.0
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": -1256.2124,
+        "Y": 895.3944,
+        "Z": 327.00107
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -60.0,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "OverlapArea",
+    "Outer": "GQuestAreaBox2_2",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 143.95679,
+        "Y": 21.938324,
+        "Z": 100.0
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": -761.05444,
+        "Y": -51.634094,
+        "Z": 420.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 20.000042,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "OverlapArea",
+    "Outer": "GQuestAreaBox3",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 26.22414,
+        "Y": 303.19772,
+        "Z": 100.0
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": -828.0,
+        "Y": 1142.0,
+        "Z": 417.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 30.00005,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "OverlapArea",
+    "Outer": "GQuestAreaBox4_2",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 50.0,
+        "Y": 150.0,
+        "Z": 55.93345
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": 867.0,
+        "Y": 368.0,
+        "Z": 356.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 35.0,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "OverlapArea",
+    "Outer": "GQuestAreaBox5",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 250.0,
+        "Y": 50.0,
+        "Z": 55.93345
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": 837.0,
+        "Y": 93.0,
+        "Z": 356.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 50.0,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "OverlapArea",
+    "Outer": "GQuestAreaBox_2",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 95.41127,
+        "Y": 279.83023,
+        "Z": 100.0
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": -713.0,
+        "Y": 1208.0,
+        "Z": 391.98798
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 20.000042,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "OverlapArea",
+    "Outer": "GQuestAreaBox_Tutorial_Demo_NearSpaceShip",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 200.0,
+        "Y": 400.0,
+        "Z": 100.0
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": 666.2516,
+        "Y": -711.46185,
+        "Z": 340.3018
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 37.045624,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GDemoAreaBox2_1",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "DemoType": "EDemoType::Quest",
+      "QuestNames": [
+        "Tutorial_Demo_DiscoverySpaceBus"
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GDemoAreaBox_2",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "DemoType": "EDemoType::Quest",
+      "QuestNames": [
+        "Tutorial_Demo_DiscoverySpaceBus"
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GQuestArea_Tutorial_Announce_Dolphin",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "DemoType": "EDemoType::OnlyRequestUI",
+      "UIName": "Affordance_Announce_Dolphin_00",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GQuestArea_Tutorial_Announce_GoToCave",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "QuestNames": [
+        "Tutorial_Announce_GoToCave"
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GQuestArea_Tutorial_Announce_InCamera_SpaceShip_00",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "QuestNames": [
+        "Tutorial_Announce_InCamera_SpaceShip"
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GQuestArea_Tutorial_Demo_DiscoverySpaceShip",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "DemoType": "EDemoType::QuestSuccess",
+      "QuestNames": [
+        "Tutorial_Announce_PromptExit"
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GQuestArea_Tutorial_Demo_JoinGuide",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "QuestNames": [
+        "Tutorial_Demo_JoinGuide"
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GQuestAreaBox2_2",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "QuestNames": [
+        "Tutorial_Announce_BytheWall"
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GQuestAreaBox3",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "QuestNames": [
+        "Tutorial_LeavePlant"
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GQuestAreaBox4_2",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "QuestNames": [
+        "Tutorial_Announce_SerchCave"
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GQuestAreaBox5",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "QuestNames": [
+        "Tutorial_Announce_SerchCave"
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GQuestAreaBox_2",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "QuestNames": [
+        "Tutorial_DiscoveryHappy"
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GQuestAreaBox_Tutorial_Demo_NearSpaceShip",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "QuestNames": [
+        "Tutorial_Demo_NearSpaceShip"
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GQuestAreaSphere2_2",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "QuestNames": [
+        "Tutorial_Search_Excavation"
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GQuestAreaSphere4_4",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "QuestNames": [
+        "Tutorial_Announce_Return"
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "GQuestAreaSphere_5",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "QuestNames": [
+        "Tutorial_FindNPC"
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "GAffordanceArea_C",
+    "Name": "GAffordanceArea_5",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GAffordanceArea_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/AffordanceArea/GAffordanceArea.GAffordanceArea_C'",
+    "Properties": {
+      "SimpleAffordance": {
+        "ObjectName": "SimpleAffordanceComponent'Area500_Demo:PersistentLevel.GAffordanceArea_5.SimpleAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.52"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Area500_Demo:PersistentLevel.GAffordanceArea_5.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.51"
+      },
+      "AffordanceComponent": {
+        "ObjectName": "SimpleAffordanceComponent'Area500_Demo:PersistentLevel.GAffordanceArea_5.SimpleAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.52"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659035911848030,
+        "WakeCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 27,
+            "CondName": "None"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area500_Demo:PersistentLevel.GAffordanceArea_5.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.51"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Area500_Demo:PersistentLevel.GAffordanceArea_5.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.51"
+        },
+        {
+          "ObjectName": "SimpleAffordanceComponent'Area500_Demo:PersistentLevel.GAffordanceArea_5.SimpleAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.52"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GDemoAreaBox_C",
+    "Name": "GDemoAreaBox2_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GDemoAreaBox_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/DemoAreaBox/GDemoAreaBox.GDemoAreaBox_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GDemoAreaBox2_1.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.14"
+      },
+      "OverlapArea": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GDemoAreaBox2_1.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.3"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659035911848025
+      },
+      "RebirthInfo": {
+        "EraseCond": [
+          {
+            "Condition": "EActorPlacementCondition::QuestClear",
+            "CondInt": -1,
+            "CondName": "Tutorial_Dummy_TutorialEnd",
+            "CondPikminColor": "EPikminColor::Undef"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GDemoAreaBox2_1.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.3"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GDemoAreaBox2_1.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.3"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GDemoAreaBox2_1.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.14"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GDemoAreaBox_C",
+    "Name": "GDemoAreaBox_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GDemoAreaBox_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/DemoAreaBox/GDemoAreaBox.GDemoAreaBox_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GDemoAreaBox_2.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.15"
+      },
+      "OverlapArea": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GDemoAreaBox_2.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.4"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659035911848007
+      },
+      "RebirthInfo": {
+        "EraseCond": [
+          {
+            "Condition": "EActorPlacementCondition::QuestClear",
+            "CondInt": -1,
+            "CondName": "Tutorial_Dummy_TutorialEnd",
+            "CondPikminColor": "EPikminColor::Undef"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GDemoAreaBox_2.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.4"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GDemoAreaBox_2.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.4"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GDemoAreaBox_2.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.15"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GQuestAreaBox_C",
+    "Name": "GQuestArea_Tutorial_Announce_GoToCave",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GQuestAreaBox_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/QuestAreaBox/GQuestAreaBox.GQuestAreaBox_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Announce_GoToCave.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.17"
+      },
+      "OverlapArea": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Announce_GoToCave.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.5"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659035911847986,
+        "WakeCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 2,
+            "CondName": "None"
+          }
+        ],
+        "SleepCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 3,
+            "CondName": "None"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Announce_GoToCave.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.5"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Announce_GoToCave.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.5"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Announce_GoToCave.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.17"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GQuestAreaBox_C",
+    "Name": "GQuestArea_Tutorial_Announce_InCamera_SpaceShip_00",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GQuestAreaBox_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/QuestAreaBox/GQuestAreaBox.GQuestAreaBox_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Announce_InCamera_SpaceShip_00.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.18"
+      },
+      "OverlapArea": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Announce_InCamera_SpaceShip_00.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.6"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659035911848006
+      },
+      "RebirthInfo": {
+        "EraseCond": [
+          {
+            "Condition": "EActorPlacementCondition::QuestClear",
+            "CondInt": -1,
+            "CondName": "Tutorial_Dummy_TutorialEnd",
+            "CondPikminColor": "EPikminColor::Undef"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Announce_InCamera_SpaceShip_00.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.6"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Announce_InCamera_SpaceShip_00.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.6"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Announce_InCamera_SpaceShip_00.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.18"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GQuestAreaBox_C",
+    "Name": "GQuestArea_Tutorial_Demo_JoinGuide",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GQuestAreaBox_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/QuestAreaBox/GQuestAreaBox.GQuestAreaBox_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Demo_JoinGuide.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.20"
+      },
+      "OverlapArea": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Demo_JoinGuide.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.7"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659035911848008
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Demo_JoinGuide.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.7"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Demo_JoinGuide.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.7"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Demo_JoinGuide.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.20"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GQuestAreaBox_C",
+    "Name": "GQuestAreaBox2_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GQuestAreaBox_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/QuestAreaBox/GQuestAreaBox.GQuestAreaBox_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestAreaBox2_2.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.21"
+      },
+      "OverlapArea": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestAreaBox2_2.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.8"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659035911848026,
+        "WakeCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 21,
+            "CondName": "None"
+          },
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 22,
+            "CondName": "None"
+          },
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 24,
+            "CondName": "None"
+          }
+        ],
+        "SleepCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 23,
+            "CondName": "None"
+          },
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 25,
+            "CondName": "None"
+          }
+        ]
+      },
+      "RebirthInfo": {
+        "EraseCond": [
+          {
+            "Condition": "EActorPlacementCondition::QuestClear",
+            "CondInt": -1,
+            "CondName": "Tutorial_Dummy_TutorialEnd",
+            "CondPikminColor": "EPikminColor::Undef"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestAreaBox2_2.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.8"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestAreaBox2_2.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.8"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestAreaBox2_2.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.21"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GQuestAreaBox_C",
+    "Name": "GQuestAreaBox3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GQuestAreaBox_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/QuestAreaBox/GQuestAreaBox.GQuestAreaBox_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestAreaBox3.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.22"
+      },
+      "OverlapArea": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestAreaBox3.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.9"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659035911848020,
+        "WakeCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 16,
+            "CondName": "None"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestAreaBox3.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.9"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestAreaBox3.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.9"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestAreaBox3.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.22"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GQuestAreaBox_C",
+    "Name": "GQuestAreaBox4_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GQuestAreaBox_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/QuestAreaBox/GQuestAreaBox.GQuestAreaBox_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestAreaBox4_2.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.23"
+      },
+      "OverlapArea": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestAreaBox4_2.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.10"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659035911848021,
+        "SleepCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 14,
+            "CondName": "None"
+          }
+        ]
+      },
+      "RebirthInfo": {
+        "EraseCond": [
+          {
+            "Condition": "EActorPlacementCondition::QuestClear",
+            "CondInt": -1,
+            "CondName": "Tutorial_Announce_SerchCave",
+            "CondPikminColor": "EPikminColor::Undef"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestAreaBox4_2.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.10"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestAreaBox4_2.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.10"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestAreaBox4_2.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.23"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GQuestAreaBox_C",
+    "Name": "GQuestAreaBox5",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GQuestAreaBox_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/QuestAreaBox/GQuestAreaBox.GQuestAreaBox_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestAreaBox5.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.24"
+      },
+      "OverlapArea": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestAreaBox5.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.11"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659035911848022,
+        "SleepCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 14,
+            "CondName": "None"
+          }
+        ]
+      },
+      "RebirthInfo": {
+        "EraseCond": [
+          {
+            "Condition": "EActorPlacementCondition::QuestClear",
+            "CondInt": -1,
+            "CondName": "Tutorial_Announce_SerchCave",
+            "CondPikminColor": "EPikminColor::Undef"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestAreaBox5.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.11"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestAreaBox5.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.11"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestAreaBox5.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.24"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GQuestAreaBox_C",
+    "Name": "GQuestAreaBox_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GQuestAreaBox_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/QuestAreaBox/GQuestAreaBox.GQuestAreaBox_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestAreaBox_2.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.25"
+      },
+      "OverlapArea": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestAreaBox_2.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.12"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659035911848018
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestAreaBox_2.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.12"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestAreaBox_2.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.12"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestAreaBox_2.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.25"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GQuestAreaBox_C",
+    "Name": "GQuestAreaBox_Tutorial_Demo_NearSpaceShip",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GQuestAreaBox_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/QuestAreaBox/GQuestAreaBox.GQuestAreaBox_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestAreaBox_Tutorial_Demo_NearSpaceShip.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.26"
+      },
+      "OverlapArea": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestAreaBox_Tutorial_Demo_NearSpaceShip.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.13"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659035911848010
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestAreaBox_Tutorial_Demo_NearSpaceShip.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.13"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "BoxComponent'Area500_Demo:PersistentLevel.GQuestAreaBox_Tutorial_Demo_NearSpaceShip.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.13"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestAreaBox_Tutorial_Demo_NearSpaceShip.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.26"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GQuestAreaSphere_C",
+    "Name": "GQuestArea_Tutorial_Announce_Dolphin",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GQuestAreaSphere_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/QuestAreaBox/GQuestAreaSphere.GQuestAreaSphere_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Announce_Dolphin.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.16"
+      },
+      "OverlapArea": {
+        "ObjectName": "SphereComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Announce_Dolphin.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.53"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659035911848009
+      },
+      "RebirthInfo": {
+        "BirthCond": [
+          {
+            "Condition": "EActorPlacementCondition::QuestClear",
+            "CondInt": -1,
+            "CondName": "Quest_Generator_Area500_2nd_Compartment",
+            "CondPikminColor": "EPikminColor::Undef"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Announce_Dolphin.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.53"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SphereComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Announce_Dolphin.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.53"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Announce_Dolphin.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.16"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GQuestAreaSphere_C",
+    "Name": "GQuestArea_Tutorial_Demo_DiscoverySpaceShip",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GQuestAreaSphere_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/QuestAreaBox/GQuestAreaSphere.GQuestAreaSphere_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Demo_DiscoverySpaceShip.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.19"
+      },
+      "OverlapArea": {
+        "ObjectName": "SphereComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Demo_DiscoverySpaceShip.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.54"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659035911847983
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Demo_DiscoverySpaceShip.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.54"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SphereComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Demo_DiscoverySpaceShip.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.54"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Demo_DiscoverySpaceShip.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.19"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GQuestAreaSphere_C",
+    "Name": "GQuestAreaSphere2_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GQuestAreaSphere_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/QuestAreaBox/GQuestAreaSphere.GQuestAreaSphere_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestAreaSphere2_2.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.27"
+      },
+      "OverlapArea": {
+        "ObjectName": "SphereComponent'Area500_Demo:PersistentLevel.GQuestAreaSphere2_2.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.55"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659035911848027,
+        "WakeCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 14,
+            "CondName": "None"
+          }
+        ],
+        "SleepCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 26,
+            "CondName": "None"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Area500_Demo:PersistentLevel.GQuestAreaSphere2_2.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.55"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SphereComponent'Area500_Demo:PersistentLevel.GQuestAreaSphere2_2.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.55"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestAreaSphere2_2.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.27"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GQuestAreaSphere_C",
+    "Name": "GQuestAreaSphere4_4",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GQuestAreaSphere_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/QuestAreaBox/GQuestAreaSphere.GQuestAreaSphere_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestAreaSphere4_4.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.28"
+      },
+      "OverlapArea": {
+        "ObjectName": "SphereComponent'Area500_Demo:PersistentLevel.GQuestAreaSphere4_4.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.56"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659035911848014,
+        "WakeCond": [
+          {
+            "Condition": "EActorPlacementAppearanceCondition::QuestEvent",
+            "CondInt": 14,
+            "CondName": "None"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Area500_Demo:PersistentLevel.GQuestAreaSphere4_4.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.56"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SphereComponent'Area500_Demo:PersistentLevel.GQuestAreaSphere4_4.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.56"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestAreaSphere4_4.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.28"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GQuestAreaSphere_C",
+    "Name": "GQuestAreaSphere_5",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GQuestAreaSphere_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/QuestAreaBox/GQuestAreaSphere.GQuestAreaSphere_C'",
+    "Properties": {
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestAreaSphere_5.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.29"
+      },
+      "OverlapArea": {
+        "ObjectName": "SphereComponent'Area500_Demo:PersistentLevel.GQuestAreaSphere_5.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.57"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659035911848024
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Area500_Demo:PersistentLevel.GQuestAreaSphere_5.OverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.57"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SphereComponent'Area500_Demo:PersistentLevel.GQuestAreaSphere_5.OverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.57"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area500_Demo:PersistentLevel.GQuestAreaSphere_5.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.29"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Area500_Demo",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Area500_Demo:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.48"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Area500_Demo_C'Area500_Demo:PersistentLevel.Area500_Demo_C_3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.2"
+      },
+      "LevelBuildDataId": "12454AAC-4495DD90-2914C0B9-30B39B9F",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Area500_Demo_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Area500_Demo:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.49"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Area500_Demo:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.49"
+      },
+      null,
+      {
+        "ObjectName": "GQuestAreaSphere_C'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Demo_DiscoverySpaceShip'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.43"
+      },
+      {
+        "ObjectName": "GQuestAreaBox_C'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Announce_GoToCave'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.33"
+      },
+      {
+        "ObjectName": "GQuestAreaBox_C'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Announce_InCamera_SpaceShip_00'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.34"
+      },
+      {
+        "ObjectName": "GDemoAreaBox_C'Area500_Demo:PersistentLevel.GDemoAreaBox_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.32"
+      },
+      {
+        "ObjectName": "GQuestAreaBox_C'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Demo_JoinGuide'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.35"
+      },
+      {
+        "ObjectName": "GQuestAreaSphere_C'Area500_Demo:PersistentLevel.GQuestArea_Tutorial_Announce_Dolphin'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.42"
+      },
+      {
+        "ObjectName": "GQuestAreaBox_C'Area500_Demo:PersistentLevel.GQuestAreaBox_Tutorial_Demo_NearSpaceShip'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.41"
+      },
+      {
+        "ObjectName": "GQuestAreaSphere_C'Area500_Demo:PersistentLevel.GQuestAreaSphere4_4'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.45"
+      },
+      {
+        "ObjectName": "GQuestAreaBox_C'Area500_Demo:PersistentLevel.GQuestAreaBox_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.40"
+      },
+      {
+        "ObjectName": "GQuestAreaBox_C'Area500_Demo:PersistentLevel.GQuestAreaBox3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.37"
+      },
+      {
+        "ObjectName": "GQuestAreaBox_C'Area500_Demo:PersistentLevel.GQuestAreaBox4_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.38"
+      },
+      {
+        "ObjectName": "GQuestAreaBox_C'Area500_Demo:PersistentLevel.GQuestAreaBox5'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.39"
+      },
+      {
+        "ObjectName": "GQuestAreaSphere_C'Area500_Demo:PersistentLevel.GQuestAreaSphere_5'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.46"
+      },
+      {
+        "ObjectName": "GDemoAreaBox_C'Area500_Demo:PersistentLevel.GDemoAreaBox2_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.31"
+      },
+      {
+        "ObjectName": "GQuestAreaBox_C'Area500_Demo:PersistentLevel.GQuestAreaBox2_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.36"
+      },
+      {
+        "ObjectName": "GQuestAreaSphere_C'Area500_Demo:PersistentLevel.GQuestAreaSphere2_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.44"
+      },
+      {
+        "ObjectName": "GAffordanceArea_C'Area500_Demo:PersistentLevel.GAffordanceArea_5'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.30"
+      },
+      {
+        "ObjectName": "Area500_Demo_C'Area500_Demo:PersistentLevel.Area500_Demo_C_3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.2"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Carrot4/Maps/Boot_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Area500_Demo:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.48"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Area500_Demo_C'Area500_Demo:PersistentLevel.Area500_Demo_C_3'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.2"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "5527B0DD-4542A0BC-250D7398-824E5AAD",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Area500_Demo:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.50"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GAffordanceArea_5",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 930.0,
+        "Y": 362.0,
+        "Z": 305.50912
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SimpleAffordanceComponent",
+    "Name": "SimpleAffordance",
+    "Outer": "GAffordanceArea_5",
+    "Template": "SimpleAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'SimpleAffordanceComponent'",
+    "Properties": {
+      "ContactType": "EAffordanceContactType::ActivePlayer",
+      "bEnableOnContact": true,
+      "AffordanceEvents": [
+        {
+          "bEnable": true,
+          "bOnceEvent": true,
+          "EventType": "EAffordanceEventType::OnContact",
+          "DoEventType": "EAffordanceDoEventType::DoQuestSuccess",
+          "DoEventName": "None",
+          "EventName": "Tutorial_SearchSpaceShip",
+          "EventNames": [],
+          "UIEventName": "None",
+          "LookTriggerActorTag": "None",
+          "DemoPlayParam": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CheckDemoFlag": "EDemoFlagType::None",
+          "DemoFlagModeCheck": "EDemoFlagModeCheck::All",
+          "UpdateRate": -1.0,
+          "PikminFlags": 0,
+          "PikminNum": 0,
+          "NonFollowPikminFlags": 0,
+          "ActiveQuestNames": [],
+          "EndQuestNames": []
+        },
+        {
+          "bEnable": true,
+          "bOnceEvent": true,
+          "EventType": "EAffordanceEventType::OnContact",
+          "DoEventType": "EAffordanceDoEventType::DoQuestCreate",
+          "DoEventName": "None",
+          "EventName": "Tutorial_Approach_Excavation",
+          "EventNames": [],
+          "UIEventName": "None",
+          "LookTriggerActorTag": "None",
+          "DemoPlayParam": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CheckDemoFlag": "EDemoFlagType::None",
+          "DemoFlagModeCheck": "EDemoFlagModeCheck::All",
+          "UpdateRate": -1.0,
+          "PikminFlags": 0,
+          "PikminNum": 0,
+          "NonFollowPikminFlags": 0,
+          "ActiveQuestNames": [],
+          "EndQuestNames": []
+        }
+      ],
+      "ContactSphere": {
+        "Radius": 200.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "OverlapArea",
+    "Outer": "GQuestArea_Tutorial_Announce_Dolphin",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 350.0,
+      "RelativeLocation": {
+        "X": -1018.0,
+        "Y": -1673.0,
+        "Z": 280.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "OverlapArea",
+    "Outer": "GQuestArea_Tutorial_Demo_DiscoverySpaceShip",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 150.0,
+      "RelativeLocation": {
+        "X": 1100.1079,
+        "Y": -466.8757,
+        "Z": 328.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -70.00009,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "OverlapArea",
+    "Outer": "GQuestAreaSphere2_2",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 200.0,
+      "RelativeLocation": {
+        "X": 322.0992,
+        "Y": 330.63293,
+        "Z": 317.1106
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "OverlapArea",
+    "Outer": "GQuestAreaSphere4_4",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 185.28477,
+      "RelativeLocation": {
+        "X": -713.0,
+        "Y": 204.0,
+        "Z": 425.59662
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "OverlapArea",
+    "Outer": "GQuestAreaSphere_5",
+    "Template": "OverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 90.0,
+      "RelativeLocation": {
+        "X": -943.4226,
+        "Y": 1012.6406,
+        "Z": 304.14343
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Area500_Demo",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Area500_Demo:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Demo.47"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

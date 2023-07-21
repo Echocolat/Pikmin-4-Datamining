@@ -1,0 +1,211 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Area004_Demo_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "LatestSerialId",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Area004_Demo_C'Default__Area004_Demo_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Demo.1"
+    }
+  },
+  {
+    "Type": "Area004_Demo_C",
+    "Name": "Default__Area004_Demo_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Demo.Area004_Demo_C'",
+    "Properties": {
+      "LatestSerialId": 13
+    }
+  },
+  {
+    "Type": "Area004_Demo_C",
+    "Name": "Area004_Demo_C_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Area004_Demo_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Demo.Area004_Demo_C'"
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Area004_Demo",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Area004_Demo:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Demo.4"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Area004_Demo_C'Area004_Demo:PersistentLevel.Area004_Demo_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Demo.2"
+      },
+      "LevelBuildDataId": "12454AAC-4495DD90-2914C0B9-30B39B9F",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Area004_Demo_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Demo_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Area004_Demo:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Demo.5"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Area004_Demo:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Demo.5"
+      },
+      null,
+      {
+        "ObjectName": "Area004_Demo_C'Area004_Demo:PersistentLevel.Area004_Demo_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Demo.2"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Carrot4/Maps/Boot_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Area004_Demo:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Demo.4"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Area004_Demo_C'Area004_Demo:PersistentLevel.Area004_Demo_C_1'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Demo.2"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "9BE7DC90-485DADA8-698DC8BA-EF40B9E2",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Area004_Demo:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Demo.6"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Area004_Demo",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Area004_Demo:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Demo.3"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

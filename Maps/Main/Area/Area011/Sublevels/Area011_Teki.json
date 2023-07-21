@@ -1,0 +1,1474 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Area011_Teki_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "LatestSerialId",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Area011_Teki_C'Default__Area011_Teki_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.1"
+    }
+  },
+  {
+    "Type": "Area011_Teki_C",
+    "Name": "Default__Area011_Teki_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.Area011_Teki_C'",
+    "Properties": {
+      "LatestSerialId": 282
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "GHari_4",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.20"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area011_Teki:PersistentLevel.GHari_4.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.2"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area011_Teki:PersistentLevel.GHari_4.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.2"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "Area011_Teki_C",
+    "Name": "Area011_Teki_C_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Area011_Teki_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.Area011_Teki_C'"
+  },
+  {
+    "Type": "AttackAffordanceComponent",
+    "Name": "AttackAffordance",
+    "Outer": "GHari_4",
+    "Template": "AttackAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'AttackAffordanceComponent'",
+    "Properties": {
+      "bEnableOnContact": true,
+      "bOnceOnContact": false,
+      "bOnceOnUpdateWork": false,
+      "AffordanceEvents": [
+        {
+          "bEnable": true,
+          "bOnceEvent": true,
+          "EventType": "EAffordanceEventType::OnUpdateWork",
+          "DoEventType": "EAffordanceDoEventType::DoAnnounceUIRequest",
+          "DoEventName": "None",
+          "EventName": "Prologue_Announce_Hari_Half_00",
+          "EventNames": [],
+          "UIEventName": "None",
+          "LookTriggerActorTag": "None",
+          "DemoPlayParam": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CheckDemoFlag": "EDemoFlagType::None",
+          "DemoFlagModeCheck": "EDemoFlagModeCheck::All",
+          "UpdateRate": 0.5,
+          "PikminFlags": 0,
+          "PikminNum": 0,
+          "NonFollowPikminFlags": 0,
+          "ActiveQuestNames": [],
+          "EndQuestNames": []
+        }
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "C4StickComponent",
+    "Name": "C4Stick",
+    "Outer": "GHari_4",
+    "Template": "C4Stick_GEN_VARIABLE",
+    "Class": "UScriptClass'C4StickComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "GHari_4",
+    "Template": "CakAudioTable_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioTableComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakBattlePikminStateControlUnit",
+    "Name": "CakBattlePikminStateControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakBattlePikminStateControlUnit_0",
+    "Class": "UScriptClass'CakBattlePikminStateControlUnit'"
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "GHari_4",
+    "Template": "CakEmitterConfig_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEmitterConfigComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "GHari_4",
+    "Template": "CakEventHandler_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEventHandlerComponent'",
+    "Properties": {
+      "StaticUnits": [
+        {
+          "ObjectName": "CakSinkRatioControlUnit'Area011_Teki:PersistentLevel.GHari_4.CakEventHandler.CakSinkRatioControlUnit_1'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.12"
+        },
+        {
+          "ObjectName": "CakTerrainSwitchingUnit'Area011_Teki:PersistentLevel.GHari_4.CakEventHandler.CakTerrainSwitchingUnit_1'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.14"
+        }
+      ],
+      "Unit_0": {
+        "ObjectName": "CakSinkRatioControlUnit'Area011_Teki:PersistentLevel.GHari_4.CakEventHandler.CakSinkRatioControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.11"
+      },
+      "Unit_1": {
+        "ObjectName": "CakTerrainSwitchingUnit'Area011_Teki:PersistentLevel.GHari_4.CakEventHandler.CakTerrainSwitchingUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.13"
+      },
+      "Unit_2": {
+        "ObjectName": "CakWorkPikminRatioControlUnit'Area011_Teki:PersistentLevel.GHari_4.CakEventHandler.CakWorkPikminRatioControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.15"
+      },
+      "Unit_3": {
+        "ObjectName": "CakObjectCollisionUnit'Area011_Teki:PersistentLevel.GHari_4.CakEventHandler.CakObjectCollisionUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.10"
+      },
+      "Unit_4": {
+        "ObjectName": "CakBattlePikminStateControlUnit'Area011_Teki:PersistentLevel.GHari_4.CakEventHandler.CakBattlePikminStateControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.7"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakObjectCollisionUnit",
+    "Name": "CakObjectCollisionUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakObjectCollisionUnit_0",
+    "Class": "UScriptClass'CakObjectCollisionUnit'"
+  },
+  {
+    "Type": "CakSinkRatioControlUnit",
+    "Name": "CakSinkRatioControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakSinkRatioControlUnit_0",
+    "Class": "UScriptClass'CakSinkRatioControlUnit'"
+  },
+  {
+    "Type": "CakSinkRatioControlUnit",
+    "Name": "CakSinkRatioControlUnit_1",
+    "Outer": "CakEventHandler",
+    "Template": "CakSinkRatioControlUnit_1",
+    "Class": "UScriptClass'CakSinkRatioControlUnit'"
+  },
+  {
+    "Type": "CakTerrainSwitchingUnit",
+    "Name": "CakTerrainSwitchingUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakTerrainSwitchingUnit_0",
+    "Class": "UScriptClass'CakTerrainSwitchingUnit'"
+  },
+  {
+    "Type": "CakTerrainSwitchingUnit",
+    "Name": "CakTerrainSwitchingUnit_1",
+    "Outer": "CakEventHandler",
+    "Template": "CakTerrainSwitchingUnit_1",
+    "Class": "UScriptClass'CakTerrainSwitchingUnit'"
+  },
+  {
+    "Type": "CakWorkPikminRatioControlUnit",
+    "Name": "CakWorkPikminRatioControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakWorkPikminRatioControlUnit_0",
+    "Class": "UScriptClass'CakWorkPikminRatioControlUnit'"
+  },
+  {
+    "Type": "CarrotCarryCircleComponent",
+    "Name": "CarrotCarryCircleWing",
+    "Outer": "GHari_4",
+    "Template": "CarrotCarryCircleWing_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotCarryCircleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.20"
+      },
+      "AttachSocketName": "Z_j002",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotCarryLineComponent",
+    "Name": "CarrotCarryLine",
+    "Outer": "GHari_4",
+    "Template": "CarrotCarryLine_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotCarryLineComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.20"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotGenseiStrategyComponent",
+    "Name": "CarrotGenseiStrategy",
+    "Outer": "GHari_4",
+    "Template": "CarrotGenseiStrategy_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotGenseiStrategyComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotMoveComponent",
+    "Name": "CarrotMove",
+    "Outer": "GHari_4",
+    "Template": "CarrotMove_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotMoveComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "CarrotSkeletalMesh",
+    "Outer": "GHari_4",
+    "Template": "CarrotSkeletalMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "Carcass",
+    "Outer": "GHari_4",
+    "Template": "Carcass_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CollTreeComponent",
+    "Name": "CollTree",
+    "Outer": "GHari_4",
+    "Template": "CollTree_GEN_VARIABLE",
+    "Class": "UScriptClass'CollTreeComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "GGroupDropManager_C",
+    "Name": "GGroupDropManager2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GGroupDropManager_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/GroupDropManager/GGroupDropManager.GGroupDropManager_C'",
+    "Properties": {
+      "GroupDropManager": {
+        "ObjectName": "GroupDropManagerComponent'Area011_Teki:PersistentLevel.GGroupDropManager2.GroupDropManager'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.27"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Area011_Teki:PersistentLevel.GGroupDropManager2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.37"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4294967300
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area011_Teki:PersistentLevel.GGroupDropManager2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.37"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Area011_Teki:PersistentLevel.GGroupDropManager2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.37"
+        },
+        {
+          "ObjectName": "GroupDropManagerComponent'Area011_Teki:PersistentLevel.GGroupDropManager2.GroupDropManager'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.27"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GGroupDropManager_C",
+    "Name": "GGroupDropManager4",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GGroupDropManager_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/GroupDropManager/GGroupDropManager.GGroupDropManager_C'",
+    "Properties": {
+      "GroupDropManager": {
+        "ObjectName": "GroupDropManagerComponent'Area011_Teki:PersistentLevel.GGroupDropManager4.GroupDropManager'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.28"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Area011_Teki:PersistentLevel.GGroupDropManager4.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.38"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4294967305
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area011_Teki:PersistentLevel.GGroupDropManager4.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.38"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Area011_Teki:PersistentLevel.GGroupDropManager4.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.38"
+        },
+        {
+          "ObjectName": "GroupDropManagerComponent'Area011_Teki:PersistentLevel.GGroupDropManager4.GroupDropManager'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.28"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GGroupDropManager_C",
+    "Name": "GGroupDropManager_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GGroupDropManager_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/GroupDropManager/GGroupDropManager.GGroupDropManager_C'",
+    "Properties": {
+      "GroupDropManager": {
+        "ObjectName": "GroupDropManagerComponent'Area011_Teki:PersistentLevel.GGroupDropManager_2.GroupDropManager'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.29"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Area011_Teki:PersistentLevel.GGroupDropManager_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.39"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 4294967478
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area011_Teki:PersistentLevel.GGroupDropManager_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.39"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Area011_Teki:PersistentLevel.GGroupDropManager_2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.39"
+        },
+        {
+          "ObjectName": "GroupDropManagerComponent'Area011_Teki:PersistentLevel.GGroupDropManager_2.GroupDropManager'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.29"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GHari_C",
+    "Name": "GHari_4",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GHari_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Teki/GHari.GHari_C'",
+    "Properties": {
+      "CarrotCarryLine": {
+        "ObjectName": "CarrotCarryLineComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotCarryLine'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.17"
+      },
+      "CarrotCarryCircleWing": {
+        "ObjectName": "CarrotCarryCircleComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotCarryCircleWing'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.16"
+      },
+      "CollTree_Carcass": {
+        "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree_Carcass'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.44"
+      },
+      "CollTree_NeedleRR": {
+        "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree_NeedleRR'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.48"
+      },
+      "CollTree_NeedleRF": {
+        "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree_NeedleRF'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.47"
+      },
+      "CollTree_NeedleLR": {
+        "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree_NeedleLR'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.46"
+      },
+      "CollTree_NeedleLF": {
+        "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree_NeedleLF'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.45"
+      },
+      "CollTree_BodyRR": {
+        "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree_BodyRR'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.43"
+      },
+      "CollTree_BodyRF": {
+        "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree_BodyRF'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.42"
+      },
+      "CollTree_BodyLR": {
+        "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree_BodyLR'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.41"
+      },
+      "CollTree_BodyLF": {
+        "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree_BodyLF'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.40"
+      },
+      "HariAI": {
+        "ObjectName": "HariAIComponent'Area011_Teki:PersistentLevel.GHari_4.HariAI'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.30"
+      },
+      "CarrotGenseiStrategy": {
+        "ObjectName": "CarrotGenseiStrategyComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotGenseiStrategy'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.18"
+      },
+      "Carcass": {
+        "ObjectName": "CarrotStaticMeshComponent'Area011_Teki:PersistentLevel.GHari_4.Carcass'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.21"
+      },
+      "TestCarryAffordance": {
+        "ObjectName": "TestCarryAffordanceComponent'Area011_Teki:PersistentLevel.GHari_4.TestCarryAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.50"
+      },
+      "AttackAffordance": {
+        "ObjectName": "AttackAffordanceComponent'Area011_Teki:PersistentLevel.GHari_4.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.4"
+      },
+      "CarrotMove": {
+        "ObjectName": "CarrotMoveComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotMove'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.19"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Area011_Teki:PersistentLevel.GHari_4.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.2"
+      },
+      "C4Stick": {
+        "ObjectName": "C4StickComponent'Area011_Teki:PersistentLevel.GHari_4.C4Stick'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.5"
+      },
+      "Life": {
+        "ObjectName": "LifeComponent'Area011_Teki:PersistentLevel.GHari_4.Life'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.32"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Area011_Teki:PersistentLevel.GHari_4.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.6"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Area011_Teki:PersistentLevel.GHari_4.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.8"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Area011_Teki:PersistentLevel.GHari_4.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.9"
+      },
+      "PointerAssist": {
+        "ObjectName": "PointerAssistComponent'Area011_Teki:PersistentLevel.GHari_4.PointerAssist'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.36"
+      },
+      "CollTree": {
+        "ObjectName": "CollTreeComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.22"
+      },
+      "CarrotSkeletalMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.20"
+      },
+      "Sphere": {
+        "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.49"
+      },
+      "CarrotMoveComponent": {
+        "ObjectName": "CarrotMoveComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotMove'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.19"
+      },
+      "SkeletalMeshComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.20"
+      },
+      "AffordanceComponent": {
+        "ObjectName": "AttackAffordanceComponent'Area011_Teki:PersistentLevel.GHari_4.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.4"
+      },
+      "AttackAffordanceComponent": {
+        "ObjectName": "AttackAffordanceComponent'Area011_Teki:PersistentLevel.GHari_4.AttackAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.4"
+      },
+      "CarryAffordanceComponent": {
+        "ObjectName": "TestCarryAffordanceComponent'Area011_Teki:PersistentLevel.GHari_4.TestCarryAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.50"
+      },
+      "StickComponent": {
+        "ObjectName": "C4StickComponent'Area011_Teki:PersistentLevel.GHari_4.C4Stick'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.5"
+      },
+      "LifeComponent": {
+        "ObjectName": "LifeComponent'Area011_Teki:PersistentLevel.GHari_4.Life'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.32"
+      },
+      "GenseiThemeName": "Hari_Boss_First",
+      "DemoBindName": "GHari",
+      "bPankuzuRadorTarget": true,
+      "GenerateInfo": {
+        "DebugUniqueId": 4294967504
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.49"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.Sphere'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.49"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotSkeletalMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.20"
+        },
+        {
+          "ObjectName": "AkComponent'Area011_Teki:PersistentLevel.GHari_4.Ak'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.2"
+        },
+        {
+          "ObjectName": "CollTreeComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.22"
+        },
+        {
+          "ObjectName": "PointerAssistComponent'Area011_Teki:PersistentLevel.GHari_4.PointerAssist'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.36"
+        },
+        {
+          "ObjectName": "CakEventHandlerComponent'Area011_Teki:PersistentLevel.GHari_4.CakEventHandler'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.9"
+        },
+        {
+          "ObjectName": "CakEmitterConfigComponent'Area011_Teki:PersistentLevel.GHari_4.CakEmitterConfig'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.8"
+        },
+        {
+          "ObjectName": "CakAudioTableComponent'Area011_Teki:PersistentLevel.GHari_4.CakAudioTable'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.6"
+        },
+        {
+          "ObjectName": "LifeComponent'Area011_Teki:PersistentLevel.GHari_4.Life'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.32"
+        },
+        {
+          "ObjectName": "C4StickComponent'Area011_Teki:PersistentLevel.GHari_4.C4Stick'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.5"
+        },
+        {
+          "ObjectName": "CarrotMoveComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotMove'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.19"
+        },
+        {
+          "ObjectName": "AttackAffordanceComponent'Area011_Teki:PersistentLevel.GHari_4.AttackAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.4"
+        },
+        {
+          "ObjectName": "TestCarryAffordanceComponent'Area011_Teki:PersistentLevel.GHari_4.TestCarryAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.50"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Area011_Teki:PersistentLevel.GHari_4.Carcass'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.21"
+        },
+        {
+          "ObjectName": "CarrotGenseiStrategyComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotGenseiStrategy'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.18"
+        },
+        {
+          "ObjectName": "HariAIComponent'Area011_Teki:PersistentLevel.GHari_4.HariAI'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.30"
+        },
+        {
+          "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree_BodyLF'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.40"
+        },
+        {
+          "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree_BodyLR'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.41"
+        },
+        {
+          "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree_BodyRF'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.42"
+        },
+        {
+          "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree_BodyRR'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.43"
+        },
+        {
+          "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree_NeedleLF'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.45"
+        },
+        {
+          "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree_NeedleLR'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.46"
+        },
+        {
+          "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree_NeedleRF'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.47"
+        },
+        {
+          "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree_NeedleRR'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.48"
+        },
+        {
+          "ObjectName": "SphereComponent'Area011_Teki:PersistentLevel.GHari_4.CollTree_Carcass'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.44"
+        },
+        {
+          "ObjectName": "CarrotCarryCircleComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotCarryCircleWing'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.16"
+        },
+        {
+          "ObjectName": "CarrotCarryLineComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotCarryLine'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.17"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GroupDropManagerComponent",
+    "Name": "GroupDropManager",
+    "Outer": "GGroupDropManager2",
+    "Template": "GroupDropManager_GEN_VARIABLE",
+    "Class": "UScriptClass'GroupDropManagerComponent'",
+    "Properties": {
+      "GroupDropManagerAIParameter": {
+        "GroupingRadius": 100.0,
+        "DropParameter": {
+          "DropItemParameter": [
+            {
+              "SpawnMiniInfo": {
+                "DropActor": {
+                  "ObjectName": "BlueprintGeneratedClass'GPikminBlue_C'",
+                  "ObjectPath": "/Game/Carrot4/Placeables/Pikmin/GPikminBlue.0"
+                },
+                "CustomParameter": "None",
+                "CustomFloatParameter": 0.0,
+                "GameRulePermissionFlag": 269,
+                "bSetTerritory": false,
+                "Territory": {
+                  "Center": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "HalfHeight": 50.0,
+                  "Radius": 100.0,
+                  "SearchType": "ESearchAreaSearchType::LocationDirZ",
+                  "bSearchOuterTerritory": true
+                }
+              },
+              "UniqueId": 18446744073709551615,
+              "MinNum": 5,
+              "MaxNum": 5,
+              "DropRatio": 1.0,
+              "bRegistGenerator": false,
+              "DropConditions": []
+            }
+          ]
+        }
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "GroupDropManagerComponent",
+    "Name": "GroupDropManager",
+    "Outer": "GGroupDropManager4",
+    "Template": "GroupDropManager_GEN_VARIABLE",
+    "Class": "UScriptClass'GroupDropManagerComponent'",
+    "Properties": {
+      "GroupDropManagerAIParameter": {
+        "GroupingRadius": 150.0,
+        "DropParameter": {
+          "DropItemParameter": [
+            {
+              "SpawnMiniInfo": {
+                "DropActor": {
+                  "ObjectName": "BlueprintGeneratedClass'GPikminYellow_C'",
+                  "ObjectPath": "/Game/Carrot4/Placeables/Pikmin/GPikminYellow.0"
+                },
+                "CustomParameter": "None",
+                "CustomFloatParameter": 0.0,
+                "GameRulePermissionFlag": 269,
+                "bSetTerritory": false,
+                "Territory": {
+                  "Center": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "HalfHeight": 50.0,
+                  "Radius": 100.0,
+                  "SearchType": "ESearchAreaSearchType::LocationDirZ",
+                  "bSearchOuterTerritory": true
+                }
+              },
+              "UniqueId": 18446744073709551615,
+              "MinNum": 5,
+              "MaxNum": 5,
+              "DropRatio": 1.0,
+              "bRegistGenerator": false,
+              "DropConditions": []
+            }
+          ],
+          "DropActorParameter": {
+            "Vel": {
+              "X": 0.0,
+              "Y": -200.0,
+              "Z": 300.0
+            },
+            "RandVel": {
+              "X": 50.0,
+              "Y": 50.0,
+              "Z": 30.0
+            },
+            "DropOption": 2
+          }
+        }
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "GroupDropManagerComponent",
+    "Name": "GroupDropManager",
+    "Outer": "GGroupDropManager_2",
+    "Template": "GroupDropManager_GEN_VARIABLE",
+    "Class": "UScriptClass'GroupDropManagerComponent'",
+    "Properties": {
+      "GroupDropManagerAIParameter": {
+        "GroupingRadius": 50.0,
+        "DropParameter": {
+          "DropItemParameter": [
+            {
+              "SpawnMiniInfo": {
+                "DropActor": {
+                  "ObjectName": "BlueprintGeneratedClass'GPikminRed_C'",
+                  "ObjectPath": "/Game/Carrot4/Placeables/Pikmin/GPikminRed.0"
+                },
+                "CustomParameter": "None",
+                "CustomFloatParameter": 0.0,
+                "GameRulePermissionFlag": 269,
+                "bSetTerritory": false,
+                "Territory": {
+                  "Center": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "HalfHeight": 50.0,
+                  "Radius": 100.0,
+                  "SearchType": "ESearchAreaSearchType::LocationDirZ",
+                  "bSearchOuterTerritory": true
+                }
+              },
+              "UniqueId": 18446744073709551615,
+              "MinNum": 5,
+              "MaxNum": 5,
+              "DropRatio": 1.0,
+              "bRegistGenerator": false,
+              "DropConditions": [
+                {
+                  "DropCond": "EDropCondition::SalvageOtakara",
+                  "DropCondInt": -1,
+                  "DropCondName": "OTAHEROPARTSP",
+                  "DropCondDemo": "EDemoFlagType::None"
+                }
+              ]
+            }
+          ],
+          "DropActorParameter": {
+            "Vel": {
+              "X": 0.0,
+              "Y": -200.0,
+              "Z": 300.0
+            },
+            "RandVel": {
+              "X": 50.0,
+              "Y": 50.0,
+              "Z": 30.0
+            },
+            "DropOption": 2
+          }
+        }
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HariAIComponent",
+    "Name": "HariAI",
+    "Outer": "GHari_4",
+    "Template": "HariAI_GEN_VARIABLE",
+    "Class": "UScriptClass'HariAIComponent'",
+    "Properties": {
+      "HariAIParameter": {
+        "CautionParam": {
+          "bEnableNotice": true
+        },
+        "bFixedArtillery": true
+      },
+      "TekiAIParameter": {
+        "Territory": {
+          "Radius": 500.0
+        },
+        "DropParameter": {
+          "DropItemParameter": [
+            {
+              "SpawnMiniInfo": {
+                "DropActor": {
+                  "ObjectName": "BlueprintGeneratedClass'GOtaHeroPartsP_C'",
+                  "ObjectPath": "/Game/Carrot4/Placeables/Objects/Otakara/GOtaHeroPartsP.0"
+                },
+                "CustomParameter": "None",
+                "CustomFloatParameter": 0.0,
+                "GameRulePermissionFlag": 269,
+                "bSetTerritory": false,
+                "Territory": {
+                  "Center": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "HalfHeight": 50.0,
+                  "Radius": 100.0,
+                  "SearchType": "ESearchAreaSearchType::LocationDirZ",
+                  "bSearchOuterTerritory": true
+                }
+              },
+              "UniqueId": 1156017733645631769,
+              "MinNum": 1,
+              "MaxNum": 1,
+              "DropRatio": 1.0,
+              "bRegistGenerator": false,
+              "DropConditions": []
+            }
+          ],
+          "DebugUniqueIdList": [
+            1156017733645631769
+          ],
+          "DropActorParameter": {
+            "Vel": {
+              "X": 0.0,
+              "Y": 180.0,
+              "Z": 400.0
+            },
+            "RandVel": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "DropOption": 384
+          }
+        }
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Area011_Teki",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Area011_Teki:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.33"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Area011_Teki_C'Area011_Teki:PersistentLevel.Area011_Teki_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.3"
+      },
+      "LevelBuildDataId": "5874C396-41F31D4A-08D9E1AB-06383498",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Area011_Teki_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Area011_Teki:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.34"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Area011_Teki:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.34"
+      },
+      null,
+      {
+        "ObjectName": "GGroupDropManager_C'Area011_Teki:PersistentLevel.GGroupDropManager_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.25"
+      },
+      {
+        "ObjectName": "GHari_C'Area011_Teki:PersistentLevel.GHari_4'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.26"
+      },
+      {
+        "ObjectName": "GGroupDropManager_C'Area011_Teki:PersistentLevel.GGroupDropManager2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.23"
+      },
+      {
+        "ObjectName": "GGroupDropManager_C'Area011_Teki:PersistentLevel.GGroupDropManager4'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.24"
+      },
+      {
+        "ObjectName": "Area011_Teki_C'Area011_Teki:PersistentLevel.Area011_Teki_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.3"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Test/Maps/Check/CheckRomEntry_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Area011_Teki:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.33"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Area011_Teki_C'Area011_Teki:PersistentLevel.Area011_Teki_C_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.3"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LifeComponent",
+    "Name": "Life",
+    "Outer": "GHari_4",
+    "Template": "Life_GEN_VARIABLE",
+    "Class": "UScriptClass'LifeComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "D4777C2E-4BDB5AE9-6FF9079E-E9B863BF",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "bEnableNavigationSystem": false,
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Area011_Teki:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.35"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PointerAssistComponent",
+    "Name": "PointerAssist",
+    "Outer": "GHari_4",
+    "Template": "PointerAssist_GEN_VARIABLE",
+    "Class": "UScriptClass'PointerAssistComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GGroupDropManager2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3684.0,
+        "Y": 2654.0,
+        "Z": 5.358101
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GGroupDropManager4",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1078.0,
+        "Y": 786.0,
+        "Z": 295.67075
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GGroupDropManager_2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1217.0,
+        "Y": 1961.0,
+        "Z": 297.23364
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_BodyLF",
+    "Outer": "GHari_4",
+    "Template": "CollTree_BodyLF_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.20"
+      },
+      "AttachSocketName": "S_j010",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_BodyLR",
+    "Outer": "GHari_4",
+    "Template": "CollTree_BodyLR_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.20"
+      },
+      "AttachSocketName": "S_j010",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_BodyRF",
+    "Outer": "GHari_4",
+    "Template": "CollTree_BodyRF_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.20"
+      },
+      "AttachSocketName": "S_j010",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_BodyRR",
+    "Outer": "GHari_4",
+    "Template": "CollTree_BodyRR_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.20"
+      },
+      "AttachSocketName": "S_j010",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Carcass",
+    "Outer": "GHari_4",
+    "Template": "CollTree_Carcass_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.20"
+      },
+      "AttachSocketName": "S_j000",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_NeedleLF",
+    "Outer": "GHari_4",
+    "Template": "CollTree_NeedleLF_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.20"
+      },
+      "AttachSocketName": "LS_j000",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_NeedleLR",
+    "Outer": "GHari_4",
+    "Template": "CollTree_NeedleLR_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.20"
+      },
+      "AttachSocketName": "LS_j010",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_NeedleRF",
+    "Outer": "GHari_4",
+    "Template": "CollTree_NeedleRF_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.20"
+      },
+      "AttachSocketName": "RS_j000",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_NeedleRR",
+    "Outer": "GHari_4",
+    "Template": "CollTree_NeedleRR_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area011_Teki:PersistentLevel.GHari_4.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.20"
+      },
+      "AttachSocketName": "RS_j010",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "GHari_4",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 561.0,
+        "Y": 2229.0,
+        "Z": 305.35138
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -45.0,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TestCarryAffordanceComponent",
+    "Name": "TestCarryAffordance",
+    "Outer": "GHari_4",
+    "Template": "TestCarryAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'TestCarryAffordanceComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Area011_Teki",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Area011_Teki:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area011/Sublevels/Area011_Teki.31"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

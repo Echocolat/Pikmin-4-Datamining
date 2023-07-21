@@ -1,0 +1,326 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Area004_Teki_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "LatestSerialId",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Area004_Teki_C'Default__Area004_Teki_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki.1"
+    }
+  },
+  {
+    "Type": "Area004_Teki_C",
+    "Name": "Default__Area004_Teki_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki.Area004_Teki_C'",
+    "Properties": {
+      "LatestSerialId": 74
+    }
+  },
+  {
+    "Type": "Area004_Teki_C",
+    "Name": "Area004_Teki_C_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Area004_Teki_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki.Area004_Teki_C'"
+  },
+  {
+    "Type": "GGroupDropManager_C",
+    "Name": "GGroupDropManager3_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GGroupDropManager_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Gimmicks/GroupDropManager/GGroupDropManager.GGroupDropManager_C'",
+    "Properties": {
+      "GroupDropManager": {
+        "ObjectName": "GroupDropManagerComponent'Area004_Teki:PersistentLevel.GGroupDropManager3_2.GroupDropManager'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki.4"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Area004_Teki:PersistentLevel.GGroupDropManager3_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki.9"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1154047408808656969
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Teki:PersistentLevel.GGroupDropManager3_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki.9"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Area004_Teki:PersistentLevel.GGroupDropManager3_2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki.9"
+        },
+        {
+          "ObjectName": "GroupDropManagerComponent'Area004_Teki:PersistentLevel.GGroupDropManager3_2.GroupDropManager'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GroupDropManagerComponent",
+    "Name": "GroupDropManager",
+    "Outer": "GGroupDropManager3_2",
+    "Template": "GroupDropManager_GEN_VARIABLE",
+    "Class": "UScriptClass'GroupDropManagerComponent'",
+    "Properties": {
+      "GroupDropManagerAIParameter": {
+        "GroupingRadius": 100.0,
+        "DropParameter": {
+          "DropItemParameter": [
+            {
+              "SpawnMiniInfo": {
+                "DropActor": {
+                  "ObjectName": "BlueprintGeneratedClass'GTamagoMushi_C'",
+                  "ObjectPath": "/Game/Carrot4/Placeables/Teki/GTamagoMushi.0"
+                },
+                "CustomParameter": "None",
+                "CustomFloatParameter": 0.0,
+                "GameRulePermissionFlag": 269,
+                "bSetTerritory": false,
+                "Territory": {
+                  "Center": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "HalfHeight": 50.0,
+                  "Radius": 100.0,
+                  "SearchType": "ESearchAreaSearchType::LocationDirZ",
+                  "bSearchOuterTerritory": true
+                }
+              },
+              "UniqueId": 18446744073709551615,
+              "MinNum": 10,
+              "MaxNum": 10,
+              "DropRatio": 1.0,
+              "bRegistGenerator": true,
+              "DropConditions": []
+            }
+          ]
+        },
+        "DropTiming": "EDropTiming::First"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Area004_Teki",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Area004_Teki:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki.6"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Area004_Teki_C'Area004_Teki:PersistentLevel.Area004_Teki_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki.2"
+      },
+      "LevelBuildDataId": "9507B021-4385A79B-CEF0A183-17A880D3",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Area004_Teki_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Area004_Teki:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki.7"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Area004_Teki:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki.7"
+      },
+      null,
+      {
+        "ObjectName": "GGroupDropManager_C'Area004_Teki:PersistentLevel.GGroupDropManager3_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki.3"
+      },
+      {
+        "ObjectName": "Area004_Teki_C'Area004_Teki:PersistentLevel.Area004_Teki_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki.2"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Test/Maps/Check/CheckRomEntry_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Area004_Teki:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki.6"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Area004_Teki_C'Area004_Teki:PersistentLevel.Area004_Teki_C_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki.2"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "3507572A-4F93E16C-EEABD18E-71C273A2",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "bEnableNavigationSystem": false,
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Area004_Teki:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki.8"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GGroupDropManager3_2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -586.0,
+        "Y": 2260.0,
+        "Z": 0.00010681152
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Area004_Teki",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Area004_Teki:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Teki.5"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

@@ -1,0 +1,673 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Area002_Sound_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "LatestSerialId",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Area002_Sound_C'Default__Area002_Sound_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.1"
+    }
+  },
+  {
+    "Type": "Area002_Sound_C",
+    "Name": "Default__Area002_Sound_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.Area002_Sound_C'",
+    "Properties": {
+      "LatestSerialId": 7
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "Amb_Pond",
+    "Template": "Ak",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1046.0,
+        "Y": 316.0,
+        "Z": 11.0
+      },
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area002_Sound:PersistentLevel.Amb_Pond.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.2"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area002_Sound:PersistentLevel.Amb_Pond.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.2"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "Area002_Sound_C",
+    "Name": "Area002_Sound_C_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Area002_Sound_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.Area002_Sound_C'"
+  },
+  {
+    "Type": "BP_AmbientSoundMulti_Area002_C",
+    "Name": "Amb_Pond",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_AmbientSoundMulti_Area002_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Audio/Blueprints/BP_AmbientSoundMulti_Area002.BP_AmbientSoundMulti_Area002_C'",
+    "Properties": {
+      "CakMultiplePosition": {
+        "ObjectName": "CakMultiplePositionComponent'Area002_Sound:PersistentLevel.Amb_Pond.CakMultiplePosition'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.8"
+      },
+      "AmbientSoundId": "Water01",
+      "Ak": {
+        "ObjectName": "AkComponent'Area002_Sound:PersistentLevel.Amb_Pond.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.2"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Area002_Sound:PersistentLevel.Amb_Pond.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.7"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Area002_Sound:PersistentLevel.Amb_Pond.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.6"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Area002_Sound:PersistentLevel.Amb_Pond.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.5"
+      },
+      "CakSimpleState": {
+        "ObjectName": "CakSimpleStateComponent'Area002_Sound:PersistentLevel.Amb_Pond.CakSimpleState'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.9"
+      },
+      "CakTrigger": {
+        "ObjectName": "CakTriggerComponent'Area002_Sound:PersistentLevel.Amb_Pond.CakTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.10"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1153484510394843142
+      },
+      "RootComponent": {
+        "ObjectName": "AkComponent'Area002_Sound:PersistentLevel.Amb_Pond.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.2"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CakMultiplePositionComponent'Area002_Sound:PersistentLevel.Amb_Pond.CakMultiplePosition'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "Amb_Pond",
+    "Template": "CakAudioTable",
+    "Class": "UScriptClass'CakAudioTableComponent'"
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "Amb_Pond",
+    "Template": "CakEmitterConfig",
+    "Class": "UScriptClass'CakEmitterConfigComponent'"
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "Amb_Pond",
+    "Template": "CakEventHandler",
+    "Class": "UScriptClass'CakEventHandlerComponent'"
+  },
+  {
+    "Type": "CakMultiplePositionComponent",
+    "Name": "CakMultiplePosition",
+    "Outer": "Amb_Pond",
+    "Template": "CakMultiplePosition_GEN_VARIABLE",
+    "Class": "UScriptClass'CakMultiplePositionComponent'",
+    "Properties": {
+      "MultiplePositions": [
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -780.6892,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -802.58105,
+            "Y": 339.3778,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -555.4898,
+            "Y": 669.07825,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -281.91342,
+            "Y": 513.0246,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -110.64194,
+            "Y": 204.15564,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 320.80627,
+            "Y": -24.977394,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 292.68332,
+            "Y": -340.36407,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 70.92038,
+            "Y": -655.78107,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 6.386745,
+            "Y": -1019.5466,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 174.42291,
+            "Y": -1310.338,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": -1638.8337,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -237.9019,
+            "Y": -1412.6527,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -160.75668,
+            "Y": -395.7843,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -723.07166,
+            "Y": -258.14493,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -406.0257,
+            "Y": -258.2455,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "AkComponent'Area002_Sound:PersistentLevel.Amb_Pond.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.2"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakSimpleStateComponent",
+    "Name": "CakSimpleState",
+    "Outer": "Amb_Pond",
+    "Template": "CakSimpleState",
+    "Class": "UScriptClass'CakSimpleStateComponent'",
+    "Properties": {
+      "AudioKeyOnStart": "Pond"
+    }
+  },
+  {
+    "Type": "CakTriggerComponent",
+    "Name": "CakTrigger",
+    "Outer": "Amb_Pond",
+    "Template": "CakTrigger",
+    "Class": "UScriptClass'CakTriggerComponent'"
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Area002_Sound",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Area002_Sound:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.12"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Area002_Sound_C'Area002_Sound:PersistentLevel.Area002_Sound_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.3"
+      },
+      "LevelBuildDataId": "30E605A0-483CF607-3008E4BF-195619DB",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Area002_Sound_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Area002_Sound:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.13"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Area002_Sound:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.13"
+      },
+      null,
+      {
+        "ObjectName": "BP_AmbientSoundMulti_Area002_C'Area002_Sound:PersistentLevel.Amb_Pond'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.4"
+      },
+      {
+        "ObjectName": "Area002_Sound_C'Area002_Sound:PersistentLevel.Area002_Sound_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.3"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Carrot4/Maps/Boot_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Area002_Sound:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.12"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Area002_Sound_C'Area002_Sound:PersistentLevel.Area002_Sound_C_1'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.3"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "90A7C481-4FEC912B-4C2708B6-0952EA61",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Area002_Sound:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.14"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Area002_Sound",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Area002_Sound:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area002/Sublevels/Area002_Sound.11"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

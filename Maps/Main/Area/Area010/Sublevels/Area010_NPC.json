@@ -1,0 +1,211 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Area010_NPC_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "LatestSerialId",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Area010_NPC_C'Default__Area010_NPC_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC.1"
+    }
+  },
+  {
+    "Type": "Area010_NPC_C",
+    "Name": "Default__Area010_NPC_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC.Area010_NPC_C'",
+    "Properties": {
+      "LatestSerialId": 5
+    }
+  },
+  {
+    "Type": "Area010_NPC_C",
+    "Name": "Area010_NPC_C_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Area010_NPC_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC.Area010_NPC_C'"
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Area010_NPC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Area010_NPC:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC.4"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Area010_NPC_C'Area010_NPC:PersistentLevel.Area010_NPC_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC.2"
+      },
+      "LevelBuildDataId": "F427D970-42265C08-46705186-1DBE618B",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Area010_NPC_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Area010_NPC:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC.5"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Area010_NPC:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC.5"
+      },
+      null,
+      {
+        "ObjectName": "Area010_NPC_C'Area010_NPC:PersistentLevel.Area010_NPC_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC.2"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Carrot4/Maps/Boot_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Area010_NPC:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC.4"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Area010_NPC_C'Area010_NPC:PersistentLevel.Area010_NPC_C_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC.2"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "A5B9248C-47C858B4-A6F35DA4-99F7E0F1",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Area010_NPC:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC.6"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Area010_NPC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Area010_NPC:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area010/Sublevels/Area010_NPC.3"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

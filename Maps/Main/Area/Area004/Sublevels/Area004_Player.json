@@ -1,0 +1,3383 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Area004_Player_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Area004_Player_C'Default__Area004_Player_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.1"
+    }
+  },
+  {
+    "Type": "Area004_Player_C",
+    "Name": "Default__Area004_Player_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.Area004_Player_C'"
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "GAvatar_446",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.19"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area004_Player:PersistentLevel.GAvatar_446.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.2"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area004_Player:PersistentLevel.GAvatar_446.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.2"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "Area004_Player_C",
+    "Name": "Area004_Player_C_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Area004_Player_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.Area004_Player_C'"
+  },
+  {
+    "Type": "AvatarComponent",
+    "Name": "Avatar",
+    "Outer": "GAvatar_446",
+    "Template": "Avatar_GEN_VARIABLE",
+    "Class": "UScriptClass'AvatarComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "C4StickComponent",
+    "Name": "C4Stick",
+    "Outer": "GAvatar_446",
+    "Template": "C4Stick_GEN_VARIABLE",
+    "Class": "UScriptClass'C4StickComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioFlagComponent",
+    "Name": "CakAudioFlag",
+    "Outer": "GAvatar_446",
+    "Template": "CakAudioFlag_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioFlagComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "GAvatar_446",
+    "Template": "CakAudioTable_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioTableComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakControlledStatusControlUnit",
+    "Name": "CakControlledStatusControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakControlledStatusControlUnit_0",
+    "Class": "UScriptClass'CakControlledStatusControlUnit'"
+  },
+  {
+    "Type": "CakDamageLoopUnit",
+    "Name": "CakDamageLoopUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakDamageLoopUnit_0",
+    "Class": "UScriptClass'CakDamageLoopUnit'"
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "GAvatar_446",
+    "Template": "CakEmitterConfig_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEmitterConfigComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "GAvatar_446",
+    "Template": "CakEventHandler_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEventHandlerComponent'",
+    "Properties": {
+      "Unit_0": {
+        "ObjectName": "CakMoveSpeedControlUnit'Area004_Player:PersistentLevel.GAvatar_446.CakEventHandler.CakMoveSpeedControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.13"
+      },
+      "Unit_1": {
+        "ObjectName": "CakFoliageDensityControlUnit'Area004_Player:PersistentLevel.GAvatar_446.CakEventHandler.CakFoliageDensityControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.12"
+      },
+      "Unit_2": {
+        "ObjectName": "CakSinkRatioControlUnit'Area004_Player:PersistentLevel.GAvatar_446.CakEventHandler.CakSinkRatioControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.14"
+      },
+      "Unit_3": {
+        "ObjectName": "CakTerrainSwitchingUnit'Area004_Player:PersistentLevel.GAvatar_446.CakEventHandler.CakTerrainSwitchingUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.16"
+      },
+      "Unit_4": {
+        "ObjectName": "CakControlledStatusControlUnit'Area004_Player:PersistentLevel.GAvatar_446.CakEventHandler.CakControlledStatusControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.8"
+      },
+      "Unit_5": {
+        "ObjectName": "CakStickyScrapeControlUnit'Area004_Player:PersistentLevel.GAvatar_446.CakEventHandler.CakStickyScrapeControlUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.15"
+      },
+      "Unit_6": {
+        "ObjectName": "CakDamageLoopUnit'Area004_Player:PersistentLevel.GAvatar_446.CakEventHandler.CakDamageLoopUnit_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.9"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakFoliageDensityControlUnit",
+    "Name": "CakFoliageDensityControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakFoliageDensityControlUnit_0",
+    "Class": "UScriptClass'CakFoliageDensityControlUnit'"
+  },
+  {
+    "Type": "CakMoveSpeedControlUnit",
+    "Name": "CakMoveSpeedControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakMoveSpeedControlUnit_0",
+    "Class": "UScriptClass'CakMoveSpeedControlUnit'"
+  },
+  {
+    "Type": "CakSinkRatioControlUnit",
+    "Name": "CakSinkRatioControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakSinkRatioControlUnit_0",
+    "Class": "UScriptClass'CakSinkRatioControlUnit'"
+  },
+  {
+    "Type": "CakStickyScrapeControlUnit",
+    "Name": "CakStickyScrapeControlUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakStickyScrapeControlUnit_0",
+    "Class": "UScriptClass'CakStickyScrapeControlUnit'"
+  },
+  {
+    "Type": "CakTerrainSwitchingUnit",
+    "Name": "CakTerrainSwitchingUnit_0",
+    "Outer": "CakEventHandler",
+    "Template": "CakTerrainSwitchingUnit_0",
+    "Class": "UScriptClass'CakTerrainSwitchingUnit'"
+  },
+  {
+    "Type": "CarrotMoveComponent",
+    "Name": "CarrotMove",
+    "Outer": "GAvatar_446",
+    "Template": "CarrotMove_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotMoveComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotSeijinStrategyComponent",
+    "Name": "CarrotSeijinStrategy",
+    "Outer": "GAvatar_446",
+    "Template": "CarrotSeijinStrategy_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSeijinStrategyComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "CarrotSkeletalMesh",
+    "Outer": "GAvatar_446",
+    "Template": "CarrotSkeletalMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Area004_Player:PersistentLevel.GAvatar_446.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "F_j000_face",
+    "Outer": "GAvatar_446",
+    "Template": "F_j000_face_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.19"
+      },
+      "AttachSocketName": "F_j000",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "F_j000_hair",
+    "Outer": "GAvatar_446",
+    "Template": "F_j000_hair_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.19"
+      },
+      "AttachSocketName": "F_j000",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "H_j000_leaf",
+    "Outer": "GAvatar_446",
+    "Template": "H_j000_leaf_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.19"
+      },
+      "AttachSocketName": "H_j000",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "ShadowMesh",
+    "Outer": "GAvatar_446",
+    "Template": "ShadowMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "MasterPoseComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.19"
+      },
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.19"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "SilhouetteMesh",
+    "Outer": "GAvatar_446",
+    "Template": "SilhouetteMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.19"
+      },
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CharacterEditComponent",
+    "Name": "CharacterEdit",
+    "Outer": "GAvatar_446",
+    "Template": "CharacterEdit_GEN_VARIABLE",
+    "Class": "UScriptClass'CharacterEditComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DC_Area004_DroneCollision_001_C",
+    "Name": "DC_Area004_DroneCollision_001_4",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_Area004_DroneCollision_001_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Area/Area004/DC_Area004_DroneCollision_001.DC_Area004_DroneCollision_001_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.DC_Area004_DroneCollision_001_4.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.118"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.DC_Area004_DroneCollision_001_4.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.88"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.DC_Area004_DroneCollision_001_4.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.118"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_Area004_DroneCollision_C",
+    "Name": "DC_Area004_DroneCollision_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_Area004_DroneCollision_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Area/Area004/DC_Area004_DroneCollision.DC_Area004_DroneCollision_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.DC_Area004_DroneCollision_2.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.119"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.DC_Area004_DroneCollision_2.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.89"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.DC_Area004_DroneCollision_2.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.119"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoardModule_Drone_C",
+    "Name": "COL_AreaParts_Drone10_16",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoardModule_Drone_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoardModule_Drone.DC_BoardModule_Drone_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone10_16.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.95"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone10_16.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.65"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone10_16.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.95"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoardModule_Drone_C",
+    "Name": "COL_AreaParts_Drone11_18",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoardModule_Drone_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoardModule_Drone.DC_BoardModule_Drone_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone11_18.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.96"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone11_18.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.66"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone11_18.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.96"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoardModule_Drone_C",
+    "Name": "COL_AreaParts_Drone12",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoardModule_Drone_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoardModule_Drone.DC_BoardModule_Drone_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone12.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.97"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone12.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.67"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone12.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.97"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoardModule_Drone_C",
+    "Name": "COL_AreaParts_Drone13",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoardModule_Drone_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoardModule_Drone.DC_BoardModule_Drone_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone13.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.98"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone13.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.68"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone13.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.98"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoardModule_Drone_C",
+    "Name": "COL_AreaParts_Drone14",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoardModule_Drone_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoardModule_Drone.DC_BoardModule_Drone_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone14.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.99"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone14.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.69"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone14.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.99"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoardModule_Drone_C",
+    "Name": "COL_AreaParts_Drone2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoardModule_Drone_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoardModule_Drone.DC_BoardModule_Drone_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone2.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.100"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone2.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.70"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone2.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.100"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoardModule_Drone_C",
+    "Name": "COL_AreaParts_Drone3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoardModule_Drone_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoardModule_Drone.DC_BoardModule_Drone_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone3.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.101"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone3.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.71"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone3.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.101"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoardModule_Drone_C",
+    "Name": "COL_AreaParts_Drone4",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoardModule_Drone_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoardModule_Drone.DC_BoardModule_Drone_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone4.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.102"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone4.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.72"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone4.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.102"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoardModule_Drone_C",
+    "Name": "COL_AreaParts_Drone5",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoardModule_Drone_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoardModule_Drone.DC_BoardModule_Drone_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone5.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.103"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone5.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.73"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone5.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.103"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoardModule_Drone_C",
+    "Name": "COL_AreaParts_Drone6",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoardModule_Drone_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoardModule_Drone.DC_BoardModule_Drone_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone6.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.104"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone6.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.74"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone6.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.104"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoardModule_Drone_C",
+    "Name": "COL_AreaParts_Drone7",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoardModule_Drone_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoardModule_Drone.DC_BoardModule_Drone_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone7.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.105"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone7.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.75"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone7.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.105"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoardModule_Drone_C",
+    "Name": "COL_AreaParts_Drone8",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoardModule_Drone_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoardModule_Drone.DC_BoardModule_Drone_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone8.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.106"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone8.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.76"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone8.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.106"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoardModule_Drone_C",
+    "Name": "COL_AreaParts_Drone9",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoardModule_Drone_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoardModule_Drone.DC_BoardModule_Drone_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone9.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.107"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone9.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.77"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone9.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.107"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoardModule_Drone_C",
+    "Name": "COL_AreaParts_Drone_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoardModule_Drone_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoardModule_Drone.DC_BoardModule_Drone_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone_2.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.108"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone_2.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.78"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone_2.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.108"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoxModule_DroneCollision_C",
+    "Name": "COL_Cave_Module_DroneCollision2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoxModule_DroneCollision_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoxModule_DroneCollision.DC_BoxModule_DroneCollision_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision2.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.109"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision2.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.79"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision2.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.109"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoxModule_DroneCollision_C",
+    "Name": "COL_Cave_Module_DroneCollision3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoxModule_DroneCollision_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoxModule_DroneCollision.DC_BoxModule_DroneCollision_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision3.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.110"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision3.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.80"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision3.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.110"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoxModule_DroneCollision_C",
+    "Name": "COL_Cave_Module_DroneCollision4",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoxModule_DroneCollision_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoxModule_DroneCollision.DC_BoxModule_DroneCollision_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision4.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.111"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision4.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.81"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision4.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.111"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoxModule_DroneCollision_C",
+    "Name": "COL_Cave_Module_DroneCollision5",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoxModule_DroneCollision_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoxModule_DroneCollision.DC_BoxModule_DroneCollision_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision5.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.112"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision5.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.82"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision5.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.112"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoxModule_DroneCollision_C",
+    "Name": "COL_Cave_Module_DroneCollision6",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoxModule_DroneCollision_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoxModule_DroneCollision.DC_BoxModule_DroneCollision_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision6.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.113"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision6.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.83"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision6.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.113"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoxModule_DroneCollision_C",
+    "Name": "COL_Cave_Module_DroneCollision7",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoxModule_DroneCollision_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoxModule_DroneCollision.DC_BoxModule_DroneCollision_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision7.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.114"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision7.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.84"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision7.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.114"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoxModule_DroneCollision_C",
+    "Name": "COL_Cave_Module_DroneCollision8",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoxModule_DroneCollision_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoxModule_DroneCollision.DC_BoxModule_DroneCollision_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision8.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.115"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision8.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.85"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision8.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.115"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoxModule_DroneCollision_C",
+    "Name": "COL_Cave_Module_DroneCollision9",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoxModule_DroneCollision_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoxModule_DroneCollision.DC_BoxModule_DroneCollision_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision9.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.116"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision9.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.86"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision9.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.116"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DC_BoxModule_DroneCollision_C",
+    "Name": "COL_Cave_Module_DroneCollision_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DC_BoxModule_DroneCollision_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Terrain/DroneCollision/Cave/DC_BoxModule_DroneCollision.DC_BoxModule_DroneCollision_C'",
+    "Properties": {
+      "StaticCollision": {
+        "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision_2.StaticCollision'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.117"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision_2.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.87"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticCollisionComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision_2.StaticCollision'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.117"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "FormationAffordance",
+    "Name": "FormationAffordance",
+    "Outer": "GAvatar_446",
+    "Template": "FormationAffordance_GEN_VARIABLE",
+    "Class": "UScriptClass'FormationAffordance'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "FormationSlot",
+    "Name": "FormationSlot",
+    "Outer": "GAvatar_446",
+    "Template": "FormationSlot_GEN_VARIABLE",
+    "Class": "UScriptClass'FormationSlot'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "FueComponent",
+    "Name": "Fue",
+    "Outer": "GAvatar_446",
+    "Template": "Fue_GEN_VARIABLE",
+    "Class": "UScriptClass'FueComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "GAvatar_C",
+    "Name": "GAvatar_446",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GAvatar_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Player/GAvatar.GAvatar_C'",
+    "Properties": {
+      "ShadowMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.ShadowMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.23"
+      },
+      "CarrotSeijinStrategy": {
+        "ObjectName": "CarrotSeijinStrategyComponent'Area004_Player:PersistentLevel.GAvatar_446.CarrotSeijinStrategy'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.18"
+      },
+      "PointLight": {
+        "ObjectName": "PointLightComponent'Area004_Player:PersistentLevel.GAvatar_446.PointLight'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.64"
+      },
+      "SilhouetteMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.SilhouetteMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.24"
+      },
+      "H_j000_leaf": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.H_j000_leaf'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.22"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Area004_Player:PersistentLevel.GAvatar_446.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.2"
+      },
+      "Avatar": {
+        "ObjectName": "AvatarComponent'Area004_Player:PersistentLevel.GAvatar_446.Avatar'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.4"
+      },
+      "C4Stick": {
+        "ObjectName": "C4StickComponent'Area004_Player:PersistentLevel.GAvatar_446.C4Stick'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.5"
+      },
+      "Life": {
+        "ObjectName": "LifeComponent'Area004_Player:PersistentLevel.GAvatar_446.Life'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.57"
+      },
+      "CakAudioFlag": {
+        "ObjectName": "CakAudioFlagComponent'Area004_Player:PersistentLevel.GAvatar_446.CakAudioFlag'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.6"
+      },
+      "CharacterEdit": {
+        "ObjectName": "CharacterEditComponent'Area004_Player:PersistentLevel.GAvatar_446.CharacterEdit'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.25"
+      },
+      "F_j000_hair": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.F_j000_hair'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.21"
+      },
+      "F_j000_face": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.F_j000_face'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.20"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Area004_Player:PersistentLevel.GAvatar_446.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.7"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Area004_Player:PersistentLevel.GAvatar_446.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.10"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Area004_Player:PersistentLevel.GAvatar_446.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.11"
+      },
+      "CarrotSkeletalMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.19"
+      },
+      "SphereForPikmin": {
+        "ObjectName": "SphereComponent'Area004_Player:PersistentLevel.GAvatar_446.SphereForPikmin'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.94"
+      },
+      "Fue": {
+        "ObjectName": "FueComponent'Area004_Player:PersistentLevel.GAvatar_446.Fue'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.53"
+      },
+      "CarrotMove": {
+        "ObjectName": "CarrotMoveComponent'Area004_Player:PersistentLevel.GAvatar_446.CarrotMove'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.17"
+      },
+      "GCCursor": {
+        "ObjectName": "GCCursorComponent'Area004_Player:PersistentLevel.GAvatar_446.GCCursor'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.55"
+      },
+      "FormationAffordance": {
+        "ObjectName": "FormationAffordance'Area004_Player:PersistentLevel.GAvatar_446.FormationAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.51"
+      },
+      "FormationSlot": {
+        "ObjectName": "FormationSlot'Area004_Player:PersistentLevel.GAvatar_446.FormationSlot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.52"
+      },
+      "Sphere": {
+        "ObjectName": "SphereComponent'Area004_Player:PersistentLevel.GAvatar_446.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.93"
+      },
+      "CarrotMoveComponent": {
+        "ObjectName": "CarrotMoveComponent'Area004_Player:PersistentLevel.GAvatar_446.CarrotMove'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.17"
+      },
+      "SkeletalMeshComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.19"
+      },
+      "AffordanceComponent": {
+        "ObjectName": "FormationAffordance'Area004_Player:PersistentLevel.GAvatar_446.FormationAffordance'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.51"
+      },
+      "StickComponent": {
+        "ObjectName": "C4StickComponent'Area004_Player:PersistentLevel.GAvatar_446.C4Stick'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.5"
+      },
+      "LifeComponent": {
+        "ObjectName": "LifeComponent'Area004_Player:PersistentLevel.GAvatar_446.Life'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.57"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Area004_Player:PersistentLevel.GAvatar_446.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.93"
+      },
+      "BlueprintCreatedComponents": [
+        null,
+        {
+          "ObjectName": "SphereComponent'Area004_Player:PersistentLevel.GAvatar_446.Sphere'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.93"
+        },
+        {
+          "ObjectName": "SphereComponent'Area004_Player:PersistentLevel.GAvatar_446.SphereForPikmin'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.94"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.CarrotSkeletalMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.19"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.F_j000_face'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.20"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.F_j000_hair'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.21"
+        },
+        {
+          "ObjectName": "AkComponent'Area004_Player:PersistentLevel.GAvatar_446.Ak'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.2"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.H_j000_leaf'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.22"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.SilhouetteMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.24"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area004_Player:PersistentLevel.GAvatar_446.ShadowMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.23"
+        },
+        {
+          "ObjectName": "PointLightComponent'Area004_Player:PersistentLevel.GAvatar_446.PointLight'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.64"
+        },
+        {
+          "ObjectName": "FormationSlot'Area004_Player:PersistentLevel.GAvatar_446.FormationSlot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.52"
+        },
+        {
+          "ObjectName": "FormationAffordance'Area004_Player:PersistentLevel.GAvatar_446.FormationAffordance'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.51"
+        },
+        {
+          "ObjectName": "GCCursorComponent'Area004_Player:PersistentLevel.GAvatar_446.GCCursor'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.55"
+        },
+        {
+          "ObjectName": "CarrotMoveComponent'Area004_Player:PersistentLevel.GAvatar_446.CarrotMove'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.17"
+        },
+        {
+          "ObjectName": "FueComponent'Area004_Player:PersistentLevel.GAvatar_446.Fue'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.53"
+        },
+        {
+          "ObjectName": "CakEventHandlerComponent'Area004_Player:PersistentLevel.GAvatar_446.CakEventHandler'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.11"
+        },
+        {
+          "ObjectName": "CakEmitterConfigComponent'Area004_Player:PersistentLevel.GAvatar_446.CakEmitterConfig'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.10"
+        },
+        {
+          "ObjectName": "CakAudioTableComponent'Area004_Player:PersistentLevel.GAvatar_446.CakAudioTable'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.7"
+        },
+        {
+          "ObjectName": "CharacterEditComponent'Area004_Player:PersistentLevel.GAvatar_446.CharacterEdit'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.25"
+        },
+        {
+          "ObjectName": "CakAudioFlagComponent'Area004_Player:PersistentLevel.GAvatar_446.CakAudioFlag'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.6"
+        },
+        {
+          "ObjectName": "LifeComponent'Area004_Player:PersistentLevel.GAvatar_446.Life'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.57"
+        },
+        {
+          "ObjectName": "C4StickComponent'Area004_Player:PersistentLevel.GAvatar_446.C4Stick'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.5"
+        },
+        {
+          "ObjectName": "AvatarComponent'Area004_Player:PersistentLevel.GAvatar_446.Avatar'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.4"
+        },
+        {
+          "ObjectName": "CarrotSeijinStrategyComponent'Area004_Player:PersistentLevel.GAvatar_446.CarrotSeijinStrategy'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.18"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GCCursorComponent",
+    "Name": "GCCursor",
+    "Outer": "GAvatar_446",
+    "Template": "GCCursor_GEN_VARIABLE",
+    "Class": "UScriptClass'GCCursorComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Area004_Player",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Area004_Player:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.58"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Area004_Player_C'Area004_Player:PersistentLevel.Area004_Player_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.3"
+      },
+      "LevelBuildDataId": "3F8D1175-46578D87-D8E2B18C-270482BC",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Area004_Player_BuiltData'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Area004_Player:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.62"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Area004_Player:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.62"
+      },
+      null,
+      {
+        "ObjectName": "GAvatar_C'Area004_Player:PersistentLevel.GAvatar_446'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.54"
+      },
+      {
+        "ObjectName": "MyPlaceActor_C'Area004_Player:PersistentLevel.MyPlaceActor_178'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.61"
+      },
+      {
+        "ObjectName": "MyPlaceActor_C'Area004_Player:PersistentLevel.MyPlaceActor3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.60"
+      },
+      {
+        "ObjectName": "MyPlaceActor_C'Area004_Player:PersistentLevel.MyPlaceActor2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.59"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "DC_BoxModule_DroneCollision_C'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.50"
+      },
+      {
+        "ObjectName": "DC_BoxModule_DroneCollision_C'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.42"
+      },
+      {
+        "ObjectName": "DC_BoxModule_DroneCollision_C'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.43"
+      },
+      {
+        "ObjectName": "DC_BoxModule_DroneCollision_C'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision4'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.44"
+      },
+      {
+        "ObjectName": "DC_BoxModule_DroneCollision_C'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision5'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.45"
+      },
+      {
+        "ObjectName": "DC_BoxModule_DroneCollision_C'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision6'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.46"
+      },
+      {
+        "ObjectName": "DC_BoxModule_DroneCollision_C'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision7'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.47"
+      },
+      {
+        "ObjectName": "DC_BoxModule_DroneCollision_C'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision8'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.48"
+      },
+      {
+        "ObjectName": "DC_BoxModule_DroneCollision_C'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision9'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.49"
+      },
+      {
+        "ObjectName": "DC_BoardModule_Drone_C'Area004_Player:PersistentLevel.COL_AreaParts_Drone10_16'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.28"
+      },
+      {
+        "ObjectName": "DC_BoardModule_Drone_C'Area004_Player:PersistentLevel.COL_AreaParts_Drone11_18'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.29"
+      },
+      {
+        "ObjectName": "DC_BoardModule_Drone_C'Area004_Player:PersistentLevel.COL_AreaParts_Drone12'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.30"
+      },
+      {
+        "ObjectName": "DC_BoardModule_Drone_C'Area004_Player:PersistentLevel.COL_AreaParts_Drone13'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.31"
+      },
+      {
+        "ObjectName": "DC_BoardModule_Drone_C'Area004_Player:PersistentLevel.COL_AreaParts_Drone14'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.32"
+      },
+      {
+        "ObjectName": "DC_BoardModule_Drone_C'Area004_Player:PersistentLevel.COL_AreaParts_Drone2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.33"
+      },
+      {
+        "ObjectName": "DC_BoardModule_Drone_C'Area004_Player:PersistentLevel.COL_AreaParts_Drone3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.34"
+      },
+      {
+        "ObjectName": "DC_BoardModule_Drone_C'Area004_Player:PersistentLevel.COL_AreaParts_Drone4'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.35"
+      },
+      {
+        "ObjectName": "DC_BoardModule_Drone_C'Area004_Player:PersistentLevel.COL_AreaParts_Drone5'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.36"
+      },
+      {
+        "ObjectName": "DC_BoardModule_Drone_C'Area004_Player:PersistentLevel.COL_AreaParts_Drone6'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.37"
+      },
+      {
+        "ObjectName": "DC_BoardModule_Drone_C'Area004_Player:PersistentLevel.COL_AreaParts_Drone7'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.38"
+      },
+      {
+        "ObjectName": "DC_BoardModule_Drone_C'Area004_Player:PersistentLevel.COL_AreaParts_Drone8'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.39"
+      },
+      {
+        "ObjectName": "DC_BoardModule_Drone_C'Area004_Player:PersistentLevel.COL_AreaParts_Drone9'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.40"
+      },
+      {
+        "ObjectName": "DC_BoardModule_Drone_C'Area004_Player:PersistentLevel.COL_AreaParts_Drone_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.41"
+      },
+      {
+        "ObjectName": "DC_Area004_DroneCollision_001_C'Area004_Player:PersistentLevel.DC_Area004_DroneCollision_001_4'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.26"
+      },
+      {
+        "ObjectName": "DC_Area004_DroneCollision_C'Area004_Player:PersistentLevel.DC_Area004_DroneCollision_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.27"
+      },
+      null,
+      {
+        "ObjectName": "Area004_Player_C'Area004_Player:PersistentLevel.Area004_Player_C_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.3"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Engine/Maps/Entry",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Area004_Player:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.58"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Area004_Player_C'Area004_Player:PersistentLevel.Area004_Player_C_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.3"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LifeComponent",
+    "Name": "Life",
+    "Outer": "GAvatar_446",
+    "Template": "Life_GEN_VARIABLE",
+    "Class": "UScriptClass'LifeComponent'",
+    "Properties": {
+      "Life": 40.0,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'LifeComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "Life",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "CC8F60F6-49D381AF-AB5490A0-4374C865",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "MyPlaceActor_C",
+    "Name": "MyPlaceActor2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__MyPlaceActor_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Core/Actor/MyPlaceActor.MyPlaceActor_C'",
+    "Properties": {
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.MyPlaceActor2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.90"
+      },
+      "TheBP": {
+        "ObjectName": "BlueprintGeneratedClass'GPikminBlue_C'",
+        "ObjectPath": "/Game/Carrot4/Placeables/Pikmin/GPikminBlue.0"
+      },
+      "NumSpawns": 0,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.MyPlaceActor2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.90"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.MyPlaceActor2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.90"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MyPlaceActor_C",
+    "Name": "MyPlaceActor3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__MyPlaceActor_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Core/Actor/MyPlaceActor.MyPlaceActor_C'",
+    "Properties": {
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.MyPlaceActor3.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.91"
+      },
+      "TheBP": {
+        "ObjectName": "BlueprintGeneratedClass'GPikminRock_C'",
+        "ObjectPath": "/Game/Carrot4/Placeables/Pikmin/GPikminRock.0"
+      },
+      "NumSpawns": 0,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.MyPlaceActor3.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.91"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.MyPlaceActor3.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.91"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MyPlaceActor_C",
+    "Name": "MyPlaceActor_178",
+    "Outer": "PersistentLevel",
+    "Template": "Default__MyPlaceActor_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Core/Actor/MyPlaceActor.MyPlaceActor_C'",
+    "Properties": {
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.MyPlaceActor_178.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.92"
+      },
+      "NumSpawns": 0,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.MyPlaceActor_178.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.92"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.MyPlaceActor_178.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.92"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "bEnableNavigationSystem": false,
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Area004_Player:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.63"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight",
+    "Outer": "GAvatar_446",
+    "Template": "PointLight_GEN_VARIABLE",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Area004_Player:PersistentLevel.GAvatar_446.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_AreaParts_Drone10_16",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1842.293,
+        "Y": 3518.855,
+        "Z": 226.99933
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 20.75671,
+        "Roll": -5.0
+      },
+      "RelativeScale3D": {
+        "X": 16.0,
+        "Y": 5.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_AreaParts_Drone11_18",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -4206.6357,
+        "Y": 3554.5708,
+        "Z": 366.99863
+      },
+      "RelativeRotation": {
+        "Pitch": 45.999928,
+        "Yaw": -235.07626,
+        "Roll": 0.0003318445
+      },
+      "RelativeScale3D": {
+        "X": 15.0,
+        "Y": 25.625,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_AreaParts_Drone12",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1441.5082,
+        "Y": 3927.264,
+        "Z": 366.99933
+      },
+      "RelativeRotation": {
+        "Pitch": 46.0,
+        "Yaw": -261.50854,
+        "Roll": 0.000273
+      },
+      "RelativeScale3D": {
+        "X": 10.0,
+        "Y": 40.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_AreaParts_Drone13",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1652.7633,
+        "Y": 3686.4304,
+        "Z": 182.99933
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 25.053152,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 15.0,
+        "Y": 8.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_AreaParts_Drone14",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -766.77856,
+        "Y": -3837.2783,
+        "Z": 71.64686
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -13.600402,
+        "Roll": 0.086863704
+      },
+      "RelativeScale3D": {
+        "X": 21.5,
+        "Y": 12.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_AreaParts_Drone2",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 1880.8044,
+        "Y": -4141.229,
+        "Z": 476.78638
+      },
+      "RelativeRotation": {
+        "Pitch": 45.00002,
+        "Yaw": -74.90845,
+        "Roll": 0.00016903861
+      },
+      "RelativeScale3D": {
+        "X": 15.0,
+        "Y": 30.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_AreaParts_Drone3",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -598.2688,
+        "Y": -4382.7393,
+        "Z": 522.7913
+      },
+      "RelativeRotation": {
+        "Pitch": 45.00002,
+        "Yaw": -90.0,
+        "Roll": 0.000169
+      },
+      "RelativeScale3D": {
+        "X": 15.0,
+        "Y": 40.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_AreaParts_Drone4",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -3428.8809,
+        "Y": -3071.198,
+        "Z": 688.79156
+      },
+      "RelativeRotation": {
+        "Pitch": 45.00002,
+        "Yaw": -132.78862,
+        "Roll": 0.00017628312
+      },
+      "RelativeScale3D": {
+        "X": 15.0,
+        "Y": 47.625,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_AreaParts_Drone5",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -4766.6035,
+        "Y": 773.6577,
+        "Z": 230.84135
+      },
+      "RelativeRotation": {
+        "Pitch": 44.999947,
+        "Yaw": -177.86319,
+        "Roll": 0.00018609334
+      },
+      "RelativeScale3D": {
+        "X": 12.0,
+        "Y": 50.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_AreaParts_Drone6",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1441.5082,
+        "Y": 3927.264,
+        "Z": 366.99933
+      },
+      "RelativeRotation": {
+        "Pitch": 46.0,
+        "Yaw": -261.50854,
+        "Roll": 0.0002728759
+      },
+      "RelativeScale3D": {
+        "X": 10.0,
+        "Y": 40.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_AreaParts_Drone7",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3443.6921,
+        "Y": 2921.3457,
+        "Z": 572.8185
+      },
+      "RelativeRotation": {
+        "Pitch": 44.99995,
+        "Yaw": 26.691977,
+        "Roll": 7.2445023E-06
+      },
+      "RelativeScale3D": {
+        "X": 10.0,
+        "Y": 20.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_AreaParts_Drone8",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 2508.3645,
+        "Y": 3737.17,
+        "Z": 670.6348
+      },
+      "RelativeRotation": {
+        "Pitch": 44.99998,
+        "Yaw": 54.77883,
+        "Roll": 4.829671E-05
+      },
+      "RelativeScale3D": {
+        "X": 15.0,
+        "Y": 30.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_AreaParts_Drone9",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 1096.8138,
+        "Y": 4155.971,
+        "Z": 613.3586
+      },
+      "RelativeRotation": {
+        "Pitch": 44.99999,
+        "Yaw": 79.6626,
+        "Roll": 0.00012557147
+      },
+      "RelativeScale3D": {
+        "X": 12.0,
+        "Y": 30.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_AreaParts_Drone_2",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3667.2607,
+        "Y": 17.0,
+        "Z": 318.26044
+      },
+      "RelativeRotation": {
+        "Pitch": 45.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 10.0,
+        "Y": 60.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_Cave_Module_DroneCollision2",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -2580.8977,
+        "Y": 3250.6511,
+        "Z": 42.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -30.33056,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.375,
+        "Y": 1.625,
+        "Z": 5.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_Cave_Module_DroneCollision3",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -4596.8975,
+        "Y": 704.6511,
+        "Z": 42.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 27.054037,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.125,
+        "Y": 0.5,
+        "Z": 5.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_Cave_Module_DroneCollision4",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3498.6724,
+        "Y": -1464.3518,
+        "Z": -80.31239
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 8.685857,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.6,
+        "Y": 0.3,
+        "Z": 5.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_Cave_Module_DroneCollision5",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1160.2607,
+        "Y": 4032.631,
+        "Z": 169.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 8.686164,
+        "Roll": -10.919022
+      },
+      "RelativeScale3D": {
+        "X": 0.625,
+        "Y": 0.625,
+        "Z": 5.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_Cave_Module_DroneCollision6",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -3347.4019,
+        "Y": 3401.1665,
+        "Z": -141.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 6.039948,
+        "Roll": 40.297935
+      },
+      "RelativeScale3D": {
+        "X": 4.0,
+        "Y": 0.3,
+        "Z": 20.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_Cave_Module_DroneCollision7",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -823.9052,
+        "Y": -4232.537,
+        "Z": 158.45267
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -14.582683,
+        "Roll": 14.680169
+      },
+      "RelativeScale3D": {
+        "X": 1.75,
+        "Y": 2.0,
+        "Z": 5.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_Cave_Module_DroneCollision8",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -2765.6624,
+        "Y": 3647.1575,
+        "Z": 44.0
+      },
+      "RelativeRotation": {
+        "Pitch": 6.830189E-06,
+        "Yaw": -30.330553,
+        "Roll": -20.49187
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 1.0,
+        "Z": 5.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_Cave_Module_DroneCollision9",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -4331.1777,
+        "Y": 3379.65,
+        "Z": -35.477203
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 39.6549,
+        "Roll": -9.271769
+      },
+      "RelativeScale3D": {
+        "X": 0.3,
+        "Y": 0.4,
+        "Z": 5.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "COL_Cave_Module_DroneCollision_2",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1560.0,
+        "Y": 3383.0,
+        "Z": 115.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 39.6549,
+        "Roll": -9.271769
+      },
+      "RelativeScale3D": {
+        "X": 0.3,
+        "Y": 0.4,
+        "Z": 5.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "DC_Area004_DroneCollision_001_4",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 2906.0,
+        "Y": -4563.0,
+        "Z": 1000.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "DC_Area004_DroneCollision_2",
+    "Template": "SceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 2906.0,
+        "Y": -4563.0,
+        "Z": 1000.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "MyPlaceActor2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 2189.0,
+        "Y": -657.0,
+        "Z": 20.000122
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "MyPlaceActor3",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 2187.0,
+        "Y": -658.0,
+        "Z": 20.000092
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "MyPlaceActor_178",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 2186.0,
+        "Y": -657.0,
+        "Z": 20.000122
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "GAvatar_446",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 2290.9712,
+        "Y": -1050.9694,
+        "Z": 34.45887
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0004986038,
+        "Yaw": -13.17392,
+        "Roll": 0.0011769984
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "SphereForPikmin",
+    "Outer": "GAvatar_446",
+    "Template": "SphereForPikmin_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Area004_Player:PersistentLevel.GAvatar_446.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_AreaParts_Drone10_16",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone10_16.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.65"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_AreaParts_Drone11_18",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone11_18.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.66"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_AreaParts_Drone12",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone12.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_AreaParts_Drone13",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone13.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_AreaParts_Drone14",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone14.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.69"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_AreaParts_Drone2",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone2.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.70"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_AreaParts_Drone3",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone3.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.71"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_AreaParts_Drone4",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone4.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.72"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_AreaParts_Drone5",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone5.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_AreaParts_Drone6",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone6.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_AreaParts_Drone7",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone7.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.75"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_AreaParts_Drone8",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone8.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.76"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_AreaParts_Drone9",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone9.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.77"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_AreaParts_Drone_2",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_AreaParts_Drone_2.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.78"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_Cave_Module_DroneCollision2",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision2.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.79"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_Cave_Module_DroneCollision3",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision3.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.80"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_Cave_Module_DroneCollision4",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision4.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.81"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_Cave_Module_DroneCollision5",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision5.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.82"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_Cave_Module_DroneCollision6",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision6.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.83"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_Cave_Module_DroneCollision7",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision7.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.84"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_Cave_Module_DroneCollision8",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision8.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.85"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_Cave_Module_DroneCollision9",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision9.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.86"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "COL_Cave_Module_DroneCollision_2",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          },
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.COL_Cave_Module_DroneCollision_2.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.87"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "DC_Area004_DroneCollision_001_4",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.DC_Area004_DroneCollision_001_4.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.88"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "StaticCollision",
+    "Outer": "DC_Area004_DroneCollision_2",
+    "Template": "StaticCollision_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3221225472
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area004_Player:PersistentLevel.DC_Area004_DroneCollision_2.SceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.89"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Area004_Player",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Area004_Player:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area004/Sublevels/Area004_Player.56"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

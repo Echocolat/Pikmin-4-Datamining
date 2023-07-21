@@ -1,0 +1,3188 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Area500_Hero_Objects_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "Int64Property",
+        "Name": "LatestSerialId",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Area500_Hero_Objects_C'Default__Area500_Hero_Objects_C'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.1"
+    }
+  },
+  {
+    "Type": "Area500_Hero_Objects_C",
+    "Name": "Default__Area500_Hero_Objects_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.Area500_Hero_Objects_C'",
+    "Properties": {
+      "LatestSerialId": 252
+    }
+  },
+  {
+    "Type": "ActionMarkerComponent",
+    "Name": "ActionMarker",
+    "Outer": "GOnyon",
+    "Template": "ActionMarker_GEN_VARIABLE",
+    "Class": "UScriptClass'ActionMarkerComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "Base1_Onyon",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.92"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.3"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.3"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "Base1_Pod",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.4"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.4"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "GDolphin_2",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Scene'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.94"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.5"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.5"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak_S_j000",
+    "Outer": "GDolphin_2",
+    "Template": "Ak_S_j000_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.54"
+      },
+      "AttachSocketName": "S_j000",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak_S_j000'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.6"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak_S_j000'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.6"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak_S_j001_PartsI",
+    "Outer": "GDolphin_2",
+    "Template": "Ak_S_j001_PartsI_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.54"
+      },
+      "AttachSocketName": "S_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak_S_j001_PartsI'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.7"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak_S_j001_PartsI'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.7"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak_S_j004_PartsH",
+    "Outer": "GDolphin_2",
+    "Template": "Ak_S_j004_PartsH_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.54"
+      },
+      "AttachSocketName": "S_j004",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak_S_j004_PartsH'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.8"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak_S_j004_PartsH'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.8"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak_S_j012_PartsA",
+    "Outer": "GDolphin_2",
+    "Template": "Ak_S_j012_PartsA_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.54"
+      },
+      "AttachSocketName": "S_j012",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak_S_j012_PartsA'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.9"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak_S_j012_PartsA'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.9"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "GOnyon",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.104"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.10"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.Ak'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.10"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak_Head",
+    "Outer": "GOnyon",
+    "Template": "Ak_Head_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.55"
+      },
+      "AttachSocketName": "S_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "OnComponentActivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.Ak_Head'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.11"
+            },
+            "FunctionName": "OnActivated"
+          }
+        ]
+      },
+      "OnComponentDeactivated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.Ak_Head'",
+              "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.11"
+            },
+            "FunctionName": "OnDeactivated"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "Area500_Hero_Objects_C",
+    "Name": "Area500_Objects_2_C_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Area500_Hero_Objects_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.Area500_Hero_Objects_C'",
+    "Properties": {
+      "LatestSerialId": 240
+    }
+  },
+  {
+    "Type": "AreaBaseCampComponent",
+    "Name": "AreaBaseCamp",
+    "Outer": "Base1_Onyon",
+    "Template": "AreaBaseCamp_GEN_VARIABLE",
+    "Class": "UScriptClass'AreaBaseCampComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AreaBaseCampComponent",
+    "Name": "AreaBaseCamp",
+    "Outer": "Base1_Pod",
+    "Template": "AreaBaseCamp_GEN_VARIABLE",
+    "Class": "UScriptClass'AreaBaseCampComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Nav_Coll_1",
+    "Outer": "Base1_Onyon",
+    "Template": "Nav_Coll_1_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.92"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Nav_Coll_2",
+    "Outer": "Base1_Onyon",
+    "Template": "Nav_Coll_2_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.92"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Nav_Coll_3",
+    "Outer": "Base1_Onyon",
+    "Template": "Nav_Coll_3_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.92"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Nav_Coll_Center",
+    "Outer": "Base1_Onyon",
+    "Template": "Nav_Coll_Center_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.92"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Nav_Box",
+    "Outer": "Base1_Pod",
+    "Template": "Nav_Box_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Nav_Box",
+    "Outer": "DolphinNav_GEN_VARIABLE_BP_PodCampNav_C_CAT_0",
+    "Template": "Nav_Box_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "ChildActorComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.DolphinNavActor'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Nav_Box_",
+    "Outer": "GMultiBlockArea500_01A_2",
+    "Template": "Nav_Box__GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.96"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Nav_Box_",
+    "Outer": "GMultiBlockArea500_02A_2",
+    "Template": "Nav_Box__GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.97"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Nav_Box_",
+    "Outer": "GMultiBlockArea500_03A_2",
+    "Template": "Nav_Box__GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.98"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BP_PodCampNav_C",
+    "Name": "DolphinNav_GEN_VARIABLE_BP_PodCampNav_C_CAT_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_PodCampNav_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Objects/Camp/BP_PodCampNav.BP_PodCampNav_C'",
+    "Properties": {
+      "Nav_Box": {
+        "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.DolphinNav_GEN_VARIABLE_BP_PodCampNav_C_CAT_0.Nav_Box'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.20"
+      },
+      "CarrotNavModifier": {
+        "ObjectName": "CarrotNavModifierComponent'Area500_Hero_Objects:PersistentLevel.DolphinNav_GEN_VARIABLE_BP_PodCampNav_C_CAT_0.CarrotNavModifier'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.50"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.DolphinNav_GEN_VARIABLE_BP_PodCampNav_C_CAT_0.Nav_Box'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.20"
+      },
+      "ParentComponent": {
+        "ObjectName": "ChildActorComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.DolphinNavActor'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.73"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CarrotNavModifierComponent'Area500_Hero_Objects:PersistentLevel.DolphinNav_GEN_VARIABLE_BP_PodCampNav_C_CAT_0.CarrotNavModifier'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.50"
+        },
+        {
+          "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.DolphinNav_GEN_VARIABLE_BP_PodCampNav_C_CAT_0.Nav_Box'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.20"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CakAudioFlagComponent",
+    "Name": "CakAudioFlag",
+    "Outer": "GDolphin_2",
+    "Template": "CakAudioFlag_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioFlagComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioFlagComponent",
+    "Name": "CakAudioFlag",
+    "Outer": "GOnyon",
+    "Template": "CakAudioFlag_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioFlagComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "Base1_Onyon",
+    "Template": "CakAudioTable_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioTableComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "Base1_Pod",
+    "Template": "CakAudioTable_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioTableComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "GDolphin_2",
+    "Template": "CakAudioTable_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioTableComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakAudioTableComponent",
+    "Name": "CakAudioTable",
+    "Outer": "GOnyon",
+    "Template": "CakAudioTable_GEN_VARIABLE",
+    "Class": "UScriptClass'CakAudioTableComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "Base1_Onyon",
+    "Template": "CakEmitterConfig_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEmitterConfigComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "Base1_Pod",
+    "Template": "CakEmitterConfig_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEmitterConfigComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "GDolphin_2",
+    "Template": "CakEmitterConfig_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEmitterConfigComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEmitterConfigComponent",
+    "Name": "CakEmitterConfig",
+    "Outer": "GOnyon",
+    "Template": "CakEmitterConfig_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEmitterConfigComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "Base1_Onyon",
+    "Template": "CakEventHandler_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEventHandlerComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "Base1_Pod",
+    "Template": "CakEventHandler_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEventHandlerComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "GDolphin_2",
+    "Template": "CakEventHandler_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEventHandlerComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CakEventHandlerComponent",
+    "Name": "CakEventHandler",
+    "Outer": "GOnyon",
+    "Template": "CakEventHandler_GEN_VARIABLE",
+    "Class": "UScriptClass'CakEventHandlerComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_Leg1_2",
+    "Outer": "GOnyon",
+    "Template": "CollTree_Leg1_2_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.55"
+      },
+      "AttachSocketName": "S_j015",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_Leg1_3",
+    "Outer": "GOnyon",
+    "Template": "CollTree_Leg1_3_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.55"
+      },
+      "AttachSocketName": "S_j016",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_Leg1_4",
+    "Outer": "GOnyon",
+    "Template": "CollTree_Leg1_4_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.55"
+      },
+      "AttachSocketName": "S_j018",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_Leg2_2",
+    "Outer": "GOnyon",
+    "Template": "CollTree_Leg2_2_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.55"
+      },
+      "AttachSocketName": "S_j020",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_Leg2_3",
+    "Outer": "GOnyon",
+    "Template": "CollTree_Leg2_3_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.55"
+      },
+      "AttachSocketName": "S_j021",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_Leg2_4",
+    "Outer": "GOnyon",
+    "Template": "CollTree_Leg2_4_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.55"
+      },
+      "AttachSocketName": "S_j023",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_Leg3_2",
+    "Outer": "GOnyon",
+    "Template": "CollTree_Leg3_2_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.55"
+      },
+      "AttachSocketName": "S_j025",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_Leg3_3",
+    "Outer": "GOnyon",
+    "Template": "CollTree_Leg3_3_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.55"
+      },
+      "AttachSocketName": "S_j026",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollTree_Leg3_4",
+    "Outer": "GOnyon",
+    "Template": "CollTree_Leg3_4_GEN_VARIABLE",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.55"
+      },
+      "AttachSocketName": "S_j028",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotNavModifierComponent",
+    "Name": "CarrotNavModifier",
+    "Outer": "Base1_Onyon",
+    "Template": "CarrotNavModifier_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotNavModifierComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotNavModifierComponent",
+    "Name": "CarrotNavModifier",
+    "Outer": "Base1_Pod",
+    "Template": "CarrotNavModifier_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotNavModifierComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotNavModifierComponent",
+    "Name": "CarrotNavModifier",
+    "Outer": "DolphinNav_GEN_VARIABLE_BP_PodCampNav_C_CAT_0",
+    "Template": "CarrotNavModifier_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotNavModifierComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotNavModifierComponent",
+    "Name": "CarrotNavModifier",
+    "Outer": "GMultiBlockArea500_01A_2",
+    "Template": "CarrotNavModifier_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotNavModifierComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotNavModifierComponent",
+    "Name": "CarrotNavModifier",
+    "Outer": "GMultiBlockArea500_02A_2",
+    "Template": "CarrotNavModifier_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotNavModifierComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotNavModifierComponent",
+    "Name": "CarrotNavModifier",
+    "Outer": "GMultiBlockArea500_03A_2",
+    "Template": "CarrotNavModifier_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotNavModifierComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "CarrotSkeletalMesh",
+    "Outer": "GDolphin_2",
+    "Template": "CarrotSkeletalMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Scene'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.94"
+      },
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotSkeletalMeshComponent",
+    "Name": "CarrotSkeletalMesh",
+    "Outer": "GOnyon",
+    "Template": "CarrotSkeletalMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotSkeletalMeshComponent'",
+    "Properties": {
+      "bC4UseDistanceLOD": true,
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.104"
+      },
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SkinnedMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bC4UseDistanceLOD",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "CampMesh",
+    "Outer": "Base1_Onyon",
+    "Template": "CampMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.92"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "GroundLightMesh",
+    "Outer": "Base1_Onyon",
+    "Template": "GroundLightMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.92"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "SafeArea",
+    "Outer": "Base1_Onyon",
+    "Template": "SafeArea_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.92"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "CampMesh",
+    "Outer": "Base1_Pod",
+    "Template": "CampMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "GroundLightMesh",
+    "Outer": "Base1_Pod",
+    "Template": "GroundLightMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "CarrotStaticMesh",
+    "Outer": "GMultiBlockArea500_01A_2",
+    "Template": "CarrotStaticMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.96"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "CarrotStaticMeshSoft",
+    "Outer": "GMultiBlockArea500_01A_2",
+    "Template": "CarrotStaticMeshSoft_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.96"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "CarrotStaticMeshWeed",
+    "Outer": "GMultiBlockArea500_01A_2",
+    "Template": "CarrotStaticMeshWeed_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.96"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "ShadowMesh",
+    "Outer": "GMultiBlockArea500_01A_2",
+    "Template": "ShadowMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.96"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "CarrotStaticMesh",
+    "Outer": "GMultiBlockArea500_02A_2",
+    "Template": "CarrotStaticMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.97"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "CarrotStaticMeshSoft",
+    "Outer": "GMultiBlockArea500_02A_2",
+    "Template": "CarrotStaticMeshSoft_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.97"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "CarrotStaticMeshWeed",
+    "Outer": "GMultiBlockArea500_02A_2",
+    "Template": "CarrotStaticMeshWeed_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.97"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "ShadowMesh",
+    "Outer": "GMultiBlockArea500_02A_2",
+    "Template": "ShadowMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.97"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "CarrotStaticMesh",
+    "Outer": "GMultiBlockArea500_03A_2",
+    "Template": "CarrotStaticMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.98"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "CarrotStaticMeshSoft",
+    "Outer": "GMultiBlockArea500_03A_2",
+    "Template": "CarrotStaticMeshSoft_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.98"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "CarrotStaticMeshWeed",
+    "Outer": "GMultiBlockArea500_03A_2",
+    "Template": "CarrotStaticMeshWeed_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.98"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CarrotStaticMeshComponent",
+    "Name": "ShadowMesh",
+    "Outer": "GMultiBlockArea500_03A_2",
+    "Template": "ShadowMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'CarrotStaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.98"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "DolphinNavActor",
+    "Outer": "Base1_Pod",
+    "Template": "DolphinNavActor_GEN_VARIABLE",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "ChildActor": {
+        "ObjectName": "BP_PodCampNav_C'Area500_Hero_Objects:PersistentLevel.DolphinNav_GEN_VARIABLE_BP_PodCampNav_C_CAT_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.24"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CollTreeComponent",
+    "Name": "CollTree",
+    "Outer": "GOnyon",
+    "Template": "CollTree_GEN_VARIABLE",
+    "Class": "UScriptClass'CollTreeComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DemoTriggerComponent",
+    "Name": "DemoTrigger",
+    "Outer": "Base1_Onyon",
+    "Template": "DemoTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'DemoTriggerComponent'",
+    "Properties": {
+      "DemoType": "EDemoType::NotCreate",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "GDolphin_C",
+    "Name": "GDolphin_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GDolphin_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Dolphin/GDolphin.GDolphin_C'",
+    "Properties": {
+      "Ak_S_j001_PartsI": {
+        "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak_S_j001_PartsI'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.7"
+      },
+      "Ak_S_j012_PartsA": {
+        "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak_S_j012_PartsA'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.9"
+      },
+      "Ak_S_j004_PartsH": {
+        "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak_S_j004_PartsH'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.8"
+      },
+      "Ak_S_j000": {
+        "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak_S_j000'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.6"
+      },
+      "Col_Body": {
+        "ObjectName": "StaticCollisionComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Col_Body'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.108"
+      },
+      "CakAudioFlag": {
+        "ObjectName": "CakAudioFlagComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.CakAudioFlag'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.25"
+      },
+      "SuckPoint": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.SuckPoint'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.95"
+      },
+      "Scene": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Scene'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.94"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.5"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.37"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.33"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.29"
+      },
+      "CarrotSkeletalMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.54"
+      },
+      "PodAI": {
+        "ObjectName": "PodAIComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.PodAI'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.91"
+      },
+      "SkeletalMeshComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.54"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659065976619259
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Scene'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.94"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "PodAIComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.PodAI'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.91"
+        },
+        {
+          "ObjectName": "CakAudioTableComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.CakAudioTable'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.29"
+        },
+        {
+          "ObjectName": "CakEmitterConfigComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.CakEmitterConfig'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.33"
+        },
+        {
+          "ObjectName": "CakEventHandlerComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.CakEventHandler'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.37"
+        },
+        {
+          "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Scene'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.94"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.CarrotSkeletalMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.54"
+        },
+        {
+          "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.SuckPoint'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.95"
+        },
+        {
+          "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.5"
+        },
+        {
+          "ObjectName": "CakAudioFlagComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.CakAudioFlag'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.25"
+        },
+        {
+          "ObjectName": "StaticCollisionComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Col_Body'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.108"
+        },
+        {
+          "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak_S_j000'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.6"
+        },
+        {
+          "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak_S_j004_PartsH'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.8"
+        },
+        {
+          "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak_S_j012_PartsA'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.9"
+        },
+        {
+          "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.Ak_S_j001_PartsI'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GMultiBlockArea500_01A_C",
+    "Name": "GMultiBlockArea500_01A_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GMultiBlockArea500_01A_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Objects/OjamaBlock/NavType/Area500/GMultiBlockArea500_01A.GMultiBlockArea500_01A_C'",
+    "Properties": {
+      "CarrotStaticMeshWeed": {
+        "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.CarrotStaticMeshWeed'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.63"
+      },
+      "ShadowMesh": {
+        "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.ShadowMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.64"
+      },
+      "CarrotStaticMeshSoft": {
+        "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.CarrotStaticMeshSoft'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.62"
+      },
+      "OjamaBlockAI": {
+        "ObjectName": "OjamaBlockAIComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.OjamaBlockAI'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.87"
+      },
+      "Nav_Box_": {
+        "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.Nav_Box_'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.21"
+      },
+      "CarrotNavModifier": {
+        "ObjectName": "CarrotNavModifierComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.CarrotNavModifier'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.51"
+      },
+      "Col_BodyBox_": {
+        "ObjectName": "StaticCollisionComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.Col_BodyBox_'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.109"
+      },
+      "CarrotStaticMesh": {
+        "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.CarrotStaticMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.61"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.96"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659065976619249
+      },
+      "RebirthInfo": {
+        "EraseCond": [
+          {
+            "Condition": "EActorPlacementCondition::QuestClear",
+            "CondInt": -1,
+            "CondName": "Quest_Generator_Area500_2nd_Compartment",
+            "CondPikminColor": "EPikminColor::Undef"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.96"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.96"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.CarrotStaticMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.61"
+        },
+        {
+          "ObjectName": "StaticCollisionComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.Col_BodyBox_'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.109"
+        },
+        {
+          "ObjectName": "CarrotNavModifierComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.CarrotNavModifier'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.51"
+        },
+        {
+          "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.Nav_Box_'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.21"
+        },
+        {
+          "ObjectName": "OjamaBlockAIComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.OjamaBlockAI'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.87"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.CarrotStaticMeshSoft'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.62"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.ShadowMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.64"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.CarrotStaticMeshWeed'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.63"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GMultiBlockArea500_02A_C",
+    "Name": "GMultiBlockArea500_02A_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GMultiBlockArea500_02A_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Objects/OjamaBlock/NavType/Area500/GMultiBlockArea500_02A.GMultiBlockArea500_02A_C'",
+    "Properties": {
+      "CarrotStaticMeshWeed": {
+        "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.CarrotStaticMeshWeed'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.67"
+      },
+      "ShadowMesh": {
+        "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.ShadowMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.68"
+      },
+      "CarrotStaticMeshSoft": {
+        "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.CarrotStaticMeshSoft'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.66"
+      },
+      "OjamaBlockAI": {
+        "ObjectName": "OjamaBlockAIComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.OjamaBlockAI'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.88"
+      },
+      "Nav_Box_": {
+        "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.Nav_Box_'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.22"
+      },
+      "CarrotNavModifier": {
+        "ObjectName": "CarrotNavModifierComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.CarrotNavModifier'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.52"
+      },
+      "Col_BodyBox_": {
+        "ObjectName": "StaticCollisionComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.Col_BodyBox_'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.110"
+      },
+      "CarrotStaticMesh": {
+        "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.CarrotStaticMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.65"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.97"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659065976619250
+      },
+      "RebirthInfo": {
+        "EraseCond": [
+          {
+            "Condition": "EActorPlacementCondition::QuestClear",
+            "CondInt": -1,
+            "CondName": "Quest_Generator_Area500_3rd_Compartment",
+            "CondPikminColor": "EPikminColor::Undef"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.97"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.97"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.CarrotStaticMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.65"
+        },
+        {
+          "ObjectName": "StaticCollisionComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.Col_BodyBox_'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.110"
+        },
+        {
+          "ObjectName": "CarrotNavModifierComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.CarrotNavModifier'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.52"
+        },
+        {
+          "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.Nav_Box_'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.22"
+        },
+        {
+          "ObjectName": "OjamaBlockAIComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.OjamaBlockAI'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.88"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.CarrotStaticMeshSoft'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.66"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.ShadowMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.68"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.CarrotStaticMeshWeed'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.67"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GMultiBlockArea500_03A_C",
+    "Name": "GMultiBlockArea500_03A_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GMultiBlockArea500_03A_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Objects/OjamaBlock/NavType/Area500/GMultiBlockArea500_03A.GMultiBlockArea500_03A_C'",
+    "Properties": {
+      "CarrotStaticMeshWeed": {
+        "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.CarrotStaticMeshWeed'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.71"
+      },
+      "ShadowMesh": {
+        "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.ShadowMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.72"
+      },
+      "CarrotStaticMeshSoft": {
+        "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.CarrotStaticMeshSoft'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.70"
+      },
+      "OjamaBlockAI": {
+        "ObjectName": "OjamaBlockAIComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.OjamaBlockAI'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.89"
+      },
+      "Nav_Box_": {
+        "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.Nav_Box_'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.23"
+      },
+      "CarrotNavModifier": {
+        "ObjectName": "CarrotNavModifierComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.CarrotNavModifier'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.53"
+      },
+      "Col_BodyBox_": {
+        "ObjectName": "StaticCollisionComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.Col_BodyBox_'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.111"
+      },
+      "CarrotStaticMesh": {
+        "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.CarrotStaticMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.69"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.98"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659065976619251
+      },
+      "RebirthInfo": {
+        "EraseCond": [
+          {
+            "Condition": "EActorPlacementCondition::QuestClear",
+            "CondInt": -1,
+            "CondName": "Quest_Generator_Area500_4th_Compartment",
+            "CondPikminColor": "EPikminColor::Undef"
+          }
+        ]
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.98"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.98"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.CarrotStaticMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.69"
+        },
+        {
+          "ObjectName": "StaticCollisionComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.Col_BodyBox_'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.111"
+        },
+        {
+          "ObjectName": "CarrotNavModifierComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.CarrotNavModifier'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.53"
+        },
+        {
+          "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.Nav_Box_'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.23"
+        },
+        {
+          "ObjectName": "OjamaBlockAIComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.OjamaBlockAI'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.89"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.CarrotStaticMeshSoft'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.70"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.ShadowMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.72"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.CarrotStaticMeshWeed'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.71"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GOnyon_C",
+    "Name": "GOnyon",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GOnyon_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Onyon/GOnyon.GOnyon_C'",
+    "Properties": {
+      "ActionMarker": {
+        "ObjectName": "ActionMarkerComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.ActionMarker'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.2"
+      },
+      "CollTree_LegEnd3": {
+        "ObjectName": "SphereComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_LegEnd3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.103"
+      },
+      "CollTree_LegEnd2": {
+        "ObjectName": "SphereComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_LegEnd2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.102"
+      },
+      "CollTree_LegEnd1": {
+        "ObjectName": "SphereComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_LegEnd1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.101"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.10"
+      },
+      "Ak_Head": {
+        "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.Ak_Head'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.11"
+      },
+      "CakAudioFlag": {
+        "ObjectName": "CakAudioFlagComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CakAudioFlag'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.26"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.38"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.30"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.34"
+      },
+      "Sphere": {
+        "ObjectName": "SphereComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.104"
+      },
+      "CollTree_Leg3_4": {
+        "ObjectName": "CapsuleComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Leg3_4'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.47"
+      },
+      "CollTree_Leg3_3": {
+        "ObjectName": "CapsuleComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Leg3_3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.46"
+      },
+      "CollTree_Leg3_2": {
+        "ObjectName": "CapsuleComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Leg3_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.45"
+      },
+      "CollTree_Leg2_4": {
+        "ObjectName": "CapsuleComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Leg2_4'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.44"
+      },
+      "CollTree_Leg2_3": {
+        "ObjectName": "CapsuleComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Leg2_3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.43"
+      },
+      "CollTree_Leg2_2": {
+        "ObjectName": "CapsuleComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Leg2_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.42"
+      },
+      "CollTree_Leg1_4": {
+        "ObjectName": "CapsuleComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Leg1_4'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.41"
+      },
+      "CollTree_Leg1_3": {
+        "ObjectName": "CapsuleComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Leg1_3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.40"
+      },
+      "CollTree_Leg1_2": {
+        "ObjectName": "CapsuleComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Leg1_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.39"
+      },
+      "CarrotSkeletalMesh": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.55"
+      },
+      "CollTree": {
+        "ObjectName": "CollTreeComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.74"
+      },
+      "CollTree_Body": {
+        "ObjectName": "SphereComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Body'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.100"
+      },
+      "OnyonAI": {
+        "ObjectName": "OnyonAIComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.OnyonAI'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.90"
+      },
+      "SkeletalMeshComponent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.55"
+      },
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659065976619248
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.Sphere'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.104"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "OnyonAIComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.OnyonAI'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.90"
+        },
+        {
+          "ObjectName": "CollTreeComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.74"
+        },
+        {
+          "ObjectName": "SphereComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.Sphere'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.104"
+        },
+        {
+          "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CarrotSkeletalMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.55"
+        },
+        {
+          "ObjectName": "SphereComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Body'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.100"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Leg1_2'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.39"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Leg1_3'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.40"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Leg1_4'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.41"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Leg2_2'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.42"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Leg2_3'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.43"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Leg2_4'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.44"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Leg3_2'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.45"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Leg3_3'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.46"
+        },
+        {
+          "ObjectName": "CapsuleComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_Leg3_4'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.47"
+        },
+        {
+          "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.Ak_Head'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.11"
+        },
+        {
+          "ObjectName": "SphereComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_LegEnd1'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.101"
+        },
+        {
+          "ObjectName": "SphereComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_LegEnd2'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.102"
+        },
+        {
+          "ObjectName": "SphereComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CollTree_LegEnd3'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.103"
+        },
+        {
+          "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.Ak'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.10"
+        },
+        {
+          "ObjectName": "CakEmitterConfigComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CakEmitterConfig'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.34"
+        },
+        {
+          "ObjectName": "CakAudioTableComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CakAudioTable'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.30"
+        },
+        {
+          "ObjectName": "CakEventHandlerComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CakEventHandler'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.38"
+        },
+        {
+          "ObjectName": "CakAudioFlagComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CakAudioFlag'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.26"
+        },
+        {
+          "ObjectName": "ActionMarkerComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.ActionMarker'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GOnyonCamp04_C",
+    "Name": "Base1_Onyon",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GOnyonCamp04_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Objects/Camp/GOnyonCamp04.GOnyonCamp04_C'",
+    "Properties": {
+      "Nav_Coll_Center": {
+        "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.Nav_Coll_Center'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.18"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.31"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.35"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.27"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.3"
+      },
+      "GroundLightMesh": {
+        "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.GroundLightMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.57"
+      },
+      "CampMesh": {
+        "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.CampMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.56"
+      },
+      "Col_BigRock": {
+        "ObjectName": "StaticCollisionComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.Col_BigRock'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.106"
+      },
+      "CarrotNavModifier": {
+        "ObjectName": "CarrotNavModifierComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.CarrotNavModifier'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.48"
+      },
+      "Nav_Coll_3": {
+        "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.Nav_Coll_3'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.17"
+      },
+      "Nav_Coll_2": {
+        "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.Nav_Coll_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.16"
+      },
+      "Nav_Coll_1": {
+        "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.Nav_Coll_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.15"
+      },
+      "DemoTrigger": {
+        "ObjectName": "DemoTriggerComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.DemoTrigger'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.75"
+      },
+      "DemoOverlapArea": {
+        "ObjectName": "SphereComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.DemoOverlapArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.99"
+      },
+      "SafeArea": {
+        "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.SafeArea'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.58"
+      },
+      "AreaBaseCamp": {
+        "ObjectName": "AreaBaseCampComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.AreaBaseCamp'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.13"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.92"
+      },
+      "DemoBindName": "Base1_Onyon",
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659065976619252
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.92"
+      },
+      "BlueprintCreatedComponents": [
+        null,
+        {
+          "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.92"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.SafeArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.58"
+        },
+        {
+          "ObjectName": "SphereComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.DemoOverlapArea'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.99"
+        },
+        {
+          "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.Nav_Coll_1'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.15"
+        },
+        {
+          "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.Nav_Coll_2'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.16"
+        },
+        {
+          "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.Nav_Coll_3'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.17"
+        },
+        {
+          "ObjectName": "StaticCollisionComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.Col_BigRock'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.106"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.CampMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.56"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.GroundLightMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.57"
+        },
+        {
+          "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.Ak'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.3"
+        },
+        {
+          "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.Nav_Coll_Center'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.18"
+        },
+        {
+          "ObjectName": "AreaBaseCampComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.AreaBaseCamp'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.13"
+        },
+        {
+          "ObjectName": "DemoTriggerComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.DemoTrigger'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.75"
+        },
+        {
+          "ObjectName": "CarrotNavModifierComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.CarrotNavModifier'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.48"
+        },
+        {
+          "ObjectName": "CakAudioTableComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.CakAudioTable'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.27"
+        },
+        {
+          "ObjectName": "CakEventHandlerComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.CakEventHandler'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.35"
+        },
+        {
+          "ObjectName": "CakEmitterConfigComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.CakEmitterConfig'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.31"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GPodCamp04_C",
+    "Name": "Base1_Pod",
+    "Outer": "PersistentLevel",
+    "Template": "Default__GPodCamp04_C",
+    "Class": "BlueprintGeneratedClass'/Game/Carrot4/Placeables/Objects/Camp/GPodCamp04.GPodCamp04_C'",
+    "Properties": {
+      "DolphinNavActor": {
+        "ObjectName": "ChildActorComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.DolphinNavActor'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.73"
+      },
+      "CakEmitterConfig": {
+        "ObjectName": "CakEmitterConfigComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.CakEmitterConfig'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.32"
+      },
+      "CakEventHandler": {
+        "ObjectName": "CakEventHandlerComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.CakEventHandler'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.36"
+      },
+      "CakAudioTable": {
+        "ObjectName": "CakAudioTableComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.CakAudioTable'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.28"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.Ak'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.4"
+      },
+      "Col_GroundMesh": {
+        "ObjectName": "StaticCollisionComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.Col_GroundMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.107"
+      },
+      "GroundLightMesh": {
+        "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.GroundLightMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.60"
+      },
+      "CampMesh": {
+        "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.CampMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.59"
+      },
+      "Nav_Box": {
+        "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.Nav_Box'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.19"
+      },
+      "CarrotNavModifier": {
+        "ObjectName": "CarrotNavModifierComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.CarrotNavModifier'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.49"
+      },
+      "SpotLight": {
+        "ObjectName": "SpotLightComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.SpotLight'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.105"
+      },
+      "AreaBaseCamp": {
+        "ObjectName": "AreaBaseCampComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.AreaBaseCamp'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.14"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.93"
+      },
+      "DemoBindName": "GPodCamp",
+      "GenerateInfo": {
+        "DebugUniqueId": 1293659065976619253
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.93"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.93"
+        },
+        {
+          "ObjectName": "SpotLightComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.SpotLight'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.105"
+        },
+        {
+          "ObjectName": "BoxComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.Nav_Box'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.19"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.CampMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.59"
+        },
+        {
+          "ObjectName": "CarrotStaticMeshComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.GroundLightMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.60"
+        },
+        {
+          "ObjectName": "StaticCollisionComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.Col_GroundMesh'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.107"
+        },
+        {
+          "ObjectName": "AkComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.Ak'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.4"
+        },
+        {
+          "ObjectName": "ChildActorComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.DolphinNavActor'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.73"
+        },
+        {
+          "ObjectName": "AreaBaseCampComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.AreaBaseCamp'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.14"
+        },
+        {
+          "ObjectName": "CarrotNavModifierComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.CarrotNavModifier'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.49"
+        },
+        {
+          "ObjectName": "CakAudioTableComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.CakAudioTable'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.28"
+        },
+        {
+          "ObjectName": "CakEventHandlerComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.CakEventHandler'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.36"
+        },
+        {
+          "ObjectName": "CakEmitterConfigComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.CakEmitterConfig'",
+          "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.32"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Area500_Hero_Objects",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Area500_Hero_Objects:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.84"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Area500_Hero_Objects_C'Area500_Hero_Objects:PersistentLevel.Area500_Objects_2_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.12"
+      },
+      "StreamingTextureGuids": [
+        "6D9987AC-4DA68B25-2D7DE6B8-8A5191B2",
+        "A8F06EBF-49887A4E-935CEE89-55AC95FD",
+        "FACB5845-4AD32739-C12C4F88-7C8D121D",
+        "4A69B9C5-499EA746-EEB69D80-2FAA5B24"
+      ],
+      "LevelBuildDataId": "86122B70-4671698A-C156D8B8-BFE3968D",
+      "WorldSettings": {
+        "ObjectName": "MyWorldSettings'Area500_Hero_Objects:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.85"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "MyWorldSettings'Area500_Hero_Objects:PersistentLevel.MyWorldSettings'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.85"
+      },
+      null,
+      {
+        "ObjectName": "GMultiBlockArea500_01A_C'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.77"
+      },
+      {
+        "ObjectName": "GMultiBlockArea500_02A_C'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.78"
+      },
+      {
+        "ObjectName": "GMultiBlockArea500_03A_C'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.79"
+      },
+      {
+        "ObjectName": "GOnyonCamp04_C'Area500_Hero_Objects:PersistentLevel.Base1_Onyon'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.81"
+      },
+      {
+        "ObjectName": "GPodCamp04_C'Area500_Hero_Objects:PersistentLevel.Base1_Pod'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.82"
+      },
+      {
+        "ObjectName": "GDolphin_C'Area500_Hero_Objects:PersistentLevel.GDolphin_2'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.76"
+      },
+      {
+        "ObjectName": "GOnyon_C'Area500_Hero_Objects:PersistentLevel.GOnyon'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.80"
+      },
+      {
+        "ObjectName": "Area500_Hero_Objects_C'Area500_Hero_Objects:PersistentLevel.Area500_Objects_2_C_1'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.12"
+      },
+      {
+        "ObjectName": "BP_PodCampNav_C'Area500_Hero_Objects:PersistentLevel.DolphinNav_GEN_VARIABLE_BP_PodCampNav_C_CAT_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.24"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Carrot4/Maps/Boot_P",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Area500_Hero_Objects:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.84"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Area500_Hero_Objects_C'Area500_Hero_Objects:PersistentLevel.Area500_Objects_2_C_1'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.12"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "7B913517-4D58E65B-E9B06096-73D26D7E",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MyWorldSettings",
+    "Name": "MyWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MyWorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Area500_Hero_Objects:PersistentLevel.MyWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.86"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "MyWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/Carrot4.CarrotNavigationSystem",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "OjamaBlockAIComponent",
+    "Name": "OjamaBlockAI",
+    "Outer": "GMultiBlockArea500_01A_2",
+    "Template": "OjamaBlockAI_GEN_VARIABLE",
+    "Class": "UScriptClass'OjamaBlockAIComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "OjamaBlockAIComponent",
+    "Name": "OjamaBlockAI",
+    "Outer": "GMultiBlockArea500_02A_2",
+    "Template": "OjamaBlockAI_GEN_VARIABLE",
+    "Class": "UScriptClass'OjamaBlockAIComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "OjamaBlockAIComponent",
+    "Name": "OjamaBlockAI",
+    "Outer": "GMultiBlockArea500_03A_2",
+    "Template": "OjamaBlockAI_GEN_VARIABLE",
+    "Class": "UScriptClass'OjamaBlockAIComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "OnyonAIComponent",
+    "Name": "OnyonAI",
+    "Outer": "GOnyon",
+    "Template": "OnyonAI_GEN_VARIABLE",
+    "Class": "UScriptClass'OnyonAIComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "PodAIComponent",
+    "Name": "PodAI",
+    "Outer": "GDolphin_2",
+    "Template": "PodAI_GEN_VARIABLE",
+    "Class": "UScriptClass'PodAIComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Base1_Onyon",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 611.1356,
+        "Y": -1118.3147,
+        "Z": 250.00021
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 95.71255,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Base1_Pod",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 396.93466,
+        "Y": -1021.6553,
+        "Z": 250.00021
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 155.71262,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene",
+    "Outer": "GDolphin_2",
+    "Template": "Scene_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 396.93466,
+        "Y": -1021.6553,
+        "Z": 250.00021
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 155.71262,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SuckPoint",
+    "Outer": "GDolphin_2",
+    "Template": "SuckPoint_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.54"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GMultiBlockArea500_01A_2",
+    "Template": "ICH-DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GMultiBlockArea500_02A_2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GMultiBlockArea500_03A_2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "DemoOverlapArea",
+    "Outer": "Base1_Onyon",
+    "Template": "DemoOverlapArea_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.92"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_Body",
+    "Outer": "GOnyon",
+    "Template": "CollTree_Body_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.55"
+      },
+      "AttachSocketName": "S_j001",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_LegEnd1",
+    "Outer": "GOnyon",
+    "Template": "CollTree_LegEnd1_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.55"
+      },
+      "AttachSocketName": "S_j018",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_LegEnd2",
+    "Outer": "GOnyon",
+    "Template": "CollTree_LegEnd2_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.55"
+      },
+      "AttachSocketName": "S_j023",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollTree_LegEnd3",
+    "Outer": "GOnyon",
+    "Template": "CollTree_LegEnd3_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GOnyon.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.55"
+      },
+      "AttachSocketName": "S_j028",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "GOnyon",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 611.1356,
+        "Y": -1118.3147,
+        "Z": 250.0001
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 95.71255,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "SpotLight",
+    "Outer": "Base1_Pod",
+    "Template": "SpotLight_GEN_VARIABLE",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Properties": {
+      "LightGuid": "98681092-47164D06-8EC906BD-43496D36",
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "Col_BigRock",
+    "Outer": "Base1_Onyon",
+    "Template": "Col_BigRock_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 2176843808
+          },
+          {
+            "TerrainTag": 2151677952
+          }
+        ]
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292804608,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 356.5733
+        },
+        {
+          "PackedRelativeBox": 2671143139,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 454.33005
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Onyon.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.92"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "Col_GroundMesh",
+    "Outer": "Base1_Pod",
+    "Template": "Col_GroundMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 2151677952
+          }
+        ]
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4290510947,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 295.78864
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.Base1_Pod.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "Col_Body",
+    "Outer": "GDolphin_2",
+    "Template": "Col_Body_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 3267362856
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "CarrotSkeletalMeshComponent'Area500_Hero_Objects:PersistentLevel.GDolphin_2.CarrotSkeletalMesh'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.54"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "Col_BodyBox_",
+    "Outer": "GMultiBlockArea500_01A_2",
+    "Template": "Col_BodyBox__GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 2189426688
+          },
+          {
+            "TerrainTag": 2151677952
+          },
+          {
+            "TerrainTag": 2214592512
+          }
+        ]
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4288178465,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 385.3375
+        },
+        {
+          "PackedRelativeBox": 3149878538,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 333.50363
+        },
+        {
+          "PackedRelativeBox": 4160290816,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 586.1457
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_01A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.96"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "Col_BodyBox_",
+    "Outer": "GMultiBlockArea500_02A_2",
+    "Template": "Col_BodyBox__GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 2189426688
+          },
+          {
+            "TerrainTag": 2151677952
+          },
+          {
+            "TerrainTag": 2214592512
+          }
+        ]
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4277496995,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 430.4156
+        },
+        {
+          "PackedRelativeBox": 3273018694,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 333.25793
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 722.8289
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_02A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.97"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticCollisionComponent",
+    "Name": "Col_BodyBox_",
+    "Outer": "GMultiBlockArea500_03A_2",
+    "Template": "Col_BodyBox__GEN_VARIABLE",
+    "Class": "UScriptClass'StaticCollisionComponent'",
+    "Properties": {
+      "C4TerrainTagContainer": {
+        "TerrainTags": [
+          {
+            "TerrainTag": 2189426688
+          },
+          {
+            "TerrainTag": 2151677952
+          }
+        ]
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4277557346,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 420.13657
+        },
+        {
+          "PackedRelativeBox": 4093575168,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 452.80096
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Area500_Hero_Objects:PersistentLevel.GMultiBlockArea500_03A_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.98"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticCollisionComponent'",
+            "ObjectPath": "/Script/Carrot4"
+          },
+          "MemberName": "C4TerrainTagContainer",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Area500_Hero_Objects",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Area500_Hero_Objects:PersistentLevel'",
+      "ObjectPath": "/Game/Carrot4/Maps/Main/Area/Area500/Sublevels/Area500_Hero_Objects.83"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]
